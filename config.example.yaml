@@ -1,15 +1,18 @@
 repositories:
   - name: backend
-    # Full HTTPS clone URL (no token embedded here — use GITHUB_TOKEN env var)
-    url: https://github.com/client-org/backend-repo.git
-    # Where to clone/pull the repo locally
+    # Full HTTPS clone URL — token injected from GITHUB_TOKEN env var
+    url: https://github.com/your-org/backend-repo.git
+    # Where the repo will be cloned/pulled locally (gitignored, never committed)
     local_path: ./repo_src/backend
 
   - name: frontend
-    url: https://github.com/client-org/frontend-repo.git
+    url: https://github.com/your-org/frontend-repo.git
     local_path: ./repo_src/frontend
 
+# Where generated .md documentation files are written
 output_dir: ./public/docs
+
+# Paths/folders to skip when scanning source repos
 exclude:
   - node_modules
   - vendor
@@ -18,9 +21,19 @@ exclude:
   - build
   - __pycache__
   - coverage
+  - var
+  - tests
+  - spec
+  - features
 
 ai_enhancement:
   enabled: true
-  provider: openai
-  model: gpt-4o-mini
-  api_key: ${OPENAI_API_KEY}
+  # "claude" (recommended — faster, cheaper) or "openai"
+  provider: claude
+  model: claude-haiku-4-5-20251001
+  api_key: ${ANTHROPIC_API_KEY}
+
+  # To use OpenAI instead:
+  # provider: openai
+  # model: gpt-4o-mini
+  # api_key: ${OPENAI_API_KEY}

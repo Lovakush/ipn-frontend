@@ -59,6 +59,7 @@ config.yaml
 docs_manifest.json
 repo_src/
 test_src/
+_tmp/
 
 # Keys and certificates — never commit these
 *.pem
