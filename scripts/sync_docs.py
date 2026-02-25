@@ -15,7 +15,7 @@ Requirements:
     pip install anthropic openai pyyaml
 
 Environment variables:
-    GITHUB_TOKEN          Read token for cloning/pulling source repos
+    GH_READ_TOKEN         Read token for cloning/pulling source repos
     ANTHROPIC_API_KEY     API key when provider is "claude"
     OPENAI_API_KEY        API key when provider is "openai"
 
@@ -622,7 +622,7 @@ def main():
         repo_name = repo.get("name", "unknown")
         repo_url = repo.get("url", "")
         local_path = Path(repo.get("local_path") or f"repo_src/{repo_name}")
-        token = os.environ.get("GITHUB_TOKEN", repo.get("token", ""))
+        token = os.environ.get("GH_READ_TOKEN", repo.get("token", ""))
 
         # Pull / clone the source repo
         if repo_url:

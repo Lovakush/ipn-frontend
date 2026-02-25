@@ -1,6 +1,6 @@
 repositories:
   - name: backend
-    # Full HTTPS clone URL — token injected from GITHUB_TOKEN env var
+    # Full HTTPS clone URL — token injected from GH_READ_TOKEN env var
     url: https://github.com/your-org/backend-repo.git
     # Where the repo will be cloned/pulled locally (gitignored, never committed)
     local_path: ./repo_src/backend

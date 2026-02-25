@@ -645,7 +645,7 @@ def main():
         name = repo.get('name') or repo.get('url').split('/')[-1].replace('.git', '')
         url = repo.get('url')
         local_path = repo.get('local_path') or os.path.join('repo_src', name)
-        token = os.environ.get('GITHUB_TOKEN')
+        token = os.environ.get('GH_READ_TOKEN')
         manager = RepoManager(name, url, local_path, token)
         manager.setup()
         print(f"Scanning repository {name}...")

@@ -91,7 +91,7 @@ npm run sync-docs                        # same as above via npm
 ```
 
 **How it works:**
-1. Pulls/clones source repos via `GITHUB_TOKEN` (read token)
+1. Pulls/clones source repos via `GH_READ_TOKEN` (read token)
 2. Computes MD5 of each source file, compares to `docs_manifest.json`
 3. For deleted files → removes their `.md` from `public/docs/`
 4. For modified/new files → calls LLM to regenerate `.md`
@@ -102,7 +102,7 @@ npm run sync-docs                        # same as above via npm
 **Required setup:**
 1. `cp config.example.yaml config.yaml` and fill in repo URLs and API key
 2. `pip install anthropic openai pyyaml`
-3. Set env vars: `GITHUB_TOKEN` (repo read access), and either `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`
+3. Set env vars: `GH_READ_TOKEN` (repo read access), and either `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`
 
 **AI providers** (configured in `config.yaml`):
 - `provider: claude` + `model: claude-haiku-4-5-20251001` ← recommended (fast, low cost)
