@@ -1,0 +1,29 @@
+repositories:
+  - name: backend
+    url: https://github.com/ultrapremiumdirect/backend.git
+    local_path: ./repo_src/backend
+
+  - name: frontend
+    url: https://github.com/ultrapremiumdirect/frontend.git
+    local_path: ./repo_src/frontend
+
+output_dir: ./public/docs
+
+exclude:
+  - node_modules
+  - vendor
+  - .git
+  - dist
+  - build
+  - __pycache__
+  - coverage
+  - var
+  - tests
+  - spec
+  - features
+
+ai_enhancement:
+  enabled: true
+  provider: claude
+  model: claude-haiku-4-5-20251001
+  api_key: ${ANTHROPIC_API_KEY}

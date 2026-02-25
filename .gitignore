@@ -54,8 +54,7 @@ lerna-debug.log*
 # Vite
 .vite
 
-# Incremental doc sync — contains sensitive tokens/keys and generated state
-config.yaml
+# Incremental doc sync — generated state and cloned source repos (never commit)
 docs_manifest.json
 repo_src/
 test_src/
