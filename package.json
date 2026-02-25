@@ -6,7 +6,10 @@
   "scripts": {
     "generate-docs": "node scripts/generateDocsData.js",
     "dev": "npm run generate-docs && vite",
-    "build": "npm run generate-docs && vite build"
+    "build": "npm run generate-docs && vite build",
+    "sync-docs": "python scripts/sync_docs.py",
+    "sync-docs:full": "python scripts/sync_docs.py --full",
+    "sync-docs:dry": "python scripts/sync_docs.py --dry-run"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",

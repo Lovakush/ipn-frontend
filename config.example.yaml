@@ -1,0 +1,26 @@
+repositories:
+  - name: backend
+    # Full HTTPS clone URL (no token embedded here — use GITHUB_TOKEN env var)
+    url: https://github.com/client-org/backend-repo.git
+    # Where to clone/pull the repo locally
+    local_path: ./repo_src/backend
+
+  - name: frontend
+    url: https://github.com/client-org/frontend-repo.git
+    local_path: ./repo_src/frontend
+
+output_dir: ./public/docs
+exclude:
+  - node_modules
+  - vendor
+  - .git
+  - dist
+  - build
+  - __pycache__
+  - coverage
+
+ai_enhancement:
+  enabled: true
+  provider: openai
+  model: gpt-4o-mini
+  api_key: ${OPENAI_API_KEY}

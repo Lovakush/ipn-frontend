@@ -53,3 +53,19 @@ lerna-debug.log*
 
 # Vite
 .vite
+
+# Incremental doc sync — contains sensitive tokens/keys and generated state
+config.yaml
+docs_manifest.json
+repo_src/
+test_src/
+
+# Keys and certificates — never commit these
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python cache
+__pycache__/
+*.pyc
