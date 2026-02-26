@@ -492,6 +492,13 @@ def sync_repo(
             print(f"    Warning: Source file not found: {abs_path}")
             continue
 
+        # If .md already exists and this file is "new" only because the manifest
+        # was reset/lost (not a genuine new/modified file), skip immediately —
+        # avoids running parser + AI for thousands of already-documented files.
+        if doc_path.exists():
+            print(f"    [Skip] Doc exists, manifest will be updated.")
+            continue
+
         if GENERATE_DOCS_AVAILABLE and generator and parsers:
             ext = abs_path.suffix.lower()
             is_dockerfile = abs_path.name.lower() in ("dockerfile",) or abs_path.name.lower().endswith(".dockerfile")
