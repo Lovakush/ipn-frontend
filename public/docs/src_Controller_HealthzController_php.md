@@ -3,9 +3,9 @@
 **Path**: `src\Controller\HealthzController.php`
 
 ## Summary
-# HealthzController Summary
+# Summary
 
-This controller provides a basic health check endpoint that returns an empty HTTP 200 response, typically used by load balancers or monitoring systems to verify that the application is running and responding to requests. The `index()` method serves as a lightweight liveness probe without performing any complex validation or returning meaningful data.
+The `HealthzController` is a basic health check endpoint that responds to requests with an empty HTTP 200 response, commonly used for monitoring and load balancer health verification. It provides a lightweight, no-logic endpoint that confirms the application is running and accessible without performing any database or service checks.
 
 ## Classes
 - `HealthzController`

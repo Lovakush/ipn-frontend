@@ -5,7 +5,7 @@
 ## Summary
 # Summary
 
-The `RedirectController` is a Symfony controller that handles HTTP redirects to configurable URLs (site or backoffice) based on an environment variable parameter. It supports both temporary (302) and permanent (301) redirects, with the target URLs injected from environment configuration at construction time.
+The `RedirectController` is an invokable Symfony controller that redirects HTTP requests to configured URLs based on an environment variable parameter. It supports both temporary (302) and permanent (301) redirects, routing requests to either a backoffice URL or a default site URL retrieved from environment configuration.
 
 ## Classes
 - `RedirectController`

@@ -3,9 +3,9 @@
 **Path**: `src\Kernel.php`
 
 ## Summary
-# Summary
+# Kernel.php Summary
 
-This is the main **Symfony application kernel for a Sylius-based e-commerce system** that bootstraps the application, configures dependency injection, and registers bundles. It extends Symfony's BaseKernel using MicroKernelTrait and registers custom compiler passes for domain-specific features like cart rule checkers, payment gateways, shipping methods, and Doctrine ORM query walkers, while setting up cache/log directories and configuring service loading from environment-specific configuration files.
+This file defines the application's **Symfony Kernel**, which bootstraps and configures the Sylius e-commerce framework. It manages bundle registration, dependency injection compilation (including custom passes for cart rules, payment gateways, and shipping methods), and sets up cache/log directories while configuring Doctrine ORM to use a custom SQL walker for consistent ORDER BY identifier behavior in queries.
 
 ## Classes
 - `Kernel`
