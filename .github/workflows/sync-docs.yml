@@ -1,0 +1,76 @@
+name: Sync Documentation
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Sync mode'
+        required: false
+        default: 'incremental'
+        type: choice
+        options:
+          - incremental
+          - full
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # needed to commit and push generated docs back
+
+    steps:
+      - name: Checkout docs repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      # Cache docs_manifest.json between runs so subsequent syncs are incremental
+      - name: Restore manifest cache
+        uses: actions/cache@v4
+        with:
+          path: docs_manifest.json
+          key: docs-manifest-${{ github.run_id }}
+          restore-keys: |
+            docs-manifest-
+
+      - name: Install Python dependencies
+        run: pip install anthropic openai pyyaml python-dotenv -q
+
+      - name: Install Node.js dependencies
+        run: npm ci
+
+      - name: Run documentation sync
+        env:
+          GH_READ_TOKEN: ${{ secrets.GH_READ_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "full" ]; then
+            python scripts/sync_docs.py --full
+          else
+            python scripts/sync_docs.py
+          fi
+
+      - name: Commit and push generated docs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/docs/ src/data/documentation.json public/data/documentation.json SUMMARY.md
+          if git diff --cached --quiet; then
+            echo "No documentation changes to commit."
+          else
+            git commit -m "docs: auto-sync documentation [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git push
+            echo "Pushed! azure-deploy workflow will now trigger automatically."
+          fi
