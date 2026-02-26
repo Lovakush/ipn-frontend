@@ -82,7 +82,7 @@ except ImportError as e:
 # Dual-provider AI Enhancer (Claude + OpenAI)
 # ---------------------------------------------------------------------------
 class DualAIEnhancer:
-    """Generates documentation summaries using Claude (Anthropic) or OpenAI."""
+    """Generates documentation summaries using Claude (Anthropic), OpenAI, or Google Gemini."""
 
     def __init__(self, config: dict):
         self.enabled = config.get("enabled", False)
@@ -126,8 +126,23 @@ class DualAIEnhancer:
             except Exception as e:
                 print(f"Warning: Failed to init OpenAI client: {e}")
                 self.enabled = False
+        elif self.provider == "gemini":
+            try:
+                import google.generativeai as genai
+                genai.configure(api_key=api_key)
+                model = self.model or "gemini-1.5-flash"
+                self.model = model
+                self.client = genai.GenerativeModel(model)
+                print(f"[AI] Using Gemini ({self.model})")
+            except ImportError:
+                print("Warning: 'google-generativeai' not installed. Run: pip install google-generativeai")
+                self.enabled = False
+            except Exception as e:
+                print(f"Warning: Failed to init Gemini client: {e}")
+                self.enabled = False
+
         else:
-            print(f"Warning: Unknown AI provider '{self.provider}'. Use 'claude' or 'openai'.")
+            print(f"Warning: Unknown AI provider '{self.provider}'. Use 'claude', 'openai', or 'gemini'.")
             self.enabled = False
 
     @staticmethod
@@ -156,6 +171,10 @@ class DualAIEnhancer:
                     messages=[{"role": "user", "content": prompt}],
                 )
                 return response.choices[0].message.content.strip()
+
+            elif self.provider == "gemini":
+                response = self.client.generate_content(prompt)
+                return response.text.strip()
 
         except Exception as e:
             print(f"    [AI] LLM call failed: {e}")

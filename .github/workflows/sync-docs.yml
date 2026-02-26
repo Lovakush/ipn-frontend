@@ -37,7 +37,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Python dependencies
-        run: pip install anthropic openai pyyaml python-dotenv -q
+        run: pip install anthropic openai google-generativeai pyyaml python-dotenv -q
 
       - name: Install Node.js dependencies
         run: npm ci
