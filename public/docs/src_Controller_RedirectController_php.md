@@ -3,7 +3,9 @@
 **Path**: `src\Controller\RedirectController.php`
 
 ## Summary
-This Symfony controller handles redirection between different application environments (site and backoffice) based on configured URLs. It accepts an environment variable name and optional permanent flag, then returns an HTTP redirect response (301 or 302) to either the backoffice URL or the main site URL, with the site URL serving as the default fallback.
+# Summary
+
+The `RedirectController` is a Symfony controller that handles HTTP redirects to configurable URLs (site or backoffice) based on an environment variable parameter. It supports both temporary (302) and permanent (301) redirects, with the target URLs injected from environment configuration at construction time.
 
 ## Classes
 - `RedirectController`
