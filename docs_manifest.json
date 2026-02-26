@@ -1,0 +1,10 @@
+{
+  "repos": {
+    "backend": {
+      "src\\Kernel.php": "499ec1d0923285326bc95a805ca47551",
+      "src\\Controller\\HealthzController.php": "07965b10527057c6e7fefa514e5aa91d",
+      "src\\Controller\\RedirectController.php": "b4f5854d220f5d1203a60aefe63c280f"
+    }
+  },
+  "last_sync": "2026-02-25T11:36:56.091635+00:00"
+}

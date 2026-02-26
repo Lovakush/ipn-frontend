@@ -36,15 +36,6 @@ jobs:
           node-version: '22'
           cache: 'npm'
 
-      # Cache docs_manifest.json between runs so subsequent syncs are incremental
-      - name: Restore manifest cache
-        uses: actions/cache@v4
-        with:
-          path: docs_manifest.json
-          key: docs-manifest-${{ github.run_id }}
-          restore-keys: |
-            docs-manifest-
-
       - name: Install Python dependencies
         run: pip install anthropic openai pyyaml python-dotenv -q
 
@@ -66,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/docs/ src/data/documentation.json public/data/documentation.json SUMMARY.md
+          git add public/docs/ src/data/documentation.json public/data/documentation.json SUMMARY.md docs_manifest.json
           if git diff --cached --quiet; then
             echo "No documentation changes to commit."
           else
