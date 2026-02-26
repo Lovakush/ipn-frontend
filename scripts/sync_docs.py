@@ -478,26 +478,33 @@ def sync_repo(
             doc_path.unlink()
 
     # ---- Generate docs for new + modified files ----
-    files_to_generate = new_files + modified_files
-    print(f"\n[Repo: {repo_name}] Generating {len(files_to_generate)} docs...")
+    # Files whose doc already exists are "new" only because manifest was reset —
+    # skip generation silently (just update hashes). Only truly missing docs get generated.
+    already_documented = [f for f in new_files if (output_dir / source_to_doc_name(f)).exists()]
+    truly_new = [f for f in new_files if not (output_dir / source_to_doc_name(f)).exists()]
 
+    if already_documented:
+        print(f"[Repo: {repo_name}] {len(already_documented)} files already documented — updating hashes only.")
+
+    files_to_generate = truly_new + modified_files
+    if not files_to_generate:
+        print(f"[Repo: {repo_name}] All docs up to date.")
+        return current_hashes
+
+    print(f"[Repo: {repo_name}] Generating {len(files_to_generate)} docs "
+          f"({len(truly_new)} new, {len(modified_files)} modified)...")
+
+    generated = 0
     for i, rel in enumerate(files_to_generate, 1):
         abs_path = repo_path / rel
         doc_name = source_to_doc_name(rel)
         doc_path = output_dir / doc_name
 
-        print(f"  [{i}/{len(files_to_generate)}] {rel}")
-
         if not abs_path.exists():
-            print(f"    Warning: Source file not found: {abs_path}")
+            print(f"  [Warning] Source not found: {rel}")
             continue
 
-        # If .md already exists and this file is "new" only because the manifest
-        # was reset/lost (not a genuine new/modified file), skip immediately —
-        # avoids running parser + AI for thousands of already-documented files.
-        if doc_path.exists():
-            print(f"    [Skip] Doc exists, manifest will be updated.")
-            continue
+        print(f"  [{i}/{len(files_to_generate)}] {rel}")
 
         if GENERATE_DOCS_AVAILABLE and generator and parsers:
             ext = abs_path.suffix.lower()
@@ -522,18 +529,18 @@ def sync_repo(
                         if enhanced:
                             info["summary"] = enhanced
 
-                    # Write doc using MarkdownGenerator (it won't skip since we deleted first)
                     generator.generate(str(abs_path), info, str(repo_path), repo_name, content)
                 except Exception as e:
-                    print(f"    Warning: Parser failed for {rel}: {e}")
+                    print(f"    [Warning] Parser failed for {rel}: {e}")
                     basic_generate_doc(abs_path, rel, doc_path)
             else:
-                # No parser for this extension — write basic doc
                 basic_generate_doc(abs_path, rel, doc_path)
         else:
-            # generate_docs.py not available — use basic fallback
             basic_generate_doc(abs_path, rel, doc_path)
 
+        generated += 1
+
+    print(f"[Repo: {repo_name}] Done — {generated} docs generated.")
     return current_hashes
 
 
