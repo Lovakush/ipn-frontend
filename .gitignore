@@ -69,3 +69,7 @@ _tmp/
 # Python cache
 __pycache__/
 *.pyc
+
+# Claude Code — local-only files, not for GitHub
+CLAUDE.md
+memory/
