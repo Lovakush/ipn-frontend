@@ -389,6 +389,7 @@ class MarkdownGenerator:
         with open(doc_path, 'w', encoding='utf-8') as f:
             f.write(f"# {rel_path.name}\n\n")
             f.write(f"**Path**: `{rel_path}`\n\n")
+            f.write(f"**Repo**: `{repo_name}`\n\n")
             if info.get('summary'):
                 summary_text = self.escape_markdown(info['summary'])
                 f.write(f"## Summary\n{summary_text}\n\n")

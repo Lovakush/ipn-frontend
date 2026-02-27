@@ -12,7 +12,7 @@ Usage:
     python scripts/sync_docs.py --dry-run    # Preview changes without writing anything
 
 Requirements:
-    pip install anthropic openai pyyaml
+    pip install anthropic openai google-genai pyyaml python-dotenv
 
 Environment variables:
     GH_READ_TOKEN         Read token for cloning/pulling source repos
@@ -128,14 +128,13 @@ class DualAIEnhancer:
                 self.enabled = False
         elif self.provider == "gemini":
             try:
-                import google.generativeai as genai
-                genai.configure(api_key=api_key)
-                model = self.model or "gemini-1.5-flash"
+                from google import genai
+                self.client = genai.Client(api_key=api_key)
+                model = self.model or "gemini-2.5-flash-lite"
                 self.model = model
-                self.client = genai.GenerativeModel(model)
                 print(f"[AI] Using Gemini ({self.model})")
             except ImportError:
-                print("Warning: 'google-generativeai' not installed. Run: pip install google-generativeai")
+                print("Warning: 'google-genai' not installed. Run: pip install google-genai")
                 self.enabled = False
             except Exception as e:
                 print(f"Warning: Failed to init Gemini client: {e}")
@@ -173,7 +172,10 @@ class DualAIEnhancer:
                 return response.choices[0].message.content.strip()
 
             elif self.provider == "gemini":
-                response = self.client.generate_content(prompt)
+                response = self.client.models.generate_content(
+                    model=self.model,
+                    contents=prompt,
+                )
                 return response.text.strip()
 
         except Exception as e:
@@ -309,7 +311,7 @@ def source_to_doc_name(rel_path: str) -> str:
 # ---------------------------------------------------------------------------
 # Fallback doc generator (no parser/AI)
 # ---------------------------------------------------------------------------
-def basic_generate_doc(file_path: Path, rel_path: str, output_path: Path):
+def basic_generate_doc(file_path: Path, rel_path: str, output_path: Path, repo_name: str = ""):
     """Write a minimal .md for a file when parsers are unavailable."""
     try:
         content = file_path.read_text(encoding="utf-8", errors="ignore")
@@ -321,6 +323,7 @@ def basic_generate_doc(file_path: Path, rel_path: str, output_path: Path):
     lines = [
         f"# {file_name}\n\n",
         f"**Path**: `{rel_fwd}`\n\n",
+        f"**Repo**: `{repo_name}`\n\n",
         "## Summary\n",
         f"Auto-generated documentation for `{file_name}`.\n\n",
     ]
@@ -364,14 +367,24 @@ def get_doc_category(path_str: str) -> str:
     return "Other"
 
 
-def rebuild_summary(output_dir: Path, summary_path: Path):
+def rebuild_summary(output_dir: Path, summary_path: Path, manifest_repos: dict = None):
     """
-    Rebuild SUMMARY.md by reading **Path** metadata from every .md in output_dir.
+    Rebuild SUMMARY.md by reading **Path** and **Repo** metadata from every .md in output_dir.
     Writes both the root SUMMARY.md and public/docs/SUMMARY.md.
+    Uses manifest_repos dict ({repo_name: {rel_path: md5}}) to determine repo for files
+    that don't yet have **Repo** metadata embedded.
     """
+    # Build reverse-lookup: doc filename → repo name (from manifest)
+    doc_to_repo: dict = {}
+    if manifest_repos:
+        for repo_name, hashes in manifest_repos.items():
+            for rel_path in hashes:
+                doc_name = source_to_doc_name(rel_path)
+                doc_to_repo[doc_name] = repo_name
+
     tree: dict = {}
 
-    def add_to_tree(path_parts: list, link: str, category: str):
+    def add_to_tree(path_parts: list, link: str, category: str, md_name: str):
         if category not in tree:
             tree[category] = {}
         node = tree[category]
@@ -382,16 +395,17 @@ def rebuild_summary(output_dir: Path, summary_path: Path):
             if part not in node:
                 node[part] = {}
             node = node[part]
+        # Use the .md filename as key to avoid collisions between same-named files
         if isinstance(node, dict):
-            node[path_parts[-1]] = link
+            node[md_name] = link
 
     processed = 0
     for md_file in sorted(output_dir.glob("*.md")):
         if md_file.name == "SUMMARY.md":
             continue
         try:
-            # Only read first 512 bytes — we only need the header
-            header = md_file.read_text(encoding="utf-8", errors="ignore")[:512]
+            # Only read first 768 bytes — we only need the header
+            header = md_file.read_text(encoding="utf-8", errors="ignore")[:768]
             match = re.search(r"\*\*Path\*\*:\s*`([^`]+)`", header)
             if not match:
                 continue
@@ -399,9 +413,16 @@ def rebuild_summary(output_dir: Path, summary_path: Path):
             parts = [p for p in source_path.split("/") if p]
             if not parts:
                 continue
+
+            # Determine repo: read from embedded metadata, else use manifest lookup
+            repo_match = re.search(r"\*\*Repo\*\*:\s*`([^`]+)`", header)
+            repo_name = repo_match.group(1).strip() if repo_match else doc_to_repo.get(md_file.name, "")
+
             category = get_doc_category(source_path)
             link = f"[{parts[-1]}]({md_file.name})"
-            add_to_tree(parts, link, category)
+            if repo_name:
+                link += f" <!-- repo:{repo_name} -->"
+            add_to_tree(parts, link, category, md_file.name)
             processed += 1
         except Exception as e:
             print(f"    Warning: Could not read {md_file.name}: {e}")
@@ -551,11 +572,11 @@ def sync_repo(
                     generator.generate(str(abs_path), info, str(repo_path), repo_name, content)
                 except Exception as e:
                     print(f"    [Warning] Parser failed for {rel}: {e}")
-                    basic_generate_doc(abs_path, rel, doc_path)
+                    basic_generate_doc(abs_path, rel, doc_path, repo_name)
             else:
-                basic_generate_doc(abs_path, rel, doc_path)
+                basic_generate_doc(abs_path, rel, doc_path, repo_name)
         else:
-            basic_generate_doc(abs_path, rel, doc_path)
+            basic_generate_doc(abs_path, rel, doc_path, repo_name)
 
         generated += 1
 
@@ -574,12 +595,16 @@ def main():
                             help="Force full regeneration of all docs")
     arg_parser.add_argument("--dry-run", action="store_true",
                             help="Show changes without writing anything")
+    arg_parser.add_argument("--rebuild-summary", action="store_true",
+                            help="Only rebuild SUMMARY.md and documentation.json from existing .md files (no repo pull/sync)")
     args = arg_parser.parse_args()
 
     print("=" * 60)
     print("IPN Documentation Sync")
     print("=" * 60)
-    if args.full:
+    if args.rebuild_summary:
+        print("Mode: REBUILD SUMMARY (no repo sync)")
+    elif args.full:
         print("Mode: FULL (regenerate all)")
     elif args.dry_run:
         print("Mode: DRY RUN (no writes)")
@@ -638,6 +663,37 @@ def main():
     else:
         print("No previous sync found — will treat all files as new.")
     print()
+
+    # ---- --rebuild-summary: skip repo sync, just rebuild SUMMARY.md + docs JSON ----
+    if args.rebuild_summary:
+        print("[Step] Rebuilding SUMMARY.md from existing .md files...")
+        root_summary = PROJECT_ROOT / "SUMMARY.md"
+        rebuild_summary(output_dir, root_summary, manifest.get("repos", {}))
+        docs_summary = output_dir / "SUMMARY.md"
+        if docs_summary != root_summary:
+            rebuild_summary(output_dir, docs_summary, manifest.get("repos", {}))
+        print("\n[Step] Running generateDocsData.js...")
+        node_bin = shutil.which("node") or "node"
+        gen_script = PROJECT_ROOT / "scripts" / "generateDocsData.js"
+        try:
+            result = subprocess.run(
+                [node_bin, str(gen_script)],
+                cwd=str(PROJECT_ROOT),
+                check=True,
+                capture_output=True,
+                encoding="utf-8",
+                errors="replace",
+            )
+            if result.stdout:
+                print(result.stdout.strip())
+        except subprocess.CalledProcessError as e:
+            print(f"Warning: generateDocsData.js failed:\n{e.stderr or ''}")
+        except FileNotFoundError:
+            print("Warning: 'node' not found in PATH. Run 'npm run generate-docs' manually.")
+        print("\n" + "=" * 60)
+        print("Rebuild complete.")
+        print("=" * 60)
+        return
 
     # ---- Determine repos ----
     repos_cfg = config.get("repositories", [])
@@ -710,11 +766,11 @@ def main():
     # ---- Rebuild SUMMARY.md (root + public/docs/) ----
     print("\n[Step] Rebuilding SUMMARY.md...")
     root_summary = PROJECT_ROOT / "SUMMARY.md"
-    rebuild_summary(output_dir, root_summary)
+    rebuild_summary(output_dir, root_summary, manifest.get("repos", {}))
 
     docs_summary = output_dir / "SUMMARY.md"
     if docs_summary != root_summary:
-        rebuild_summary(output_dir, docs_summary)
+        rebuild_summary(output_dir, docs_summary, manifest.get("repos", {}))
 
     # ---- Re-run generateDocsData.js ----
     print("\n[Step] Running generateDocsData.js...")

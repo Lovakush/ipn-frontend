@@ -18,74 +18,36 @@ const OUTPUT_PATH = path.join(__dirname, '../src/data/documentation.json');
 // For development/testing, allow override via command line
 const summaryPath = process.argv[2] || SUMMARY_PATH;
 
-// File type categorization
-const BACKEND_EXTENSIONS = ['.php'];
-const FRONTEND_EXTENSIONS = ['.js', '.json', '.jsx', '.ts', '.tsx', '.vue'];
-
-function categorizeFile(fileName) {
-  const ext = path.extname(fileName);
-  
-  if (BACKEND_EXTENSIONS.includes(ext)) {
-    return 'backend';
-  } else if (FRONTEND_EXTENSIONS.includes(ext)) {
-    return 'frontend';
-  } else {
-    return 'other';
-  }
+function categorizeByRepo(repo) {
+  if (repo === 'backend') return 'backend';
+  if (repo === 'frontend') return 'frontend';
+  return 'other';
 }
 
 function parseMarkdownLink(line) {
-  // Match: [DisplayName](filename.md)
-  const match = line.match(/\[([^\]]+)\]\(([^)]+)\)/);
+  // Match: [DisplayName](filename.md) <!-- repo:backend -->
+  // Uses lazy .+? so filenames containing ] like [[sitemap].xml.ts] are handled correctly
+  const match = line.match(/\[(.+?)\]\(([^)]+)\)/);
   if (!match) return null;
-  
+
   const [, displayName, mdFileName] = match;
-  
+
+  // Extract repo from HTML comment appended by rebuild_summary
+  const repoMatch = line.match(/<!--\s*repo:(\w+)\s*-->/);
+  const repo = repoMatch ? repoMatch[1] : null;
+
   // Extract original file from .md filename
-  // Example: src_Api_Controller_Animal_DeleteAnimalPhotoAction_php.md
-  // Split by underscore and reconstruct with slashes
   const withoutMd = mdFileName.replace('.md', '');
   const parts = withoutMd.split('_');
-  
-  // The last part contains the extension (e.g., "php", "js", "json")
-  const lastPart = parts[parts.length - 1];
-  
-  // Reconstruct the file path
-  let fileName = displayName;  // Use display name as is
-  let fullPath = parts.join('/');
-  
-  // Determine file extension from the markdown filename pattern
-  // e.g., "php" from "DeleteAnimalPhotoAction_php.md"
-  let fileExt = '';
-  if (lastPart === 'php') {
-    fileExt = '.php';
-  } else if (lastPart === 'js') {
-    fileExt = '.js';
-  } else if (lastPart === 'json') {
-    fileExt = '.json';
-  } else if (lastPart === 'ts') {
-    fileExt = '.ts';
-  } else if (lastPart === 'tsx') {
-    fileExt = '.tsx';
-  } else if (lastPart === 'jsx') {
-    fileExt = '.jsx';
-  } else if (lastPart === 'vue') {
-    fileExt = '.vue';
-  } else if (lastPart === 'md') {
-    fileExt = '.md';
-  } else if (lastPart === 'yml' || lastPart === 'yaml') {
-    fileExt = '.yml';
-  } else if (lastPart === 'xml') {
-    fileExt = '.xml';
-  }
-  
+  const fullPath = parts.join('/');
+
   return {
     displayName,
-    fileName: fileName,
+    fileName: displayName,
     mdFile: mdFileName,
     path: fullPath,
-    extension: fileExt,
-    category: categorizeFile(fileName + fileExt)
+    repo: repo || '',
+    category: categorizeByRepo(repo || '')
   };
 }
 

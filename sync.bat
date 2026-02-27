@@ -30,7 +30,7 @@ if not exist "%~dp0config.yaml" (
 
 REM ---- Install Python dependencies (silent if already installed) ----
 echo [Setup] Installing/verifying Python dependencies...
-pip install anthropic openai google-generativeai pyyaml python-dotenv -q --disable-pip-version-check
+pip install anthropic openai google-genai pyyaml python-dotenv -q --disable-pip-version-check
 if %errorlevel% neq 0 (
     echo WARNING: pip install had issues. Attempting to continue...
 )
@@ -77,4 +77,4 @@ if %errorlevel% neq 0 (
 
 echo.
 echo Done! Press any key to close.
-pause >nul
+pause >nul                                                                                                                                                      

@@ -25,19 +25,13 @@ exclude:
 ai_enhancement:
   enabled: true
 
-  # ── Pick ONE provider — uncomment the block you want, comment out the others ──
-
-  # Option 1: Claude (recommended — fast, low cost)
-  provider: claude
   model: claude-haiku-4-5-20251001
   api_key: ${ANTHROPIC_API_KEY}
 
-  # Option 2: OpenAI
   # provider: openai
   # model: gpt-4o-mini
   # api_key: ${OPENAI_API_KEY}
 
-  # Option 3: Google Gemini
   # provider: gemini
-  # model: gemini-1.5-flash
+  # model: gemini-2.5-flash-lite
   # api_key: ${GEMINI_API_KEY}

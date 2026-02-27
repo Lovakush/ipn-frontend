@@ -5,433 +5,433 @@
 - **Api**
   - **Controller**
     - **Animal**
-      - [DeleteAnimalPhotoAction.php](src_Api_Controller_Animal_DeleteAnimalPhotoAction_php.md)
-      - [UploadAnimalPhotoAction.php](src_Api_Controller_Animal_UploadAnimalPhotoAction_php.md)
-    - [CheckCustomerStateAction.php](src_Api_Controller_CheckCustomerStateAction_php.md)
+      - [DeleteAnimalPhotoAction.php](src_Api_Controller_Animal_DeleteAnimalPhotoAction_php.md) <!-- repo:backend -->
+      - [UploadAnimalPhotoAction.php](src_Api_Controller_Animal_UploadAnimalPhotoAction_php.md) <!-- repo:backend -->
     - **Customer**
-      - [DeleteCustomerAction.php](src_Api_Controller_Customer_DeleteCustomerAction_php.md)
-      - [UpdateCustomerBusinessReportAction.php](src_Api_Controller_Customer_UpdateCustomerBusinessReportAction_php.md)
+      - [DeleteCustomerAction.php](src_Api_Controller_Customer_DeleteCustomerAction_php.md) <!-- repo:backend -->
+      - [UpdateCustomerBusinessReportAction.php](src_Api_Controller_Customer_UpdateCustomerBusinessReportAction_php.md) <!-- repo:backend -->
     - **Order**
-      - [AddTrackingShippingNumberAction.php](src_Api_Controller_Order_AddTrackingShippingNumberAction_php.md)
-      - [DeleteCartAction.php](src_Api_Controller_Order_DeleteCartAction_php.md)
-      - [DeleteCouponFromCart.php](src_Api_Controller_Order_DeleteCouponFromCart_php.md)
-      - [DeleteOrderItemAction.php](src_Api_Controller_Order_DeleteOrderItemAction_php.md)
-      - [ForceOrderProcessor.php](src_Api_Controller_Order_ForceOrderProcessor_php.md)
-      - [GetPayzenFormTokenAction.php](src_Api_Controller_Order_GetPayzenFormTokenAction_php.md)
-      - [PaymentStateAction.php](src_Api_Controller_Order_PaymentStateAction_php.md)
-      - [ProcessPaymentAction.php](src_Api_Controller_Order_ProcessPaymentAction_php.md)
-      - [ResendOrderConfirmationEmailAction.php](src_Api_Controller_Order_ResendOrderConfirmationEmailAction_php.md)
-      - [SendPaymentMailAction.php](src_Api_Controller_Order_SendPaymentMailAction_php.md)
-      - [SendShipmentConfirmationMailAction.php](src_Api_Controller_Order_SendShipmentConfirmationMailAction_php.md)
+      - [AddTrackingShippingNumberAction.php](src_Api_Controller_Order_AddTrackingShippingNumberAction_php.md) <!-- repo:backend -->
+      - [DeleteCartAction.php](src_Api_Controller_Order_DeleteCartAction_php.md) <!-- repo:backend -->
+      - [DeleteCouponFromCart.php](src_Api_Controller_Order_DeleteCouponFromCart_php.md) <!-- repo:backend -->
+      - [DeleteOrderItemAction.php](src_Api_Controller_Order_DeleteOrderItemAction_php.md) <!-- repo:backend -->
+      - [ForceOrderProcessor.php](src_Api_Controller_Order_ForceOrderProcessor_php.md) <!-- repo:backend -->
+      - [GetPayzenFormTokenAction.php](src_Api_Controller_Order_GetPayzenFormTokenAction_php.md) <!-- repo:backend -->
+      - [PaymentStateAction.php](src_Api_Controller_Order_PaymentStateAction_php.md) <!-- repo:backend -->
+      - [ProcessPaymentAction.php](src_Api_Controller_Order_ProcessPaymentAction_php.md) <!-- repo:backend -->
+      - [ResendOrderConfirmationEmailAction.php](src_Api_Controller_Order_ResendOrderConfirmationEmailAction_php.md) <!-- repo:backend -->
+      - [SendPaymentMailAction.php](src_Api_Controller_Order_SendPaymentMailAction_php.md) <!-- repo:backend -->
+      - [SendShipmentConfirmationMailAction.php](src_Api_Controller_Order_SendShipmentConfirmationMailAction_php.md) <!-- repo:backend -->
     - **OrderRule**
-      - [GetOrderRuleConfigurationSchema.php](src_Api_Controller_OrderRule_GetOrderRuleConfigurationSchema_php.md)
+      - [GetOrderRuleConfigurationSchema.php](src_Api_Controller_OrderRule_GetOrderRuleConfigurationSchema_php.md) <!-- repo:backend -->
     - **PaymentMethod**
-      - [GetPaymentMethodGatewaySchema.php](src_Api_Controller_PaymentMethod_GetPaymentMethodGatewaySchema_php.md)
+      - [GetPaymentMethodGatewaySchema.php](src_Api_Controller_PaymentMethod_GetPaymentMethodGatewaySchema_php.md) <!-- repo:backend -->
     - **Promotion**
-      - [GetPromotionActionSchema.php](src_Api_Controller_Promotion_GetPromotionActionSchema_php.md)
-      - [GetPromotionRulesSchema.php](src_Api_Controller_Promotion_GetPromotionRulesSchema_php.md)
+      - [GetPromotionActionSchema.php](src_Api_Controller_Promotion_GetPromotionActionSchema_php.md) <!-- repo:backend -->
+      - [GetPromotionRulesSchema.php](src_Api_Controller_Promotion_GetPromotionRulesSchema_php.md) <!-- repo:backend -->
     - **PromotionCoupon**
-      - [ExportCsvPromotionCouponsAction.php](src_Api_Controller_PromotionCoupon_ExportCsvPromotionCouponsAction_php.md)
+      - [ExportCsvPromotionCouponsAction.php](src_Api_Controller_PromotionCoupon_ExportCsvPromotionCouponsAction_php.md) <!-- repo:backend -->
     - **ShippingMethod**
-      - [GetShippingMethodGatewaySchema.php](src_Api_Controller_ShippingMethod_GetShippingMethodGatewaySchema_php.md)
-      - [GetShippingMethodRuleSchema.php](src_Api_Controller_ShippingMethod_GetShippingMethodRuleSchema_php.md)
+      - [GetShippingMethodGatewaySchema.php](src_Api_Controller_ShippingMethod_GetShippingMethodGatewaySchema_php.md) <!-- repo:backend -->
+      - [GetShippingMethodRuleSchema.php](src_Api_Controller_ShippingMethod_GetShippingMethodRuleSchema_php.md) <!-- repo:backend -->
     - **Subscription**
-      - [DeleteItemToSubscriptionDraftOrderAction.php](src_Api_Controller_Subscription_DeleteItemToSubscriptionDraftOrderAction_php.md)
-      - [DeleteSubscriptionCommentAction.php](src_Api_Controller_Subscription_DeleteSubscriptionCommentAction_php.md)
-      - [DeleteSubscriptionItemAction.php](src_Api_Controller_Subscription_DeleteSubscriptionItemAction_php.md)
-      - [GetPaymentMethodsAction.php](src_Api_Controller_Subscription_GetPaymentMethodsAction_php.md)
-      - [GetShippingDatesRangeAction.php](src_Api_Controller_Subscription_GetShippingDatesRangeAction_php.md)
-      - [ResetSubscriptionStateAction.php](src_Api_Controller_Subscription_ResetSubscriptionStateAction_php.md)
+      - [DeleteItemToSubscriptionDraftOrderAction.php](src_Api_Controller_Subscription_DeleteItemToSubscriptionDraftOrderAction_php.md) <!-- repo:backend -->
+      - [DeleteSubscriptionCommentAction.php](src_Api_Controller_Subscription_DeleteSubscriptionCommentAction_php.md) <!-- repo:backend -->
+      - [DeleteSubscriptionItemAction.php](src_Api_Controller_Subscription_DeleteSubscriptionItemAction_php.md) <!-- repo:backend -->
+      - [GetPaymentMethodsAction.php](src_Api_Controller_Subscription_GetPaymentMethodsAction_php.md) <!-- repo:backend -->
+      - [GetShippingDatesRangeAction.php](src_Api_Controller_Subscription_GetShippingDatesRangeAction_php.md) <!-- repo:backend -->
+      - [ResetSubscriptionStateAction.php](src_Api_Controller_Subscription_ResetSubscriptionStateAction_php.md) <!-- repo:backend -->
     - **SubscriptionOrder**
-      - [BulkDebitSubscriptionOrderAction.php](src_Api_Controller_SubscriptionOrder_BulkDebitSubscriptionOrderAction_php.md)
-      - [BulkUpdateNextShippingAction.php](src_Api_Controller_SubscriptionOrder_BulkUpdateNextShippingAction_php.md)
-      - [DeleteSubscriptionOrderItemAction.php](src_Api_Controller_SubscriptionOrder_DeleteSubscriptionOrderItemAction_php.md)
-      - [SubscriptionOrdersAction.php](src_Api_Controller_SubscriptionOrder_SubscriptionOrdersAction_php.md)
+      - [BulkDebitSubscriptionOrderAction.php](src_Api_Controller_SubscriptionOrder_BulkDebitSubscriptionOrderAction_php.md) <!-- repo:backend -->
+      - [BulkUpdateNextShippingAction.php](src_Api_Controller_SubscriptionOrder_BulkUpdateNextShippingAction_php.md) <!-- repo:backend -->
+      - [DeleteSubscriptionOrderItemAction.php](src_Api_Controller_SubscriptionOrder_DeleteSubscriptionOrderItemAction_php.md) <!-- repo:backend -->
+      - [SubscriptionOrdersAction.php](src_Api_Controller_SubscriptionOrder_SubscriptionOrdersAction_php.md) <!-- repo:backend -->
+    - [CheckCustomerStateAction.php](src_Api_Controller_CheckCustomerStateAction_php.md) <!-- repo:backend -->
 - **Controller**
   - **CheckoutCom**
-    - [WebhookAction.php](src_Controller_CheckoutCom_WebhookAction_php.md)
-  - [HealthzController.php](src_Controller_HealthzController_php.md)
-  - [RedirectController.php](src_Controller_RedirectController_php.md)
+    - [WebhookAction.php](src_Controller_CheckoutCom_WebhookAction_php.md) <!-- repo:backend -->
   - **WellKnown**
-    - [JWKSAction.php](src_Controller_WellKnown_JWKSAction_php.md)
+    - [JWKSAction.php](src_Controller_WellKnown_JWKSAction_php.md) <!-- repo:backend -->
+  - [HealthzController.php](src_Controller_HealthzController_php.md) <!-- repo:backend -->
+  - [RedirectController.php](src_Controller_RedirectController_php.md) <!-- repo:backend -->
 - **JWTBlockedToken**
-  - [BlockedTokenController.php](src_JWTBlockedToken_BlockedTokenController_php.md)
+  - [BlockedTokenController.php](src_JWTBlockedToken_BlockedTokenController_php.md) <!-- repo:backend -->
 - **TalonOne**
   - **Controller**
-    - [CampaignCouponsListAction.php](src_TalonOne_Controller_CampaignCouponsListAction_php.md)
-    - [CampaignCouponsListPaginatedAction.php](src_TalonOne_Controller_CampaignCouponsListPaginatedAction_php.md)
-    - [ClearCacheAction.php](src_TalonOne_Controller_ClearCacheAction_php.md)
-    - [CouponDownloadAction.php](src_TalonOne_Controller_CouponDownloadAction_php.md)
-    - [CouponExportAction.php](src_TalonOne_Controller_CouponExportAction_php.md)
-    - [CouponsFinderPaginatedAction.php](src_TalonOne_Controller_CouponsFinderPaginatedAction_php.md)
-    - [DeleteCouponAction.php](src_TalonOne_Controller_DeleteCouponAction_php.md)
-    - [DeleteCouponsAction.php](src_TalonOne_Controller_DeleteCouponsAction_php.md)
-    - [GetCampaignAction.php](src_TalonOne_Controller_GetCampaignAction_php.md)
-    - [ReopenSessionAction.php](src_TalonOne_Controller_ReopenSessionAction_php.md)
     - **Schemas**
-      - [CreateCouponSchemaAction.php](src_TalonOne_Controller_Schemas_CreateCouponSchemaAction_php.md)
-    - [SessionStatusAction.php](src_TalonOne_Controller_SessionStatusAction_php.md)
-    - [UpdateCouponAction.php](src_TalonOne_Controller_UpdateCouponAction_php.md)
+      - [CreateCouponSchemaAction.php](src_TalonOne_Controller_Schemas_CreateCouponSchemaAction_php.md) <!-- repo:backend -->
+    - [CampaignCouponsListAction.php](src_TalonOne_Controller_CampaignCouponsListAction_php.md) <!-- repo:backend -->
+    - [CampaignCouponsListPaginatedAction.php](src_TalonOne_Controller_CampaignCouponsListPaginatedAction_php.md) <!-- repo:backend -->
+    - [ClearCacheAction.php](src_TalonOne_Controller_ClearCacheAction_php.md) <!-- repo:backend -->
+    - [CouponDownloadAction.php](src_TalonOne_Controller_CouponDownloadAction_php.md) <!-- repo:backend -->
+    - [CouponExportAction.php](src_TalonOne_Controller_CouponExportAction_php.md) <!-- repo:backend -->
+    - [CouponsFinderPaginatedAction.php](src_TalonOne_Controller_CouponsFinderPaginatedAction_php.md) <!-- repo:backend -->
+    - [DeleteCouponAction.php](src_TalonOne_Controller_DeleteCouponAction_php.md) <!-- repo:backend -->
+    - [DeleteCouponsAction.php](src_TalonOne_Controller_DeleteCouponsAction_php.md) <!-- repo:backend -->
+    - [GetCampaignAction.php](src_TalonOne_Controller_GetCampaignAction_php.md) <!-- repo:backend -->
+    - [ReopenSessionAction.php](src_TalonOne_Controller_ReopenSessionAction_php.md) <!-- repo:backend -->
+    - [SessionStatusAction.php](src_TalonOne_Controller_SessionStatusAction_php.md) <!-- repo:backend -->
+    - [UpdateCouponAction.php](src_TalonOne_Controller_UpdateCouponAction_php.md) <!-- repo:backend -->
 - **plugins**
   - **PayPalPlugin**
     - **src**
       - **Controller**
-        - [CancelLastPayPalPaymentAction.php](plugins_PayPalPlugin_src_Controller_CancelLastPayPalPaymentAction_php.md)
-        - [CancelPayPalCheckoutPaymentAction.php](plugins_PayPalPlugin_src_Controller_CancelPayPalCheckoutPaymentAction_php.md)
-        - [CancelPayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_CancelPayPalOrderAction_php.md)
-        - [CancelPayPalPaymentAction.php](plugins_PayPalPlugin_src_Controller_CancelPayPalPaymentAction_php.md)
-        - [CompletePayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_CompletePayPalOrderAction_php.md)
-        - [CompletePayPalOrderFromPaymentPageAction.php](plugins_PayPalPlugin_src_Controller_CompletePayPalOrderFromPaymentPageAction_php.md)
-        - [CreatePayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_CreatePayPalOrderAction_php.md)
-        - [CreatePayPalOrderFromCartAction.php](plugins_PayPalPlugin_src_Controller_CreatePayPalOrderFromCartAction_php.md)
-        - [CreatePayPalOrderFromPaymentPageAction.php](plugins_PayPalPlugin_src_Controller_CreatePayPalOrderFromPaymentPageAction_php.md)
-        - [DownloadPayoutsReportAction.php](plugins_PayPalPlugin_src_Controller_DownloadPayoutsReportAction_php.md)
-        - [EnableSellerAction.php](plugins_PayPalPlugin_src_Controller_EnableSellerAction_php.md)
-        - [PayPalButtonsController.php](plugins_PayPalPlugin_src_Controller_PayPalButtonsController_php.md)
-        - [PayPalOrderItemController.php](plugins_PayPalPlugin_src_Controller_PayPalOrderItemController_php.md)
-        - [PayPalPaymentOnErrorAction.php](plugins_PayPalPlugin_src_Controller_PayPalPaymentOnErrorAction_php.md)
-        - [PayWithPayPalFormAction.php](plugins_PayPalPlugin_src_Controller_PayWithPayPalFormAction_php.md)
-        - [ProcessPayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_ProcessPayPalOrderAction_php.md)
-        - [UpdatePayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_UpdatePayPalOrderAction_php.md)
         - **Webhook**
-          - [AbstractWebhookAction.php](plugins_PayPalPlugin_src_Controller_Webhook_AbstractWebhookAction_php.md)
-          - [CheckoutOrderApprovedAction.php](plugins_PayPalPlugin_src_Controller_Webhook_CheckoutOrderApprovedAction_php.md)
-          - [PaymentCaptureCompletedAction.php](plugins_PayPalPlugin_src_Controller_Webhook_PaymentCaptureCompletedAction_php.md)
-          - [PaymentCaptureDeniedAction.php](plugins_PayPalPlugin_src_Controller_Webhook_PaymentCaptureDeniedAction_php.md)
-          - [RefundOrderAction.php](plugins_PayPalPlugin_src_Controller_Webhook_RefundOrderAction_php.md)
-          - [WebhookActionInterface.php](plugins_PayPalPlugin_src_Controller_Webhook_WebhookActionInterface_php.md)
+          - [AbstractWebhookAction.php](plugins_PayPalPlugin_src_Controller_Webhook_AbstractWebhookAction_php.md) <!-- repo:backend -->
+          - [CheckoutOrderApprovedAction.php](plugins_PayPalPlugin_src_Controller_Webhook_CheckoutOrderApprovedAction_php.md) <!-- repo:backend -->
+          - [PaymentCaptureCompletedAction.php](plugins_PayPalPlugin_src_Controller_Webhook_PaymentCaptureCompletedAction_php.md) <!-- repo:backend -->
+          - [PaymentCaptureDeniedAction.php](plugins_PayPalPlugin_src_Controller_Webhook_PaymentCaptureDeniedAction_php.md) <!-- repo:backend -->
+          - [RefundOrderAction.php](plugins_PayPalPlugin_src_Controller_Webhook_RefundOrderAction_php.md) <!-- repo:backend -->
+          - [WebhookActionInterface.php](plugins_PayPalPlugin_src_Controller_Webhook_WebhookActionInterface_php.md) <!-- repo:backend -->
+        - [CancelLastPayPalPaymentAction.php](plugins_PayPalPlugin_src_Controller_CancelLastPayPalPaymentAction_php.md) <!-- repo:backend -->
+        - [CancelPayPalCheckoutPaymentAction.php](plugins_PayPalPlugin_src_Controller_CancelPayPalCheckoutPaymentAction_php.md) <!-- repo:backend -->
+        - [CancelPayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_CancelPayPalOrderAction_php.md) <!-- repo:backend -->
+        - [CancelPayPalPaymentAction.php](plugins_PayPalPlugin_src_Controller_CancelPayPalPaymentAction_php.md) <!-- repo:backend -->
+        - [CompletePayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_CompletePayPalOrderAction_php.md) <!-- repo:backend -->
+        - [CompletePayPalOrderFromPaymentPageAction.php](plugins_PayPalPlugin_src_Controller_CompletePayPalOrderFromPaymentPageAction_php.md) <!-- repo:backend -->
+        - [CreatePayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_CreatePayPalOrderAction_php.md) <!-- repo:backend -->
+        - [CreatePayPalOrderFromCartAction.php](plugins_PayPalPlugin_src_Controller_CreatePayPalOrderFromCartAction_php.md) <!-- repo:backend -->
+        - [CreatePayPalOrderFromPaymentPageAction.php](plugins_PayPalPlugin_src_Controller_CreatePayPalOrderFromPaymentPageAction_php.md) <!-- repo:backend -->
+        - [DownloadPayoutsReportAction.php](plugins_PayPalPlugin_src_Controller_DownloadPayoutsReportAction_php.md) <!-- repo:backend -->
+        - [EnableSellerAction.php](plugins_PayPalPlugin_src_Controller_EnableSellerAction_php.md) <!-- repo:backend -->
+        - [PayPalButtonsController.php](plugins_PayPalPlugin_src_Controller_PayPalButtonsController_php.md) <!-- repo:backend -->
+        - [PayPalOrderItemController.php](plugins_PayPalPlugin_src_Controller_PayPalOrderItemController_php.md) <!-- repo:backend -->
+        - [PayPalPaymentOnErrorAction.php](plugins_PayPalPlugin_src_Controller_PayPalPaymentOnErrorAction_php.md) <!-- repo:backend -->
+        - [PayWithPayPalFormAction.php](plugins_PayPalPlugin_src_Controller_PayWithPayPalFormAction_php.md) <!-- repo:backend -->
+        - [ProcessPayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_ProcessPayPalOrderAction_php.md) <!-- repo:backend -->
+        - [UpdatePayPalOrderAction.php](plugins_PayPalPlugin_src_Controller_UpdatePayPalOrderAction_php.md) <!-- repo:backend -->
       - **Resources**
         - **config**
           - **services**
-            - [controller.xml](plugins_PayPalPlugin_src_Resources_config_services_controller_xml.md)
+            - [controller.xml](plugins_PayPalPlugin_src_Resources_config_services_controller_xml.md) <!-- repo:backend -->
   - **PayzenPlugin**
     - **src**
       - **Controller**
-        - [IpnController.php](plugins_PayzenPlugin_src_Controller_IpnController_php.md)
+        - [IpnController.php](plugins_PayzenPlugin_src_Controller_IpnController_php.md) <!-- repo:backend -->
 
 
 ## Services
 
 - **DependencyInjection**
   - **Compiler**
-    - [RemoveServicesPass.php](src_DependencyInjection_Compiler_RemoveServicesPass_php.md)
-    - [ReplaceClassAtTaggedServicesPass.php](src_DependencyInjection_Compiler_ReplaceClassAtTaggedServicesPass_php.md)
-    - [UnregisterSyliusThemeBundleServicesPass.php](src_DependencyInjection_Compiler_UnregisterSyliusThemeBundleServicesPass_php.md)
+    - [RemoveServicesPass.php](src_DependencyInjection_Compiler_RemoveServicesPass_php.md) <!-- repo:backend -->
+    - [ReplaceClassAtTaggedServicesPass.php](src_DependencyInjection_Compiler_ReplaceClassAtTaggedServicesPass_php.md) <!-- repo:backend -->
+    - [UnregisterSyliusThemeBundleServicesPass.php](src_DependencyInjection_Compiler_UnregisterSyliusThemeBundleServicesPass_php.md) <!-- repo:backend -->
 - **Service**
   - **Animal**
-    - [AnimalPhotoService.php](src_Service_Animal_AnimalPhotoService_php.md)
-  - [BillRetrieveService.php](src_Service_BillRetrieveService_php.md)
+    - [AnimalPhotoService.php](src_Service_Animal_AnimalPhotoService_php.md) <!-- repo:backend -->
   - **CheckoutCom**
-    - [CheckoutComWebhookService.php](src_Service_CheckoutCom_CheckoutComWebhookService_php.md)
+    - [CheckoutComWebhookService.php](src_Service_CheckoutCom_CheckoutComWebhookService_php.md) <!-- repo:backend -->
   - **Customer**
-    - [AnimalsTypeService.php](src_Service_Customer_AnimalsTypeService_php.md)
-    - [CustomerUniqueAddressAdder.php](src_Service_Customer_CustomerUniqueAddressAdder_php.md)
+    - [AnimalsTypeService.php](src_Service_Customer_AnimalsTypeService_php.md) <!-- repo:backend -->
+    - [CustomerUniqueAddressAdder.php](src_Service_Customer_CustomerUniqueAddressAdder_php.md) <!-- repo:backend -->
   - **Google**
-    - [GoogleRecaptchaService.php](src_Service_Google_GoogleRecaptchaService_php.md)
-    - [GoogleStorage.php](src_Service_Google_GoogleStorage_php.md)
-  - [NotifyValidOrderToMiddlewareService.php](src_Service_NotifyValidOrderToMiddlewareService_php.md)
+    - [GoogleRecaptchaService.php](src_Service_Google_GoogleRecaptchaService_php.md) <!-- repo:backend -->
+    - [GoogleStorage.php](src_Service_Google_GoogleStorage_php.md) <!-- repo:backend -->
   - **Paypal**
-    - [PaypalService.php](src_Service_Paypal_PaypalService_php.md)
+    - [PaypalService.php](src_Service_Paypal_PaypalService_php.md) <!-- repo:backend -->
   - **Payzen**
-    - [PayzenService.php](src_Service_Payzen_PayzenService_php.md)
+    - [PayzenService.php](src_Service_Payzen_PayzenService_php.md) <!-- repo:backend -->
   - **Promotions**
-    - [OrderPromotion.php](src_Service_Promotions_OrderPromotion_php.md)
-    - [RemoveFreeProductChecker.php](src_Service_Promotions_RemoveFreeProductChecker_php.md)
+    - [OrderPromotion.php](src_Service_Promotions_OrderPromotion_php.md) <!-- repo:backend -->
+    - [RemoveFreeProductChecker.php](src_Service_Promotions_RemoveFreeProductChecker_php.md) <!-- repo:backend -->
   - **Shipping**
-    - [ShippingBalancerService.php](src_Service_Shipping_ShippingBalancerService_php.md)
-  - [ShippingService.php](src_Service_ShippingService_php.md)
-  - [TransactionalEmailService.php](src_Service_TransactionalEmailService_php.md)
+    - [ShippingBalancerService.php](src_Service_Shipping_ShippingBalancerService_php.md) <!-- repo:backend -->
   - **UpSelling**
-    - [UpSellService.php](src_Service_UpSelling_UpSellService_php.md)
+    - [UpSellService.php](src_Service_UpSelling_UpSellService_php.md) <!-- repo:backend -->
+  - [BillRetrieveService.php](src_Service_BillRetrieveService_php.md) <!-- repo:backend -->
+  - [NotifyValidOrderToMiddlewareService.php](src_Service_NotifyValidOrderToMiddlewareService_php.md) <!-- repo:backend -->
+  - [ShippingService.php](src_Service_ShippingService_php.md) <!-- repo:backend -->
+  - [TransactionalEmailService.php](src_Service_TransactionalEmailService_php.md) <!-- repo:backend -->
 - **TalonOne**
   - **Domain**
     - **Services**
       - **Applicator**
-        - [EffectActionsFilter.php](src_TalonOne_Domain_Services_Applicator_EffectActionsFilter_php.md)
-        - [EffectApplicator.php](src_TalonOne_Domain_Services_Applicator_EffectApplicator_php.md)
-        - [EffectApplicatorInterface.php](src_TalonOne_Domain_Services_Applicator_EffectApplicatorInterface_php.md)
+        - [EffectActionsFilter.php](src_TalonOne_Domain_Services_Applicator_EffectActionsFilter_php.md) <!-- repo:backend -->
+        - [EffectApplicatorInterface.php](src_TalonOne_Domain_Services_Applicator_EffectApplicatorInterface_php.md) <!-- repo:backend -->
+        - [EffectApplicator.php](src_TalonOne_Domain_Services_Applicator_EffectApplicator_php.md) <!-- repo:backend -->
       - **EffectAction**
-        - [AddFreeItemEffectAction.php](src_TalonOne_Domain_Services_EffectAction_AddFreeItemEffectAction_php.md)
-        - [DiscountAdditionalCostEffectAction.php](src_TalonOne_Domain_Services_EffectAction_DiscountAdditionalCostEffectAction_php.md)
-        - [DiscountEffectApplicator.php](src_TalonOne_Domain_Services_EffectAction_DiscountEffectApplicator_php.md)
-        - [DiscountIndividualItemsEffectAction.php](src_TalonOne_Domain_Services_EffectAction_DiscountIndividualItemsEffectAction_php.md)
-        - [DiscountSessionTotalEffectAction.php](src_TalonOne_Domain_Services_EffectAction_DiscountSessionTotalEffectAction_php.md)
-        - [EffectActionHelperTrait.php](src_TalonOne_Domain_Services_EffectAction_EffectActionHelperTrait_php.md)
-        - [EffectActionInterface.php](src_TalonOne_Domain_Services_EffectAction_EffectActionInterface_php.md)
-        - [SetEffectAction.php](src_TalonOne_Domain_Services_EffectAction_SetEffectAction_php.md)
+        - [AddFreeItemEffectAction.php](src_TalonOne_Domain_Services_EffectAction_AddFreeItemEffectAction_php.md) <!-- repo:backend -->
+        - [DiscountAdditionalCostEffectAction.php](src_TalonOne_Domain_Services_EffectAction_DiscountAdditionalCostEffectAction_php.md) <!-- repo:backend -->
+        - [DiscountEffectApplicator.php](src_TalonOne_Domain_Services_EffectAction_DiscountEffectApplicator_php.md) <!-- repo:backend -->
+        - [DiscountIndividualItemsEffectAction.php](src_TalonOne_Domain_Services_EffectAction_DiscountIndividualItemsEffectAction_php.md) <!-- repo:backend -->
+        - [DiscountSessionTotalEffectAction.php](src_TalonOne_Domain_Services_EffectAction_DiscountSessionTotalEffectAction_php.md) <!-- repo:backend -->
+        - [EffectActionHelperTrait.php](src_TalonOne_Domain_Services_EffectAction_EffectActionHelperTrait_php.md) <!-- repo:backend -->
+        - [EffectActionInterface.php](src_TalonOne_Domain_Services_EffectAction_EffectActionInterface_php.md) <!-- repo:backend -->
+        - [SetEffectAction.php](src_TalonOne_Domain_Services_EffectAction_SetEffectAction_php.md) <!-- repo:backend -->
     - **UseCase**
-      - [DeleteCustomerServiceCoupon.php](src_TalonOne_Domain_UseCase_DeleteCustomerServiceCoupon_php.md)
+      - [DeleteCustomerServiceCoupon.php](src_TalonOne_Domain_UseCase_DeleteCustomerServiceCoupon_php.md) <!-- repo:backend -->
   - **Service**
-    - [CampaignCouponsPaginator.php](src_TalonOne_Service_CampaignCouponsPaginator_php.md)
-    - [CouponExportService.php](src_TalonOne_Service_CouponExportService_php.md)
-    - [CouponsFinderPaginator.php](src_TalonOne_Service_CouponsFinderPaginator_php.md)
+    - [CampaignCouponsPaginator.php](src_TalonOne_Service_CampaignCouponsPaginator_php.md) <!-- repo:backend -->
+    - [CouponExportService.php](src_TalonOne_Service_CouponExportService_php.md) <!-- repo:backend -->
+    - [CouponsFinderPaginator.php](src_TalonOne_Service_CouponsFinderPaginator_php.md) <!-- repo:backend -->
 - **config**
+  - [services_test_cached.yaml](config_services_test_cached_yaml.md) <!-- repo:backend -->
+  - [services_test.yaml](config_services_test_yaml.md) <!-- repo:backend -->
+  - [services.yaml](config_services_yaml.md) <!-- repo:backend -->
   - **services**
     - **api**
-      - [event_listener.yaml](config_services_api_event_listener_yaml.md)
-      - [filters.yaml](config_services_api_filters_yaml.md)
-      - [providers.yaml](config_services_api_providers_yaml.md)
-    - [cart_rules.yaml](config_services_cart_rules_yaml.md)
-    - [factory.yaml](config_services_factory_yaml.md)
-    - [fixture.yaml](config_services_fixture_yaml.md)
-    - [form.yaml](config_services_form_yaml.md)
-    - [gateway.yaml](config_services_gateway_yaml.md)
-    - [registry.yaml](config_services_registry_yaml.md)
-  - [services.yaml](config_services_yaml.md)
-  - [services_test.yaml](config_services_test_yaml.md)
-  - [services_test_cached.yaml](config_services_test_cached_yaml.md)
+      - [event_listener.yaml](config_services_api_event_listener_yaml.md) <!-- repo:backend -->
+      - [filters.yaml](config_services_api_filters_yaml.md) <!-- repo:backend -->
+      - [providers.yaml](config_services_api_providers_yaml.md) <!-- repo:backend -->
+    - [cart_rules.yaml](config_services_cart_rules_yaml.md) <!-- repo:backend -->
+    - [factory.yaml](config_services_factory_yaml.md) <!-- repo:backend -->
+    - [fixture.yaml](config_services_fixture_yaml.md) <!-- repo:backend -->
+    - [form.yaml](config_services_form_yaml.md) <!-- repo:backend -->
+    - [gateway.yaml](config_services_gateway_yaml.md) <!-- repo:backend -->
+    - [registry.yaml](config_services_registry_yaml.md) <!-- repo:backend -->
 - **plugins**
   - **PayPalPlugin**
     - **src**
       - **Resources**
         - **config**
+          - [services.xml](plugins_PayPalPlugin_src_Resources_config_services_xml.md) <!-- repo:backend -->
           - **services**
-            - [api.xml](plugins_PayPalPlugin_src_Resources_config_services_api_xml.md)
-            - [onboarding.xml](plugins_PayPalPlugin_src_Resources_config_services_onboarding_xml.md)
-            - [payum.xml](plugins_PayPalPlugin_src_Resources_config_services_payum_xml.md)
-          - [services.xml](plugins_PayPalPlugin_src_Resources_config_services_xml.md)
+            - [api.xml](plugins_PayPalPlugin_src_Resources_config_services_api_xml.md) <!-- repo:backend -->
+            - [onboarding.xml](plugins_PayPalPlugin_src_Resources_config_services_onboarding_xml.md) <!-- repo:backend -->
+            - [payum.xml](plugins_PayPalPlugin_src_Resources_config_services_payum_xml.md) <!-- repo:backend -->
       - **Service**
-        - [WebhookService.php](plugins_PayPalPlugin_src_Service_WebhookService_php.md)
+        - [WebhookService.php](plugins_PayPalPlugin_src_Service_WebhookService_php.md) <!-- repo:backend -->
   - **PayzenPlugin**
     - **src**
       - **Resources**
         - **config**
-          - [services.yml](plugins_PayzenPlugin_src_Resources_config_services_yml.md)
+          - [services.yml](plugins_PayzenPlugin_src_Resources_config_services_yml.md) <!-- repo:backend -->
 
 
 ## Entities
 
 - **Doctrine**
   - **Validator**
-    - [UniqueEntityValidator.php](src_Doctrine_Validator_UniqueEntityValidator_php.md)
+    - [UniqueEntityValidator.php](src_Doctrine_Validator_UniqueEntityValidator_php.md) <!-- repo:backend -->
 - **Entity**
   - **Activity**
-    - [Activity.php](src_Entity_Activity_Activity_php.md)
+    - [Activity.php](src_Entity_Activity_Activity_php.md) <!-- repo:backend -->
   - **Addressing**
-    - [Address.php](src_Entity_Addressing_Address_php.md)
-    - [Country.php](src_Entity_Addressing_Country_php.md)
-    - [Province.php](src_Entity_Addressing_Province_php.md)
-    - [Zone.php](src_Entity_Addressing_Zone_php.md)
-    - [ZoneMember.php](src_Entity_Addressing_ZoneMember_php.md)
+    - [Address.php](src_Entity_Addressing_Address_php.md) <!-- repo:backend -->
+    - [Country.php](src_Entity_Addressing_Country_php.md) <!-- repo:backend -->
+    - [Province.php](src_Entity_Addressing_Province_php.md) <!-- repo:backend -->
+    - [ZoneMember.php](src_Entity_Addressing_ZoneMember_php.md) <!-- repo:backend -->
+    - [Zone.php](src_Entity_Addressing_Zone_php.md) <!-- repo:backend -->
   - **Animal**
-    - [Animal.php](src_Entity_Animal_Animal_php.md)
-    - [AnimalActivity.php](src_Entity_Animal_AnimalActivity_php.md)
-    - [AnimalActivityTranslation.php](src_Entity_Animal_AnimalActivityTranslation_php.md)
-    - [AnimalBreed.php](src_Entity_Animal_AnimalBreed_php.md)
-    - [AnimalBreedTranslation.php](src_Entity_Animal_AnimalBreedTranslation_php.md)
-    - [AnimalCodeAwareInterface.php](src_Entity_Animal_AnimalCodeAwareInterface_php.md)
-    - [AnimalCondition.php](src_Entity_Animal_AnimalCondition_php.md)
-    - [AnimalConditionTranslation.php](src_Entity_Animal_AnimalConditionTranslation_php.md)
-    - [AnimalDeletedReason.php](src_Entity_Animal_AnimalDeletedReason_php.md)
-    - [AnimalDeletedReasonTranslation.php](src_Entity_Animal_AnimalDeletedReasonTranslation_php.md)
-    - [AnimalFeature.php](src_Entity_Animal_AnimalFeature_php.md)
-    - [AnimalFeatureTranslation.php](src_Entity_Animal_AnimalFeatureTranslation_php.md)
-    - [AnimalFeed.php](src_Entity_Animal_AnimalFeed_php.md)
-    - [AnimalFeedTranslation.php](src_Entity_Animal_AnimalFeedTranslation_php.md)
-    - [AnimalGender.php](src_Entity_Animal_AnimalGender_php.md)
-    - [AnimalGenderTranslation.php](src_Entity_Animal_AnimalGenderTranslation_php.md)
-    - [AnimalKibbleBrand.php](src_Entity_Animal_AnimalKibbleBrand_php.md)
-    - [AnimalKibbleBrandRange.php](src_Entity_Animal_AnimalKibbleBrandRange_php.md)
-    - [AnimalPhoto.php](src_Entity_Animal_AnimalPhoto_php.md)
-    - [AnimalType.php](src_Entity_Animal_AnimalType_php.md)
-    - [AnimalTypeTranslation.php](src_Entity_Animal_AnimalTypeTranslation_php.md)
+    - [AnimalActivityTranslation.php](src_Entity_Animal_AnimalActivityTranslation_php.md) <!-- repo:backend -->
+    - [AnimalActivity.php](src_Entity_Animal_AnimalActivity_php.md) <!-- repo:backend -->
+    - [AnimalBreedTranslation.php](src_Entity_Animal_AnimalBreedTranslation_php.md) <!-- repo:backend -->
+    - [AnimalBreed.php](src_Entity_Animal_AnimalBreed_php.md) <!-- repo:backend -->
+    - [AnimalCodeAwareInterface.php](src_Entity_Animal_AnimalCodeAwareInterface_php.md) <!-- repo:backend -->
+    - [AnimalConditionTranslation.php](src_Entity_Animal_AnimalConditionTranslation_php.md) <!-- repo:backend -->
+    - [AnimalCondition.php](src_Entity_Animal_AnimalCondition_php.md) <!-- repo:backend -->
+    - [AnimalDeletedReasonTranslation.php](src_Entity_Animal_AnimalDeletedReasonTranslation_php.md) <!-- repo:backend -->
+    - [AnimalDeletedReason.php](src_Entity_Animal_AnimalDeletedReason_php.md) <!-- repo:backend -->
+    - [AnimalFeatureTranslation.php](src_Entity_Animal_AnimalFeatureTranslation_php.md) <!-- repo:backend -->
+    - [AnimalFeature.php](src_Entity_Animal_AnimalFeature_php.md) <!-- repo:backend -->
+    - [AnimalFeedTranslation.php](src_Entity_Animal_AnimalFeedTranslation_php.md) <!-- repo:backend -->
+    - [AnimalFeed.php](src_Entity_Animal_AnimalFeed_php.md) <!-- repo:backend -->
+    - [AnimalGenderTranslation.php](src_Entity_Animal_AnimalGenderTranslation_php.md) <!-- repo:backend -->
+    - [AnimalGender.php](src_Entity_Animal_AnimalGender_php.md) <!-- repo:backend -->
+    - [AnimalKibbleBrandRange.php](src_Entity_Animal_AnimalKibbleBrandRange_php.md) <!-- repo:backend -->
+    - [AnimalKibbleBrand.php](src_Entity_Animal_AnimalKibbleBrand_php.md) <!-- repo:backend -->
+    - [AnimalPhoto.php](src_Entity_Animal_AnimalPhoto_php.md) <!-- repo:backend -->
+    - [AnimalTypeTranslation.php](src_Entity_Animal_AnimalTypeTranslation_php.md) <!-- repo:backend -->
+    - [AnimalType.php](src_Entity_Animal_AnimalType_php.md) <!-- repo:backend -->
+    - [Animal.php](src_Entity_Animal_Animal_php.md) <!-- repo:backend -->
   - **Channel**
-    - [Channel.php](src_Entity_Channel_Channel_php.md)
-    - [ChannelPricing.php](src_Entity_Channel_ChannelPricing_php.md)
+    - [ChannelPricing.php](src_Entity_Channel_ChannelPricing_php.md) <!-- repo:backend -->
+    - [Channel.php](src_Entity_Channel_Channel_php.md) <!-- repo:backend -->
   - **Currency**
-    - [Currency.php](src_Entity_Currency_Currency_php.md)
-    - [ExchangeRate.php](src_Entity_Currency_ExchangeRate_php.md)
+    - [Currency.php](src_Entity_Currency_Currency_php.md) <!-- repo:backend -->
+    - [ExchangeRate.php](src_Entity_Currency_ExchangeRate_php.md) <!-- repo:backend -->
   - **Customer**
-    - [Customer.php](src_Entity_Customer_Customer_php.md)
-    - [CustomerBusinessReport.php](src_Entity_Customer_CustomerBusinessReport_php.md)
-    - [CustomerGroup.php](src_Entity_Customer_CustomerGroup_php.md)
-    - [OriginLeadCustomer.php](src_Entity_Customer_OriginLeadCustomer_php.md)
-    - [PaymentInstrument.php](src_Entity_Customer_PaymentInstrument_php.md)
-    - [PaymentInstrumentInterface.php](src_Entity_Customer_PaymentInstrumentInterface_php.md)
+    - [CustomerBusinessReport.php](src_Entity_Customer_CustomerBusinessReport_php.md) <!-- repo:backend -->
+    - [CustomerGroup.php](src_Entity_Customer_CustomerGroup_php.md) <!-- repo:backend -->
+    - [Customer.php](src_Entity_Customer_Customer_php.md) <!-- repo:backend -->
+    - [OriginLeadCustomer.php](src_Entity_Customer_OriginLeadCustomer_php.md) <!-- repo:backend -->
+    - [PaymentInstrumentInterface.php](src_Entity_Customer_PaymentInstrumentInterface_php.md) <!-- repo:backend -->
+    - [PaymentInstrument.php](src_Entity_Customer_PaymentInstrument_php.md) <!-- repo:backend -->
   - **Date**
-    - [HolidayDate.php](src_Entity_Date_HolidayDate_php.md)
+    - [HolidayDate.php](src_Entity_Date_HolidayDate_php.md) <!-- repo:backend -->
   - **Email**
-    - [EmailAudit.php](src_Entity_Email_EmailAudit_php.md)
+    - [EmailAudit.php](src_Entity_Email_EmailAudit_php.md) <!-- repo:backend -->
   - **Locale**
-    - [Locale.php](src_Entity_Locale_Locale_php.md)
+    - [Locale.php](src_Entity_Locale_Locale_php.md) <!-- repo:backend -->
   - **Order**
-    - [Adjustment.php](src_Entity_Order_Adjustment_php.md)
-    - [ConfigurableOrderRuleElementInterface.php](src_Entity_Order_ConfigurableOrderRuleElementInterface_php.md)
-    - [Order.php](src_Entity_Order_Order_php.md)
-    - [OrderInterface.php](src_Entity_Order_OrderInterface_php.md)
-    - [OrderItem.php](src_Entity_Order_OrderItem_php.md)
-    - [OrderItemUnit.php](src_Entity_Order_OrderItemUnit_php.md)
-    - [OrderRule.php](src_Entity_Order_OrderRule_php.md)
-    - [OrderRuleCondition.php](src_Entity_Order_OrderRuleCondition_php.md)
-    - [OrderRuleConditionInterface.php](src_Entity_Order_OrderRuleConditionInterface_php.md)
-    - [OrderRuleInterface.php](src_Entity_Order_OrderRuleInterface_php.md)
-    - [OrderRuleTranslation.php](src_Entity_Order_OrderRuleTranslation_php.md)
-    - [OrderSequence.php](src_Entity_Order_OrderSequence_php.md)
-    - [OrderTalonOneCoupon.php](src_Entity_Order_OrderTalonOneCoupon_php.md)
+    - [Adjustment.php](src_Entity_Order_Adjustment_php.md) <!-- repo:backend -->
+    - [ConfigurableOrderRuleElementInterface.php](src_Entity_Order_ConfigurableOrderRuleElementInterface_php.md) <!-- repo:backend -->
+    - [OrderInterface.php](src_Entity_Order_OrderInterface_php.md) <!-- repo:backend -->
+    - [OrderItemUnit.php](src_Entity_Order_OrderItemUnit_php.md) <!-- repo:backend -->
+    - [OrderItem.php](src_Entity_Order_OrderItem_php.md) <!-- repo:backend -->
+    - [OrderRuleConditionInterface.php](src_Entity_Order_OrderRuleConditionInterface_php.md) <!-- repo:backend -->
+    - [OrderRuleCondition.php](src_Entity_Order_OrderRuleCondition_php.md) <!-- repo:backend -->
+    - [OrderRuleInterface.php](src_Entity_Order_OrderRuleInterface_php.md) <!-- repo:backend -->
+    - [OrderRuleTranslation.php](src_Entity_Order_OrderRuleTranslation_php.md) <!-- repo:backend -->
+    - [OrderRule.php](src_Entity_Order_OrderRule_php.md) <!-- repo:backend -->
+    - [OrderSequence.php](src_Entity_Order_OrderSequence_php.md) <!-- repo:backend -->
+    - [OrderTalonOneCoupon.php](src_Entity_Order_OrderTalonOneCoupon_php.md) <!-- repo:backend -->
+    - [Order.php](src_Entity_Order_Order_php.md) <!-- repo:backend -->
   - **Payment**
-    - [GatewayConfig.php](src_Entity_Payment_GatewayConfig_php.md)
-    - [Payment.php](src_Entity_Payment_Payment_php.md)
-    - [PaymentMethod.php](src_Entity_Payment_PaymentMethod_php.md)
-    - [PaymentMethodCharges.php](src_Entity_Payment_PaymentMethodCharges_php.md)
-    - [PaymentMethodTranslation.php](src_Entity_Payment_PaymentMethodTranslation_php.md)
-    - [PaymentSecurityToken.php](src_Entity_Payment_PaymentSecurityToken_php.md)
+    - [GatewayConfig.php](src_Entity_Payment_GatewayConfig_php.md) <!-- repo:backend -->
+    - [PaymentMethodCharges.php](src_Entity_Payment_PaymentMethodCharges_php.md) <!-- repo:backend -->
+    - [PaymentMethodTranslation.php](src_Entity_Payment_PaymentMethodTranslation_php.md) <!-- repo:backend -->
+    - [PaymentMethod.php](src_Entity_Payment_PaymentMethod_php.md) <!-- repo:backend -->
+    - [PaymentSecurityToken.php](src_Entity_Payment_PaymentSecurityToken_php.md) <!-- repo:backend -->
+    - [Payment.php](src_Entity_Payment_Payment_php.md) <!-- repo:backend -->
   - **PickupPoint**
-    - [PickupAddress.php](src_Entity_PickupPoint_PickupAddress_php.md)
-    - [PickupPoint.php](src_Entity_PickupPoint_PickupPoint_php.md)
-    - [PickupPointClosingPeriod.php](src_Entity_PickupPoint_PickupPointClosingPeriod_php.md)
-    - [PickupPointHasShippingMethod.php](src_Entity_PickupPoint_PickupPointHasShippingMethod_php.md)
+    - [PickupAddress.php](src_Entity_PickupPoint_PickupAddress_php.md) <!-- repo:backend -->
+    - [PickupPointClosingPeriod.php](src_Entity_PickupPoint_PickupPointClosingPeriod_php.md) <!-- repo:backend -->
+    - [PickupPointHasShippingMethod.php](src_Entity_PickupPoint_PickupPointHasShippingMethod_php.md) <!-- repo:backend -->
+    - [PickupPoint.php](src_Entity_PickupPoint_PickupPoint_php.md) <!-- repo:backend -->
   - **Product**
-    - [PriceChange.php](src_Entity_Product_PriceChange_php.md)
-    - [Product.php](src_Entity_Product_Product_php.md)
-    - [ProductAssociation.php](src_Entity_Product_ProductAssociation_php.md)
-    - [ProductAssociationType.php](src_Entity_Product_ProductAssociationType_php.md)
-    - [ProductAssociationTypeTranslation.php](src_Entity_Product_ProductAssociationTypeTranslation_php.md)
-    - [ProductAttribute.php](src_Entity_Product_ProductAttribute_php.md)
-    - [ProductAttributeTranslation.php](src_Entity_Product_ProductAttributeTranslation_php.md)
-    - [ProductAttributeValue.php](src_Entity_Product_ProductAttributeValue_php.md)
-    - [ProductImage.php](src_Entity_Product_ProductImage_php.md)
-    - [ProductOption.php](src_Entity_Product_ProductOption_php.md)
-    - [ProductOptionTranslation.php](src_Entity_Product_ProductOptionTranslation_php.md)
-    - [ProductOptionValue.php](src_Entity_Product_ProductOptionValue_php.md)
-    - [ProductOptionValueTranslation.php](src_Entity_Product_ProductOptionValueTranslation_php.md)
-    - [ProductReview.php](src_Entity_Product_ProductReview_php.md)
-    - [ProductTaxon.php](src_Entity_Product_ProductTaxon_php.md)
-    - [ProductTranslation.php](src_Entity_Product_ProductTranslation_php.md)
-    - [ProductVariant.php](src_Entity_Product_ProductVariant_php.md)
-    - [ProductVariantTranslation.php](src_Entity_Product_ProductVariantTranslation_php.md)
+    - [PriceChange.php](src_Entity_Product_PriceChange_php.md) <!-- repo:backend -->
+    - [ProductAssociationTypeTranslation.php](src_Entity_Product_ProductAssociationTypeTranslation_php.md) <!-- repo:backend -->
+    - [ProductAssociationType.php](src_Entity_Product_ProductAssociationType_php.md) <!-- repo:backend -->
+    - [ProductAssociation.php](src_Entity_Product_ProductAssociation_php.md) <!-- repo:backend -->
+    - [ProductAttributeTranslation.php](src_Entity_Product_ProductAttributeTranslation_php.md) <!-- repo:backend -->
+    - [ProductAttributeValue.php](src_Entity_Product_ProductAttributeValue_php.md) <!-- repo:backend -->
+    - [ProductAttribute.php](src_Entity_Product_ProductAttribute_php.md) <!-- repo:backend -->
+    - [ProductImage.php](src_Entity_Product_ProductImage_php.md) <!-- repo:backend -->
+    - [ProductOptionTranslation.php](src_Entity_Product_ProductOptionTranslation_php.md) <!-- repo:backend -->
+    - [ProductOptionValueTranslation.php](src_Entity_Product_ProductOptionValueTranslation_php.md) <!-- repo:backend -->
+    - [ProductOptionValue.php](src_Entity_Product_ProductOptionValue_php.md) <!-- repo:backend -->
+    - [ProductOption.php](src_Entity_Product_ProductOption_php.md) <!-- repo:backend -->
+    - [ProductReview.php](src_Entity_Product_ProductReview_php.md) <!-- repo:backend -->
+    - [ProductTaxon.php](src_Entity_Product_ProductTaxon_php.md) <!-- repo:backend -->
+    - [ProductTranslation.php](src_Entity_Product_ProductTranslation_php.md) <!-- repo:backend -->
+    - [ProductVariantTranslation.php](src_Entity_Product_ProductVariantTranslation_php.md) <!-- repo:backend -->
+    - [ProductVariant.php](src_Entity_Product_ProductVariant_php.md) <!-- repo:backend -->
+    - [Product.php](src_Entity_Product_Product_php.md) <!-- repo:backend -->
   - **Promotion**
-    - [Promotion.php](src_Entity_Promotion_Promotion_php.md)
-    - [PromotionAction.php](src_Entity_Promotion_PromotionAction_php.md)
-    - [PromotionAnalyticBroadcast.php](src_Entity_Promotion_PromotionAnalyticBroadcast_php.md)
-    - [PromotionAnalyticCategory.php](src_Entity_Promotion_PromotionAnalyticCategory_php.md)
-    - [PromotionAnalyticTarget.php](src_Entity_Promotion_PromotionAnalyticTarget_php.md)
-    - [PromotionCoupon.php](src_Entity_Promotion_PromotionCoupon_php.md)
-    - [PromotionCouponCustomer.php](src_Entity_Promotion_PromotionCouponCustomer_php.md)
-    - [PromotionRule.php](src_Entity_Promotion_PromotionRule_php.md)
-    - [PromotionTranslation.php](src_Entity_Promotion_PromotionTranslation_php.md)
+    - [PromotionAction.php](src_Entity_Promotion_PromotionAction_php.md) <!-- repo:backend -->
+    - [PromotionAnalyticBroadcast.php](src_Entity_Promotion_PromotionAnalyticBroadcast_php.md) <!-- repo:backend -->
+    - [PromotionAnalyticCategory.php](src_Entity_Promotion_PromotionAnalyticCategory_php.md) <!-- repo:backend -->
+    - [PromotionAnalyticTarget.php](src_Entity_Promotion_PromotionAnalyticTarget_php.md) <!-- repo:backend -->
+    - [PromotionCouponCustomer.php](src_Entity_Promotion_PromotionCouponCustomer_php.md) <!-- repo:backend -->
+    - [PromotionCoupon.php](src_Entity_Promotion_PromotionCoupon_php.md) <!-- repo:backend -->
+    - [PromotionRule.php](src_Entity_Promotion_PromotionRule_php.md) <!-- repo:backend -->
+    - [PromotionTranslation.php](src_Entity_Promotion_PromotionTranslation_php.md) <!-- repo:backend -->
+    - [Promotion.php](src_Entity_Promotion_Promotion_php.md) <!-- repo:backend -->
   - **RefreshToken**
-    - [RefreshToken.php](src_Entity_RefreshToken_RefreshToken_php.md)
+    - [RefreshToken.php](src_Entity_RefreshToken_RefreshToken_php.md) <!-- repo:backend -->
   - **Shipping**
-    - [AddressableEntityInterface.php](src_Entity_Shipping_AddressableEntityInterface_php.md)
-    - [Shipment.php](src_Entity_Shipping_Shipment_php.md)
-    - [ShippingCategory.php](src_Entity_Shipping_ShippingCategory_php.md)
-    - [ShippingDateBalancerCalendar.php](src_Entity_Shipping_ShippingDateBalancerCalendar_php.md)
-    - [ShippingMethod.php](src_Entity_Shipping_ShippingMethod_php.md)
-    - [ShippingMethodCategory.php](src_Entity_Shipping_ShippingMethodCategory_php.md)
-    - [ShippingMethodCategoryTranslation.php](src_Entity_Shipping_ShippingMethodCategoryTranslation_php.md)
-    - [ShippingMethodRule.php](src_Entity_Shipping_ShippingMethodRule_php.md)
-    - [ShippingMethodTranslation.php](src_Entity_Shipping_ShippingMethodTranslation_php.md)
-    - [ShippingRangePrice.php](src_Entity_Shipping_ShippingRangePrice_php.md)
-    - [ShippingRangePriceItem.php](src_Entity_Shipping_ShippingRangePriceItem_php.md)
-    - [ShippingZone.php](src_Entity_Shipping_ShippingZone_php.md)
-    - [ShippingZoneMember.php](src_Entity_Shipping_ShippingZoneMember_php.md)
+    - [AddressableEntityInterface.php](src_Entity_Shipping_AddressableEntityInterface_php.md) <!-- repo:backend -->
+    - [Shipment.php](src_Entity_Shipping_Shipment_php.md) <!-- repo:backend -->
+    - [ShippingCategory.php](src_Entity_Shipping_ShippingCategory_php.md) <!-- repo:backend -->
+    - [ShippingDateBalancerCalendar.php](src_Entity_Shipping_ShippingDateBalancerCalendar_php.md) <!-- repo:backend -->
+    - [ShippingMethodCategoryTranslation.php](src_Entity_Shipping_ShippingMethodCategoryTranslation_php.md) <!-- repo:backend -->
+    - [ShippingMethodCategory.php](src_Entity_Shipping_ShippingMethodCategory_php.md) <!-- repo:backend -->
+    - [ShippingMethodRule.php](src_Entity_Shipping_ShippingMethodRule_php.md) <!-- repo:backend -->
+    - [ShippingMethodTranslation.php](src_Entity_Shipping_ShippingMethodTranslation_php.md) <!-- repo:backend -->
+    - [ShippingMethod.php](src_Entity_Shipping_ShippingMethod_php.md) <!-- repo:backend -->
+    - [ShippingRangePriceItem.php](src_Entity_Shipping_ShippingRangePriceItem_php.md) <!-- repo:backend -->
+    - [ShippingRangePrice.php](src_Entity_Shipping_ShippingRangePrice_php.md) <!-- repo:backend -->
+    - [ShippingZoneMember.php](src_Entity_Shipping_ShippingZoneMember_php.md) <!-- repo:backend -->
+    - [ShippingZone.php](src_Entity_Shipping_ShippingZone_php.md) <!-- repo:backend -->
   - **Subscription**
-    - [Subscription.php](src_Entity_Subscription_Subscription_php.md)
-    - [SubscriptionComment.php](src_Entity_Subscription_SubscriptionComment_php.md)
-    - [SubscriptionCommentInterface.php](src_Entity_Subscription_SubscriptionCommentInterface_php.md)
-    - [SubscriptionFrequencyGroup.php](src_Entity_Subscription_SubscriptionFrequencyGroup_php.md)
-    - [SubscriptionInterface.php](src_Entity_Subscription_SubscriptionInterface_php.md)
-    - [SubscriptionItem.php](src_Entity_Subscription_SubscriptionItem_php.md)
-    - [SubscriptionItemInterface.php](src_Entity_Subscription_SubscriptionItemInterface_php.md)
-    - [SubscriptionMonitoring.php](src_Entity_Subscription_SubscriptionMonitoring_php.md)
-    - [SubscriptionOrder.php](src_Entity_Subscription_SubscriptionOrder_php.md)
-    - [SubscriptionStopReason.php](src_Entity_Subscription_SubscriptionStopReason_php.md)
-    - [SubscriptionStopReasonTranslation.php](src_Entity_Subscription_SubscriptionStopReasonTranslation_php.md)
-    - [UpdateShippingSubjectInterface.php](src_Entity_Subscription_UpdateShippingSubjectInterface_php.md)
+    - [SubscriptionCommentInterface.php](src_Entity_Subscription_SubscriptionCommentInterface_php.md) <!-- repo:backend -->
+    - [SubscriptionComment.php](src_Entity_Subscription_SubscriptionComment_php.md) <!-- repo:backend -->
+    - [SubscriptionFrequencyGroup.php](src_Entity_Subscription_SubscriptionFrequencyGroup_php.md) <!-- repo:backend -->
+    - [SubscriptionInterface.php](src_Entity_Subscription_SubscriptionInterface_php.md) <!-- repo:backend -->
+    - [SubscriptionItemInterface.php](src_Entity_Subscription_SubscriptionItemInterface_php.md) <!-- repo:backend -->
+    - [SubscriptionItem.php](src_Entity_Subscription_SubscriptionItem_php.md) <!-- repo:backend -->
+    - [SubscriptionMonitoring.php](src_Entity_Subscription_SubscriptionMonitoring_php.md) <!-- repo:backend -->
+    - [SubscriptionOrder.php](src_Entity_Subscription_SubscriptionOrder_php.md) <!-- repo:backend -->
+    - [SubscriptionStopReasonTranslation.php](src_Entity_Subscription_SubscriptionStopReasonTranslation_php.md) <!-- repo:backend -->
+    - [SubscriptionStopReason.php](src_Entity_Subscription_SubscriptionStopReason_php.md) <!-- repo:backend -->
+    - [Subscription.php](src_Entity_Subscription_Subscription_php.md) <!-- repo:backend -->
+    - [UpdateShippingSubjectInterface.php](src_Entity_Subscription_UpdateShippingSubjectInterface_php.md) <!-- repo:backend -->
   - **Taxation**
-    - [TaxCategory.php](src_Entity_Taxation_TaxCategory_php.md)
-    - [TaxRate.php](src_Entity_Taxation_TaxRate_php.md)
+    - [TaxCategory.php](src_Entity_Taxation_TaxCategory_php.md) <!-- repo:backend -->
+    - [TaxRate.php](src_Entity_Taxation_TaxRate_php.md) <!-- repo:backend -->
   - **Taxonomy**
-    - [Taxon.php](src_Entity_Taxonomy_Taxon_php.md)
-    - [TaxonImage.php](src_Entity_Taxonomy_TaxonImage_php.md)
-    - [TaxonTranslation.php](src_Entity_Taxonomy_TaxonTranslation_php.md)
+    - [TaxonImage.php](src_Entity_Taxonomy_TaxonImage_php.md) <!-- repo:backend -->
+    - [TaxonTranslation.php](src_Entity_Taxonomy_TaxonTranslation_php.md) <!-- repo:backend -->
+    - [Taxon.php](src_Entity_Taxonomy_Taxon_php.md) <!-- repo:backend -->
   - **UpSelling**
-    - [UpSell.php](src_Entity_UpSelling_UpSell_php.md)
-    - [UpSellVariant.php](src_Entity_UpSelling_UpSellVariant_php.md)
+    - [UpSellVariant.php](src_Entity_UpSelling_UpSellVariant_php.md) <!-- repo:backend -->
+    - [UpSell.php](src_Entity_UpSelling_UpSell_php.md) <!-- repo:backend -->
   - **User**
-    - [AdminUser.php](src_Entity_User_AdminUser_php.md)
-    - [AdminUserGroup.php](src_Entity_User_AdminUserGroup_php.md)
-    - [ShopUser.php](src_Entity_User_ShopUser_php.md)
-    - [UserOAuth.php](src_Entity_User_UserOAuth_php.md)
+    - [AdminUserGroup.php](src_Entity_User_AdminUserGroup_php.md) <!-- repo:backend -->
+    - [AdminUser.php](src_Entity_User_AdminUser_php.md) <!-- repo:backend -->
+    - [ShopUser.php](src_Entity_User_ShopUser_php.md) <!-- repo:backend -->
+    - [UserOAuth.php](src_Entity_User_UserOAuth_php.md) <!-- repo:backend -->
 - **EventListener**
   - **EnterpriseBus**
-    - [EntityChangeListener.php](src_EventListener_EnterpriseBus_EntityChangeListener_php.md)
+    - [EntityChangeListener.php](src_EventListener_EnterpriseBus_EntityChangeListener_php.md) <!-- repo:backend -->
 - **apps**
   - **front-ecommerce**
     - **app**
       - **plugins**
-        - [5-google-identity.client.ts](apps_front-ecommerce_app_plugins_5-google-identity_client_ts.md)
+        - [5-google-identity.client.ts](apps_front-ecommerce_app_plugins_5-google-identity_client_ts.md) <!-- repo:frontend -->
 - **packages**
   - **types**
     - **src**
       - **cms**
-        - [strapiEntity.ts](packages_types_src_cms_strapiEntity_ts.md)
+        - [strapiEntity.ts](packages_types_src_cms_strapiEntity_ts.md) <!-- repo:frontend -->
 - **plugins**
   - **PayPalPlugin**
     - **src**
       - **Api**
-        - [IdentityApi.php](plugins_PayPalPlugin_src_Api_IdentityApi_php.md)
-        - [IdentityApiInterface.php](plugins_PayPalPlugin_src_Api_IdentityApiInterface_php.md)
+        - [IdentityApiInterface.php](plugins_PayPalPlugin_src_Api_IdentityApiInterface_php.md) <!-- repo:backend -->
+        - [IdentityApi.php](plugins_PayPalPlugin_src_Api_IdentityApi_php.md) <!-- repo:backend -->
       - **Entity**
-        - [PayPalCredentials.php](plugins_PayPalPlugin_src_Entity_PayPalCredentials_php.md)
-        - [PayPalCredentialsInterface.php](plugins_PayPalPlugin_src_Entity_PayPalCredentialsInterface_php.md)
+        - [PayPalCredentialsInterface.php](plugins_PayPalPlugin_src_Entity_PayPalCredentialsInterface_php.md) <!-- repo:backend -->
+        - [PayPalCredentials.php](plugins_PayPalPlugin_src_Entity_PayPalCredentials_php.md) <!-- repo:backend -->
 
 
 ## Repositories
 
 - **PubSub**
   - **BigQuery**
-    - [BigQueryRepository.php](src_PubSub_BigQuery_BigQueryRepository_php.md)
+    - [BigQueryRepository.php](src_PubSub_BigQuery_BigQueryRepository_php.md) <!-- repo:backend -->
 - **Repository**
-  - [AddressRepository.php](src_Repository_AddressRepository_php.md)
-  - [AnimalActivityRepository.php](src_Repository_AnimalActivityRepository_php.md)
-  - [AnimalBreedRepository.php](src_Repository_AnimalBreedRepository_php.md)
-  - [AnimalConditionRepository.php](src_Repository_AnimalConditionRepository_php.md)
-  - [AnimalDeletedReasonRepository.php](src_Repository_AnimalDeletedReasonRepository_php.md)
-  - [AnimalFeatureRepository.php](src_Repository_AnimalFeatureRepository_php.md)
-  - [AnimalFeedRepository.php](src_Repository_AnimalFeedRepository_php.md)
-  - [AnimalGenderRepository.php](src_Repository_AnimalGenderRepository_php.md)
-  - [AnimalKibbleBrandRepository.php](src_Repository_AnimalKibbleBrandRepository_php.md)
-  - [AnimalRepository.php](src_Repository_AnimalRepository_php.md)
-  - [AnimalTypeRepository.php](src_Repository_AnimalTypeRepository_php.md)
-  - [ChannelRepository.php](src_Repository_ChannelRepository_php.md)
-  - [CustomerRepository.php](src_Repository_CustomerRepository_php.md)
-  - [HolidayDateRepository.php](src_Repository_HolidayDateRepository_php.md)
   - **Order**
-    - [OrderItemRepository.php](src_Repository_Order_OrderItemRepository_php.md)
-    - [OrderRepository.php](src_Repository_Order_OrderRepository_php.md)
-    - [OrderRuleConditionRepository.php](src_Repository_Order_OrderRuleConditionRepository_php.md)
-    - [OrderRuleRepository.php](src_Repository_Order_OrderRuleRepository_php.md)
-    - [OrderRuleTranslationRepository.php](src_Repository_Order_OrderRuleTranslationRepository_php.md)
+    - [OrderItemRepository.php](src_Repository_Order_OrderItemRepository_php.md) <!-- repo:backend -->
+    - [OrderRepository.php](src_Repository_Order_OrderRepository_php.md) <!-- repo:backend -->
+    - [OrderRuleConditionRepository.php](src_Repository_Order_OrderRuleConditionRepository_php.md) <!-- repo:backend -->
+    - [OrderRuleRepository.php](src_Repository_Order_OrderRuleRepository_php.md) <!-- repo:backend -->
+    - [OrderRuleTranslationRepository.php](src_Repository_Order_OrderRuleTranslationRepository_php.md) <!-- repo:backend -->
   - **Payment**
-    - [PaymentMethodChargesRepository.php](src_Repository_Payment_PaymentMethodChargesRepository_php.md)
-  - [PaymentMethodRepository.php](src_Repository_PaymentMethodRepository_php.md)
+    - [PaymentMethodChargesRepository.php](src_Repository_Payment_PaymentMethodChargesRepository_php.md) <!-- repo:backend -->
   - **PickupPoint**
-    - [PickupAddressRepository.php](src_Repository_PickupPoint_PickupAddressRepository_php.md)
-    - [PickupPointRepository.php](src_Repository_PickupPoint_PickupPointRepository_php.md)
+    - [PickupAddressRepository.php](src_Repository_PickupPoint_PickupAddressRepository_php.md) <!-- repo:backend -->
+    - [PickupPointRepository.php](src_Repository_PickupPoint_PickupPointRepository_php.md) <!-- repo:backend -->
   - **Product**
-    - [PriceChangeRepository.php](src_Repository_Product_PriceChangeRepository_php.md)
-  - [ProductRepository.php](src_Repository_ProductRepository_php.md)
-  - [ProductVariantRepository.php](src_Repository_ProductVariantRepository_php.md)
+    - [PriceChangeRepository.php](src_Repository_Product_PriceChangeRepository_php.md) <!-- repo:backend -->
   - **Promotion**
-    - [PromotionAnalyticCategoryRepository.php](src_Repository_Promotion_PromotionAnalyticCategoryRepository_php.md)
-    - [PromotionCouponCustomerRepository.php](src_Repository_Promotion_PromotionCouponCustomerRepository_php.md)
-    - [PromotionCouponRepository.php](src_Repository_Promotion_PromotionCouponRepository_php.md)
-    - [PromotionCouponRepositoryInterface.php](src_Repository_Promotion_PromotionCouponRepositoryInterface_php.md)
-  - [PromotionRepository.php](src_Repository_PromotionRepository_php.md)
-  - [PromotionRepositoryInterface.php](src_Repository_PromotionRepositoryInterface_php.md)
-  - [ShippingMethodRepository.php](src_Repository_ShippingMethodRepository_php.md)
-  - [ShippingRangePriceItemRepository.php](src_Repository_ShippingRangePriceItemRepository_php.md)
-  - [ShippingRangePriceRepository.php](src_Repository_ShippingRangePriceRepository_php.md)
-  - [ShippingZoneMemberRepository.php](src_Repository_ShippingZoneMemberRepository_php.md)
+    - [PromotionAnalyticCategoryRepository.php](src_Repository_Promotion_PromotionAnalyticCategoryRepository_php.md) <!-- repo:backend -->
+    - [PromotionCouponCustomerRepository.php](src_Repository_Promotion_PromotionCouponCustomerRepository_php.md) <!-- repo:backend -->
+    - [PromotionCouponRepositoryInterface.php](src_Repository_Promotion_PromotionCouponRepositoryInterface_php.md) <!-- repo:backend -->
+    - [PromotionCouponRepository.php](src_Repository_Promotion_PromotionCouponRepository_php.md) <!-- repo:backend -->
   - **Subscription**
-    - [SubscriptionFrequencyGroupRepository.php](src_Repository_Subscription_SubscriptionFrequencyGroupRepository_php.md)
-    - [SubscriptionItemRepository.php](src_Repository_Subscription_SubscriptionItemRepository_php.md)
-    - [SubscriptionMonitoringRepository.php](src_Repository_Subscription_SubscriptionMonitoringRepository_php.md)
-    - [SubscriptionOrderRepository.php](src_Repository_Subscription_SubscriptionOrderRepository_php.md)
-    - [SubscriptionRepository.php](src_Repository_Subscription_SubscriptionRepository_php.md)
-  - [UpSellRepository.php](src_Repository_UpSellRepository_php.md)
-  - [UpSellVariantRepository.php](src_Repository_UpSellVariantRepository_php.md)
+    - [SubscriptionFrequencyGroupRepository.php](src_Repository_Subscription_SubscriptionFrequencyGroupRepository_php.md) <!-- repo:backend -->
+    - [SubscriptionItemRepository.php](src_Repository_Subscription_SubscriptionItemRepository_php.md) <!-- repo:backend -->
+    - [SubscriptionMonitoringRepository.php](src_Repository_Subscription_SubscriptionMonitoringRepository_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderRepository.php](src_Repository_Subscription_SubscriptionOrderRepository_php.md) <!-- repo:backend -->
+    - [SubscriptionRepository.php](src_Repository_Subscription_SubscriptionRepository_php.md) <!-- repo:backend -->
+  - [AddressRepository.php](src_Repository_AddressRepository_php.md) <!-- repo:backend -->
+  - [AnimalActivityRepository.php](src_Repository_AnimalActivityRepository_php.md) <!-- repo:backend -->
+  - [AnimalBreedRepository.php](src_Repository_AnimalBreedRepository_php.md) <!-- repo:backend -->
+  - [AnimalConditionRepository.php](src_Repository_AnimalConditionRepository_php.md) <!-- repo:backend -->
+  - [AnimalDeletedReasonRepository.php](src_Repository_AnimalDeletedReasonRepository_php.md) <!-- repo:backend -->
+  - [AnimalFeatureRepository.php](src_Repository_AnimalFeatureRepository_php.md) <!-- repo:backend -->
+  - [AnimalFeedRepository.php](src_Repository_AnimalFeedRepository_php.md) <!-- repo:backend -->
+  - [AnimalGenderRepository.php](src_Repository_AnimalGenderRepository_php.md) <!-- repo:backend -->
+  - [AnimalKibbleBrandRepository.php](src_Repository_AnimalKibbleBrandRepository_php.md) <!-- repo:backend -->
+  - [AnimalRepository.php](src_Repository_AnimalRepository_php.md) <!-- repo:backend -->
+  - [AnimalTypeRepository.php](src_Repository_AnimalTypeRepository_php.md) <!-- repo:backend -->
+  - [ChannelRepository.php](src_Repository_ChannelRepository_php.md) <!-- repo:backend -->
+  - [CustomerRepository.php](src_Repository_CustomerRepository_php.md) <!-- repo:backend -->
+  - [HolidayDateRepository.php](src_Repository_HolidayDateRepository_php.md) <!-- repo:backend -->
+  - [PaymentMethodRepository.php](src_Repository_PaymentMethodRepository_php.md) <!-- repo:backend -->
+  - [ProductRepository.php](src_Repository_ProductRepository_php.md) <!-- repo:backend -->
+  - [ProductVariantRepository.php](src_Repository_ProductVariantRepository_php.md) <!-- repo:backend -->
+  - [PromotionRepositoryInterface.php](src_Repository_PromotionRepositoryInterface_php.md) <!-- repo:backend -->
+  - [PromotionRepository.php](src_Repository_PromotionRepository_php.md) <!-- repo:backend -->
+  - [ShippingMethodRepository.php](src_Repository_ShippingMethodRepository_php.md) <!-- repo:backend -->
+  - [ShippingRangePriceItemRepository.php](src_Repository_ShippingRangePriceItemRepository_php.md) <!-- repo:backend -->
+  - [ShippingRangePriceRepository.php](src_Repository_ShippingRangePriceRepository_php.md) <!-- repo:backend -->
+  - [ShippingZoneMemberRepository.php](src_Repository_ShippingZoneMemberRepository_php.md) <!-- repo:backend -->
+  - [UpSellRepository.php](src_Repository_UpSellRepository_php.md) <!-- repo:backend -->
+  - [UpSellVariantRepository.php](src_Repository_UpSellVariantRepository_php.md) <!-- repo:backend -->
 
 
 ## Commands
@@ -439,508 +439,508 @@
 - **Activity**
   - **Command**
     - **Subscription**
-      - [ChangePaymentSubscriptionActivity.php](src_Activity_Command_Subscription_ChangePaymentSubscriptionActivity_php.md)
-      - [CreateSubscriptionActivity.php](src_Activity_Command_Subscription_CreateSubscriptionActivity_php.md)
-      - [DebitSubscriptionActivity.php](src_Activity_Command_Subscription_DebitSubscriptionActivity_php.md)
-      - [PlanificationChangeSubscriptionActivity.php](src_Activity_Command_Subscription_PlanificationChangeSubscriptionActivity_php.md)
-      - [RequestDebitSubscriptionActivity.php](src_Activity_Command_Subscription_RequestDebitSubscriptionActivity_php.md)
+      - [ChangePaymentSubscriptionActivity.php](src_Activity_Command_Subscription_ChangePaymentSubscriptionActivity_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionActivity.php](src_Activity_Command_Subscription_CreateSubscriptionActivity_php.md) <!-- repo:backend -->
+      - [DebitSubscriptionActivity.php](src_Activity_Command_Subscription_DebitSubscriptionActivity_php.md) <!-- repo:backend -->
+      - [PlanificationChangeSubscriptionActivity.php](src_Activity_Command_Subscription_PlanificationChangeSubscriptionActivity_php.md) <!-- repo:backend -->
+      - [RequestDebitSubscriptionActivity.php](src_Activity_Command_Subscription_RequestDebitSubscriptionActivity_php.md) <!-- repo:backend -->
   - **CommandHandler**
     - **Subscription**
-      - [ChangePaymentSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_ChangePaymentSubscriptionActivityHandler_php.md)
-      - [CreateSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_CreateSubscriptionActivityHandler_php.md)
-      - [DebitSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_DebitSubscriptionActivityHandler_php.md)
-      - [PlanificationChangeSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_PlanificationChangeSubscriptionActivityHandler_php.md)
-      - [RequestDebitSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_RequestDebitSubscriptionActivityHandler_php.md)
+      - [ChangePaymentSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_ChangePaymentSubscriptionActivityHandler_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_CreateSubscriptionActivityHandler_php.md) <!-- repo:backend -->
+      - [DebitSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_DebitSubscriptionActivityHandler_php.md) <!-- repo:backend -->
+      - [PlanificationChangeSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_PlanificationChangeSubscriptionActivityHandler_php.md) <!-- repo:backend -->
+      - [RequestDebitSubscriptionActivityHandler.php](src_Activity_CommandHandler_Subscription_RequestDebitSubscriptionActivityHandler_php.md) <!-- repo:backend -->
 - **Api**
   - **Command**
     - **Account**
-      - [RegisterShopUser.php](src_Api_Command_Account_RegisterShopUser_php.md)
+      - [RegisterShopUser.php](src_Api_Command_Account_RegisterShopUser_php.md) <!-- repo:backend -->
     - **Cart**
-      - [AddItemToCart.php](src_Api_Command_Cart_AddItemToCart_php.md)
-      - [ApplyCouponToCart.php](src_Api_Command_Cart_ApplyCouponToCart_php.md)
-      - [ChangeItemQuantityInCart.php](src_Api_Command_Cart_ChangeItemQuantityInCart_php.md)
-      - [CheckCouponForCart.php](src_Api_Command_Cart_CheckCouponForCart_php.md)
-      - [CreatePromotionForCart.php](src_Api_Command_Cart_CreatePromotionForCart_php.md)
-      - [ItemQuantityEligibilityInterface.php](src_Api_Command_Cart_ItemQuantityEligibilityInterface_php.md)
-      - [OrderPromotionCoupon.php](src_Api_Command_Cart_OrderPromotionCoupon_php.md)
-      - [PickupCart.php](src_Api_Command_Cart_PickupCart_php.md)
-      - [RemoveCart.php](src_Api_Command_Cart_RemoveCart_php.md)
-      - [RemoveCouponFromCart.php](src_Api_Command_Cart_RemoveCouponFromCart_php.md)
+      - [AddItemToCart.php](src_Api_Command_Cart_AddItemToCart_php.md) <!-- repo:backend -->
+      - [ApplyCouponToCart.php](src_Api_Command_Cart_ApplyCouponToCart_php.md) <!-- repo:backend -->
+      - [ChangeItemQuantityInCart.php](src_Api_Command_Cart_ChangeItemQuantityInCart_php.md) <!-- repo:backend -->
+      - [CheckCouponForCart.php](src_Api_Command_Cart_CheckCouponForCart_php.md) <!-- repo:backend -->
+      - [CreatePromotionForCart.php](src_Api_Command_Cart_CreatePromotionForCart_php.md) <!-- repo:backend -->
+      - [ItemQuantityEligibilityInterface.php](src_Api_Command_Cart_ItemQuantityEligibilityInterface_php.md) <!-- repo:backend -->
+      - [OrderPromotionCoupon.php](src_Api_Command_Cart_OrderPromotionCoupon_php.md) <!-- repo:backend -->
+      - [PickupCart.php](src_Api_Command_Cart_PickupCart_php.md) <!-- repo:backend -->
+      - [RemoveCart.php](src_Api_Command_Cart_RemoveCart_php.md) <!-- repo:backend -->
+      - [RemoveCouponFromCart.php](src_Api_Command_Cart_RemoveCouponFromCart_php.md) <!-- repo:backend -->
     - **Checkout**
-      - [AddBillToOrder.php](src_Api_Command_Checkout_AddBillToOrder_php.md)
-      - [AddShipment.php](src_Api_Command_Checkout_AddShipment_php.md)
-      - [AddressOrder.php](src_Api_Command_Checkout_AddressOrder_php.md)
-      - [AssignCustomer.php](src_Api_Command_Checkout_AssignCustomer_php.md)
-      - [ChoosePaymentMethod.php](src_Api_Command_Checkout_ChoosePaymentMethod_php.md)
-      - [ChooseShippingMethod.php](src_Api_Command_Checkout_ChooseShippingMethod_php.md)
-      - [CompleteOrder.php](src_Api_Command_Checkout_CompleteOrder_php.md)
-      - [PatchOrder.php](src_Api_Command_Checkout_PatchOrder_php.md)
-      - [UnaddressedOrder.php](src_Api_Command_Checkout_UnaddressedOrder_php.md)
-      - [UnselectShippingMethod.php](src_Api_Command_Checkout_UnselectShippingMethod_php.md)
+      - [AddBillToOrder.php](src_Api_Command_Checkout_AddBillToOrder_php.md) <!-- repo:backend -->
+      - [AddShipment.php](src_Api_Command_Checkout_AddShipment_php.md) <!-- repo:backend -->
+      - [AddressOrder.php](src_Api_Command_Checkout_AddressOrder_php.md) <!-- repo:backend -->
+      - [AssignCustomer.php](src_Api_Command_Checkout_AssignCustomer_php.md) <!-- repo:backend -->
+      - [ChoosePaymentMethod.php](src_Api_Command_Checkout_ChoosePaymentMethod_php.md) <!-- repo:backend -->
+      - [ChooseShippingMethod.php](src_Api_Command_Checkout_ChooseShippingMethod_php.md) <!-- repo:backend -->
+      - [CompleteOrder.php](src_Api_Command_Checkout_CompleteOrder_php.md) <!-- repo:backend -->
+      - [PatchOrder.php](src_Api_Command_Checkout_PatchOrder_php.md) <!-- repo:backend -->
+      - [UnaddressedOrder.php](src_Api_Command_Checkout_UnaddressedOrder_php.md) <!-- repo:backend -->
+      - [UnselectShippingMethod.php](src_Api_Command_Checkout_UnselectShippingMethod_php.md) <!-- repo:backend -->
     - **Customer**
-      - [DeleteCustomer.php](src_Api_Command_Customer_DeleteCustomer_php.md)
-      - [ForceSyncWebmethodCustomer.php](src_Api_Command_Customer_ForceSyncWebmethodCustomer_php.md)
+      - [DeleteCustomer.php](src_Api_Command_Customer_DeleteCustomer_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodCustomer.php](src_Api_Command_Customer_ForceSyncWebmethodCustomer_php.md) <!-- repo:backend -->
     - **Order**
-      - [AddTrackingShippingNumber.php](src_Api_Command_Order_AddTrackingShippingNumber_php.md)
-      - [ForceSyncWebmethodOrder.php](src_Api_Command_Order_ForceSyncWebmethodOrder_php.md)
-      - [GetWebmethodOrder.php](src_Api_Command_Order_GetWebmethodOrder_php.md)
-      - [RefundOrder.php](src_Api_Command_Order_RefundOrder_php.md)
+      - [AddTrackingShippingNumber.php](src_Api_Command_Order_AddTrackingShippingNumber_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodOrder.php](src_Api_Command_Order_ForceSyncWebmethodOrder_php.md) <!-- repo:backend -->
+      - [GetWebmethodOrder.php](src_Api_Command_Order_GetWebmethodOrder_php.md) <!-- repo:backend -->
+      - [RefundOrder.php](src_Api_Command_Order_RefundOrder_php.md) <!-- repo:backend -->
     - **Payment**
-      - [CompletePayment.php](src_Api_Command_Payment_CompletePayment_php.md)
+      - [CompletePayment.php](src_Api_Command_Payment_CompletePayment_php.md) <!-- repo:backend -->
     - **PaymentInstrument**
-      - [ChoosePaymentMethod.php](src_Api_Command_PaymentInstrument_ChoosePaymentMethod_php.md)
-      - [CreateInstrument.php](src_Api_Command_PaymentInstrument_CreateInstrument_php.md)
-      - [UpdateInstrument.php](src_Api_Command_PaymentInstrument_UpdateInstrument_php.md)
+      - [ChoosePaymentMethod.php](src_Api_Command_PaymentInstrument_ChoosePaymentMethod_php.md) <!-- repo:backend -->
+      - [CreateInstrument.php](src_Api_Command_PaymentInstrument_CreateInstrument_php.md) <!-- repo:backend -->
+      - [UpdateInstrument.php](src_Api_Command_PaymentInstrument_UpdateInstrument_php.md) <!-- repo:backend -->
     - **ProductVariant**
-      - [ReplaceRequest.php](src_Api_Command_ProductVariant_ReplaceRequest_php.md)
+      - [ReplaceRequest.php](src_Api_Command_ProductVariant_ReplaceRequest_php.md) <!-- repo:backend -->
     - **Promotion**
-      - [AbstractPromotionCoupon.php](src_Api_Command_Promotion_AbstractPromotionCoupon_php.md)
-      - [CreatePromotionCoupon.php](src_Api_Command_Promotion_CreatePromotionCoupon_php.md)
-      - [ForceSyncWebmethodPromotion.php](src_Api_Command_Promotion_ForceSyncWebmethodPromotion_php.md)
-      - [GeneratePromotionCoupon.php](src_Api_Command_Promotion_GeneratePromotionCoupon_php.md)
-      - [UpdatePromotionCoupon.php](src_Api_Command_Promotion_UpdatePromotionCoupon_php.md)
+      - [AbstractPromotionCoupon.php](src_Api_Command_Promotion_AbstractPromotionCoupon_php.md) <!-- repo:backend -->
+      - [CreatePromotionCoupon.php](src_Api_Command_Promotion_CreatePromotionCoupon_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodPromotion.php](src_Api_Command_Promotion_ForceSyncWebmethodPromotion_php.md) <!-- repo:backend -->
+      - [GeneratePromotionCoupon.php](src_Api_Command_Promotion_GeneratePromotionCoupon_php.md) <!-- repo:backend -->
+      - [UpdatePromotionCoupon.php](src_Api_Command_Promotion_UpdatePromotionCoupon_php.md) <!-- repo:backend -->
     - **Subscription**
-      - [AbstractSubscriptionComment.php](src_Api_Command_Subscription_AbstractSubscriptionComment_php.md)
-      - [AddItemToSubscription.php](src_Api_Command_Subscription_AddItemToSubscription_php.md)
-      - [CancelSubscription.php](src_Api_Command_Subscription_CancelSubscription_php.md)
-      - [ChangeItemQuantitySubscription.php](src_Api_Command_Subscription_ChangeItemQuantitySubscription_php.md)
-      - [CreateSubscriptionComment.php](src_Api_Command_Subscription_CreateSubscriptionComment_php.md)
-      - [DebitSubscription.php](src_Api_Command_Subscription_DebitSubscription_php.md)
-      - [DeleteItemToSubscription.php](src_Api_Command_Subscription_DeleteItemToSubscription_php.md)
-      - [ForceSendNextShippingEmail.php](src_Api_Command_Subscription_ForceSendNextShippingEmail_php.md)
-      - [ForceSendNextShippingSoonEmail.php](src_Api_Command_Subscription_ForceSendNextShippingSoonEmail_php.md)
-      - [ForceSyncWebmethodSubscription.php](src_Api_Command_Subscription_ForceSyncWebmethodSubscription_php.md)
-      - [GetWebmethodSubscription.php](src_Api_Command_Subscription_GetWebmethodSubscription_php.md)
-      - [RemoveSubscriptionComment.php](src_Api_Command_Subscription_RemoveSubscriptionComment_php.md)
-      - [UpdateIntervalShippingDateSubscription.php](src_Api_Command_Subscription_UpdateIntervalShippingDateSubscription_php.md)
-      - [UpdateProductOfDraftOrder.php](src_Api_Command_Subscription_UpdateProductOfDraftOrder_php.md)
-      - [UpdateShippingSubscription.php](src_Api_Command_Subscription_UpdateShippingSubscription_php.md)
-      - [UpdateSubscriptionComment.php](src_Api_Command_Subscription_UpdateSubscriptionComment_php.md)
+      - [AbstractSubscriptionComment.php](src_Api_Command_Subscription_AbstractSubscriptionComment_php.md) <!-- repo:backend -->
+      - [AddItemToSubscription.php](src_Api_Command_Subscription_AddItemToSubscription_php.md) <!-- repo:backend -->
+      - [CancelSubscription.php](src_Api_Command_Subscription_CancelSubscription_php.md) <!-- repo:backend -->
+      - [ChangeItemQuantitySubscription.php](src_Api_Command_Subscription_ChangeItemQuantitySubscription_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionComment.php](src_Api_Command_Subscription_CreateSubscriptionComment_php.md) <!-- repo:backend -->
+      - [DebitSubscription.php](src_Api_Command_Subscription_DebitSubscription_php.md) <!-- repo:backend -->
+      - [DeleteItemToSubscription.php](src_Api_Command_Subscription_DeleteItemToSubscription_php.md) <!-- repo:backend -->
+      - [ForceSendNextShippingEmail.php](src_Api_Command_Subscription_ForceSendNextShippingEmail_php.md) <!-- repo:backend -->
+      - [ForceSendNextShippingSoonEmail.php](src_Api_Command_Subscription_ForceSendNextShippingSoonEmail_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodSubscription.php](src_Api_Command_Subscription_ForceSyncWebmethodSubscription_php.md) <!-- repo:backend -->
+      - [GetWebmethodSubscription.php](src_Api_Command_Subscription_GetWebmethodSubscription_php.md) <!-- repo:backend -->
+      - [RemoveSubscriptionComment.php](src_Api_Command_Subscription_RemoveSubscriptionComment_php.md) <!-- repo:backend -->
+      - [UpdateIntervalShippingDateSubscription.php](src_Api_Command_Subscription_UpdateIntervalShippingDateSubscription_php.md) <!-- repo:backend -->
+      - [UpdateProductOfDraftOrder.php](src_Api_Command_Subscription_UpdateProductOfDraftOrder_php.md) <!-- repo:backend -->
+      - [UpdateShippingSubscription.php](src_Api_Command_Subscription_UpdateShippingSubscription_php.md) <!-- repo:backend -->
+      - [UpdateSubscriptionComment.php](src_Api_Command_Subscription_UpdateSubscriptionComment_php.md) <!-- repo:backend -->
     - **SubscriptionOrder**
-      - [AddItemToSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_AddItemToSubscriptionOrder_php.md)
-      - [CancelSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_CancelSubscriptionOrder_php.md)
-      - [ChangeItemQuantitySubscriptionOrder.php](src_Api_Command_SubscriptionOrder_ChangeItemQuantitySubscriptionOrder_php.md)
-      - [CreateSubscriptionOrderFromSubscription.php](src_Api_Command_SubscriptionOrder_CreateSubscriptionOrderFromSubscription_php.md)
-      - [DeleteItemToSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_DeleteItemToSubscriptionOrder_php.md)
-      - [UpdateShippingSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_UpdateShippingSubscriptionOrder_php.md)
-    - [UpdateShipping.php](src_Api_Command_UpdateShipping_php.md)
+      - [AddItemToSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_AddItemToSubscriptionOrder_php.md) <!-- repo:backend -->
+      - [CancelSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_CancelSubscriptionOrder_php.md) <!-- repo:backend -->
+      - [ChangeItemQuantitySubscriptionOrder.php](src_Api_Command_SubscriptionOrder_ChangeItemQuantitySubscriptionOrder_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionOrderFromSubscription.php](src_Api_Command_SubscriptionOrder_CreateSubscriptionOrderFromSubscription_php.md) <!-- repo:backend -->
+      - [DeleteItemToSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_DeleteItemToSubscriptionOrder_php.md) <!-- repo:backend -->
+      - [UpdateShippingSubscriptionOrder.php](src_Api_Command_SubscriptionOrder_UpdateShippingSubscriptionOrder_php.md) <!-- repo:backend -->
+    - [UpdateShipping.php](src_Api_Command_UpdateShipping_php.md) <!-- repo:backend -->
   - **CommandHandler**
     - **Account**
-      - [RegisterShopUserHandler.php](src_Api_CommandHandler_Account_RegisterShopUserHandler_php.md)
+      - [RegisterShopUserHandler.php](src_Api_CommandHandler_Account_RegisterShopUserHandler_php.md) <!-- repo:backend -->
     - **Cart**
-      - [AddItemToCartHandler.php](src_Api_CommandHandler_Cart_AddItemToCartHandler_php.md)
-      - [ApplyCouponToCartHandler.php](src_Api_CommandHandler_Cart_ApplyCouponToCartHandler_php.md)
-      - [BlameCartHandler.php](src_Api_CommandHandler_Cart_BlameCartHandler_php.md)
-      - [ChangeItemQuantityInCartHandler.php](src_Api_CommandHandler_Cart_ChangeItemQuantityInCartHandler_php.md)
-      - [CheckCouponForCartHandler.php](src_Api_CommandHandler_Cart_CheckCouponForCartHandler_php.md)
-      - [CreatePromotionForCartHandler.php](src_Api_CommandHandler_Cart_CreatePromotionForCartHandler_php.md)
-      - [PickupCartHandler.php](src_Api_CommandHandler_Cart_PickupCartHandler_php.md)
-      - [RemoveCartHandler.php](src_Api_CommandHandler_Cart_RemoveCartHandler_php.md)
-      - [RemoveCouponFromCartHandler.php](src_Api_CommandHandler_Cart_RemoveCouponFromCartHandler_php.md)
-      - [RemoveItemFromCartHandler.php](src_Api_CommandHandler_Cart_RemoveItemFromCartHandler_php.md)
+      - [AddItemToCartHandler.php](src_Api_CommandHandler_Cart_AddItemToCartHandler_php.md) <!-- repo:backend -->
+      - [ApplyCouponToCartHandler.php](src_Api_CommandHandler_Cart_ApplyCouponToCartHandler_php.md) <!-- repo:backend -->
+      - [BlameCartHandler.php](src_Api_CommandHandler_Cart_BlameCartHandler_php.md) <!-- repo:backend -->
+      - [ChangeItemQuantityInCartHandler.php](src_Api_CommandHandler_Cart_ChangeItemQuantityInCartHandler_php.md) <!-- repo:backend -->
+      - [CheckCouponForCartHandler.php](src_Api_CommandHandler_Cart_CheckCouponForCartHandler_php.md) <!-- repo:backend -->
+      - [CreatePromotionForCartHandler.php](src_Api_CommandHandler_Cart_CreatePromotionForCartHandler_php.md) <!-- repo:backend -->
+      - [PickupCartHandler.php](src_Api_CommandHandler_Cart_PickupCartHandler_php.md) <!-- repo:backend -->
+      - [RemoveCartHandler.php](src_Api_CommandHandler_Cart_RemoveCartHandler_php.md) <!-- repo:backend -->
+      - [RemoveCouponFromCartHandler.php](src_Api_CommandHandler_Cart_RemoveCouponFromCartHandler_php.md) <!-- repo:backend -->
+      - [RemoveItemFromCartHandler.php](src_Api_CommandHandler_Cart_RemoveItemFromCartHandler_php.md) <!-- repo:backend -->
     - **Checkout**
-      - [AddBillToOrderHandler.php](src_Api_CommandHandler_Checkout_AddBillToOrderHandler_php.md)
-      - [AddShipmentHandler.php](src_Api_CommandHandler_Checkout_AddShipmentHandler_php.md)
-      - [AddressOrderHandler.php](src_Api_CommandHandler_Checkout_AddressOrderHandler_php.md)
-      - [AssignCustomerHandler.php](src_Api_CommandHandler_Checkout_AssignCustomerHandler_php.md)
-      - [ChoosePaymentMethodHandler.php](src_Api_CommandHandler_Checkout_ChoosePaymentMethodHandler_php.md)
-      - [ChooseShippingMethodHandler.php](src_Api_CommandHandler_Checkout_ChooseShippingMethodHandler_php.md)
-      - [CompleteOrderHandler.php](src_Api_CommandHandler_Checkout_CompleteOrderHandler_php.md)
-      - [PatchOrderHandler.php](src_Api_CommandHandler_Checkout_PatchOrderHandler_php.md)
-      - [ShipShipmentHandler.php](src_Api_CommandHandler_Checkout_ShipShipmentHandler_php.md)
-      - [UnaddressedOrderHandler.php](src_Api_CommandHandler_Checkout_UnaddressedOrderHandler_php.md)
-      - [UnselectShippingMethodHandler.php](src_Api_CommandHandler_Checkout_UnselectShippingMethodHandler_php.md)
+      - [AddBillToOrderHandler.php](src_Api_CommandHandler_Checkout_AddBillToOrderHandler_php.md) <!-- repo:backend -->
+      - [AddShipmentHandler.php](src_Api_CommandHandler_Checkout_AddShipmentHandler_php.md) <!-- repo:backend -->
+      - [AddressOrderHandler.php](src_Api_CommandHandler_Checkout_AddressOrderHandler_php.md) <!-- repo:backend -->
+      - [AssignCustomerHandler.php](src_Api_CommandHandler_Checkout_AssignCustomerHandler_php.md) <!-- repo:backend -->
+      - [ChoosePaymentMethodHandler.php](src_Api_CommandHandler_Checkout_ChoosePaymentMethodHandler_php.md) <!-- repo:backend -->
+      - [ChooseShippingMethodHandler.php](src_Api_CommandHandler_Checkout_ChooseShippingMethodHandler_php.md) <!-- repo:backend -->
+      - [CompleteOrderHandler.php](src_Api_CommandHandler_Checkout_CompleteOrderHandler_php.md) <!-- repo:backend -->
+      - [PatchOrderHandler.php](src_Api_CommandHandler_Checkout_PatchOrderHandler_php.md) <!-- repo:backend -->
+      - [ShipShipmentHandler.php](src_Api_CommandHandler_Checkout_ShipShipmentHandler_php.md) <!-- repo:backend -->
+      - [UnaddressedOrderHandler.php](src_Api_CommandHandler_Checkout_UnaddressedOrderHandler_php.md) <!-- repo:backend -->
+      - [UnselectShippingMethodHandler.php](src_Api_CommandHandler_Checkout_UnselectShippingMethodHandler_php.md) <!-- repo:backend -->
     - **Customer**
-      - [DeleteCustomerHandler.php](src_Api_CommandHandler_Customer_DeleteCustomerHandler_php.md)
-      - [ForceSyncWebmethodCustomerHandler.php](src_Api_CommandHandler_Customer_ForceSyncWebmethodCustomerHandler_php.md)
+      - [DeleteCustomerHandler.php](src_Api_CommandHandler_Customer_DeleteCustomerHandler_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodCustomerHandler.php](src_Api_CommandHandler_Customer_ForceSyncWebmethodCustomerHandler_php.md) <!-- repo:backend -->
     - **Email**
-      - [SendAccountRegistrationEmailHandler.php](src_Api_CommandHandler_Email_SendAccountRegistrationEmailHandler_php.md)
+      - [SendAccountRegistrationEmailHandler.php](src_Api_CommandHandler_Email_SendAccountRegistrationEmailHandler_php.md) <!-- repo:backend -->
     - **Locale**
-      - [LocaleTrait.php](src_Api_CommandHandler_Locale_LocaleTrait_php.md)
+      - [LocaleTrait.php](src_Api_CommandHandler_Locale_LocaleTrait_php.md) <!-- repo:backend -->
     - **Order**
-      - [AddTrackingShippingNumberHandler.php](src_Api_CommandHandler_Order_AddTrackingShippingNumberHandler_php.md)
-      - [ForceSyncWebmethodOrderHandler.php](src_Api_CommandHandler_Order_ForceSyncWebmethodOrderHandler_php.md)
-      - [GetWebmethodOrderHandler.php](src_Api_CommandHandler_Order_GetWebmethodOrderHandler_php.md)
-      - [RefundOrderHandler.php](src_Api_CommandHandler_Order_RefundOrderHandler_php.md)
+      - [AddTrackingShippingNumberHandler.php](src_Api_CommandHandler_Order_AddTrackingShippingNumberHandler_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodOrderHandler.php](src_Api_CommandHandler_Order_ForceSyncWebmethodOrderHandler_php.md) <!-- repo:backend -->
+      - [GetWebmethodOrderHandler.php](src_Api_CommandHandler_Order_GetWebmethodOrderHandler_php.md) <!-- repo:backend -->
+      - [RefundOrderHandler.php](src_Api_CommandHandler_Order_RefundOrderHandler_php.md) <!-- repo:backend -->
     - **Payment**
-      - [CompletePaymentHandler.php](src_Api_CommandHandler_Payment_CompletePaymentHandler_php.md)
+      - [CompletePaymentHandler.php](src_Api_CommandHandler_Payment_CompletePaymentHandler_php.md) <!-- repo:backend -->
     - **PaymentInstrument**
-      - [ChoosePaymentMethodHandler.php](src_Api_CommandHandler_PaymentInstrument_ChoosePaymentMethodHandler_php.md)
-      - [CreateInstrumentHandler.php](src_Api_CommandHandler_PaymentInstrument_CreateInstrumentHandler_php.md)
-      - [UpdateInstrumentHandler.php](src_Api_CommandHandler_PaymentInstrument_UpdateInstrumentHandler_php.md)
+      - [ChoosePaymentMethodHandler.php](src_Api_CommandHandler_PaymentInstrument_ChoosePaymentMethodHandler_php.md) <!-- repo:backend -->
+      - [CreateInstrumentHandler.php](src_Api_CommandHandler_PaymentInstrument_CreateInstrumentHandler_php.md) <!-- repo:backend -->
+      - [UpdateInstrumentHandler.php](src_Api_CommandHandler_PaymentInstrument_UpdateInstrumentHandler_php.md) <!-- repo:backend -->
     - **ProductVariant**
-      - [ReplaceRequestHandler.php](src_Api_CommandHandler_ProductVariant_ReplaceRequestHandler_php.md)
+      - [ReplaceRequestHandler.php](src_Api_CommandHandler_ProductVariant_ReplaceRequestHandler_php.md) <!-- repo:backend -->
     - **Promotion**
-      - [CreatePromotionCouponHandler.php](src_Api_CommandHandler_Promotion_CreatePromotionCouponHandler_php.md)
-      - [ForceSyncWebmethodPromotionHandler.php](src_Api_CommandHandler_Promotion_ForceSyncWebmethodPromotionHandler_php.md)
-      - [GeneratePromotionCouponHandler.php](src_Api_CommandHandler_Promotion_GeneratePromotionCouponHandler_php.md)
-      - [UpdatePromotionCouponHandler.php](src_Api_CommandHandler_Promotion_UpdatePromotionCouponHandler_php.md)
+      - [CreatePromotionCouponHandler.php](src_Api_CommandHandler_Promotion_CreatePromotionCouponHandler_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodPromotionHandler.php](src_Api_CommandHandler_Promotion_ForceSyncWebmethodPromotionHandler_php.md) <!-- repo:backend -->
+      - [GeneratePromotionCouponHandler.php](src_Api_CommandHandler_Promotion_GeneratePromotionCouponHandler_php.md) <!-- repo:backend -->
+      - [UpdatePromotionCouponHandler.php](src_Api_CommandHandler_Promotion_UpdatePromotionCouponHandler_php.md) <!-- repo:backend -->
     - **Subscription**
-      - [AddItemToSubscriptionHandler.php](src_Api_CommandHandler_Subscription_AddItemToSubscriptionHandler_php.md)
-      - [CancelSubscriptionHandler.php](src_Api_CommandHandler_Subscription_CancelSubscriptionHandler_php.md)
-      - [ChangeItemQuantitySubscriptionHandler.php](src_Api_CommandHandler_Subscription_ChangeItemQuantitySubscriptionHandler_php.md)
-      - [CreateSubscriptionCommentHandler.php](src_Api_CommandHandler_Subscription_CreateSubscriptionCommentHandler_php.md)
-      - [DebitSubscriptionHandler.php](src_Api_CommandHandler_Subscription_DebitSubscriptionHandler_php.md)
-      - [DeleteItemToSubscriptionHandler.php](src_Api_CommandHandler_Subscription_DeleteItemToSubscriptionHandler_php.md)
-      - [ForceSendNextShippingEmailHandler.php](src_Api_CommandHandler_Subscription_ForceSendNextShippingEmailHandler_php.md)
-      - [ForceSyncWebmethodSubscriptionHandler.php](src_Api_CommandHandler_Subscription_ForceSyncWebmethodSubscriptionHandler_php.md)
-      - [GetWebmethodSubscriptionHandler.php](src_Api_CommandHandler_Subscription_GetWebmethodSubscriptionHandler_php.md)
-      - [RemoveSubscriptionCommentHandler.php](src_Api_CommandHandler_Subscription_RemoveSubscriptionCommentHandler_php.md)
-      - [UpdateIntervalShippingDateSubscriptionHandler.php](src_Api_CommandHandler_Subscription_UpdateIntervalShippingDateSubscriptionHandler_php.md)
-      - [UpdateProductOfDraftOrderHandler.php](src_Api_CommandHandler_Subscription_UpdateProductOfDraftOrderHandler_php.md)
-      - [UpdateShippingSubscriptionHandler.php](src_Api_CommandHandler_Subscription_UpdateShippingSubscriptionHandler_php.md)
-      - [UpdateSubscriptionCommentHandler.php](src_Api_CommandHandler_Subscription_UpdateSubscriptionCommentHandler_php.md)
+      - [AddItemToSubscriptionHandler.php](src_Api_CommandHandler_Subscription_AddItemToSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [CancelSubscriptionHandler.php](src_Api_CommandHandler_Subscription_CancelSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [ChangeItemQuantitySubscriptionHandler.php](src_Api_CommandHandler_Subscription_ChangeItemQuantitySubscriptionHandler_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionCommentHandler.php](src_Api_CommandHandler_Subscription_CreateSubscriptionCommentHandler_php.md) <!-- repo:backend -->
+      - [DebitSubscriptionHandler.php](src_Api_CommandHandler_Subscription_DebitSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [DeleteItemToSubscriptionHandler.php](src_Api_CommandHandler_Subscription_DeleteItemToSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [ForceSendNextShippingEmailHandler.php](src_Api_CommandHandler_Subscription_ForceSendNextShippingEmailHandler_php.md) <!-- repo:backend -->
+      - [ForceSyncWebmethodSubscriptionHandler.php](src_Api_CommandHandler_Subscription_ForceSyncWebmethodSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [GetWebmethodSubscriptionHandler.php](src_Api_CommandHandler_Subscription_GetWebmethodSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [RemoveSubscriptionCommentHandler.php](src_Api_CommandHandler_Subscription_RemoveSubscriptionCommentHandler_php.md) <!-- repo:backend -->
+      - [UpdateIntervalShippingDateSubscriptionHandler.php](src_Api_CommandHandler_Subscription_UpdateIntervalShippingDateSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [UpdateProductOfDraftOrderHandler.php](src_Api_CommandHandler_Subscription_UpdateProductOfDraftOrderHandler_php.md) <!-- repo:backend -->
+      - [UpdateShippingSubscriptionHandler.php](src_Api_CommandHandler_Subscription_UpdateShippingSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [UpdateSubscriptionCommentHandler.php](src_Api_CommandHandler_Subscription_UpdateSubscriptionCommentHandler_php.md) <!-- repo:backend -->
     - **SubscriptionOrder**
-      - [AddItemToSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_AddItemToSubscriptionOrderHandler_php.md)
-      - [CancelSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_CancelSubscriptionOrderHandler_php.md)
-      - [ChangeItemQuantitySubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_ChangeItemQuantitySubscriptionOrderHandler_php.md)
-      - [CreateSubscriptionOrderFromSubscriptionHandler.php](src_Api_CommandHandler_SubscriptionOrder_CreateSubscriptionOrderFromSubscriptionHandler_php.md)
-      - [DeleteItemToSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_DeleteItemToSubscriptionOrderHandler_php.md)
-      - [UpdateShippingSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_UpdateShippingSubscriptionOrderHandler_php.md)
+      - [AddItemToSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_AddItemToSubscriptionOrderHandler_php.md) <!-- repo:backend -->
+      - [CancelSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_CancelSubscriptionOrderHandler_php.md) <!-- repo:backend -->
+      - [ChangeItemQuantitySubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_ChangeItemQuantitySubscriptionOrderHandler_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionOrderFromSubscriptionHandler.php](src_Api_CommandHandler_SubscriptionOrder_CreateSubscriptionOrderFromSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [DeleteItemToSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_DeleteItemToSubscriptionOrderHandler_php.md) <!-- repo:backend -->
+      - [UpdateShippingSubscriptionOrderHandler.php](src_Api_CommandHandler_SubscriptionOrder_UpdateShippingSubscriptionOrderHandler_php.md) <!-- repo:backend -->
 - **CQRS**
   - **Bus**
-    - [CommandBusInterface.php](src_CQRS_Bus_CommandBusInterface_php.md)
-    - [MessengerCommandBus.php](src_CQRS_Bus_MessengerCommandBus_php.md)
+    - [CommandBusInterface.php](src_CQRS_Bus_CommandBusInterface_php.md) <!-- repo:backend -->
+    - [MessengerCommandBus.php](src_CQRS_Bus_MessengerCommandBus_php.md) <!-- repo:backend -->
   - **Command**
-    - [AbstractAsyncSubscriptionCommand.php](src_CQRS_Command_AbstractAsyncSubscriptionCommand_php.md)
-    - [AbstractSubscriptionCommand.php](src_CQRS_Command_AbstractSubscriptionCommand_php.md)
-    - [AbstractTokenValueCommand.php](src_CQRS_Command_AbstractTokenValueCommand_php.md)
-    - [CommandInterface.php](src_CQRS_Command_CommandInterface_php.md)
     - **Customer**
-      - [UpdateCustomerBusinessReport.php](src_CQRS_Command_Customer_UpdateCustomerBusinessReport_php.md)
+      - [UpdateCustomerBusinessReport.php](src_CQRS_Command_Customer_UpdateCustomerBusinessReport_php.md) <!-- repo:backend -->
     - **Email**
-      - [AbstractOrderNumber.php](src_CQRS_Command_Email_AbstractOrderNumber_php.md)
-      - [OrderBankwireInstructionsEmailNotification.php](src_CQRS_Command_Email_OrderBankwireInstructionsEmailNotification_php.md)
-      - [OrderCheckInstructionsEmailNotification.php](src_CQRS_Command_Email_OrderCheckInstructionsEmailNotification_php.md)
-      - [OrderConfirmationEmailNotification.php](src_CQRS_Command_Email_OrderConfirmationEmailNotification_php.md)
-      - [OrderPaymentEmailNotification.php](src_CQRS_Command_Email_OrderPaymentEmailNotification_php.md)
-      - [OrderPaymentFailEmailNotification.php](src_CQRS_Command_Email_OrderPaymentFailEmailNotification_php.md)
-      - [OrderPaymentPaypalFailEmailNotification.php](src_CQRS_Command_Email_OrderPaymentPaypalFailEmailNotification_php.md)
-      - [OrderPaymentSuccessEmailNotification.php](src_CQRS_Command_Email_OrderPaymentSuccessEmailNotification_php.md)
-      - [SendOrderConfirmation.php](src_CQRS_Command_Email_SendOrderConfirmation_php.md)
-      - [SendResetPasswordEmail.php](src_CQRS_Command_Email_SendResetPasswordEmail_php.md)
-      - [SendSubscriptionCBExpiredEmail.php](src_CQRS_Command_Email_SendSubscriptionCBExpiredEmail_php.md)
-      - [SendSubscriptionNextShippingEmail.php](src_CQRS_Command_Email_SendSubscriptionNextShippingEmail_php.md)
-      - [ShipmentShippedEmailNotification.php](src_CQRS_Command_Email_ShipmentShippedEmailNotification_php.md)
-      - [SubscriptionCreationEmailNotification.php](src_CQRS_Command_Email_SubscriptionCreationEmailNotification_php.md)
-      - [SubscriptionInactivePrEmailNotification.php](src_CQRS_Command_Email_SubscriptionInactivePrEmailNotification_php.md)
-      - [SubscriptionPaymentFailEmailNotification.php](src_CQRS_Command_Email_SubscriptionPaymentFailEmailNotification_php.md)
-      - [SubscriptionProductOfStockEmailNotification.php](src_CQRS_Command_Email_SubscriptionProductOfStockEmailNotification_php.md)
-      - [SubscriptionProductUnavailableEmailNotification.php](src_CQRS_Command_Email_SubscriptionProductUnavailableEmailNotification_php.md)
-      - [SubscriptionPromotionInvalidEmailNotification.php](src_CQRS_Command_Email_SubscriptionPromotionInvalidEmailNotification_php.md)
-      - [SubscriptionShipmentInvalidEmailNotification.php](src_CQRS_Command_Email_SubscriptionShipmentInvalidEmailNotification_php.md)
-      - [SubscriptionTerminationEmailNotification.php](src_CQRS_Command_Email_SubscriptionTerminationEmailNotification_php.md)
+      - [AbstractOrderNumber.php](src_CQRS_Command_Email_AbstractOrderNumber_php.md) <!-- repo:backend -->
+      - [OrderBankwireInstructionsEmailNotification.php](src_CQRS_Command_Email_OrderBankwireInstructionsEmailNotification_php.md) <!-- repo:backend -->
+      - [OrderCheckInstructionsEmailNotification.php](src_CQRS_Command_Email_OrderCheckInstructionsEmailNotification_php.md) <!-- repo:backend -->
+      - [OrderConfirmationEmailNotification.php](src_CQRS_Command_Email_OrderConfirmationEmailNotification_php.md) <!-- repo:backend -->
+      - [OrderPaymentEmailNotification.php](src_CQRS_Command_Email_OrderPaymentEmailNotification_php.md) <!-- repo:backend -->
+      - [OrderPaymentFailEmailNotification.php](src_CQRS_Command_Email_OrderPaymentFailEmailNotification_php.md) <!-- repo:backend -->
+      - [OrderPaymentPaypalFailEmailNotification.php](src_CQRS_Command_Email_OrderPaymentPaypalFailEmailNotification_php.md) <!-- repo:backend -->
+      - [OrderPaymentSuccessEmailNotification.php](src_CQRS_Command_Email_OrderPaymentSuccessEmailNotification_php.md) <!-- repo:backend -->
+      - [SendOrderConfirmation.php](src_CQRS_Command_Email_SendOrderConfirmation_php.md) <!-- repo:backend -->
+      - [SendResetPasswordEmail.php](src_CQRS_Command_Email_SendResetPasswordEmail_php.md) <!-- repo:backend -->
+      - [SendSubscriptionCBExpiredEmail.php](src_CQRS_Command_Email_SendSubscriptionCBExpiredEmail_php.md) <!-- repo:backend -->
+      - [SendSubscriptionNextShippingEmail.php](src_CQRS_Command_Email_SendSubscriptionNextShippingEmail_php.md) <!-- repo:backend -->
+      - [ShipmentShippedEmailNotification.php](src_CQRS_Command_Email_ShipmentShippedEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionCreationEmailNotification.php](src_CQRS_Command_Email_SubscriptionCreationEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionInactivePrEmailNotification.php](src_CQRS_Command_Email_SubscriptionInactivePrEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionPaymentFailEmailNotification.php](src_CQRS_Command_Email_SubscriptionPaymentFailEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionProductOfStockEmailNotification.php](src_CQRS_Command_Email_SubscriptionProductOfStockEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionProductUnavailableEmailNotification.php](src_CQRS_Command_Email_SubscriptionProductUnavailableEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionPromotionInvalidEmailNotification.php](src_CQRS_Command_Email_SubscriptionPromotionInvalidEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionShipmentInvalidEmailNotification.php](src_CQRS_Command_Email_SubscriptionShipmentInvalidEmailNotification_php.md) <!-- repo:backend -->
+      - [SubscriptionTerminationEmailNotification.php](src_CQRS_Command_Email_SubscriptionTerminationEmailNotification_php.md) <!-- repo:backend -->
     - **Order**
-      - [UpdateDraftOrderStateCommand.php](src_CQRS_Command_Order_UpdateDraftOrderStateCommand_php.md)
-    - [OrderProcessing.php](src_CQRS_Command_OrderProcessing_php.md)
+      - [UpdateDraftOrderStateCommand.php](src_CQRS_Command_Order_UpdateDraftOrderStateCommand_php.md) <!-- repo:backend -->
     - **PickupPoint**
-      - [UpdatePickupPointPhoto.php](src_CQRS_Command_PickupPoint_UpdatePickupPointPhoto_php.md)
+      - [UpdatePickupPointPhoto.php](src_CQRS_Command_PickupPoint_UpdatePickupPointPhoto_php.md) <!-- repo:backend -->
     - **Subscription**
-      - [CreateSubscription.php](src_CQRS_Command_Subscription_CreateSubscription_php.md)
-      - [UpdateNextShippingDateSubscription.php](src_CQRS_Command_Subscription_UpdateNextShippingDateSubscription_php.md)
+      - [CreateSubscription.php](src_CQRS_Command_Subscription_CreateSubscription_php.md) <!-- repo:backend -->
+      - [UpdateNextShippingDateSubscription.php](src_CQRS_Command_Subscription_UpdateNextShippingDateSubscription_php.md) <!-- repo:backend -->
     - **SubscriptionOrder**
-      - [BulkDebitSubscriptionOrder.php](src_CQRS_Command_SubscriptionOrder_BulkDebitSubscriptionOrder_php.md)
-      - [BulkUpdateNextShipping.php](src_CQRS_Command_SubscriptionOrder_BulkUpdateNextShipping_php.md)
-      - [CreateSubscriptionOrder.php](src_CQRS_Command_SubscriptionOrder_CreateSubscriptionOrder_php.md)
-      - [DebitSubscriptionOrder.php](src_CQRS_Command_SubscriptionOrder_DebitSubscriptionOrder_php.md)
-      - [UpdateSubscriptionOrderState.php](src_CQRS_Command_SubscriptionOrder_UpdateSubscriptionOrderState_php.md)
+      - [BulkDebitSubscriptionOrder.php](src_CQRS_Command_SubscriptionOrder_BulkDebitSubscriptionOrder_php.md) <!-- repo:backend -->
+      - [BulkUpdateNextShipping.php](src_CQRS_Command_SubscriptionOrder_BulkUpdateNextShipping_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionOrder.php](src_CQRS_Command_SubscriptionOrder_CreateSubscriptionOrder_php.md) <!-- repo:backend -->
+      - [DebitSubscriptionOrder.php](src_CQRS_Command_SubscriptionOrder_DebitSubscriptionOrder_php.md) <!-- repo:backend -->
+      - [UpdateSubscriptionOrderState.php](src_CQRS_Command_SubscriptionOrder_UpdateSubscriptionOrderState_php.md) <!-- repo:backend -->
+    - [AbstractAsyncSubscriptionCommand.php](src_CQRS_Command_AbstractAsyncSubscriptionCommand_php.md) <!-- repo:backend -->
+    - [AbstractSubscriptionCommand.php](src_CQRS_Command_AbstractSubscriptionCommand_php.md) <!-- repo:backend -->
+    - [AbstractTokenValueCommand.php](src_CQRS_Command_AbstractTokenValueCommand_php.md) <!-- repo:backend -->
+    - [CommandInterface.php](src_CQRS_Command_CommandInterface_php.md) <!-- repo:backend -->
+    - [OrderProcessing.php](src_CQRS_Command_OrderProcessing_php.md) <!-- repo:backend -->
   - **CommandHandler**
-    - [CommandHandlerInterface.php](src_CQRS_CommandHandler_CommandHandlerInterface_php.md)
     - **Customer**
-      - [UpdateCustomerBusinessReportHandler.php](src_CQRS_CommandHandler_Customer_UpdateCustomerBusinessReportHandler_php.md)
+      - [UpdateCustomerBusinessReportHandler.php](src_CQRS_CommandHandler_Customer_UpdateCustomerBusinessReportHandler_php.md) <!-- repo:backend -->
     - **Email**
-      - [OrderBankwireInstructionsEmailHandler.php](src_CQRS_CommandHandler_Email_OrderBankwireInstructionsEmailHandler_php.md)
-      - [OrderCheckInstructionsEmailHandler.php](src_CQRS_CommandHandler_Email_OrderCheckInstructionsEmailHandler_php.md)
-      - [OrderConfirmationEmailHandler.php](src_CQRS_CommandHandler_Email_OrderConfirmationEmailHandler_php.md)
-      - [OrderPaymentEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentEmailHandler_php.md)
-      - [OrderPaymentFailEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentFailEmailHandler_php.md)
-      - [OrderPaymentPaypalFailEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentPaypalFailEmailHandler_php.md)
-      - [OrderPaymentSuccessEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentSuccessEmailHandler_php.md)
-      - [RequestResetPasswordTokenHandler.php](src_CQRS_CommandHandler_Email_RequestResetPasswordTokenHandler_php.md)
-      - [SendOrderConfirmationHandler.php](src_CQRS_CommandHandler_Email_SendOrderConfirmationHandler_php.md)
-      - [SendResetPasswordEmailHandler.php](src_CQRS_CommandHandler_Email_SendResetPasswordEmailHandler_php.md)
-      - [SendSubscriptionCBExpiredEmailHandler.php](src_CQRS_CommandHandler_Email_SendSubscriptionCBExpiredEmailHandler_php.md)
-      - [SendSubscriptionNextShippingEmailHandler.php](src_CQRS_CommandHandler_Email_SendSubscriptionNextShippingEmailHandler_php.md)
-      - [ShipmentShippedEmailHandler.php](src_CQRS_CommandHandler_Email_ShipmentShippedEmailHandler_php.md)
-      - [SubscriptionCreationEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionCreationEmailHandler_php.md)
-      - [SubscriptionInactivePrEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionInactivePrEmailHandler_php.md)
-      - [SubscriptionPaymentFailEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionPaymentFailEmailHandler_php.md)
-      - [SubscriptionProductOfStockEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionProductOfStockEmailHandler_php.md)
-      - [SubscriptionProductUnavailableEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionProductUnavailableEmailHandler_php.md)
-      - [SubscriptionPromotionInvalidEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionPromotionInvalidEmailHandler_php.md)
-      - [SubscriptionShipmentInvalidEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionShipmentInvalidEmailHandler_php.md)
-      - [SubscriptionTerminationEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionTerminationEmailHandler_php.md)
+      - [OrderBankwireInstructionsEmailHandler.php](src_CQRS_CommandHandler_Email_OrderBankwireInstructionsEmailHandler_php.md) <!-- repo:backend -->
+      - [OrderCheckInstructionsEmailHandler.php](src_CQRS_CommandHandler_Email_OrderCheckInstructionsEmailHandler_php.md) <!-- repo:backend -->
+      - [OrderConfirmationEmailHandler.php](src_CQRS_CommandHandler_Email_OrderConfirmationEmailHandler_php.md) <!-- repo:backend -->
+      - [OrderPaymentEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentEmailHandler_php.md) <!-- repo:backend -->
+      - [OrderPaymentFailEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentFailEmailHandler_php.md) <!-- repo:backend -->
+      - [OrderPaymentPaypalFailEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentPaypalFailEmailHandler_php.md) <!-- repo:backend -->
+      - [OrderPaymentSuccessEmailHandler.php](src_CQRS_CommandHandler_Email_OrderPaymentSuccessEmailHandler_php.md) <!-- repo:backend -->
+      - [RequestResetPasswordTokenHandler.php](src_CQRS_CommandHandler_Email_RequestResetPasswordTokenHandler_php.md) <!-- repo:backend -->
+      - [SendOrderConfirmationHandler.php](src_CQRS_CommandHandler_Email_SendOrderConfirmationHandler_php.md) <!-- repo:backend -->
+      - [SendResetPasswordEmailHandler.php](src_CQRS_CommandHandler_Email_SendResetPasswordEmailHandler_php.md) <!-- repo:backend -->
+      - [SendSubscriptionCBExpiredEmailHandler.php](src_CQRS_CommandHandler_Email_SendSubscriptionCBExpiredEmailHandler_php.md) <!-- repo:backend -->
+      - [SendSubscriptionNextShippingEmailHandler.php](src_CQRS_CommandHandler_Email_SendSubscriptionNextShippingEmailHandler_php.md) <!-- repo:backend -->
+      - [ShipmentShippedEmailHandler.php](src_CQRS_CommandHandler_Email_ShipmentShippedEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionCreationEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionCreationEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionInactivePrEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionInactivePrEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionPaymentFailEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionPaymentFailEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionProductOfStockEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionProductOfStockEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionProductUnavailableEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionProductUnavailableEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionPromotionInvalidEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionPromotionInvalidEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionShipmentInvalidEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionShipmentInvalidEmailHandler_php.md) <!-- repo:backend -->
+      - [SubscriptionTerminationEmailHandler.php](src_CQRS_CommandHandler_Email_SubscriptionTerminationEmailHandler_php.md) <!-- repo:backend -->
     - **Order**
-      - [UpdateDraftOrderStateCommandHandler.php](src_CQRS_CommandHandler_Order_UpdateDraftOrderStateCommandHandler_php.md)
-    - [OrderProcessingHandler.php](src_CQRS_CommandHandler_OrderProcessingHandler_php.md)
+      - [UpdateDraftOrderStateCommandHandler.php](src_CQRS_CommandHandler_Order_UpdateDraftOrderStateCommandHandler_php.md) <!-- repo:backend -->
     - **PickupPoint**
-      - [UpdatePickupPointPhotoHandler.php](src_CQRS_CommandHandler_PickupPoint_UpdatePickupPointPhotoHandler_php.md)
+      - [UpdatePickupPointPhotoHandler.php](src_CQRS_CommandHandler_PickupPoint_UpdatePickupPointPhotoHandler_php.md) <!-- repo:backend -->
     - **Subscription**
-      - [CreateSubscriptionHandler.php](src_CQRS_CommandHandler_Subscription_CreateSubscriptionHandler_php.md)
-      - [UpdateNextShippingDateSubscriptionHandler.php](src_CQRS_CommandHandler_Subscription_UpdateNextShippingDateSubscriptionHandler_php.md)
+      - [CreateSubscriptionHandler.php](src_CQRS_CommandHandler_Subscription_CreateSubscriptionHandler_php.md) <!-- repo:backend -->
+      - [UpdateNextShippingDateSubscriptionHandler.php](src_CQRS_CommandHandler_Subscription_UpdateNextShippingDateSubscriptionHandler_php.md) <!-- repo:backend -->
     - **SubscriptionOrder**
-      - [BulkDebitSubscriptionOrderHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_BulkDebitSubscriptionOrderHandler_php.md)
-      - [BulkUpdateNextShippingHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_BulkUpdateNextShippingHandler_php.md)
-      - [CreateSubscriptionOrderHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_CreateSubscriptionOrderHandler_php.md)
-      - [DebitSubscriptionOrderHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_DebitSubscriptionOrderHandler_php.md)
-      - [UpdateSubscriptionOrderStateHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_UpdateSubscriptionOrderStateHandler_php.md)
+      - [BulkDebitSubscriptionOrderHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_BulkDebitSubscriptionOrderHandler_php.md) <!-- repo:backend -->
+      - [BulkUpdateNextShippingHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_BulkUpdateNextShippingHandler_php.md) <!-- repo:backend -->
+      - [CreateSubscriptionOrderHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_CreateSubscriptionOrderHandler_php.md) <!-- repo:backend -->
+      - [DebitSubscriptionOrderHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_DebitSubscriptionOrderHandler_php.md) <!-- repo:backend -->
+      - [UpdateSubscriptionOrderStateHandler.php](src_CQRS_CommandHandler_SubscriptionOrder_UpdateSubscriptionOrderStateHandler_php.md) <!-- repo:backend -->
+    - [CommandHandlerInterface.php](src_CQRS_CommandHandler_CommandHandlerInterface_php.md) <!-- repo:backend -->
+    - [OrderProcessingHandler.php](src_CQRS_CommandHandler_OrderProcessingHandler_php.md) <!-- repo:backend -->
 - **Console**
   - **Command**
-    - [ApplyPriceChangeCommand.php](src_Console_Command_ApplyPriceChangeCommand_php.md)
     - **Fix**
-      - [MigrateOrderItemFrequencyToIntervalCommand.php](src_Console_Command_Fix_MigrateOrderItemFrequencyToIntervalCommand_php.md)
-    - [PurgeOrdersAwaitingPaymentOnDelivery.php](src_Console_Command_PurgeOrdersAwaitingPaymentOnDelivery_php.md)
-    - [SendOrderToMiddlewareCommand.php](src_Console_Command_SendOrderToMiddlewareCommand_php.md)
+      - [MigrateOrderItemFrequencyToIntervalCommand.php](src_Console_Command_Fix_MigrateOrderItemFrequencyToIntervalCommand_php.md) <!-- repo:backend -->
     - **Tools**
-      - [ChangeShippingPriceConfigurationCommand.php](src_Console_Command_Tools_ChangeShippingPriceConfigurationCommand_php.md)
-      - [RecoverMissingInvoiceCommand.php](src_Console_Command_Tools_RecoverMissingInvoiceCommand_php.md)
-    - [UpdateShippingRangeConfigurationCommand.php](src_Console_Command_UpdateShippingRangeConfigurationCommand_php.md)
+      - [ChangeShippingPriceConfigurationCommand.php](src_Console_Command_Tools_ChangeShippingPriceConfigurationCommand_php.md) <!-- repo:backend -->
+      - [RecoverMissingInvoiceCommand.php](src_Console_Command_Tools_RecoverMissingInvoiceCommand_php.md) <!-- repo:backend -->
+    - [ApplyPriceChangeCommand.php](src_Console_Command_ApplyPriceChangeCommand_php.md) <!-- repo:backend -->
+    - [PurgeOrdersAwaitingPaymentOnDelivery.php](src_Console_Command_PurgeOrdersAwaitingPaymentOnDelivery_php.md) <!-- repo:backend -->
+    - [SendOrderToMiddlewareCommand.php](src_Console_Command_SendOrderToMiddlewareCommand_php.md) <!-- repo:backend -->
+    - [UpdateShippingRangeConfigurationCommand.php](src_Console_Command_UpdateShippingRangeConfigurationCommand_php.md) <!-- repo:backend -->
 - **PickupPoint**
   - **Command**
-    - [PickupPointUpdaterCommand.php](src_PickupPoint_Command_PickupPointUpdaterCommand_php.md)
+    - [PickupPointUpdaterCommand.php](src_PickupPoint_Command_PickupPointUpdaterCommand_php.md) <!-- repo:backend -->
 - **Promotion**
   - **Action**
-    - [AddProductPromotionActionCommand.php](src_Promotion_Action_AddProductPromotionActionCommand_php.md)
-    - [FixedDiscountPromotionActionCommand.php](src_Promotion_Action_FixedDiscountPromotionActionCommand_php.md)
-    - [FreeProductPromotionActionCommand.php](src_Promotion_Action_FreeProductPromotionActionCommand_php.md)
-    - [PaymentChargesPercentageDiscountActionCommand.php](src_Promotion_Action_PaymentChargesPercentageDiscountActionCommand_php.md)
-    - [ShippingPercentageDiscountPromotionActionCommand.php](src_Promotion_Action_ShippingPercentageDiscountPromotionActionCommand_php.md)
-    - [UnitFixedDiscountPromotionActionCommand.php](src_Promotion_Action_UnitFixedDiscountPromotionActionCommand_php.md)
-    - [UnitPercentageDiscountPromotionActionCommand.php](src_Promotion_Action_UnitPercentageDiscountPromotionActionCommand_php.md)
+    - [AddProductPromotionActionCommand.php](src_Promotion_Action_AddProductPromotionActionCommand_php.md) <!-- repo:backend -->
+    - [FixedDiscountPromotionActionCommand.php](src_Promotion_Action_FixedDiscountPromotionActionCommand_php.md) <!-- repo:backend -->
+    - [FreeProductPromotionActionCommand.php](src_Promotion_Action_FreeProductPromotionActionCommand_php.md) <!-- repo:backend -->
+    - [PaymentChargesPercentageDiscountActionCommand.php](src_Promotion_Action_PaymentChargesPercentageDiscountActionCommand_php.md) <!-- repo:backend -->
+    - [ShippingPercentageDiscountPromotionActionCommand.php](src_Promotion_Action_ShippingPercentageDiscountPromotionActionCommand_php.md) <!-- repo:backend -->
+    - [UnitFixedDiscountPromotionActionCommand.php](src_Promotion_Action_UnitFixedDiscountPromotionActionCommand_php.md) <!-- repo:backend -->
+    - [UnitPercentageDiscountPromotionActionCommand.php](src_Promotion_Action_UnitPercentageDiscountPromotionActionCommand_php.md) <!-- repo:backend -->
 - **Subscription**
   - **Command**
-    - [SubscriptionGeneratorCommand.php](src_Subscription_Command_SubscriptionGeneratorCommand_php.md)
     - **SubscriptionMigrator**
       - **Converter**
-        - [OldSubscriptionConverter.php](src_Subscription_Command_SubscriptionMigrator_Converter_OldSubscriptionConverter_php.md)
+        - [OldSubscriptionConverter.php](src_Subscription_Command_SubscriptionMigrator_Converter_OldSubscriptionConverter_php.md) <!-- repo:backend -->
       - **Dto**
-        - [OldSubscriptionDto.php](src_Subscription_Command_SubscriptionMigrator_Dto_OldSubscriptionDto_php.md)
-        - [OldSubscriptionItemDto.php](src_Subscription_Command_SubscriptionMigrator_Dto_OldSubscriptionItemDto_php.md)
+        - [OldSubscriptionDto.php](src_Subscription_Command_SubscriptionMigrator_Dto_OldSubscriptionDto_php.md) <!-- repo:backend -->
+        - [OldSubscriptionItemDto.php](src_Subscription_Command_SubscriptionMigrator_Dto_OldSubscriptionItemDto_php.md) <!-- repo:backend -->
       - **Migrator**
-        - [SubscriptionItemMigrator.php](src_Subscription_Command_SubscriptionMigrator_Migrator_SubscriptionItemMigrator_php.md)
-        - [SubscriptionMigrator.php](src_Subscription_Command_SubscriptionMigrator_Migrator_SubscriptionMigrator_php.md)
-        - [SubscriptionOrderMigrator.php](src_Subscription_Command_SubscriptionMigrator_Migrator_SubscriptionOrderMigrator_php.md)
-    - [SubscriptionMigratorCommand.php](src_Subscription_Command_SubscriptionMigratorCommand_php.md)
-    - [SubscriptionNextShippingEmailCommand.php](src_Subscription_Command_SubscriptionNextShippingEmailCommand_php.md)
-    - [SubscriptionOrderItemUpdaterCommand.php](src_Subscription_Command_SubscriptionOrderItemUpdaterCommand_php.md)
-    - [SubscriptionPaymentCommand.php](src_Subscription_Command_SubscriptionPaymentCommand_php.md)
-    - [SubscriptionPaymentMethodExpiredCommand.php](src_Subscription_Command_SubscriptionPaymentMethodExpiredCommand_php.md)
-    - [SubscriptionPickupPointRefreshCommand.php](src_Subscription_Command_SubscriptionPickupPointRefreshCommand_php.md)
+        - [SubscriptionItemMigrator.php](src_Subscription_Command_SubscriptionMigrator_Migrator_SubscriptionItemMigrator_php.md) <!-- repo:backend -->
+        - [SubscriptionMigrator.php](src_Subscription_Command_SubscriptionMigrator_Migrator_SubscriptionMigrator_php.md) <!-- repo:backend -->
+        - [SubscriptionOrderMigrator.php](src_Subscription_Command_SubscriptionMigrator_Migrator_SubscriptionOrderMigrator_php.md) <!-- repo:backend -->
+    - [SubscriptionGeneratorCommand.php](src_Subscription_Command_SubscriptionGeneratorCommand_php.md) <!-- repo:backend -->
+    - [SubscriptionMigratorCommand.php](src_Subscription_Command_SubscriptionMigratorCommand_php.md) <!-- repo:backend -->
+    - [SubscriptionNextShippingEmailCommand.php](src_Subscription_Command_SubscriptionNextShippingEmailCommand_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderItemUpdaterCommand.php](src_Subscription_Command_SubscriptionOrderItemUpdaterCommand_php.md) <!-- repo:backend -->
+    - [SubscriptionPaymentCommand.php](src_Subscription_Command_SubscriptionPaymentCommand_php.md) <!-- repo:backend -->
+    - [SubscriptionPaymentMethodExpiredCommand.php](src_Subscription_Command_SubscriptionPaymentMethodExpiredCommand_php.md) <!-- repo:backend -->
+    - [SubscriptionPickupPointRefreshCommand.php](src_Subscription_Command_SubscriptionPickupPointRefreshCommand_php.md) <!-- repo:backend -->
 - **TalonOne**
   - **Command**
-    - [CustomerBusinessReportCommand.php](src_TalonOne_Command_CustomerBusinessReportCommand_php.md)
     - **OneShot**
-      - [CustomerProfileImportCommand.php](src_TalonOne_Command_OneShot_CustomerProfileImportCommand_php.md)
-      - [ExportCouponsCsvCommand.php](src_TalonOne_Command_OneShot_ExportCouponsCsvCommand_php.md)
-    - [SyncCatalogCommand.php](src_TalonOne_Command_SyncCatalogCommand_php.md)
-    - [TalonOneTestCommand.php](src_TalonOne_Command_TalonOneTestCommand_php.md)
+      - [CustomerProfileImportCommand.php](src_TalonOne_Command_OneShot_CustomerProfileImportCommand_php.md) <!-- repo:backend -->
+      - [ExportCouponsCsvCommand.php](src_TalonOne_Command_OneShot_ExportCouponsCsvCommand_php.md) <!-- repo:backend -->
+    - [CustomerBusinessReportCommand.php](src_TalonOne_Command_CustomerBusinessReportCommand_php.md) <!-- repo:backend -->
+    - [SyncCatalogCommand.php](src_TalonOne_Command_SyncCatalogCommand_php.md) <!-- repo:backend -->
+    - [TalonOneTestCommand.php](src_TalonOne_Command_TalonOneTestCommand_php.md) <!-- repo:backend -->
   - **Domain**
     - **Command**
-      - [CreateBulkCouponsCommand.php](src_TalonOne_Domain_Command_CreateBulkCouponsCommand_php.md)
-      - [GenerateCSCouponForCustomerCommand.php](src_TalonOne_Domain_Command_GenerateCSCouponForCustomerCommand_php.md)
-      - [GenerateCSCouponForOrderCommand.php](src_TalonOne_Domain_Command_GenerateCSCouponForOrderCommand_php.md)
-      - [TestCommand.php](src_TalonOne_Domain_Command_TestCommand_php.md)
+      - [CreateBulkCouponsCommand.php](src_TalonOne_Domain_Command_CreateBulkCouponsCommand_php.md) <!-- repo:backend -->
+      - [GenerateCSCouponForCustomerCommand.php](src_TalonOne_Domain_Command_GenerateCSCouponForCustomerCommand_php.md) <!-- repo:backend -->
+      - [GenerateCSCouponForOrderCommand.php](src_TalonOne_Domain_Command_GenerateCSCouponForOrderCommand_php.md) <!-- repo:backend -->
+      - [TestCommand.php](src_TalonOne_Domain_Command_TestCommand_php.md) <!-- repo:backend -->
     - **CommandHandler**
-      - [CreateBulkCouponsHandler.php](src_TalonOne_Domain_CommandHandler_CreateBulkCouponsHandler_php.md)
-      - [GenerateCSCouponForCustomerHandler.php](src_TalonOne_Domain_CommandHandler_GenerateCSCouponForCustomerHandler_php.md)
-      - [GenerateCSCouponForOrderHandler.php](src_TalonOne_Domain_CommandHandler_GenerateCSCouponForOrderHandler_php.md)
+      - [CreateBulkCouponsHandler.php](src_TalonOne_Domain_CommandHandler_CreateBulkCouponsHandler_php.md) <!-- repo:backend -->
+      - [GenerateCSCouponForCustomerHandler.php](src_TalonOne_Domain_CommandHandler_GenerateCSCouponForCustomerHandler_php.md) <!-- repo:backend -->
+      - [GenerateCSCouponForOrderHandler.php](src_TalonOne_Domain_CommandHandler_GenerateCSCouponForOrderHandler_php.md) <!-- repo:backend -->
 - **Validator**
   - **Command**
     - **Checkout**
-      - [AssignCustomer.php](src_Validator_Command_Checkout_AssignCustomer_php.md)
-      - [AssignCustomerValidator.php](src_Validator_Command_Checkout_AssignCustomerValidator_php.md)
+      - [AssignCustomerValidator.php](src_Validator_Command_Checkout_AssignCustomerValidator_php.md) <!-- repo:backend -->
+      - [AssignCustomer.php](src_Validator_Command_Checkout_AssignCustomer_php.md) <!-- repo:backend -->
 - **config**
   - **serialization**
     - **Commands**
       - **Account**
-        - [RegisterShopUser.xml](config_serialization_Commands_Account_RegisterShopUser_xml.md)
+        - [RegisterShopUser.xml](config_serialization_Commands_Account_RegisterShopUser_xml.md) <!-- repo:backend -->
       - **Cart**
-        - [AddItemToCart.xml](config_serialization_Commands_Cart_AddItemToCart_xml.md)
-        - [ApplyCouponToCart.xml](config_serialization_Commands_Cart_ApplyCouponToCart_xml.md)
-        - [ChangeItemQuantityInCart.xml](config_serialization_Commands_Cart_ChangeItemQuantityInCart_xml.md)
-        - [CheckCouponForCart.xml](config_serialization_Commands_Cart_CheckCouponForCart_xml.md)
-        - [PickupCart.xml](config_serialization_Commands_Cart_PickupCart_xml.md)
-        - [RemoveCouponFromCart.xml](config_serialization_Commands_Cart_RemoveCouponFromCart_xml.md)
+        - [AddItemToCart.xml](config_serialization_Commands_Cart_AddItemToCart_xml.md) <!-- repo:backend -->
+        - [ApplyCouponToCart.xml](config_serialization_Commands_Cart_ApplyCouponToCart_xml.md) <!-- repo:backend -->
+        - [ChangeItemQuantityInCart.xml](config_serialization_Commands_Cart_ChangeItemQuantityInCart_xml.md) <!-- repo:backend -->
+        - [CheckCouponForCart.xml](config_serialization_Commands_Cart_CheckCouponForCart_xml.md) <!-- repo:backend -->
+        - [PickupCart.xml](config_serialization_Commands_Cart_PickupCart_xml.md) <!-- repo:backend -->
+        - [RemoveCouponFromCart.xml](config_serialization_Commands_Cart_RemoveCouponFromCart_xml.md) <!-- repo:backend -->
       - **Checkout**
-        - [AddBillToOrder.xml](config_serialization_Commands_Checkout_AddBillToOrder_xml.md)
-        - [AddShipment.xml](config_serialization_Commands_Checkout_AddShipment_xml.md)
-        - [AddressOrder.xml](config_serialization_Commands_Checkout_AddressOrder_xml.md)
-        - [AssignCustomer.xml](config_serialization_Commands_Checkout_AssignCustomer_xml.md)
-        - [ChoosePaymentMethod.xml](config_serialization_Commands_Checkout_ChoosePaymentMethod_xml.md)
-        - [ChooseShippingMethod.xml](config_serialization_Commands_Checkout_ChooseShippingMethod_xml.md)
-        - [CompleteOrder.xml](config_serialization_Commands_Checkout_CompleteOrder_xml.md)
-        - [PatchOrder.xml](config_serialization_Commands_Checkout_PatchOrder_xml.md)
-        - [UnselectShippingMethod.xml](config_serialization_Commands_Checkout_UnselectShippingMethod_xml.md)
+        - [AddBillToOrder.xml](config_serialization_Commands_Checkout_AddBillToOrder_xml.md) <!-- repo:backend -->
+        - [AddShipment.xml](config_serialization_Commands_Checkout_AddShipment_xml.md) <!-- repo:backend -->
+        - [AddressOrder.xml](config_serialization_Commands_Checkout_AddressOrder_xml.md) <!-- repo:backend -->
+        - [AssignCustomer.xml](config_serialization_Commands_Checkout_AssignCustomer_xml.md) <!-- repo:backend -->
+        - [ChoosePaymentMethod.xml](config_serialization_Commands_Checkout_ChoosePaymentMethod_xml.md) <!-- repo:backend -->
+        - [ChooseShippingMethod.xml](config_serialization_Commands_Checkout_ChooseShippingMethod_xml.md) <!-- repo:backend -->
+        - [CompleteOrder.xml](config_serialization_Commands_Checkout_CompleteOrder_xml.md) <!-- repo:backend -->
+        - [PatchOrder.xml](config_serialization_Commands_Checkout_PatchOrder_xml.md) <!-- repo:backend -->
+        - [UnselectShippingMethod.xml](config_serialization_Commands_Checkout_UnselectShippingMethod_xml.md) <!-- repo:backend -->
       - **Order**
-        - [AddTrackingShippingNumber.xml](config_serialization_Commands_Order_AddTrackingShippingNumber_xml.md)
+        - [AddTrackingShippingNumber.xml](config_serialization_Commands_Order_AddTrackingShippingNumber_xml.md) <!-- repo:backend -->
       - **Payment**
-        - [CompletePayment.xml](config_serialization_Commands_Payment_CompletePayment_xml.md)
+        - [CompletePayment.xml](config_serialization_Commands_Payment_CompletePayment_xml.md) <!-- repo:backend -->
       - **PaymentInstrument**
-        - [ChoosePaymentMethod.xml](config_serialization_Commands_PaymentInstrument_ChoosePaymentMethod_xml.md)
-        - [CreateInstrument.xml](config_serialization_Commands_PaymentInstrument_CreateInstrument_xml.md)
-        - [UpdateInstrument.xml](config_serialization_Commands_PaymentInstrument_UpdateInstrument_xml.md)
+        - [ChoosePaymentMethod.xml](config_serialization_Commands_PaymentInstrument_ChoosePaymentMethod_xml.md) <!-- repo:backend -->
+        - [CreateInstrument.xml](config_serialization_Commands_PaymentInstrument_CreateInstrument_xml.md) <!-- repo:backend -->
+        - [UpdateInstrument.xml](config_serialization_Commands_PaymentInstrument_UpdateInstrument_xml.md) <!-- repo:backend -->
       - **Promotion**
-        - [AbstractPromotionCoupon.xml](config_serialization_Commands_Promotion_AbstractPromotionCoupon_xml.md)
-        - [GeneratePromotionCoupon.xml](config_serialization_Commands_Promotion_GeneratePromotionCoupon_xml.md)
+        - [AbstractPromotionCoupon.xml](config_serialization_Commands_Promotion_AbstractPromotionCoupon_xml.md) <!-- repo:backend -->
+        - [GeneratePromotionCoupon.xml](config_serialization_Commands_Promotion_GeneratePromotionCoupon_xml.md) <!-- repo:backend -->
       - **Subscription**
-        - [AbstractSubscriptionComment.xml](config_serialization_Commands_Subscription_AbstractSubscriptionComment_xml.md)
-        - [AddItemToSubscription.xml](config_serialization_Commands_Subscription_AddItemToSubscription_xml.md)
-        - [CancelSubscription.xml](config_serialization_Commands_Subscription_CancelSubscription_xml.md)
-        - [DebitSubscription.xml](config_serialization_Commands_Subscription_DebitSubscription_xml.md)
-        - [DeleteItemToSubscription.xml](config_serialization_Commands_Subscription_DeleteItemToSubscription_xml.md)
-        - [UpdateIntervalShippingDateSubscription.xml](config_serialization_Commands_Subscription_UpdateIntervalShippingDateSubscription_xml.md)
-        - [UpdateProductOfDraftOrder.xml](config_serialization_Commands_Subscription_UpdateProductOfDraftOrder_xml.md)
-        - [UpdateShippingSubscription.xml](config_serialization_Commands_Subscription_UpdateShippingSubscription_xml.md)
+        - [AbstractSubscriptionComment.xml](config_serialization_Commands_Subscription_AbstractSubscriptionComment_xml.md) <!-- repo:backend -->
+        - [AddItemToSubscription.xml](config_serialization_Commands_Subscription_AddItemToSubscription_xml.md) <!-- repo:backend -->
+        - [CancelSubscription.xml](config_serialization_Commands_Subscription_CancelSubscription_xml.md) <!-- repo:backend -->
+        - [DebitSubscription.xml](config_serialization_Commands_Subscription_DebitSubscription_xml.md) <!-- repo:backend -->
+        - [DeleteItemToSubscription.xml](config_serialization_Commands_Subscription_DeleteItemToSubscription_xml.md) <!-- repo:backend -->
+        - [UpdateIntervalShippingDateSubscription.xml](config_serialization_Commands_Subscription_UpdateIntervalShippingDateSubscription_xml.md) <!-- repo:backend -->
+        - [UpdateProductOfDraftOrder.xml](config_serialization_Commands_Subscription_UpdateProductOfDraftOrder_xml.md) <!-- repo:backend -->
+        - [UpdateShippingSubscription.xml](config_serialization_Commands_Subscription_UpdateShippingSubscription_xml.md) <!-- repo:backend -->
       - **SubscriptionOrder**
-        - [AddItemToSubscriptionOrder.xml](config_serialization_Commands_SubscriptionOrder_AddItemToSubscriptionOrder_xml.md)
-        - [CreateSubscriptionOrderFromSubscription.xml](config_serialization_Commands_SubscriptionOrder_CreateSubscriptionOrderFromSubscription_xml.md)
-        - [DeleteItemToSubscriptionOrder.xml](config_serialization_Commands_SubscriptionOrder_DeleteItemToSubscriptionOrder_xml.md)
-        - [UpdateShippingSubscriptionOrder.xml](config_serialization_Commands_SubscriptionOrder_UpdateShippingSubscriptionOrder_xml.md)
+        - [AddItemToSubscriptionOrder.xml](config_serialization_Commands_SubscriptionOrder_AddItemToSubscriptionOrder_xml.md) <!-- repo:backend -->
+        - [CreateSubscriptionOrderFromSubscription.xml](config_serialization_Commands_SubscriptionOrder_CreateSubscriptionOrderFromSubscription_xml.md) <!-- repo:backend -->
+        - [DeleteItemToSubscriptionOrder.xml](config_serialization_Commands_SubscriptionOrder_DeleteItemToSubscriptionOrder_xml.md) <!-- repo:backend -->
+        - [UpdateShippingSubscriptionOrder.xml](config_serialization_Commands_SubscriptionOrder_UpdateShippingSubscriptionOrder_xml.md) <!-- repo:backend -->
 - **plugins**
   - **PayPalPlugin**
     - **src**
       - **Command**
-        - [CheckAwaitingPaymentCommand.php](plugins_PayPalPlugin_src_Command_CheckAwaitingPaymentCommand_php.md)
-        - [CompletePaidPaymentsCommand.php](plugins_PayPalPlugin_src_Command_CompletePaidPaymentsCommand_php.md)
+        - [CheckAwaitingPaymentCommand.php](plugins_PayPalPlugin_src_Command_CheckAwaitingPaymentCommand_php.md) <!-- repo:backend -->
+        - [CompletePaidPaymentsCommand.php](plugins_PayPalPlugin_src_Command_CompletePaidPaymentsCommand_php.md) <!-- repo:backend -->
 
 
 ## Events
 
 - **Api**
   - **Event**
-    - [OrderCompleted.php](src_Api_Event_OrderCompleted_php.md)
+    - [OrderCompleted.php](src_Api_Event_OrderCompleted_php.md) <!-- repo:backend -->
   - **EventListener**
-    - [ApiCartBlamerListener.php](src_Api_EventListener_ApiCartBlamerListener_php.md)
+    - [ApiCartBlamerListener.php](src_Api_EventListener_ApiCartBlamerListener_php.md) <!-- repo:backend -->
 - **EventListener**
   - **Animal**
-    - [AnimalBreedRemoveListener.php](src_EventListener_Animal_AnimalBreedRemoveListener_php.md)
-    - [AnimalCodeListener.php](src_EventListener_Animal_AnimalCodeListener_php.md)
-    - [AnimalKibbleBrandRemoveListener.php](src_EventListener_Animal_AnimalKibbleBrandRemoveListener_php.md)
-  - [AuthenticationSuccessListener.php](src_EventListener_AuthenticationSuccessListener_php.md)
+    - [AnimalBreedRemoveListener.php](src_EventListener_Animal_AnimalBreedRemoveListener_php.md) <!-- repo:backend -->
+    - [AnimalCodeListener.php](src_EventListener_Animal_AnimalCodeListener_php.md) <!-- repo:backend -->
+    - [AnimalKibbleBrandRemoveListener.php](src_EventListener_Animal_AnimalKibbleBrandRemoveListener_php.md) <!-- repo:backend -->
   - **Customer**
-    - [CustomerDeleteListener.php](src_EventListener_Customer_CustomerDeleteListener_php.md)
-    - [OriginLeadCustomerDefaultListener.php](src_EventListener_Customer_OriginLeadCustomerDefaultListener_php.md)
-    - [OriginLeadCustomerEmptyDateValidationListener.php](src_EventListener_Customer_OriginLeadCustomerEmptyDateValidationListener_php.md)
-    - [SwitchChannelListener.php](src_EventListener_Customer_SwitchChannelListener_php.md)
-  - [JWTCreatedListener.php](src_EventListener_JWTCreatedListener_php.md)
+    - [CustomerDeleteListener.php](src_EventListener_Customer_CustomerDeleteListener_php.md) <!-- repo:backend -->
+    - [OriginLeadCustomerDefaultListener.php](src_EventListener_Customer_OriginLeadCustomerDefaultListener_php.md) <!-- repo:backend -->
+    - [OriginLeadCustomerEmptyDateValidationListener.php](src_EventListener_Customer_OriginLeadCustomerEmptyDateValidationListener_php.md) <!-- repo:backend -->
+    - [SwitchChannelListener.php](src_EventListener_Customer_SwitchChannelListener_php.md) <!-- repo:backend -->
   - **Messenger**
-    - [DoctrineResetManagerSubscriber.php](src_EventListener_Messenger_DoctrineResetManagerSubscriber_php.md)
-    - [MonologResetWorkerSubscriber.php](src_EventListener_Messenger_MonologResetWorkerSubscriber_php.md)
-  - [RecaptchaListener.php](src_EventListener_RecaptchaListener_php.md)
-  - [RequestLocaleSetter.php](src_EventListener_RequestLocaleSetter_php.md)
+    - [DoctrineResetManagerSubscriber.php](src_EventListener_Messenger_DoctrineResetManagerSubscriber_php.md) <!-- repo:backend -->
+    - [MonologResetWorkerSubscriber.php](src_EventListener_Messenger_MonologResetWorkerSubscriber_php.md) <!-- repo:backend -->
+  - [AuthenticationSuccessListener.php](src_EventListener_AuthenticationSuccessListener_php.md) <!-- repo:backend -->
+  - [JWTCreatedListener.php](src_EventListener_JWTCreatedListener_php.md) <!-- repo:backend -->
+  - [RecaptchaListener.php](src_EventListener_RecaptchaListener_php.md) <!-- repo:backend -->
+  - [RequestLocaleSetter.php](src_EventListener_RequestLocaleSetter_php.md) <!-- repo:backend -->
 - **EventSubscriber**
-  - [AddCodeSubscriber.php](src_EventSubscriber_AddCodeSubscriber_php.md)
-  - [OrderSubscriber.php](src_EventSubscriber_OrderSubscriber_php.md)
+  - [AddCodeSubscriber.php](src_EventSubscriber_AddCodeSubscriber_php.md) <!-- repo:backend -->
+  - [OrderSubscriber.php](src_EventSubscriber_OrderSubscriber_php.md) <!-- repo:backend -->
 - **JWTBlockedToken**
-  - [RejectBlockedTokenListener.php](src_JWTBlockedToken_RejectBlockedTokenListener_php.md)
+  - [RejectBlockedTokenListener.php](src_JWTBlockedToken_RejectBlockedTokenListener_php.md) <!-- repo:backend -->
 - **Order**
   - **EventHandler**
-    - [OrderCompletedHandler.php](src_Order_EventHandler_OrderCompletedHandler_php.md)
+    - [OrderCompletedHandler.php](src_Order_EventHandler_OrderCompletedHandler_php.md) <!-- repo:backend -->
 - **TalonOne**
   - **Core**
     - **DTO**
-      - [Event.php](src_TalonOne_Core_DTO_Event_php.md)
+      - [Event.php](src_TalonOne_Core_DTO_Event_php.md) <!-- repo:backend -->
     - **IntegrationApi**
       - **Request**
         - **Event**
-          - [PostTrackEventRequest.php](src_TalonOne_Core_IntegrationApi_Request_Event_PostTrackEventRequest_php.md)
+          - [PostTrackEventRequest.php](src_TalonOne_Core_IntegrationApi_Request_Event_PostTrackEventRequest_php.md) <!-- repo:backend -->
   - **Domain**
     - **Builder**
       - **PostTrackEventRequest**
-        - [AbstractTrackEventRequestBuilder.php](src_TalonOne_Domain_Builder_PostTrackEventRequest_AbstractTrackEventRequestBuilder_php.md)
-        - [CrmCreateCouponRequestBuilder.php](src_TalonOne_Domain_Builder_PostTrackEventRequest_CrmCreateCouponRequestBuilder_php.md)
-        - [CustomerSupportCreateCouponRequestBuilder.php](src_TalonOne_Domain_Builder_PostTrackEventRequest_CustomerSupportCreateCouponRequestBuilder_php.md)
+        - [AbstractTrackEventRequestBuilder.php](src_TalonOne_Domain_Builder_PostTrackEventRequest_AbstractTrackEventRequestBuilder_php.md) <!-- repo:backend -->
+        - [CrmCreateCouponRequestBuilder.php](src_TalonOne_Domain_Builder_PostTrackEventRequest_CrmCreateCouponRequestBuilder_php.md) <!-- repo:backend -->
+        - [CustomerSupportCreateCouponRequestBuilder.php](src_TalonOne_Domain_Builder_PostTrackEventRequest_CustomerSupportCreateCouponRequestBuilder_php.md) <!-- repo:backend -->
     - **DTO**
-      - [CRMEventAttributes.php](src_TalonOne_Domain_DTO_CRMEventAttributes_php.md)
-      - [CustomerSupportEventAttributes.php](src_TalonOne_Domain_DTO_CustomerSupportEventAttributes_php.md)
+      - [CRMEventAttributes.php](src_TalonOne_Domain_DTO_CRMEventAttributes_php.md) <!-- repo:backend -->
+      - [CustomerSupportEventAttributes.php](src_TalonOne_Domain_DTO_CustomerSupportEventAttributes_php.md) <!-- repo:backend -->
     - **Enum**
-      - [CustomerSupportTrackEventType.php](src_TalonOne_Domain_Enum_CustomerSupportTrackEventType_php.md)
+      - [CustomerSupportTrackEventType.php](src_TalonOne_Domain_Enum_CustomerSupportTrackEventType_php.md) <!-- repo:backend -->
     - **UseCase**
-      - [GenerateCRMCouponWithEvent.php](src_TalonOne_Domain_UseCase_GenerateCRMCouponWithEvent_php.md)
-      - [GenerateCouponWithEvent.php](src_TalonOne_Domain_UseCase_GenerateCouponWithEvent_php.md)
+      - [GenerateCRMCouponWithEvent.php](src_TalonOne_Domain_UseCase_GenerateCRMCouponWithEvent_php.md) <!-- repo:backend -->
+      - [GenerateCouponWithEvent.php](src_TalonOne_Domain_UseCase_GenerateCouponWithEvent_php.md) <!-- repo:backend -->
 - **apps**
   - **front-ecommerce**
     - **app**
       - **composables**
-        - [useTouchEvent.ts](apps_front-ecommerce_app_composables_useTouchEvent_ts.md)
+        - [useTouchEvent.ts](apps_front-ecommerce_app_composables_useTouchEvent_ts.md) <!-- repo:frontend -->
     - **static**
-      - [trackingViewEvent.ts](apps_front-ecommerce_static_trackingViewEvent_ts.md)
+      - [trackingViewEvent.ts](apps_front-ecommerce_static_trackingViewEvent_ts.md) <!-- repo:frontend -->
     - **types**
       - **tracking**
-        - [trackingEventOnAddAbo.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddAbo_ts.md)
-        - [trackingEventOnAddPaymentInfo.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddPaymentInfo_ts.md)
-        - [trackingEventOnAddPromotionCoupon.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddPromotionCoupon_ts.md)
-        - [trackingEventOnAddShippingInfo.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddShippingInfo_ts.md)
-        - [trackingEventOnAddToCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddToCart_ts.md)
-        - [trackingEventOnAddressCreated.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddressCreated_ts.md)
-        - [trackingEventOnBeginCheckout.ts](apps_front-ecommerce_types_tracking_trackingEventOnBeginCheckout_ts.md)
-        - [trackingEventOnBlogArticle.ts](apps_front-ecommerce_types_tracking_trackingEventOnBlogArticle_ts.md)
-        - [trackingEventOnCarrierView.ts](apps_front-ecommerce_types_tracking_trackingEventOnCarrierView_ts.md)
-        - [trackingEventOnCheckoutProgress.ts](apps_front-ecommerce_types_tracking_trackingEventOnCheckoutProgress_ts.md)
-        - [trackingEventOnContact.ts](apps_front-ecommerce_types_tracking_trackingEventOnContact_ts.md)
-        - [trackingEventOnCreateAccount.ts](apps_front-ecommerce_types_tracking_trackingEventOnCreateAccount_ts.md)
-        - [trackingEventOnDeliveryStarted.ts](apps_front-ecommerce_types_tracking_trackingEventOnDeliveryStarted_ts.md)
-        - [trackingEventOnDeliverySuccess.ts](apps_front-ecommerce_types_tracking_trackingEventOnDeliverySuccess_ts.md)
-        - [trackingEventOnDeliveryView.ts](apps_front-ecommerce_types_tracking_trackingEventOnDeliveryView_ts.md)
-        - [trackingEventOnEditSubscriptionForm.ts](apps_front-ecommerce_types_tracking_trackingEventOnEditSubscriptionForm_ts.md)
-        - [trackingEventOnExitIntent.ts](apps_front-ecommerce_types_tracking_trackingEventOnExitIntent_ts.md)
-        - [trackingEventOnFilterChoice.ts](apps_front-ecommerce_types_tracking_trackingEventOnFilterChoice_ts.md)
-        - [trackingEventOnLoggingInOut.ts](apps_front-ecommerce_types_tracking_trackingEventOnLoggingInOut_ts.md)
-        - [trackingEventOnMenuNavigation.ts](apps_front-ecommerce_types_tracking_trackingEventOnMenuNavigation_ts.md)
-        - [trackingEventOnModalView.ts](apps_front-ecommerce_types_tracking_trackingEventOnModalView_ts.md)
-        - [trackingEventOnNewsletterSubscription.ts](apps_front-ecommerce_types_tracking_trackingEventOnNewsletterSubscription_ts.md)
-        - [trackingEventOnPageView.ts](apps_front-ecommerce_types_tracking_trackingEventOnPageView_ts.md)
-        - [trackingEventOnPaymentOptionView.ts](apps_front-ecommerce_types_tracking_trackingEventOnPaymentOptionView_ts.md)
-        - [trackingEventOnPopUp.ts](apps_front-ecommerce_types_tracking_trackingEventOnPopUp_ts.md)
-        - [trackingEventOnPurchase.ts](apps_front-ecommerce_types_tracking_trackingEventOnPurchase_ts.md)
-        - [trackingEventOnRemoveAbo.ts](apps_front-ecommerce_types_tracking_trackingEventOnRemoveAbo_ts.md)
-        - [trackingEventOnRemoveAll.ts](apps_front-ecommerce_types_tracking_trackingEventOnRemoveAll_ts.md)
-        - [trackingEventOnRemoveFromCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnRemoveFromCart_ts.md)
-        - [trackingEventOnSalesforceFormSubmit.ts](apps_front-ecommerce_types_tracking_trackingEventOnSalesforceFormSubmit_ts.md)
-        - [trackingEventOnSearch.ts](apps_front-ecommerce_types_tracking_trackingEventOnSearch_ts.md)
-        - [trackingEventOnSelectItem.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectItem_ts.md)
-        - [trackingEventOnSelectPromotion.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectPromotion_ts.md)
-        - [trackingEventOnSelectShippingTypeHome.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectShippingTypeHome_ts.md)
-        - [trackingEventOnSelectShippingTypePickup.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectShippingTypePickup_ts.md)
-        - [trackingEventOnSelectSubscriptionPageTab.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectSubscriptionPageTab_ts.md)
-        - [trackingEventOnSendEmail.ts](apps_front-ecommerce_types_tracking_trackingEventOnSendEmail_ts.md)
-        - [trackingEventOnSignUp.ts](apps_front-ecommerce_types_tracking_trackingEventOnSignUp_ts.md)
-        - [trackingEventOnSubscriptionDateChange.ts](apps_front-ecommerce_types_tracking_trackingEventOnSubscriptionDateChange_ts.md)
-        - [trackingEventOnSubscriptionUrgentShipment.ts](apps_front-ecommerce_types_tracking_trackingEventOnSubscriptionUrgentShipment_ts.md)
-        - [trackingEventOnUpdateItemQuantity.ts](apps_front-ecommerce_types_tracking_trackingEventOnUpdateItemQuantity_ts.md)
-        - [trackingEventOnUpdateToSubscription.ts](apps_front-ecommerce_types_tracking_trackingEventOnUpdateToSubscription_ts.md)
-        - [trackingEventOnUserGuideStep.ts](apps_front-ecommerce_types_tracking_trackingEventOnUserGuideStep_ts.md)
-        - [trackingEventOnValidateCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnValidateCart_ts.md)
-        - [trackingEventOnViewCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewCart_ts.md)
-        - [trackingEventOnViewItem.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewItem_ts.md)
-        - [trackingEventOnViewItemList.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewItemList_ts.md)
-        - [trackingEventOnViewPromotion.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewPromotion_ts.md)
+        - [trackingEventOnAddAbo.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddAbo_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnAddPaymentInfo.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddPaymentInfo_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnAddPromotionCoupon.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddPromotionCoupon_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnAddShippingInfo.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddShippingInfo_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnAddToCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddToCart_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnAddressCreated.ts](apps_front-ecommerce_types_tracking_trackingEventOnAddressCreated_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnBeginCheckout.ts](apps_front-ecommerce_types_tracking_trackingEventOnBeginCheckout_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnBlogArticle.ts](apps_front-ecommerce_types_tracking_trackingEventOnBlogArticle_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnCarrierView.ts](apps_front-ecommerce_types_tracking_trackingEventOnCarrierView_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnCheckoutProgress.ts](apps_front-ecommerce_types_tracking_trackingEventOnCheckoutProgress_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnContact.ts](apps_front-ecommerce_types_tracking_trackingEventOnContact_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnCreateAccount.ts](apps_front-ecommerce_types_tracking_trackingEventOnCreateAccount_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnDeliveryStarted.ts](apps_front-ecommerce_types_tracking_trackingEventOnDeliveryStarted_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnDeliverySuccess.ts](apps_front-ecommerce_types_tracking_trackingEventOnDeliverySuccess_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnDeliveryView.ts](apps_front-ecommerce_types_tracking_trackingEventOnDeliveryView_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnEditSubscriptionForm.ts](apps_front-ecommerce_types_tracking_trackingEventOnEditSubscriptionForm_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnExitIntent.ts](apps_front-ecommerce_types_tracking_trackingEventOnExitIntent_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnFilterChoice.ts](apps_front-ecommerce_types_tracking_trackingEventOnFilterChoice_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnLoggingInOut.ts](apps_front-ecommerce_types_tracking_trackingEventOnLoggingInOut_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnMenuNavigation.ts](apps_front-ecommerce_types_tracking_trackingEventOnMenuNavigation_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnModalView.ts](apps_front-ecommerce_types_tracking_trackingEventOnModalView_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnNewsletterSubscription.ts](apps_front-ecommerce_types_tracking_trackingEventOnNewsletterSubscription_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnPageView.ts](apps_front-ecommerce_types_tracking_trackingEventOnPageView_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnPaymentOptionView.ts](apps_front-ecommerce_types_tracking_trackingEventOnPaymentOptionView_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnPopUp.ts](apps_front-ecommerce_types_tracking_trackingEventOnPopUp_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnPurchase.ts](apps_front-ecommerce_types_tracking_trackingEventOnPurchase_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnRemoveAbo.ts](apps_front-ecommerce_types_tracking_trackingEventOnRemoveAbo_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnRemoveAll.ts](apps_front-ecommerce_types_tracking_trackingEventOnRemoveAll_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnRemoveFromCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnRemoveFromCart_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSalesforceFormSubmit.ts](apps_front-ecommerce_types_tracking_trackingEventOnSalesforceFormSubmit_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSearch.ts](apps_front-ecommerce_types_tracking_trackingEventOnSearch_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSelectItem.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectItem_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSelectPromotion.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectPromotion_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSelectShippingTypeHome.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectShippingTypeHome_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSelectShippingTypePickup.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectShippingTypePickup_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSelectSubscriptionPageTab.ts](apps_front-ecommerce_types_tracking_trackingEventOnSelectSubscriptionPageTab_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSendEmail.ts](apps_front-ecommerce_types_tracking_trackingEventOnSendEmail_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSignUp.ts](apps_front-ecommerce_types_tracking_trackingEventOnSignUp_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSubscriptionDateChange.ts](apps_front-ecommerce_types_tracking_trackingEventOnSubscriptionDateChange_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnSubscriptionUrgentShipment.ts](apps_front-ecommerce_types_tracking_trackingEventOnSubscriptionUrgentShipment_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnUpdateItemQuantity.ts](apps_front-ecommerce_types_tracking_trackingEventOnUpdateItemQuantity_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnUpdateToSubscription.ts](apps_front-ecommerce_types_tracking_trackingEventOnUpdateToSubscription_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnUserGuideStep.ts](apps_front-ecommerce_types_tracking_trackingEventOnUserGuideStep_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnValidateCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnValidateCart_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnViewCart.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewCart_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnViewItemList.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewItemList_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnViewItem.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewItem_ts.md) <!-- repo:frontend -->
+        - [trackingEventOnViewPromotion.ts](apps_front-ecommerce_types_tracking_trackingEventOnViewPromotion_ts.md) <!-- repo:frontend -->
 - **modules**
   - **nuxt-ecommerce**
     - **src**
       - **runtime**
         - **tracking**
-          - [gtmEvent.ts](modules_nuxt-ecommerce_src_runtime_tracking_gtmEvent_ts.md)
-          - [pixieEvent.ts](modules_nuxt-ecommerce_src_runtime_tracking_pixieEvent_ts.md)
-          - [trackingEvent.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEvent_ts.md)
-          - [trackingEventInit.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventInit_ts.md)
-          - [trackingEventMenuNavigation.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventMenuNavigation_ts.md)
-          - [trackingEventNewsletterSubscription.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventNewsletterSubscription_ts.md)
-          - [trackingEventOnABTests.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventOnABTests_ts.md)
-          - [trackingEventOnFormError.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventOnFormError_ts.md)
-          - [trackingEventPageView.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventPageView_ts.md)
-          - [trackingEventSearch.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventSearch_ts.md)
+          - [gtmEvent.ts](modules_nuxt-ecommerce_src_runtime_tracking_gtmEvent_ts.md) <!-- repo:frontend -->
+          - [pixieEvent.ts](modules_nuxt-ecommerce_src_runtime_tracking_pixieEvent_ts.md) <!-- repo:frontend -->
+          - [trackingEventInit.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventInit_ts.md) <!-- repo:frontend -->
+          - [trackingEventMenuNavigation.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventMenuNavigation_ts.md) <!-- repo:frontend -->
+          - [trackingEventNewsletterSubscription.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventNewsletterSubscription_ts.md) <!-- repo:frontend -->
+          - [trackingEventOnABTests.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventOnABTests_ts.md) <!-- repo:frontend -->
+          - [trackingEventOnFormError.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventOnFormError_ts.md) <!-- repo:frontend -->
+          - [trackingEventPageView.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventPageView_ts.md) <!-- repo:frontend -->
+          - [trackingEventSearch.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEventSearch_ts.md) <!-- repo:frontend -->
+          - [trackingEvent.ts](modules_nuxt-ecommerce_src_runtime_tracking_trackingEvent_ts.md) <!-- repo:frontend -->
 - **packages**
   - **tracking**
     - **src**
       - **events**
-        - [index.ts](packages_tracking_src_events_index_ts.md)
-        - [trackingUserData.ts](packages_tracking_src_events_trackingUserData_ts.md)
+        - [index.ts](packages_tracking_src_events_index_ts.md) <!-- repo:frontend -->
+        - [trackingUserData.ts](packages_tracking_src_events_trackingUserData_ts.md) <!-- repo:frontend -->
 - **plugins**
   - **PayPalPlugin**
     - **src**
       - **Listener**
-        - [PayPalPaymentMethodListener.php](plugins_PayPalPlugin_src_Listener_PayPalPaymentMethodListener_php.md)
+        - [PayPalPaymentMethodListener.php](plugins_PayPalPlugin_src_Listener_PayPalPaymentMethodListener_php.md) <!-- repo:backend -->
 
 
 ## Plugins
@@ -949,3140 +949,3140 @@
   - **front-ecommerce**
     - **app**
       - **plugins**
-        - [1-runtime-app-hooks.ts](apps_front-ecommerce_app_plugins_1-runtime-app-hooks_ts.md)
-        - [10-i18n.ts](apps_front-ecommerce_app_plugins_10-i18n_ts.md)
-        - [2-intersection-observer-once-directive.ts](apps_front-ecommerce_app_plugins_2-intersection-observer-once-directive_ts.md)
-        - [2-markdown-it.ts](apps_front-ecommerce_app_plugins_2-markdown-it_ts.md)
-        - [3-gtm.client.ts](apps_front-ecommerce_app_plugins_3-gtm_client_ts.md)
-        - [3-pixie.client.ts](apps_front-ecommerce_app_plugins_3-pixie_client_ts.md)
-        - [4-exit-intent.client.ts](apps_front-ecommerce_app_plugins_4-exit-intent_client_ts.md)
-        - [4-recaptcha.client.ts](apps_front-ecommerce_app_plugins_4-recaptcha_client_ts.md)
-        - [6-router.client.ts](apps_front-ecommerce_app_plugins_6-router_client_ts.md)
-        - [9-upd-js-api.client.ts](apps_front-ecommerce_app_plugins_9-upd-js-api_client_ts.md)
+        - [1-runtime-app-hooks.ts](apps_front-ecommerce_app_plugins_1-runtime-app-hooks_ts.md) <!-- repo:frontend -->
+        - [10-i18n.ts](apps_front-ecommerce_app_plugins_10-i18n_ts.md) <!-- repo:frontend -->
+        - [2-intersection-observer-once-directive.ts](apps_front-ecommerce_app_plugins_2-intersection-observer-once-directive_ts.md) <!-- repo:frontend -->
+        - [2-markdown-it.ts](apps_front-ecommerce_app_plugins_2-markdown-it_ts.md) <!-- repo:frontend -->
+        - [3-gtm.client.ts](apps_front-ecommerce_app_plugins_3-gtm_client_ts.md) <!-- repo:frontend -->
+        - [3-pixie.client.ts](apps_front-ecommerce_app_plugins_3-pixie_client_ts.md) <!-- repo:frontend -->
+        - [4-exit-intent.client.ts](apps_front-ecommerce_app_plugins_4-exit-intent_client_ts.md) <!-- repo:frontend -->
+        - [4-recaptcha.client.ts](apps_front-ecommerce_app_plugins_4-recaptcha_client_ts.md) <!-- repo:frontend -->
+        - [6-router.client.ts](apps_front-ecommerce_app_plugins_6-router_client_ts.md) <!-- repo:frontend -->
+        - [9-upd-js-api.client.ts](apps_front-ecommerce_app_plugins_9-upd-js-api_client_ts.md) <!-- repo:frontend -->
   - **storybook**
     - **plugins**
-      - [md.ts](apps_storybook_plugins_md_ts.md)
+      - [md.ts](apps_storybook_plugins_md_ts.md) <!-- repo:frontend -->
 - **modules**
   - **nuxt-ecommerce**
     - **src**
       - **runtime**
         - **plugins**
-          - [datadog.ts](modules_nuxt-ecommerce_src_runtime_plugins_datadog_ts.md)
-          - [ultrapremiumdirect-components.ts](modules_nuxt-ecommerce_src_runtime_plugins_ultrapremiumdirect-components_ts.md)
+          - [datadog.ts](modules_nuxt-ecommerce_src_runtime_plugins_datadog_ts.md) <!-- repo:frontend -->
+          - [ultrapremiumdirect-components.ts](modules_nuxt-ecommerce_src_runtime_plugins_ultrapremiumdirect-components_ts.md) <!-- repo:frontend -->
 - **packages**
   - **accordionFold**
     - **tailwind**
-      - [plugin.ts](packages_accordionFold_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_accordionFold_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **boilerplate**
     - **tailwind**
-      - [plugin.ts](packages_boilerplate_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_boilerplate_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **carousel**
     - **tailwind**
-      - [plugin.ts](packages_carousel_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_carousel_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **counter**
     - **tailwind**
-      - [plugin.ts](packages_counter_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_counter_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **separator**
     - **tailwind**
-      - [plugin.ts](packages_separator_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_separator_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **smartForm**
     - **tailwind**
-      - [plugin.ts](packages_smartForm_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_smartForm_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **smartImage**
     - **tailwind**
-      - [plugin.ts](packages_smartImage_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_smartImage_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **smartLink**
     - **tailwind**
-      - [plugin.ts](packages_smartLink_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_smartLink_tailwind_plugin_ts.md) <!-- repo:frontend -->
   - **verbatimFullWidth**
     - **tailwind**
-      - [plugin.ts](packages_verbatimFullWidth_tailwind_plugin_ts.md)
+      - [plugin.ts](packages_verbatimFullWidth_tailwind_plugin_ts.md) <!-- repo:frontend -->
 - **plugins**
   - **PayPalPlugin**
-    - [README.md](plugins_PayPalPlugin_README_md.md)
-    - [UPGRADE.md](plugins_PayPalPlugin_UPGRADE_md.md)
-    - [composer.json](plugins_PayPalPlugin_composer_json.md)
     - **docs**
-      - [development.md](plugins_PayPalPlugin_docs_development_md.md)
-      - [installation.md](plugins_PayPalPlugin_docs_installation_md.md)
-      - [onboarding.md](plugins_PayPalPlugin_docs_onboarding_md.md)
-      - [processing-payments.md](plugins_PayPalPlugin_docs_processing-payments_md.md)
-      - [reports.md](plugins_PayPalPlugin_docs_reports_md.md)
-      - [sandbox-vs-live.md](plugins_PayPalPlugin_docs_sandbox-vs-live_md.md)
-    - [ecs.php](plugins_PayPalPlugin_ecs_php.md)
+      - [development.md](plugins_PayPalPlugin_docs_development_md.md) <!-- repo:backend -->
+      - [installation.md](plugins_PayPalPlugin_docs_installation_md.md) <!-- repo:backend -->
+      - [onboarding.md](plugins_PayPalPlugin_docs_onboarding_md.md) <!-- repo:backend -->
+      - [processing-payments.md](plugins_PayPalPlugin_docs_processing-payments_md.md) <!-- repo:backend -->
+      - [reports.md](plugins_PayPalPlugin_docs_reports_md.md) <!-- repo:backend -->
+      - [sandbox-vs-live.md](plugins_PayPalPlugin_docs_sandbox-vs-live_md.md) <!-- repo:backend -->
     - **etc**
       - **travis**
-        - [Order.php](plugins_PayPalPlugin_etc_travis_Order_php.md)
-        - [resources.yaml](plugins_PayPalPlugin_etc_travis_resources_yaml.md)
-    - [phpstan.neon](plugins_PayPalPlugin_phpstan_neon.md)
-    - [psalm.xml](plugins_PayPalPlugin_psalm_xml.md)
-    - [rector.php](plugins_PayPalPlugin_rector_php.md)
+        - [Order.php](plugins_PayPalPlugin_etc_travis_Order_php.md) <!-- repo:backend -->
+        - [resources.yaml](plugins_PayPalPlugin_etc_travis_resources_yaml.md) <!-- repo:backend -->
+    - [README.md](plugins_PayPalPlugin_README_md.md) <!-- repo:backend -->
+    - [UPGRADE.md](plugins_PayPalPlugin_UPGRADE_md.md) <!-- repo:backend -->
+    - [composer.json](plugins_PayPalPlugin_composer_json.md) <!-- repo:backend -->
+    - [ecs.php](plugins_PayPalPlugin_ecs_php.md) <!-- repo:backend -->
+    - [phpstan.neon](plugins_PayPalPlugin_phpstan_neon.md) <!-- repo:backend -->
+    - [psalm.xml](plugins_PayPalPlugin_psalm_xml.md) <!-- repo:backend -->
+    - [rector.php](plugins_PayPalPlugin_rector_php.md) <!-- repo:backend -->
     - **src**
       - **Api**
-        - [AuthorizeClientApi.php](plugins_PayPalPlugin_src_Api_AuthorizeClientApi_php.md)
-        - [AuthorizeClientApiInterface.php](plugins_PayPalPlugin_src_Api_AuthorizeClientApiInterface_php.md)
-        - [AuthorizePaymentOrderApi.php](plugins_PayPalPlugin_src_Api_AuthorizePaymentOrderApi_php.md)
-        - [AuthorizePaymentOrderApiInterface.php](plugins_PayPalPlugin_src_Api_AuthorizePaymentOrderApiInterface_php.md)
-        - [CacheAuthorizeClientApi.php](plugins_PayPalPlugin_src_Api_CacheAuthorizeClientApi_php.md)
-        - [CacheAuthorizeClientApiInterface.php](plugins_PayPalPlugin_src_Api_CacheAuthorizeClientApiInterface_php.md)
-        - [CompleteOrderApi.php](plugins_PayPalPlugin_src_Api_CompleteOrderApi_php.md)
-        - [CompleteOrderApiInterface.php](plugins_PayPalPlugin_src_Api_CompleteOrderApiInterface_php.md)
-        - [CreateOrderApi.php](plugins_PayPalPlugin_src_Api_CreateOrderApi_php.md)
-        - [CreateOrderApiInterface.php](plugins_PayPalPlugin_src_Api_CreateOrderApiInterface_php.md)
-        - [GenericApi.php](plugins_PayPalPlugin_src_Api_GenericApi_php.md)
-        - [GenericApiInterface.php](plugins_PayPalPlugin_src_Api_GenericApiInterface_php.md)
-        - [OrderDetailsApi.php](plugins_PayPalPlugin_src_Api_OrderDetailsApi_php.md)
-        - [OrderDetailsApiInterface.php](plugins_PayPalPlugin_src_Api_OrderDetailsApiInterface_php.md)
-        - [RefundPaymentApi.php](plugins_PayPalPlugin_src_Api_RefundPaymentApi_php.md)
-        - [RefundPaymentApiInterface.php](plugins_PayPalPlugin_src_Api_RefundPaymentApiInterface_php.md)
-        - [UpdateOrderApi.php](plugins_PayPalPlugin_src_Api_UpdateOrderApi_php.md)
-        - [UpdateOrderApiInterface.php](plugins_PayPalPlugin_src_Api_UpdateOrderApiInterface_php.md)
-        - [WebhookApi.php](plugins_PayPalPlugin_src_Api_WebhookApi_php.md)
-        - [WebhookApiInterface.php](plugins_PayPalPlugin_src_Api_WebhookApiInterface_php.md)
+        - [AuthorizeClientApiInterface.php](plugins_PayPalPlugin_src_Api_AuthorizeClientApiInterface_php.md) <!-- repo:backend -->
+        - [AuthorizeClientApi.php](plugins_PayPalPlugin_src_Api_AuthorizeClientApi_php.md) <!-- repo:backend -->
+        - [AuthorizePaymentOrderApiInterface.php](plugins_PayPalPlugin_src_Api_AuthorizePaymentOrderApiInterface_php.md) <!-- repo:backend -->
+        - [AuthorizePaymentOrderApi.php](plugins_PayPalPlugin_src_Api_AuthorizePaymentOrderApi_php.md) <!-- repo:backend -->
+        - [CacheAuthorizeClientApiInterface.php](plugins_PayPalPlugin_src_Api_CacheAuthorizeClientApiInterface_php.md) <!-- repo:backend -->
+        - [CacheAuthorizeClientApi.php](plugins_PayPalPlugin_src_Api_CacheAuthorizeClientApi_php.md) <!-- repo:backend -->
+        - [CompleteOrderApiInterface.php](plugins_PayPalPlugin_src_Api_CompleteOrderApiInterface_php.md) <!-- repo:backend -->
+        - [CompleteOrderApi.php](plugins_PayPalPlugin_src_Api_CompleteOrderApi_php.md) <!-- repo:backend -->
+        - [CreateOrderApiInterface.php](plugins_PayPalPlugin_src_Api_CreateOrderApiInterface_php.md) <!-- repo:backend -->
+        - [CreateOrderApi.php](plugins_PayPalPlugin_src_Api_CreateOrderApi_php.md) <!-- repo:backend -->
+        - [GenericApiInterface.php](plugins_PayPalPlugin_src_Api_GenericApiInterface_php.md) <!-- repo:backend -->
+        - [GenericApi.php](plugins_PayPalPlugin_src_Api_GenericApi_php.md) <!-- repo:backend -->
+        - [OrderDetailsApiInterface.php](plugins_PayPalPlugin_src_Api_OrderDetailsApiInterface_php.md) <!-- repo:backend -->
+        - [OrderDetailsApi.php](plugins_PayPalPlugin_src_Api_OrderDetailsApi_php.md) <!-- repo:backend -->
+        - [RefundPaymentApiInterface.php](plugins_PayPalPlugin_src_Api_RefundPaymentApiInterface_php.md) <!-- repo:backend -->
+        - [RefundPaymentApi.php](plugins_PayPalPlugin_src_Api_RefundPaymentApi_php.md) <!-- repo:backend -->
+        - [UpdateOrderApiInterface.php](plugins_PayPalPlugin_src_Api_UpdateOrderApiInterface_php.md) <!-- repo:backend -->
+        - [UpdateOrderApi.php](plugins_PayPalPlugin_src_Api_UpdateOrderApi_php.md) <!-- repo:backend -->
+        - [WebhookApiInterface.php](plugins_PayPalPlugin_src_Api_WebhookApiInterface_php.md) <!-- repo:backend -->
+        - [WebhookApi.php](plugins_PayPalPlugin_src_Api_WebhookApi_php.md) <!-- repo:backend -->
       - **ApiPlatform**
-        - [PayPalPayment.php](plugins_PayPalPlugin_src_ApiPlatform_PayPalPayment_php.md)
+        - [PayPalPayment.php](plugins_PayPalPlugin_src_ApiPlatform_PayPalPayment_php.md) <!-- repo:backend -->
       - **Client**
-        - [PayPalClient.php](plugins_PayPalPlugin_src_Client_PayPalClient_php.md)
-        - [PayPalClientInterface.php](plugins_PayPalPlugin_src_Client_PayPalClientInterface_php.md)
+        - [PayPalClientInterface.php](plugins_PayPalPlugin_src_Client_PayPalClientInterface_php.md) <!-- repo:backend -->
+        - [PayPalClient.php](plugins_PayPalPlugin_src_Client_PayPalClient_php.md) <!-- repo:backend -->
       - **DependencyInjection**
-        - [Configuration.php](plugins_PayPalPlugin_src_DependencyInjection_Configuration_php.md)
-        - [SyliusPayPalExtension.php](plugins_PayPalPlugin_src_DependencyInjection_SyliusPayPalExtension_php.md)
+        - [Configuration.php](plugins_PayPalPlugin_src_DependencyInjection_Configuration_php.md) <!-- repo:backend -->
+        - [SyliusPayPalExtension.php](plugins_PayPalPlugin_src_DependencyInjection_SyliusPayPalExtension_php.md) <!-- repo:backend -->
       - **Downloader**
-        - [PayoutsReportDownloaderInterface.php](plugins_PayPalPlugin_src_Downloader_PayoutsReportDownloaderInterface_php.md)
-        - [SftpPayoutsReportDownloader.php](plugins_PayPalPlugin_src_Downloader_SftpPayoutsReportDownloader_php.md)
+        - [PayoutsReportDownloaderInterface.php](plugins_PayPalPlugin_src_Downloader_PayoutsReportDownloaderInterface_php.md) <!-- repo:backend -->
+        - [SftpPayoutsReportDownloader.php](plugins_PayPalPlugin_src_Downloader_SftpPayoutsReportDownloader_php.md) <!-- repo:backend -->
       - **Enabler**
-        - [PayPalPaymentMethodEnabler.php](plugins_PayPalPlugin_src_Enabler_PayPalPaymentMethodEnabler_php.md)
-        - [PaymentMethodEnablerInterface.php](plugins_PayPalPlugin_src_Enabler_PaymentMethodEnablerInterface_php.md)
+        - [PayPalPaymentMethodEnabler.php](plugins_PayPalPlugin_src_Enabler_PayPalPaymentMethodEnabler_php.md) <!-- repo:backend -->
+        - [PaymentMethodEnablerInterface.php](plugins_PayPalPlugin_src_Enabler_PaymentMethodEnablerInterface_php.md) <!-- repo:backend -->
       - **Exception**
-        - [OrderNotFoundException.php](plugins_PayPalPlugin_src_Exception_OrderNotFoundException_php.md)
-        - [PayPalApiTimeoutException.php](plugins_PayPalPlugin_src_Exception_PayPalApiTimeoutException_php.md)
-        - [PayPalAuthorizationException.php](plugins_PayPalPlugin_src_Exception_PayPalAuthorizationException_php.md)
-        - [PayPalOrderRefundException.php](plugins_PayPalPlugin_src_Exception_PayPalOrderRefundException_php.md)
-        - [PayPalOrderUpdateException.php](plugins_PayPalPlugin_src_Exception_PayPalOrderUpdateException_php.md)
-        - [PayPalPaymentMethodNotFoundException.php](plugins_PayPalPlugin_src_Exception_PayPalPaymentMethodNotFoundException_php.md)
-        - [PayPalPluginException.php](plugins_PayPalPlugin_src_Exception_PayPalPluginException_php.md)
-        - [PayPalReportDownloadException.php](plugins_PayPalPlugin_src_Exception_PayPalReportDownloadException_php.md)
-        - [PayPalWebhookAlreadyRegisteredException.php](plugins_PayPalPlugin_src_Exception_PayPalWebhookAlreadyRegisteredException_php.md)
-        - [PayPalWebhookUrlNotValidException.php](plugins_PayPalPlugin_src_Exception_PayPalWebhookUrlNotValidException_php.md)
-        - [PayPalWrongDataException.php](plugins_PayPalPlugin_src_Exception_PayPalWrongDataException_php.md)
-        - [PayPalWrongWebhookException.php](plugins_PayPalPlugin_src_Exception_PayPalWrongWebhookException_php.md)
-        - [PaymentMethodCouldNotBeEnabledException.php](plugins_PayPalPlugin_src_Exception_PaymentMethodCouldNotBeEnabledException_php.md)
-        - [PaymentNotFoundException.php](plugins_PayPalPlugin_src_Exception_PaymentNotFoundException_php.md)
+        - [OrderNotFoundException.php](plugins_PayPalPlugin_src_Exception_OrderNotFoundException_php.md) <!-- repo:backend -->
+        - [PayPalApiTimeoutException.php](plugins_PayPalPlugin_src_Exception_PayPalApiTimeoutException_php.md) <!-- repo:backend -->
+        - [PayPalAuthorizationException.php](plugins_PayPalPlugin_src_Exception_PayPalAuthorizationException_php.md) <!-- repo:backend -->
+        - [PayPalOrderRefundException.php](plugins_PayPalPlugin_src_Exception_PayPalOrderRefundException_php.md) <!-- repo:backend -->
+        - [PayPalOrderUpdateException.php](plugins_PayPalPlugin_src_Exception_PayPalOrderUpdateException_php.md) <!-- repo:backend -->
+        - [PayPalPaymentMethodNotFoundException.php](plugins_PayPalPlugin_src_Exception_PayPalPaymentMethodNotFoundException_php.md) <!-- repo:backend -->
+        - [PayPalPluginException.php](plugins_PayPalPlugin_src_Exception_PayPalPluginException_php.md) <!-- repo:backend -->
+        - [PayPalReportDownloadException.php](plugins_PayPalPlugin_src_Exception_PayPalReportDownloadException_php.md) <!-- repo:backend -->
+        - [PayPalWebhookAlreadyRegisteredException.php](plugins_PayPalPlugin_src_Exception_PayPalWebhookAlreadyRegisteredException_php.md) <!-- repo:backend -->
+        - [PayPalWebhookUrlNotValidException.php](plugins_PayPalPlugin_src_Exception_PayPalWebhookUrlNotValidException_php.md) <!-- repo:backend -->
+        - [PayPalWrongDataException.php](plugins_PayPalPlugin_src_Exception_PayPalWrongDataException_php.md) <!-- repo:backend -->
+        - [PayPalWrongWebhookException.php](plugins_PayPalPlugin_src_Exception_PayPalWrongWebhookException_php.md) <!-- repo:backend -->
+        - [PaymentMethodCouldNotBeEnabledException.php](plugins_PayPalPlugin_src_Exception_PaymentMethodCouldNotBeEnabledException_php.md) <!-- repo:backend -->
+        - [PaymentNotFoundException.php](plugins_PayPalPlugin_src_Exception_PaymentNotFoundException_php.md) <!-- repo:backend -->
       - **Factory**
-        - [PayPalPaymentMethodNewResourceFactory.php](plugins_PayPalPlugin_src_Factory_PayPalPaymentMethodNewResourceFactory_php.md)
+        - [PayPalPaymentMethodNewResourceFactory.php](plugins_PayPalPlugin_src_Factory_PayPalPaymentMethodNewResourceFactory_php.md) <!-- repo:backend -->
       - **Form**
         - **Extension**
-          - [PaymentMethodTypeExtension.php](plugins_PayPalPlugin_src_Form_Extension_PaymentMethodTypeExtension_php.md)
+          - [PaymentMethodTypeExtension.php](plugins_PayPalPlugin_src_Form_Extension_PaymentMethodTypeExtension_php.md) <!-- repo:backend -->
         - **Type**
-          - [ChangePaymentMethodType.php](plugins_PayPalPlugin_src_Form_Type_ChangePaymentMethodType_php.md)
-          - [PayPalConfigurationType.php](plugins_PayPalPlugin_src_Form_Type_PayPalConfigurationType_php.md)
-          - [SelectPaymentType.php](plugins_PayPalPlugin_src_Form_Type_SelectPaymentType_php.md)
+          - [ChangePaymentMethodType.php](plugins_PayPalPlugin_src_Form_Type_ChangePaymentMethodType_php.md) <!-- repo:backend -->
+          - [PayPalConfigurationType.php](plugins_PayPalPlugin_src_Form_Type_PayPalConfigurationType_php.md) <!-- repo:backend -->
+          - [SelectPaymentType.php](plugins_PayPalPlugin_src_Form_Type_SelectPaymentType_php.md) <!-- repo:backend -->
       - **Generator**
-        - [PayPalAuthAssertionGenerator.php](plugins_PayPalPlugin_src_Generator_PayPalAuthAssertionGenerator_php.md)
-        - [PayPalAuthAssertionGeneratorInterface.php](plugins_PayPalPlugin_src_Generator_PayPalAuthAssertionGeneratorInterface_php.md)
+        - [PayPalAuthAssertionGeneratorInterface.php](plugins_PayPalPlugin_src_Generator_PayPalAuthAssertionGeneratorInterface_php.md) <!-- repo:backend -->
+        - [PayPalAuthAssertionGenerator.php](plugins_PayPalPlugin_src_Generator_PayPalAuthAssertionGenerator_php.md) <!-- repo:backend -->
       - **Manager**
-        - [PaymentStateManager.php](plugins_PayPalPlugin_src_Manager_PaymentStateManager_php.md)
-        - [PaymentStateManagerInterface.php](plugins_PayPalPlugin_src_Manager_PaymentStateManagerInterface_php.md)
+        - [PaymentStateManagerInterface.php](plugins_PayPalPlugin_src_Manager_PaymentStateManagerInterface_php.md) <!-- repo:backend -->
+        - [PaymentStateManager.php](plugins_PayPalPlugin_src_Manager_PaymentStateManager_php.md) <!-- repo:backend -->
       - **Migrations**
-        - [Version20200907102535.php](plugins_PayPalPlugin_src_Migrations_Version20200907102535_php.md)
+        - [Version20200907102535.php](plugins_PayPalPlugin_src_Migrations_Version20200907102535_php.md) <!-- repo:backend -->
       - **Model**
-        - [PayPalOrder.php](plugins_PayPalPlugin_src_Model_PayPalOrder_php.md)
-        - [PayPalPurchaseUnit.php](plugins_PayPalPlugin_src_Model_PayPalPurchaseUnit_php.md)
-        - [PaymentMethod.php](plugins_PayPalPlugin_src_Model_PaymentMethod_php.md)
-        - [Report.php](plugins_PayPalPlugin_src_Model_Report_php.md)
+        - [PayPalOrder.php](plugins_PayPalPlugin_src_Model_PayPalOrder_php.md) <!-- repo:backend -->
+        - [PayPalPurchaseUnit.php](plugins_PayPalPlugin_src_Model_PayPalPurchaseUnit_php.md) <!-- repo:backend -->
+        - [PaymentMethod.php](plugins_PayPalPlugin_src_Model_PaymentMethod_php.md) <!-- repo:backend -->
+        - [Report.php](plugins_PayPalPlugin_src_Model_Report_php.md) <!-- repo:backend -->
       - **Onboarding**
         - **Initiator**
-          - [OnboardingInitiator.php](plugins_PayPalPlugin_src_Onboarding_Initiator_OnboardingInitiator_php.md)
-          - [OnboardingInitiatorInterface.php](plugins_PayPalPlugin_src_Onboarding_Initiator_OnboardingInitiatorInterface_php.md)
+          - [OnboardingInitiatorInterface.php](plugins_PayPalPlugin_src_Onboarding_Initiator_OnboardingInitiatorInterface_php.md) <!-- repo:backend -->
+          - [OnboardingInitiator.php](plugins_PayPalPlugin_src_Onboarding_Initiator_OnboardingInitiator_php.md) <!-- repo:backend -->
         - **Processor**
-          - [BasicOnboardingProcessor.php](plugins_PayPalPlugin_src_Onboarding_Processor_BasicOnboardingProcessor_php.md)
-          - [OnboardingProcessorInterface.php](plugins_PayPalPlugin_src_Onboarding_Processor_OnboardingProcessorInterface_php.md)
+          - [BasicOnboardingProcessor.php](plugins_PayPalPlugin_src_Onboarding_Processor_BasicOnboardingProcessor_php.md) <!-- repo:backend -->
+          - [OnboardingProcessorInterface.php](plugins_PayPalPlugin_src_Onboarding_Processor_OnboardingProcessorInterface_php.md) <!-- repo:backend -->
       - **Payum**
         - **Action**
-          - [AuthorizeAction.php](plugins_PayPalPlugin_src_Payum_Action_AuthorizeAction_php.md)
-          - [CaptureAction.php](plugins_PayPalPlugin_src_Payum_Action_CaptureAction_php.md)
-          - [CompleteOrderAction.php](plugins_PayPalPlugin_src_Payum_Action_CompleteOrderAction_php.md)
-          - [ResolveNextRouteAction.php](plugins_PayPalPlugin_src_Payum_Action_ResolveNextRouteAction_php.md)
-          - [StatusAction.php](plugins_PayPalPlugin_src_Payum_Action_StatusAction_php.md)
+          - [AuthorizeAction.php](plugins_PayPalPlugin_src_Payum_Action_AuthorizeAction_php.md) <!-- repo:backend -->
+          - [CaptureAction.php](plugins_PayPalPlugin_src_Payum_Action_CaptureAction_php.md) <!-- repo:backend -->
+          - [CompleteOrderAction.php](plugins_PayPalPlugin_src_Payum_Action_CompleteOrderAction_php.md) <!-- repo:backend -->
+          - [ResolveNextRouteAction.php](plugins_PayPalPlugin_src_Payum_Action_ResolveNextRouteAction_php.md) <!-- repo:backend -->
+          - [StatusAction.php](plugins_PayPalPlugin_src_Payum_Action_StatusAction_php.md) <!-- repo:backend -->
         - **Factory**
-          - [PayPalGatewayFactory.php](plugins_PayPalPlugin_src_Payum_Factory_PayPalGatewayFactory_php.md)
+          - [PayPalGatewayFactory.php](plugins_PayPalPlugin_src_Payum_Factory_PayPalGatewayFactory_php.md) <!-- repo:backend -->
         - **Request**
-          - [CompleteOrder.php](plugins_PayPalPlugin_src_Payum_Request_CompleteOrder_php.md)
+          - [CompleteOrder.php](plugins_PayPalPlugin_src_Payum_Request_CompleteOrder_php.md) <!-- repo:backend -->
       - **Processor**
-        - [AfterCheckoutOrderPaymentProcessor.php](plugins_PayPalPlugin_src_Processor_AfterCheckoutOrderPaymentProcessor_php.md)
-        - [LocaleProcessor.php](plugins_PayPalPlugin_src_Processor_LocaleProcessor_php.md)
-        - [LocaleProcessorInterface.php](plugins_PayPalPlugin_src_Processor_LocaleProcessorInterface_php.md)
-        - [OrderPaymentProcessor.php](plugins_PayPalPlugin_src_Processor_OrderPaymentProcessor_php.md)
-        - [PayPalAddressProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalAddressProcessor_php.md)
-        - [PayPalAddressProcessorInterface.php](plugins_PayPalPlugin_src_Processor_PayPalAddressProcessorInterface_php.md)
-        - [PayPalOrderCompleteProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalOrderCompleteProcessor_php.md)
-        - [PayPalPaymentCompleteProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalPaymentCompleteProcessor_php.md)
-        - [PayPalPaymentRefundProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalPaymentRefundProcessor_php.md)
-        - [PaymentCompleteProcessorInterface.php](plugins_PayPalPlugin_src_Processor_PaymentCompleteProcessorInterface_php.md)
-        - [PaymentRefundProcessorInterface.php](plugins_PayPalPlugin_src_Processor_PaymentRefundProcessorInterface_php.md)
-        - [UiPayPalPaymentRefundProcessor.php](plugins_PayPalPlugin_src_Processor_UiPayPalPaymentRefundProcessor_php.md)
+        - [AfterCheckoutOrderPaymentProcessor.php](plugins_PayPalPlugin_src_Processor_AfterCheckoutOrderPaymentProcessor_php.md) <!-- repo:backend -->
+        - [LocaleProcessorInterface.php](plugins_PayPalPlugin_src_Processor_LocaleProcessorInterface_php.md) <!-- repo:backend -->
+        - [LocaleProcessor.php](plugins_PayPalPlugin_src_Processor_LocaleProcessor_php.md) <!-- repo:backend -->
+        - [OrderPaymentProcessor.php](plugins_PayPalPlugin_src_Processor_OrderPaymentProcessor_php.md) <!-- repo:backend -->
+        - [PayPalAddressProcessorInterface.php](plugins_PayPalPlugin_src_Processor_PayPalAddressProcessorInterface_php.md) <!-- repo:backend -->
+        - [PayPalAddressProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalAddressProcessor_php.md) <!-- repo:backend -->
+        - [PayPalOrderCompleteProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalOrderCompleteProcessor_php.md) <!-- repo:backend -->
+        - [PayPalPaymentCompleteProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalPaymentCompleteProcessor_php.md) <!-- repo:backend -->
+        - [PayPalPaymentRefundProcessor.php](plugins_PayPalPlugin_src_Processor_PayPalPaymentRefundProcessor_php.md) <!-- repo:backend -->
+        - [PaymentCompleteProcessorInterface.php](plugins_PayPalPlugin_src_Processor_PaymentCompleteProcessorInterface_php.md) <!-- repo:backend -->
+        - [PaymentRefundProcessorInterface.php](plugins_PayPalPlugin_src_Processor_PaymentRefundProcessorInterface_php.md) <!-- repo:backend -->
+        - [UiPayPalPaymentRefundProcessor.php](plugins_PayPalPlugin_src_Processor_UiPayPalPaymentRefundProcessor_php.md) <!-- repo:backend -->
       - **Provider**
-        - [AvailableCountriesProvider.php](plugins_PayPalPlugin_src_Provider_AvailableCountriesProvider_php.md)
-        - [AvailableCountriesProviderInterface.php](plugins_PayPalPlugin_src_Provider_AvailableCountriesProviderInterface_php.md)
-        - [OrderItemNonNeutralTaxesProvider.php](plugins_PayPalPlugin_src_Provider_OrderItemNonNeutralTaxesProvider_php.md)
-        - [OrderItemNonNeutralTaxesProviderInterface.php](plugins_PayPalPlugin_src_Provider_OrderItemNonNeutralTaxesProviderInterface_php.md)
-        - [OrderProvider.php](plugins_PayPalPlugin_src_Provider_OrderProvider_php.md)
-        - [OrderProviderInterface.php](plugins_PayPalPlugin_src_Provider_OrderProviderInterface_php.md)
-        - [PayPalConfigurationProvider.php](plugins_PayPalPlugin_src_Provider_PayPalConfigurationProvider_php.md)
-        - [PayPalConfigurationProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalConfigurationProviderInterface_php.md)
-        - [PayPalItemDataProvider.php](plugins_PayPalPlugin_src_Provider_PayPalItemDataProvider_php.md)
-        - [PayPalItemDataProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalItemDataProviderInterface_php.md)
-        - [PayPalPaymentMethodProvider.php](plugins_PayPalPlugin_src_Provider_PayPalPaymentMethodProvider_php.md)
-        - [PayPalPaymentMethodProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalPaymentMethodProviderInterface_php.md)
-        - [PayPalRefundDataProvider.php](plugins_PayPalPlugin_src_Provider_PayPalRefundDataProvider_php.md)
-        - [PayPalRefundDataProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalRefundDataProviderInterface_php.md)
-        - [PayPalWebhookDataProvider.php](plugins_PayPalPlugin_src_Provider_PayPalWebhookDataProvider_php.md)
-        - [PayPalWebhookDataProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalWebhookDataProviderInterface_php.md)
-        - [PaymentProvider.php](plugins_PayPalPlugin_src_Provider_PaymentProvider_php.md)
-        - [PaymentProviderInterface.php](plugins_PayPalPlugin_src_Provider_PaymentProviderInterface_php.md)
-        - [PaymentReferenceNumberProvider.php](plugins_PayPalPlugin_src_Provider_PaymentReferenceNumberProvider_php.md)
-        - [PaymentReferenceNumberProviderInterface.php](plugins_PayPalPlugin_src_Provider_PaymentReferenceNumberProviderInterface_php.md)
-        - [RefundReferenceNumberProvider.php](plugins_PayPalPlugin_src_Provider_RefundReferenceNumberProvider_php.md)
-        - [RefundReferenceNumberProviderInterface.php](plugins_PayPalPlugin_src_Provider_RefundReferenceNumberProviderInterface_php.md)
-        - [UuidProvider.php](plugins_PayPalPlugin_src_Provider_UuidProvider_php.md)
-        - [UuidProviderInterface.php](plugins_PayPalPlugin_src_Provider_UuidProviderInterface_php.md)
+        - [AvailableCountriesProviderInterface.php](plugins_PayPalPlugin_src_Provider_AvailableCountriesProviderInterface_php.md) <!-- repo:backend -->
+        - [AvailableCountriesProvider.php](plugins_PayPalPlugin_src_Provider_AvailableCountriesProvider_php.md) <!-- repo:backend -->
+        - [OrderItemNonNeutralTaxesProviderInterface.php](plugins_PayPalPlugin_src_Provider_OrderItemNonNeutralTaxesProviderInterface_php.md) <!-- repo:backend -->
+        - [OrderItemNonNeutralTaxesProvider.php](plugins_PayPalPlugin_src_Provider_OrderItemNonNeutralTaxesProvider_php.md) <!-- repo:backend -->
+        - [OrderProviderInterface.php](plugins_PayPalPlugin_src_Provider_OrderProviderInterface_php.md) <!-- repo:backend -->
+        - [OrderProvider.php](plugins_PayPalPlugin_src_Provider_OrderProvider_php.md) <!-- repo:backend -->
+        - [PayPalConfigurationProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalConfigurationProviderInterface_php.md) <!-- repo:backend -->
+        - [PayPalConfigurationProvider.php](plugins_PayPalPlugin_src_Provider_PayPalConfigurationProvider_php.md) <!-- repo:backend -->
+        - [PayPalItemDataProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalItemDataProviderInterface_php.md) <!-- repo:backend -->
+        - [PayPalItemDataProvider.php](plugins_PayPalPlugin_src_Provider_PayPalItemDataProvider_php.md) <!-- repo:backend -->
+        - [PayPalPaymentMethodProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalPaymentMethodProviderInterface_php.md) <!-- repo:backend -->
+        - [PayPalPaymentMethodProvider.php](plugins_PayPalPlugin_src_Provider_PayPalPaymentMethodProvider_php.md) <!-- repo:backend -->
+        - [PayPalRefundDataProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalRefundDataProviderInterface_php.md) <!-- repo:backend -->
+        - [PayPalRefundDataProvider.php](plugins_PayPalPlugin_src_Provider_PayPalRefundDataProvider_php.md) <!-- repo:backend -->
+        - [PayPalWebhookDataProviderInterface.php](plugins_PayPalPlugin_src_Provider_PayPalWebhookDataProviderInterface_php.md) <!-- repo:backend -->
+        - [PayPalWebhookDataProvider.php](plugins_PayPalPlugin_src_Provider_PayPalWebhookDataProvider_php.md) <!-- repo:backend -->
+        - [PaymentProviderInterface.php](plugins_PayPalPlugin_src_Provider_PaymentProviderInterface_php.md) <!-- repo:backend -->
+        - [PaymentProvider.php](plugins_PayPalPlugin_src_Provider_PaymentProvider_php.md) <!-- repo:backend -->
+        - [PaymentReferenceNumberProviderInterface.php](plugins_PayPalPlugin_src_Provider_PaymentReferenceNumberProviderInterface_php.md) <!-- repo:backend -->
+        - [PaymentReferenceNumberProvider.php](plugins_PayPalPlugin_src_Provider_PaymentReferenceNumberProvider_php.md) <!-- repo:backend -->
+        - [RefundReferenceNumberProviderInterface.php](plugins_PayPalPlugin_src_Provider_RefundReferenceNumberProviderInterface_php.md) <!-- repo:backend -->
+        - [RefundReferenceNumberProvider.php](plugins_PayPalPlugin_src_Provider_RefundReferenceNumberProvider_php.md) <!-- repo:backend -->
+        - [UuidProviderInterface.php](plugins_PayPalPlugin_src_Provider_UuidProviderInterface_php.md) <!-- repo:backend -->
+        - [UuidProvider.php](plugins_PayPalPlugin_src_Provider_UuidProvider_php.md) <!-- repo:backend -->
       - **Registrar**
-        - [SellerWebhookRegistrar.php](plugins_PayPalPlugin_src_Registrar_SellerWebhookRegistrar_php.md)
-        - [SellerWebhookRegistrarInterface.php](plugins_PayPalPlugin_src_Registrar_SellerWebhookRegistrarInterface_php.md)
+        - [SellerWebhookRegistrarInterface.php](plugins_PayPalPlugin_src_Registrar_SellerWebhookRegistrarInterface_php.md) <!-- repo:backend -->
+        - [SellerWebhookRegistrar.php](plugins_PayPalPlugin_src_Registrar_SellerWebhookRegistrar_php.md) <!-- repo:backend -->
       - **Resolver**
-        - [CapturePaymentResolver.php](plugins_PayPalPlugin_src_Resolver_CapturePaymentResolver_php.md)
-        - [CapturePaymentResolverInterface.php](plugins_PayPalPlugin_src_Resolver_CapturePaymentResolverInterface_php.md)
-        - [CompleteOrderPaymentResolver.php](plugins_PayPalPlugin_src_Resolver_CompleteOrderPaymentResolver_php.md)
-        - [CompleteOrderPaymentResolverInterface.php](plugins_PayPalPlugin_src_Resolver_CompleteOrderPaymentResolverInterface_php.md)
-        - [PayPalDefaultPaymentMethodResolver.php](plugins_PayPalPlugin_src_Resolver_PayPalDefaultPaymentMethodResolver_php.md)
-        - [PayPalPrioritisingPaymentMethodsResolver.php](plugins_PayPalPlugin_src_Resolver_PayPalPrioritisingPaymentMethodsResolver_php.md)
+        - [CapturePaymentResolverInterface.php](plugins_PayPalPlugin_src_Resolver_CapturePaymentResolverInterface_php.md) <!-- repo:backend -->
+        - [CapturePaymentResolver.php](plugins_PayPalPlugin_src_Resolver_CapturePaymentResolver_php.md) <!-- repo:backend -->
+        - [CompleteOrderPaymentResolverInterface.php](plugins_PayPalPlugin_src_Resolver_CompleteOrderPaymentResolverInterface_php.md) <!-- repo:backend -->
+        - [CompleteOrderPaymentResolver.php](plugins_PayPalPlugin_src_Resolver_CompleteOrderPaymentResolver_php.md) <!-- repo:backend -->
+        - [PayPalDefaultPaymentMethodResolver.php](plugins_PayPalPlugin_src_Resolver_PayPalDefaultPaymentMethodResolver_php.md) <!-- repo:backend -->
+        - [PayPalPrioritisingPaymentMethodsResolver.php](plugins_PayPalPlugin_src_Resolver_PayPalPrioritisingPaymentMethodsResolver_php.md) <!-- repo:backend -->
       - **Resources**
         - **config**
-          - [admin_routing.yml](plugins_PayPalPlugin_src_Resources_config_admin_routing_yml.md)
-          - [config.yaml](plugins_PayPalPlugin_src_Resources_config_config_yaml.md)
-          - [shop_routing.yaml](plugins_PayPalPlugin_src_Resources_config_shop_routing_yaml.md)
-          - [webhook.yml](plugins_PayPalPlugin_src_Resources_config_webhook_yml.md)
-          - [webhook_routing.yaml](plugins_PayPalPlugin_src_Resources_config_webhook_routing_yaml.md)
+          - [admin_routing.yml](plugins_PayPalPlugin_src_Resources_config_admin_routing_yml.md) <!-- repo:backend -->
+          - [config.yaml](plugins_PayPalPlugin_src_Resources_config_config_yaml.md) <!-- repo:backend -->
+          - [shop_routing.yaml](plugins_PayPalPlugin_src_Resources_config_shop_routing_yaml.md) <!-- repo:backend -->
+          - [webhook_routing.yaml](plugins_PayPalPlugin_src_Resources_config_webhook_routing_yaml.md) <!-- repo:backend -->
+          - [webhook.yml](plugins_PayPalPlugin_src_Resources_config_webhook_yml.md) <!-- repo:backend -->
         - **public**
           - **css**
-            - [style.css](plugins_PayPalPlugin_src_Resources_public_css_style_css.md)
+            - [style.css](plugins_PayPalPlugin_src_Resources_public_css_style_css.md) <!-- repo:backend -->
         - **translations**
-          - [flashes.en.yml](plugins_PayPalPlugin_src_Resources_translations_flashes_en_yml.md)
-          - [flashes.fr.yml](plugins_PayPalPlugin_src_Resources_translations_flashes_fr_yml.md)
-          - [flashes.nl.yml](plugins_PayPalPlugin_src_Resources_translations_flashes_nl_yml.md)
-          - [messages.en.yml](plugins_PayPalPlugin_src_Resources_translations_messages_en_yml.md)
-          - [messages.fr.yml](plugins_PayPalPlugin_src_Resources_translations_messages_fr_yml.md)
-          - [messages.nl.yml](plugins_PayPalPlugin_src_Resources_translations_messages_nl_yml.md)
+          - [flashes.en.yml](plugins_PayPalPlugin_src_Resources_translations_flashes_en_yml.md) <!-- repo:backend -->
+          - [flashes.fr.yml](plugins_PayPalPlugin_src_Resources_translations_flashes_fr_yml.md) <!-- repo:backend -->
+          - [flashes.nl.yml](plugins_PayPalPlugin_src_Resources_translations_flashes_nl_yml.md) <!-- repo:backend -->
+          - [messages.en.yml](plugins_PayPalPlugin_src_Resources_translations_messages_en_yml.md) <!-- repo:backend -->
+          - [messages.fr.yml](plugins_PayPalPlugin_src_Resources_translations_messages_fr_yml.md) <!-- repo:backend -->
+          - [messages.nl.yml](plugins_PayPalPlugin_src_Resources_translations_messages_nl_yml.md) <!-- repo:backend -->
         - **views**
           - **Buttons**
-            - [cart.html.twig](plugins_PayPalPlugin_src_Resources_views_Buttons_cart_html_twig.md)
-            - [payment.html.twig](plugins_PayPalPlugin_src_Resources_views_Buttons_payment_html_twig.md)
-            - [productDetails.html.twig](plugins_PayPalPlugin_src_Resources_views_Buttons_productDetails_html_twig.md)
+            - [cart.html.twig](plugins_PayPalPlugin_src_Resources_views_Buttons_cart_html_twig.md) <!-- repo:backend -->
+            - [payment.html.twig](plugins_PayPalPlugin_src_Resources_views_Buttons_payment_html_twig.md) <!-- repo:backend -->
+            - [productDetails.html.twig](plugins_PayPalPlugin_src_Resources_views_Buttons_productDetails_html_twig.md) <!-- repo:backend -->
           - **Grid**
-            - [downloadReport.html.twig](plugins_PayPalPlugin_src_Resources_views_Grid_downloadReport_html_twig.md)
-            - [enablePayPal.html.twig](plugins_PayPalPlugin_src_Resources_views_Grid_enablePayPal_html_twig.md)
-            - [enableSeller.html.twig](plugins_PayPalPlugin_src_Resources_views_Grid_enableSeller_html_twig.md)
+            - [downloadReport.html.twig](plugins_PayPalPlugin_src_Resources_views_Grid_downloadReport_html_twig.md) <!-- repo:backend -->
+            - [enablePayPal.html.twig](plugins_PayPalPlugin_src_Resources_views_Grid_enablePayPal_html_twig.md) <!-- repo:backend -->
+            - [enableSeller.html.twig](plugins_PayPalPlugin_src_Resources_views_Grid_enableSeller_html_twig.md) <!-- repo:backend -->
           - **bundles**
             - **SyliusAdminBundle**
               - **Order**
                 - **Show**
-                  - [_payment.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusAdminBundle_Order_Show__payment_html_twig.md)
+                  - [_payment.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusAdminBundle_Order_Show__payment_html_twig.md) <!-- repo:backend -->
               - **PaymentMethod**
                 - **Gateways**
-                  - [paymentGateways.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusAdminBundle_PaymentMethod_Gateways_paymentGateways_html_twig.md)
+                  - [paymentGateways.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusAdminBundle_PaymentMethod_Gateways_paymentGateways_html_twig.md) <!-- repo:backend -->
             - **SyliusShopBundle**
               - **Checkout**
                 - **SelectPayment**
-                  - [_choice.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Checkout_SelectPayment__choice_html_twig.md)
+                  - [_choice.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Checkout_SelectPayment__choice_html_twig.md) <!-- repo:backend -->
               - **Common**
                 - **Order**
-                  - [_addresses.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Common_Order__addresses_html_twig.md)
-                  - [_payments.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Common_Order__payments_html_twig.md)
+                  - [_addresses.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Common_Order__addresses_html_twig.md) <!-- repo:backend -->
+                  - [_payments.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Common_Order__payments_html_twig.md) <!-- repo:backend -->
               - **Order**
-                - [thankYou.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Order_thankYou_html_twig.md)
-          - [javascripts.html.twig](plugins_PayPalPlugin_src_Resources_views_javascripts_html_twig.md)
-          - [payFromCartPage.html.twig](plugins_PayPalPlugin_src_Resources_views_payFromCartPage_html_twig.md)
-          - [payFromPaymentPage.html.twig](plugins_PayPalPlugin_src_Resources_views_payFromPaymentPage_html_twig.md)
-          - [payFromProductPage.html.twig](plugins_PayPalPlugin_src_Resources_views_payFromProductPage_html_twig.md)
-          - [payPalLogo.html.twig](plugins_PayPalPlugin_src_Resources_views_payPalLogo_html_twig.md)
-          - [payWithPaypal.html.twig](plugins_PayPalPlugin_src_Resources_views_payWithPaypal_html_twig.md)
-          - [stylesheets.html.twig](plugins_PayPalPlugin_src_Resources_views_stylesheets_html_twig.md)
-      - [SyliusPayPalPlugin.php](plugins_PayPalPlugin_src_SyliusPayPalPlugin_php.md)
+                - [thankYou.html.twig](plugins_PayPalPlugin_src_Resources_views_bundles_SyliusShopBundle_Order_thankYou_html_twig.md) <!-- repo:backend -->
+          - [javascripts.html.twig](plugins_PayPalPlugin_src_Resources_views_javascripts_html_twig.md) <!-- repo:backend -->
+          - [payFromCartPage.html.twig](plugins_PayPalPlugin_src_Resources_views_payFromCartPage_html_twig.md) <!-- repo:backend -->
+          - [payFromPaymentPage.html.twig](plugins_PayPalPlugin_src_Resources_views_payFromPaymentPage_html_twig.md) <!-- repo:backend -->
+          - [payFromProductPage.html.twig](plugins_PayPalPlugin_src_Resources_views_payFromProductPage_html_twig.md) <!-- repo:backend -->
+          - [payPalLogo.html.twig](plugins_PayPalPlugin_src_Resources_views_payPalLogo_html_twig.md) <!-- repo:backend -->
+          - [payWithPaypal.html.twig](plugins_PayPalPlugin_src_Resources_views_payWithPaypal_html_twig.md) <!-- repo:backend -->
+          - [stylesheets.html.twig](plugins_PayPalPlugin_src_Resources_views_stylesheets_html_twig.md) <!-- repo:backend -->
       - **Twig**
-        - [OrderAddressExtension.php](plugins_PayPalPlugin_src_Twig_OrderAddressExtension_php.md)
-        - [PayPalExtension.php](plugins_PayPalPlugin_src_Twig_PayPalExtension_php.md)
+        - [OrderAddressExtension.php](plugins_PayPalPlugin_src_Twig_OrderAddressExtension_php.md) <!-- repo:backend -->
+        - [PayPalExtension.php](plugins_PayPalPlugin_src_Twig_PayPalExtension_php.md) <!-- repo:backend -->
       - **Updater**
-        - [PayPalPaymentUpdater.php](plugins_PayPalPlugin_src_Updater_PayPalPaymentUpdater_php.md)
-        - [PaymentUpdaterInterface.php](plugins_PayPalPlugin_src_Updater_PaymentUpdaterInterface_php.md)
-      - [UrlUtils.php](plugins_PayPalPlugin_src_UrlUtils_php.md)
+        - [PayPalPaymentUpdater.php](plugins_PayPalPlugin_src_Updater_PayPalPaymentUpdater_php.md) <!-- repo:backend -->
+        - [PaymentUpdaterInterface.php](plugins_PayPalPlugin_src_Updater_PaymentUpdaterInterface_php.md) <!-- repo:backend -->
+      - [SyliusPayPalPlugin.php](plugins_PayPalPlugin_src_SyliusPayPalPlugin_php.md) <!-- repo:backend -->
+      - [UrlUtils.php](plugins_PayPalPlugin_src_UrlUtils_php.md) <!-- repo:backend -->
   - **PayzenPlugin**
-    - [README.md](plugins_PayzenPlugin_README_md.md)
-    - [composer.json](plugins_PayzenPlugin_composer_json.md)
+    - [README.md](plugins_PayzenPlugin_README_md.md) <!-- repo:backend -->
+    - [composer.json](plugins_PayzenPlugin_composer_json.md) <!-- repo:backend -->
     - **src**
       - **Action**
         - **Api**
-          - [AbstractApiAction.php](plugins_PayzenPlugin_src_Action_Api_AbstractApiAction_php.md)
-          - [ApiRequestAction.php](plugins_PayzenPlugin_src_Action_Api_ApiRequestAction_php.md)
-          - [ApiResponseAction.php](plugins_PayzenPlugin_src_Action_Api_ApiResponseAction_php.md)
-        - [CaptureAction.php](plugins_PayzenPlugin_src_Action_CaptureAction_php.md)
-        - [ConvertPaymentAction.php](plugins_PayzenPlugin_src_Action_ConvertPaymentAction_php.md)
-        - [NotifyAction.php](plugins_PayzenPlugin_src_Action_NotifyAction_php.md)
-        - [RefundAction.php](plugins_PayzenPlugin_src_Action_RefundAction_php.md)
-        - [StatusAction.php](plugins_PayzenPlugin_src_Action_StatusAction_php.md)
-        - [SyncAction.php](plugins_PayzenPlugin_src_Action_SyncAction_php.md)
-      - [AntilopSyliusPayzenBundle.php](plugins_PayzenPlugin_src_AntilopSyliusPayzenBundle_php.md)
+          - [AbstractApiAction.php](plugins_PayzenPlugin_src_Action_Api_AbstractApiAction_php.md) <!-- repo:backend -->
+          - [ApiRequestAction.php](plugins_PayzenPlugin_src_Action_Api_ApiRequestAction_php.md) <!-- repo:backend -->
+          - [ApiResponseAction.php](plugins_PayzenPlugin_src_Action_Api_ApiResponseAction_php.md) <!-- repo:backend -->
+        - [CaptureAction.php](plugins_PayzenPlugin_src_Action_CaptureAction_php.md) <!-- repo:backend -->
+        - [ConvertPaymentAction.php](plugins_PayzenPlugin_src_Action_ConvertPaymentAction_php.md) <!-- repo:backend -->
+        - [NotifyAction.php](plugins_PayzenPlugin_src_Action_NotifyAction_php.md) <!-- repo:backend -->
+        - [RefundAction.php](plugins_PayzenPlugin_src_Action_RefundAction_php.md) <!-- repo:backend -->
+        - [StatusAction.php](plugins_PayzenPlugin_src_Action_StatusAction_php.md) <!-- repo:backend -->
+        - [SyncAction.php](plugins_PayzenPlugin_src_Action_SyncAction_php.md) <!-- repo:backend -->
       - **Api**
-        - [Api.php](plugins_PayzenPlugin_src_Api_Api_php.md)
-        - [PayzenSdkClient.php](plugins_PayzenPlugin_src_Api_PayzenSdkClient_php.md)
+        - [Api.php](plugins_PayzenPlugin_src_Api_Api_php.md) <!-- repo:backend -->
+        - [PayzenSdkClient.php](plugins_PayzenPlugin_src_Api_PayzenSdkClient_php.md) <!-- repo:backend -->
       - **DependencyInjection**
-        - [AntilopSyliusPayzenExtension.php](plugins_PayzenPlugin_src_DependencyInjection_AntilopSyliusPayzenExtension_php.md)
+        - [AntilopSyliusPayzenExtension.php](plugins_PayzenPlugin_src_DependencyInjection_AntilopSyliusPayzenExtension_php.md) <!-- repo:backend -->
       - **Factory**
-        - [PayzenSdkClientFactory.php](plugins_PayzenPlugin_src_Factory_PayzenSdkClientFactory_php.md)
+        - [PayzenSdkClientFactory.php](plugins_PayzenPlugin_src_Factory_PayzenSdkClientFactory_php.md) <!-- repo:backend -->
       - **Form**
         - **Type**
-          - [PayzenGatewayConfigurationType.php](plugins_PayzenPlugin_src_Form_Type_PayzenGatewayConfigurationType_php.md)
-      - [PayzenGatewayFactory.php](plugins_PayzenPlugin_src_PayzenGatewayFactory_php.md)
+          - [PayzenGatewayConfigurationType.php](plugins_PayzenPlugin_src_Form_Type_PayzenGatewayConfigurationType_php.md) <!-- repo:backend -->
       - **Request**
-        - [Request.php](plugins_PayzenPlugin_src_Request_Request_php.md)
-        - [Response.php](plugins_PayzenPlugin_src_Request_Response_php.md)
+        - [Request.php](plugins_PayzenPlugin_src_Request_Request_php.md) <!-- repo:backend -->
+        - [Response.php](plugins_PayzenPlugin_src_Request_Response_php.md) <!-- repo:backend -->
       - **Resources**
         - **config**
-          - [routing.yaml](plugins_PayzenPlugin_src_Resources_config_routing_yaml.md)
+          - [routing.yaml](plugins_PayzenPlugin_src_Resources_config_routing_yaml.md) <!-- repo:backend -->
         - **translations**
-          - [messages.en.yml](plugins_PayzenPlugin_src_Resources_translations_messages_en_yml.md)
-          - [messages.en_US.yml](plugins_PayzenPlugin_src_Resources_translations_messages_en_US_yml.md)
-          - [messages.fr.yml](plugins_PayzenPlugin_src_Resources_translations_messages_fr_yml.md)
+          - [messages.en_US.yml](plugins_PayzenPlugin_src_Resources_translations_messages_en_US_yml.md) <!-- repo:backend -->
+          - [messages.en.yml](plugins_PayzenPlugin_src_Resources_translations_messages_en_yml.md) <!-- repo:backend -->
+          - [messages.fr.yml](plugins_PayzenPlugin_src_Resources_translations_messages_fr_yml.md) <!-- repo:backend -->
+      - [AntilopSyliusPayzenBundle.php](plugins_PayzenPlugin_src_AntilopSyliusPayzenBundle_php.md) <!-- repo:backend -->
+      - [PayzenGatewayFactory.php](plugins_PayzenPlugin_src_PayzenGatewayFactory_php.md) <!-- repo:backend -->
 
 
 ## Other
 
 - **.cursor**
-  - [mcp.json](_cursor_mcp_json.md)
+  - [mcp.json](_cursor_mcp_json.md) <!-- repo:frontend -->
 - **.docker**
-  - [Dockerfile](_docker_Dockerfile.md)
-- [.eslintrc-auto-import.json](_eslintrc-auto-import_json.md)
-- [.eslintrc.js](_eslintrc_js.md)
-- [.php-cs-fixer.php](_php-cs-fixer_php.md)
-- [.stylelintrc.json](_stylelintrc_json.md)
-- [.yarnrc.yml](_yarnrc_yml.md)
+  - [Dockerfile](_docker_Dockerfile.md) <!-- repo:backend -->
 - **Activity**
   - **Enum**
-    - [ActivityAction.php](src_Activity_Enum_ActivityAction_php.md)
+    - [ActivityAction.php](src_Activity_Enum_ActivityAction_php.md) <!-- repo:backend -->
   - **Logger**
-    - [ActivityLoggerInterface.php](src_Activity_Logger_ActivityLoggerInterface_php.md)
-    - [DoctrineLogger.php](src_Activity_Logger_DoctrineLogger_php.md)
+    - [ActivityLoggerInterface.php](src_Activity_Logger_ActivityLoggerInterface_php.md) <!-- repo:backend -->
+    - [DoctrineLogger.php](src_Activity_Logger_DoctrineLogger_php.md) <!-- repo:backend -->
 - **Api**
   - **Attribute**
-    - [CustomerIdAware.php](src_Api_Attribute_CustomerIdAware_php.md)
-    - [PaymentInstrumentCodeAware.php](src_Api_Attribute_PaymentInstrumentCodeAware_php.md)
-    - [PromotionCouponCodeAware.php](src_Api_Attribute_PromotionCouponCodeAware_php.md)
-    - [SubscriptionCodeAware.php](src_Api_Attribute_SubscriptionCodeAware_php.md)
-    - [SubscriptionCommentIdAware.php](src_Api_Attribute_SubscriptionCommentIdAware_php.md)
-    - [SubscriptionFromCodeAware.php](src_Api_Attribute_SubscriptionFromCodeAware_php.md)
-    - [SubscriptionItemIdAware.php](src_Api_Attribute_SubscriptionItemIdAware_php.md)
+    - [CustomerIdAware.php](src_Api_Attribute_CustomerIdAware_php.md) <!-- repo:backend -->
+    - [PaymentInstrumentCodeAware.php](src_Api_Attribute_PaymentInstrumentCodeAware_php.md) <!-- repo:backend -->
+    - [PromotionCouponCodeAware.php](src_Api_Attribute_PromotionCouponCodeAware_php.md) <!-- repo:backend -->
+    - [SubscriptionCodeAware.php](src_Api_Attribute_SubscriptionCodeAware_php.md) <!-- repo:backend -->
+    - [SubscriptionCommentIdAware.php](src_Api_Attribute_SubscriptionCommentIdAware_php.md) <!-- repo:backend -->
+    - [SubscriptionFromCodeAware.php](src_Api_Attribute_SubscriptionFromCodeAware_php.md) <!-- repo:backend -->
+    - [SubscriptionItemIdAware.php](src_Api_Attribute_SubscriptionItemIdAware_php.md) <!-- repo:backend -->
   - **Auditor**
     - **Filter**
-      - [SimpleFilter.php](src_Api_Auditor_Filter_SimpleFilter_php.md)
+      - [SimpleFilter.php](src_Api_Auditor_Filter_SimpleFilter_php.md) <!-- repo:backend -->
     - **Security**
-      - [RoleChecker.php](src_Api_Auditor_Security_RoleChecker_php.md)
+      - [RoleChecker.php](src_Api_Auditor_Security_RoleChecker_php.md) <!-- repo:backend -->
   - **Context**
-    - [DecoratedCartContext.php](src_Api_Context_DecoratedCartContext_php.md)
-    - [EnhancedCartContextInterface.php](src_Api_Context_EnhancedCartContextInterface_php.md)
-    - [RequestResolver.php](src_Api_Context_RequestResolver_php.md)
-    - [SubscriptionOrderCartContext.php](src_Api_Context_SubscriptionOrderCartContext_php.md)
+    - [DecoratedCartContext.php](src_Api_Context_DecoratedCartContext_php.md) <!-- repo:backend -->
+    - [EnhancedCartContextInterface.php](src_Api_Context_EnhancedCartContextInterface_php.md) <!-- repo:backend -->
+    - [RequestResolver.php](src_Api_Context_RequestResolver_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderCartContext.php](src_Api_Context_SubscriptionOrderCartContext_php.md) <!-- repo:backend -->
   - **Dto**
     - **Auditor**
-      - [Entry.php](src_Api_Dto_Auditor_Entry_php.md)
-      - [LogAvailableDto.php](src_Api_Dto_Auditor_LogAvailableDto_php.md)
-      - [LogDto.php](src_Api_Dto_Auditor_LogDto_php.md)
-    - [FrequencyDto.php](src_Api_Dto_FrequencyDto_php.md)
-    - [InvoiceOutput.php](src_Api_Dto_InvoiceOutput_php.md)
-    - [RecaptchaDto.php](src_Api_Dto_RecaptchaDto_php.md)
-    - [SettingDto.php](src_Api_Dto_SettingDto_php.md)
-    - [SubscriptionMonitoringDto.php](src_Api_Dto_SubscriptionMonitoringDto_php.md)
-    - [UpdateInstrumentResponse.php](src_Api_Dto_UpdateInstrumentResponse_php.md)
+      - [Entry.php](src_Api_Dto_Auditor_Entry_php.md) <!-- repo:backend -->
+      - [LogAvailableDto.php](src_Api_Dto_Auditor_LogAvailableDto_php.md) <!-- repo:backend -->
+      - [LogDto.php](src_Api_Dto_Auditor_LogDto_php.md) <!-- repo:backend -->
+    - [FrequencyDto.php](src_Api_Dto_FrequencyDto_php.md) <!-- repo:backend -->
+    - [InvoiceOutput.php](src_Api_Dto_InvoiceOutput_php.md) <!-- repo:backend -->
+    - [RecaptchaDto.php](src_Api_Dto_RecaptchaDto_php.md) <!-- repo:backend -->
+    - [SettingDto.php](src_Api_Dto_SettingDto_php.md) <!-- repo:backend -->
+    - [SubscriptionMonitoringDto.php](src_Api_Dto_SubscriptionMonitoringDto_php.md) <!-- repo:backend -->
+    - [UpdateInstrumentResponse.php](src_Api_Dto_UpdateInstrumentResponse_php.md) <!-- repo:backend -->
   - **Filters**
-    - [AbstractWithNativeSupportContextAwareFilter.php](src_Api_Filters_AbstractWithNativeSupportContextAwareFilter_php.md)
-    - [AdminUserGenericFilter.php](src_Api_Filters_AdminUserGenericFilter_php.md)
-    - [AdminUserGroupFilter.php](src_Api_Filters_AdminUserGroupFilter_php.md)
-    - [AnimalGenericFilter.php](src_Api_Filters_AnimalGenericFilter_php.md)
-    - [BooleanFilter.php](src_Api_Filters_BooleanFilter_php.md)
-    - [ChannelFilter.php](src_Api_Filters_ChannelFilter_php.md)
     - **Common**
-      - [NativePropertyHelperTrait.php](src_Api_Filters_Common_NativePropertyHelperTrait_php.md)
+      - [NativePropertyHelperTrait.php](src_Api_Filters_Common_NativePropertyHelperTrait_php.md) <!-- repo:backend -->
     - **Customer**
-      - [HasSubscriptionFilter.php](src_Api_Filters_Customer_HasSubscriptionFilter_php.md)
-    - [CustomerGenericFilter.php](src_Api_Filters_CustomerGenericFilter_php.md)
-    - [DateFilter.php](src_Api_Filters_DateFilter_php.md)
-    - [EmailAuditGenericFilter.php](src_Api_Filters_EmailAuditGenericFilter_php.md)
-    - [NativeFilterInterface.php](src_Api_Filters_NativeFilterInterface_php.md)
-    - [OrderGenericFilter.php](src_Api_Filters_OrderGenericFilter_php.md)
-    - [OrderRuleGenericFilter.php](src_Api_Filters_OrderRuleGenericFilter_php.md)
-    - [PaymentGenericFilter.php](src_Api_Filters_PaymentGenericFilter_php.md)
-    - [PaymentMethodGenericFilter.php](src_Api_Filters_PaymentMethodGenericFilter_php.md)
-    - [PickupPointGenericFilter.php](src_Api_Filters_PickupPointGenericFilter_php.md)
-    - [PickupPointIsAvailableFilter.php](src_Api_Filters_PickupPointIsAvailableFilter_php.md)
-    - [ProductGenericFilter.php](src_Api_Filters_ProductGenericFilter_php.md)
-    - [ProductVariantGenericFilter.php](src_Api_Filters_ProductVariantGenericFilter_php.md)
-    - [PromotionAnalyticCategoryFilter.php](src_Api_Filters_PromotionAnalyticCategoryFilter_php.md)
-    - [PromotionCouponAvailableForFilter.php](src_Api_Filters_PromotionCouponAvailableForFilter_php.md)
-    - [PromotionCouponGenericFilter.php](src_Api_Filters_PromotionCouponGenericFilter_php.md)
-    - [PromotionGenericFilter.php](src_Api_Filters_PromotionGenericFilter_php.md)
-    - [RangeFilter.php](src_Api_Filters_RangeFilter_php.md)
-    - [SearchFilter.php](src_Api_Filters_SearchFilter_php.md)
-    - [ShippingMethodGenericFilter.php](src_Api_Filters_ShippingMethodGenericFilter_php.md)
-    - [SortFilter.php](src_Api_Filters_SortFilter_php.md)
-    - [SubscriptionGenericFilter.php](src_Api_Filters_SubscriptionGenericFilter_php.md)
-    - [SubscriptionLastShippingAtFilter.php](src_Api_Filters_SubscriptionLastShippingAtFilter_php.md)
-    - [SubscriptionOrderTypeFilter.php](src_Api_Filters_SubscriptionOrderTypeFilter_php.md)
-    - [TaxonGenericFilter.php](src_Api_Filters_TaxonGenericFilter_php.md)
-    - [UpSellForCartFilter.php](src_Api_Filters_UpSellForCartFilter_php.md)
+      - [HasSubscriptionFilter.php](src_Api_Filters_Customer_HasSubscriptionFilter_php.md) <!-- repo:backend -->
+    - [AbstractWithNativeSupportContextAwareFilter.php](src_Api_Filters_AbstractWithNativeSupportContextAwareFilter_php.md) <!-- repo:backend -->
+    - [AdminUserGenericFilter.php](src_Api_Filters_AdminUserGenericFilter_php.md) <!-- repo:backend -->
+    - [AdminUserGroupFilter.php](src_Api_Filters_AdminUserGroupFilter_php.md) <!-- repo:backend -->
+    - [AnimalGenericFilter.php](src_Api_Filters_AnimalGenericFilter_php.md) <!-- repo:backend -->
+    - [BooleanFilter.php](src_Api_Filters_BooleanFilter_php.md) <!-- repo:backend -->
+    - [ChannelFilter.php](src_Api_Filters_ChannelFilter_php.md) <!-- repo:backend -->
+    - [CustomerGenericFilter.php](src_Api_Filters_CustomerGenericFilter_php.md) <!-- repo:backend -->
+    - [DateFilter.php](src_Api_Filters_DateFilter_php.md) <!-- repo:backend -->
+    - [EmailAuditGenericFilter.php](src_Api_Filters_EmailAuditGenericFilter_php.md) <!-- repo:backend -->
+    - [NativeFilterInterface.php](src_Api_Filters_NativeFilterInterface_php.md) <!-- repo:backend -->
+    - [OrderGenericFilter.php](src_Api_Filters_OrderGenericFilter_php.md) <!-- repo:backend -->
+    - [OrderRuleGenericFilter.php](src_Api_Filters_OrderRuleGenericFilter_php.md) <!-- repo:backend -->
+    - [PaymentGenericFilter.php](src_Api_Filters_PaymentGenericFilter_php.md) <!-- repo:backend -->
+    - [PaymentMethodGenericFilter.php](src_Api_Filters_PaymentMethodGenericFilter_php.md) <!-- repo:backend -->
+    - [PickupPointGenericFilter.php](src_Api_Filters_PickupPointGenericFilter_php.md) <!-- repo:backend -->
+    - [PickupPointIsAvailableFilter.php](src_Api_Filters_PickupPointIsAvailableFilter_php.md) <!-- repo:backend -->
+    - [ProductGenericFilter.php](src_Api_Filters_ProductGenericFilter_php.md) <!-- repo:backend -->
+    - [ProductVariantGenericFilter.php](src_Api_Filters_ProductVariantGenericFilter_php.md) <!-- repo:backend -->
+    - [PromotionAnalyticCategoryFilter.php](src_Api_Filters_PromotionAnalyticCategoryFilter_php.md) <!-- repo:backend -->
+    - [PromotionCouponAvailableForFilter.php](src_Api_Filters_PromotionCouponAvailableForFilter_php.md) <!-- repo:backend -->
+    - [PromotionCouponGenericFilter.php](src_Api_Filters_PromotionCouponGenericFilter_php.md) <!-- repo:backend -->
+    - [PromotionGenericFilter.php](src_Api_Filters_PromotionGenericFilter_php.md) <!-- repo:backend -->
+    - [RangeFilter.php](src_Api_Filters_RangeFilter_php.md) <!-- repo:backend -->
+    - [SearchFilter.php](src_Api_Filters_SearchFilter_php.md) <!-- repo:backend -->
+    - [ShippingMethodGenericFilter.php](src_Api_Filters_ShippingMethodGenericFilter_php.md) <!-- repo:backend -->
+    - [SortFilter.php](src_Api_Filters_SortFilter_php.md) <!-- repo:backend -->
+    - [SubscriptionGenericFilter.php](src_Api_Filters_SubscriptionGenericFilter_php.md) <!-- repo:backend -->
+    - [SubscriptionLastShippingAtFilter.php](src_Api_Filters_SubscriptionLastShippingAtFilter_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderTypeFilter.php](src_Api_Filters_SubscriptionOrderTypeFilter_php.md) <!-- repo:backend -->
+    - [TaxonGenericFilter.php](src_Api_Filters_TaxonGenericFilter_php.md) <!-- repo:backend -->
+    - [UpSellForCartFilter.php](src_Api_Filters_UpSellForCartFilter_php.md) <!-- repo:backend -->
   - **GraphQL**
     - **Normalizer**
-      - [ClassNameNormalizer.php](src_Api_GraphQL_Normalizer_ClassNameNormalizer_php.md)
+      - [ClassNameNormalizer.php](src_Api_GraphQL_Normalizer_ClassNameNormalizer_php.md) <!-- repo:backend -->
     - **Paginator**
-      - [AuditorPaginator.php](src_Api_GraphQL_Paginator_AuditorPaginator_php.md)
+      - [AuditorPaginator.php](src_Api_GraphQL_Paginator_AuditorPaginator_php.md) <!-- repo:backend -->
     - **Resolver**
       - **Variant**
-        - [VariantQueryCollectionResolver.php](src_Api_GraphQL_Resolver_Variant_VariantQueryCollectionResolver_php.md)
+        - [VariantQueryCollectionResolver.php](src_Api_GraphQL_Resolver_Variant_VariantQueryCollectionResolver_php.md) <!-- repo:backend -->
     - **Type**
-      - [PointType.php](src_Api_GraphQL_Type_PointType_php.md)
-      - [TypeConverter.php](src_Api_GraphQL_Type_TypeConverter_php.md)
+      - [PointType.php](src_Api_GraphQL_Type_PointType_php.md) <!-- repo:backend -->
+      - [TypeConverter.php](src_Api_GraphQL_Type_TypeConverter_php.md) <!-- repo:backend -->
   - **Metadata**
     - **Resource**
       - **Factory**
-        - [RemovedOperationResourceMetadataCollectionFactory.php](src_Api_Metadata_Resource_Factory_RemovedOperationResourceMetadataCollectionFactory_php.md)
+        - [RemovedOperationResourceMetadataCollectionFactory.php](src_Api_Metadata_Resource_Factory_RemovedOperationResourceMetadataCollectionFactory_php.md) <!-- repo:backend -->
   - **OpenApi**
-    - [ProcessPaymentDocumentationNormalizer.php](src_Api_OpenApi_ProcessPaymentDocumentationNormalizer_php.md)
+    - [ProcessPaymentDocumentationNormalizer.php](src_Api_OpenApi_ProcessPaymentDocumentationNormalizer_php.md) <!-- repo:backend -->
   - **Payment**
-    - [PaymentStateProviderInterface.php](src_Api_Payment_PaymentStateProviderInterface_php.md)
+    - [PaymentStateProviderInterface.php](src_Api_Payment_PaymentStateProviderInterface_php.md) <!-- repo:backend -->
   - **Provider**
-    - [CompositePaymentStateProvider.php](src_Api_Provider_CompositePaymentStateProvider_php.md)
-    - [CompositePaymentStateProviderInterface.php](src_Api_Provider_CompositePaymentStateProviderInterface_php.md)
+    - [CompositePaymentStateProviderInterface.php](src_Api_Provider_CompositePaymentStateProviderInterface_php.md) <!-- repo:backend -->
+    - [CompositePaymentStateProvider.php](src_Api_Provider_CompositePaymentStateProvider_php.md) <!-- repo:backend -->
   - **QueryExtension**
     - **NativeQuery**
-      - [CollectionExtensionInterface.php](src_Api_QueryExtension_NativeQuery_CollectionExtensionInterface_php.md)
-      - [FilterExtension.php](src_Api_QueryExtension_NativeQuery_FilterExtension_php.md)
-      - [ResultCollectionExtensionInterface.php](src_Api_QueryExtension_NativeQuery_ResultCollectionExtensionInterface_php.md)
+      - [CollectionExtensionInterface.php](src_Api_QueryExtension_NativeQuery_CollectionExtensionInterface_php.md) <!-- repo:backend -->
+      - [FilterExtension.php](src_Api_QueryExtension_NativeQuery_FilterExtension_php.md) <!-- repo:backend -->
+      - [ResultCollectionExtensionInterface.php](src_Api_QueryExtension_NativeQuery_ResultCollectionExtensionInterface_php.md) <!-- repo:backend -->
     - **Pagination**
-      - [SmartPaginationExtension.php](src_Api_QueryExtension_Pagination_SmartPaginationExtension_php.md)
+      - [SmartPaginationExtension.php](src_Api_QueryExtension_Pagination_SmartPaginationExtension_php.md) <!-- repo:backend -->
     - **Shop**
       - **Country**
-        - [CountryEnabledExtension.php](src_Api_QueryExtension_Shop_Country_CountryEnabledExtension_php.md)
+        - [CountryEnabledExtension.php](src_Api_QueryExtension_Shop_Country_CountryEnabledExtension_php.md) <!-- repo:backend -->
       - **Order**
-        - [CustomerBasedItemExtension.php](src_Api_QueryExtension_Shop_Order_CustomerBasedItemExtension_php.md)
-        - [ExpirationPeriodItemExtension.php](src_Api_QueryExtension_Shop_Order_ExpirationPeriodItemExtension_php.md)
+        - [CustomerBasedItemExtension.php](src_Api_QueryExtension_Shop_Order_CustomerBasedItemExtension_php.md) <!-- repo:backend -->
+        - [ExpirationPeriodItemExtension.php](src_Api_QueryExtension_Shop_Order_ExpirationPeriodItemExtension_php.md) <!-- repo:backend -->
       - **Product**
-        - [ProductEnabledExtension.php](src_Api_QueryExtension_Shop_Product_ProductEnabledExtension_php.md)
+        - [ProductEnabledExtension.php](src_Api_QueryExtension_Shop_Product_ProductEnabledExtension_php.md) <!-- repo:backend -->
       - **ShippingMethod**
-        - [ChannelBasedExtension.php](src_Api_QueryExtension_Shop_ShippingMethod_ChannelBasedExtension_php.md)
+        - [ChannelBasedExtension.php](src_Api_QueryExtension_Shop_ShippingMethod_ChannelBasedExtension_php.md) <!-- repo:backend -->
       - **Subscription**
-        - [CustomerBasedItemExtension.php](src_Api_QueryExtension_Shop_Subscription_CustomerBasedItemExtension_php.md)
+        - [CustomerBasedItemExtension.php](src_Api_QueryExtension_Shop_Subscription_CustomerBasedItemExtension_php.md) <!-- repo:backend -->
   - **Security**
-    - [GoogleAuthenticator.php](src_Api_Security_GoogleAuthenticator_php.md)
+    - [GoogleAuthenticator.php](src_Api_Security_GoogleAuthenticator_php.md) <!-- repo:backend -->
   - **Serializer**
-    - [CollectionFiltersNormalizer.php](src_Api_Serializer_CollectionFiltersNormalizer_php.md)
     - **ContextBuilder**
-      - [SubscriptionAwareContextBuilder.php](src_Api_Serializer_ContextBuilder_SubscriptionAwareContextBuilder_php.md)
+      - [SubscriptionAwareContextBuilder.php](src_Api_Serializer_ContextBuilder_SubscriptionAwareContextBuilder_php.md) <!-- repo:backend -->
     - **Denormalizer**
-      - [DateTimeDenormalizer.php](src_Api_Serializer_Denormalizer_DateTimeDenormalizer_php.md)
-      - [ProductDenormalizer.php](src_Api_Serializer_Denormalizer_ProductDenormalizer_php.md)
-      - [ProductOptionDenormalizer.php](src_Api_Serializer_Denormalizer_ProductOptionDenormalizer_php.md)
-      - [ProductOptionValueDenormalizer.php](src_Api_Serializer_Denormalizer_ProductOptionValueDenormalizer_php.md)
-      - [ProductVariantDenormalizer.php](src_Api_Serializer_Denormalizer_ProductVariantDenormalizer_php.md)
+      - [DateTimeDenormalizer.php](src_Api_Serializer_Denormalizer_DateTimeDenormalizer_php.md) <!-- repo:backend -->
+      - [ProductDenormalizer.php](src_Api_Serializer_Denormalizer_ProductDenormalizer_php.md) <!-- repo:backend -->
+      - [ProductOptionDenormalizer.php](src_Api_Serializer_Denormalizer_ProductOptionDenormalizer_php.md) <!-- repo:backend -->
+      - [ProductOptionValueDenormalizer.php](src_Api_Serializer_Denormalizer_ProductOptionValueDenormalizer_php.md) <!-- repo:backend -->
+      - [ProductVariantDenormalizer.php](src_Api_Serializer_Denormalizer_ProductVariantDenormalizer_php.md) <!-- repo:backend -->
     - **Normalizer**
       - **Address**
-        - [WebMethodAddressNormalizer.php](src_Api_Serializer_Normalizer_Address_WebMethodAddressNormalizer_php.md)
-      - [ChannelPricingNormalizer.php](src_Api_Serializer_Normalizer_ChannelPricingNormalizer_php.md)
+        - [WebMethodAddressNormalizer.php](src_Api_Serializer_Normalizer_Address_WebMethodAddressNormalizer_php.md) <!-- repo:backend -->
       - **Customer**
-        - [AddressBookNormalizer.php](src_Api_Serializer_Normalizer_Customer_AddressBookNormalizer_php.md)
-        - [AnimalsNormalizer.php](src_Api_Serializer_Normalizer_Customer_AnimalsNormalizer_php.md)
-        - [AnimalsTypeNormalizer.php](src_Api_Serializer_Normalizer_Customer_AnimalsTypeNormalizer_php.md)
-        - [NewCustomerNormalizer.php](src_Api_Serializer_Normalizer_Customer_NewCustomerNormalizer_php.md)
-        - [OriginLeadCustomerNormalizer.php](src_Api_Serializer_Normalizer_Customer_OriginLeadCustomerNormalizer_php.md)
-        - [SubscriberNormalizer.php](src_Api_Serializer_Normalizer_Customer_SubscriberNormalizer_php.md)
-        - [UpdReferenceNormalizer.php](src_Api_Serializer_Normalizer_Customer_UpdReferenceNormalizer_php.md)
-      - [NormalizerContextAwareTrait.php](src_Api_Serializer_Normalizer_NormalizerContextAwareTrait_php.md)
+        - [AddressBookNormalizer.php](src_Api_Serializer_Normalizer_Customer_AddressBookNormalizer_php.md) <!-- repo:backend -->
+        - [AnimalsNormalizer.php](src_Api_Serializer_Normalizer_Customer_AnimalsNormalizer_php.md) <!-- repo:backend -->
+        - [AnimalsTypeNormalizer.php](src_Api_Serializer_Normalizer_Customer_AnimalsTypeNormalizer_php.md) <!-- repo:backend -->
+        - [NewCustomerNormalizer.php](src_Api_Serializer_Normalizer_Customer_NewCustomerNormalizer_php.md) <!-- repo:backend -->
+        - [OriginLeadCustomerNormalizer.php](src_Api_Serializer_Normalizer_Customer_OriginLeadCustomerNormalizer_php.md) <!-- repo:backend -->
+        - [SubscriberNormalizer.php](src_Api_Serializer_Normalizer_Customer_SubscriberNormalizer_php.md) <!-- repo:backend -->
+        - [UpdReferenceNormalizer.php](src_Api_Serializer_Normalizer_Customer_UpdReferenceNormalizer_php.md) <!-- repo:backend -->
       - **Order**
-        - [AmountUntilFreeShippingNormalizer.php](src_Api_Serializer_Normalizer_Order_AmountUntilFreeShippingNormalizer_php.md)
-        - [FreeProductsNormalizer.php](src_Api_Serializer_Normalizer_Order_FreeProductsNormalizer_php.md)
-        - [OrderPromotionNormalizer.php](src_Api_Serializer_Normalizer_Order_OrderPromotionNormalizer_php.md)
-        - [PickupPointEligibilityNormalizer.php](src_Api_Serializer_Normalizer_Order_PickupPointEligibilityNormalizer_php.md)
-        - [SubscriptionCodeNormalizer.php](src_Api_Serializer_Normalizer_Order_SubscriptionCodeNormalizer_php.md)
-        - [UpdBackendIdentifierNormalizer.php](src_Api_Serializer_Normalizer_Order_UpdBackendIdentifierNormalizer_php.md)
-        - [UpdReferenceNormalizer.php](src_Api_Serializer_Normalizer_Order_UpdReferenceNormalizer_php.md)
-        - [ValidityNormalizer.php](src_Api_Serializer_Normalizer_Order_ValidityNormalizer_php.md)
-        - [WebMethodNormalizer.php](src_Api_Serializer_Normalizer_Order_WebMethodNormalizer_php.md)
+        - [AmountUntilFreeShippingNormalizer.php](src_Api_Serializer_Normalizer_Order_AmountUntilFreeShippingNormalizer_php.md) <!-- repo:backend -->
+        - [FreeProductsNormalizer.php](src_Api_Serializer_Normalizer_Order_FreeProductsNormalizer_php.md) <!-- repo:backend -->
+        - [OrderPromotionNormalizer.php](src_Api_Serializer_Normalizer_Order_OrderPromotionNormalizer_php.md) <!-- repo:backend -->
+        - [PickupPointEligibilityNormalizer.php](src_Api_Serializer_Normalizer_Order_PickupPointEligibilityNormalizer_php.md) <!-- repo:backend -->
+        - [SubscriptionCodeNormalizer.php](src_Api_Serializer_Normalizer_Order_SubscriptionCodeNormalizer_php.md) <!-- repo:backend -->
+        - [UpdBackendIdentifierNormalizer.php](src_Api_Serializer_Normalizer_Order_UpdBackendIdentifierNormalizer_php.md) <!-- repo:backend -->
+        - [UpdReferenceNormalizer.php](src_Api_Serializer_Normalizer_Order_UpdReferenceNormalizer_php.md) <!-- repo:backend -->
+        - [ValidityNormalizer.php](src_Api_Serializer_Normalizer_Order_ValidityNormalizer_php.md) <!-- repo:backend -->
+        - [WebMethodNormalizer.php](src_Api_Serializer_Normalizer_Order_WebMethodNormalizer_php.md) <!-- repo:backend -->
       - **OrderItem**
-        - [AdjustmentsNormalizer.php](src_Api_Serializer_Normalizer_OrderItem_AdjustmentsNormalizer_php.md)
-        - [OrdinaryNormalizer.php](src_Api_Serializer_Normalizer_OrderItem_OrdinaryNormalizer_php.md)
-        - [TotalSubscriptionPriceNormalizer.php](src_Api_Serializer_Normalizer_OrderItem_TotalSubscriptionPriceNormalizer_php.md)
-      - [OrderNormalizer.php](src_Api_Serializer_Normalizer_OrderNormalizer_php.md)
+        - [AdjustmentsNormalizer.php](src_Api_Serializer_Normalizer_OrderItem_AdjustmentsNormalizer_php.md) <!-- repo:backend -->
+        - [OrdinaryNormalizer.php](src_Api_Serializer_Normalizer_OrderItem_OrdinaryNormalizer_php.md) <!-- repo:backend -->
+        - [TotalSubscriptionPriceNormalizer.php](src_Api_Serializer_Normalizer_OrderItem_TotalSubscriptionPriceNormalizer_php.md) <!-- repo:backend -->
       - **Payment**
-        - [PaymentNormalizer.php](src_Api_Serializer_Normalizer_Payment_PaymentNormalizer_php.md)
+        - [PaymentNormalizer.php](src_Api_Serializer_Normalizer_Payment_PaymentNormalizer_php.md) <!-- repo:backend -->
       - **PaymentInstrument**
-        - [RepresentationNormalizer.php](src_Api_Serializer_Normalizer_PaymentInstrument_RepresentationNormalizer_php.md)
+        - [RepresentationNormalizer.php](src_Api_Serializer_Normalizer_PaymentInstrument_RepresentationNormalizer_php.md) <!-- repo:backend -->
       - **PickupPoint**
-        - [PickupPointHasShippingMethodNormalizer.php](src_Api_Serializer_Normalizer_PickupPoint_PickupPointHasShippingMethodNormalizer_php.md)
-        - [PickupPointHasShippingMethodSubscriptionNormalizer.php](src_Api_Serializer_Normalizer_PickupPoint_PickupPointHasShippingMethodSubscriptionNormalizer_php.md)
-        - [PickupPointNormalizer.php](src_Api_Serializer_Normalizer_PickupPoint_PickupPointNormalizer_php.md)
-      - [PointNormalizer.php](src_Api_Serializer_Normalizer_PointNormalizer_php.md)
+        - [PickupPointHasShippingMethodNormalizer.php](src_Api_Serializer_Normalizer_PickupPoint_PickupPointHasShippingMethodNormalizer_php.md) <!-- repo:backend -->
+        - [PickupPointHasShippingMethodSubscriptionNormalizer.php](src_Api_Serializer_Normalizer_PickupPoint_PickupPointHasShippingMethodSubscriptionNormalizer_php.md) <!-- repo:backend -->
+        - [PickupPointNormalizer.php](src_Api_Serializer_Normalizer_PickupPoint_PickupPointNormalizer_php.md) <!-- repo:backend -->
       - **Product**
-        - [AdminProductTaxonNormalizer.php](src_Api_Serializer_Normalizer_Product_AdminProductTaxonNormalizer_php.md)
-        - [ShopProductNormalizer.php](src_Api_Serializer_Normalizer_Product_ShopProductNormalizer_php.md)
+        - [AdminProductTaxonNormalizer.php](src_Api_Serializer_Normalizer_Product_AdminProductTaxonNormalizer_php.md) <!-- repo:backend -->
+        - [ShopProductNormalizer.php](src_Api_Serializer_Normalizer_Product_ShopProductNormalizer_php.md) <!-- repo:backend -->
       - **ProductVariant**
-        - [IsSubscribableNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_IsSubscribableNormalizer_php.md)
-        - [PriceNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_PriceNormalizer_php.md)
-        - [ShopProductVariantNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_ShopProductVariantNormalizer_php.md)
-        - [SubscriptionPriceNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_SubscriptionPriceNormalizer_php.md)
+        - [IsSubscribableNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_IsSubscribableNormalizer_php.md) <!-- repo:backend -->
+        - [PriceNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_PriceNormalizer_php.md) <!-- repo:backend -->
+        - [ShopProductVariantNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_ShopProductVariantNormalizer_php.md) <!-- repo:backend -->
+        - [SubscriptionPriceNormalizer.php](src_Api_Serializer_Normalizer_ProductVariant_SubscriptionPriceNormalizer_php.md) <!-- repo:backend -->
       - **Promotion**
-        - [PromotionNormalizer.php](src_Api_Serializer_Normalizer_Promotion_PromotionNormalizer_php.md)
+        - [PromotionNormalizer.php](src_Api_Serializer_Normalizer_Promotion_PromotionNormalizer_php.md) <!-- repo:backend -->
       - **Shipment**
-        - [ShippingMethodForSubscriptionNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodForSubscriptionNormalizer_php.md)
-        - [ShippingMethodNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodNormalizer_php.md)
-        - [ShippingMethodNormalizerDecorator.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodNormalizerDecorator_php.md)
-        - [ShippingMethodPriceNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodPriceNormalizer_php.md)
-        - [ShippingPromiseNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingPromiseNormalizer_php.md)
-        - [ShipupUrlNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShipupUrlNormalizer_php.md)
-        - [TrackingUrlNormalizer.php](src_Api_Serializer_Normalizer_Shipment_TrackingUrlNormalizer_php.md)
-        - [UpdShippingMethodNormalizer.php](src_Api_Serializer_Normalizer_Shipment_UpdShippingMethodNormalizer_php.md)
+        - [ShippingMethodForSubscriptionNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodForSubscriptionNormalizer_php.md) <!-- repo:backend -->
+        - [ShippingMethodNormalizerDecorator.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodNormalizerDecorator_php.md) <!-- repo:backend -->
+        - [ShippingMethodNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodNormalizer_php.md) <!-- repo:backend -->
+        - [ShippingMethodPriceNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingMethodPriceNormalizer_php.md) <!-- repo:backend -->
+        - [ShippingPromiseNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShippingPromiseNormalizer_php.md) <!-- repo:backend -->
+        - [ShipupUrlNormalizer.php](src_Api_Serializer_Normalizer_Shipment_ShipupUrlNormalizer_php.md) <!-- repo:backend -->
+        - [TrackingUrlNormalizer.php](src_Api_Serializer_Normalizer_Shipment_TrackingUrlNormalizer_php.md) <!-- repo:backend -->
+        - [UpdShippingMethodNormalizer.php](src_Api_Serializer_Normalizer_Shipment_UpdShippingMethodNormalizer_php.md) <!-- repo:backend -->
       - **Subscription**
-        - [PickupPointEligibilityNormalizer.php](src_Api_Serializer_Normalizer_Subscription_PickupPointEligibilityNormalizer_php.md)
-        - [SubscriptionAlertsNormalizer.php](src_Api_Serializer_Normalizer_Subscription_SubscriptionAlertsNormalizer_php.md)
-        - [SubscriptionItemNormalizer.php](src_Api_Serializer_Normalizer_Subscription_SubscriptionItemNormalizer_php.md)
-        - [SubscriptionNormalizer.php](src_Api_Serializer_Normalizer_Subscription_SubscriptionNormalizer_php.md)
-        - [WebmethodNormalizer.php](src_Api_Serializer_Normalizer_Subscription_WebmethodNormalizer_php.md)
+        - [PickupPointEligibilityNormalizer.php](src_Api_Serializer_Normalizer_Subscription_PickupPointEligibilityNormalizer_php.md) <!-- repo:backend -->
+        - [SubscriptionAlertsNormalizer.php](src_Api_Serializer_Normalizer_Subscription_SubscriptionAlertsNormalizer_php.md) <!-- repo:backend -->
+        - [SubscriptionItemNormalizer.php](src_Api_Serializer_Normalizer_Subscription_SubscriptionItemNormalizer_php.md) <!-- repo:backend -->
+        - [SubscriptionNormalizer.php](src_Api_Serializer_Normalizer_Subscription_SubscriptionNormalizer_php.md) <!-- repo:backend -->
+        - [WebmethodNormalizer.php](src_Api_Serializer_Normalizer_Subscription_WebmethodNormalizer_php.md) <!-- repo:backend -->
       - **Upsell**
-        - [UpsellNormalizer.php](src_Api_Serializer_Normalizer_Upsell_UpsellNormalizer_php.md)
-        - [UpsellVariantNormalizer.php](src_Api_Serializer_Normalizer_Upsell_UpsellVariantNormalizer_php.md)
-      - [WebMethodCharacterNormalizerTrait.php](src_Api_Serializer_Normalizer_WebMethodCharacterNormalizerTrait_php.md)
+        - [UpsellNormalizer.php](src_Api_Serializer_Normalizer_Upsell_UpsellNormalizer_php.md) <!-- repo:backend -->
+        - [UpsellVariantNormalizer.php](src_Api_Serializer_Normalizer_Upsell_UpsellVariantNormalizer_php.md) <!-- repo:backend -->
+      - [ChannelPricingNormalizer.php](src_Api_Serializer_Normalizer_ChannelPricingNormalizer_php.md) <!-- repo:backend -->
+      - [NormalizerContextAwareTrait.php](src_Api_Serializer_Normalizer_NormalizerContextAwareTrait_php.md) <!-- repo:backend -->
+      - [OrderNormalizer.php](src_Api_Serializer_Normalizer_OrderNormalizer_php.md) <!-- repo:backend -->
+      - [PointNormalizer.php](src_Api_Serializer_Normalizer_PointNormalizer_php.md) <!-- repo:backend -->
+      - [WebMethodCharacterNormalizerTrait.php](src_Api_Serializer_Normalizer_WebMethodCharacterNormalizerTrait_php.md) <!-- repo:backend -->
+    - [CollectionFiltersNormalizer.php](src_Api_Serializer_CollectionFiltersNormalizer_php.md) <!-- repo:backend -->
   - **StatePagination**
-    - [SmartPaginator.php](src_Api_StatePagination_SmartPaginator_php.md)
+    - [SmartPaginator.php](src_Api_StatePagination_SmartPaginator_php.md) <!-- repo:backend -->
   - **StateProcessor**
     - **Admin**
       - **Product**
-        - [PersistProcessor.php](src_Api_StateProcessor_Admin_Product_PersistProcessor_php.md)
+        - [PersistProcessor.php](src_Api_StateProcessor_Admin_Product_PersistProcessor_php.md) <!-- repo:backend -->
       - **Promotion**
-        - [ConfigurationPersistProcessor.php](src_Api_StateProcessor_Admin_Promotion_ConfigurationPersistProcessor_php.md)
-        - [RemoveProcessor.php](src_Api_StateProcessor_Admin_Promotion_RemoveProcessor_php.md)
+        - [ConfigurationPersistProcessor.php](src_Api_StateProcessor_Admin_Promotion_ConfigurationPersistProcessor_php.md) <!-- repo:backend -->
+        - [RemoveProcessor.php](src_Api_StateProcessor_Admin_Promotion_RemoveProcessor_php.md) <!-- repo:backend -->
       - **PromotionCoupon**
-        - [RemoveProcessor.php](src_Api_StateProcessor_Admin_PromotionCoupon_RemoveProcessor_php.md)
+        - [RemoveProcessor.php](src_Api_StateProcessor_Admin_PromotionCoupon_RemoveProcessor_php.md) <!-- repo:backend -->
       - **SubscriptionStopReason**
-        - [SoftDeleteProcessor.php](src_Api_StateProcessor_Admin_SubscriptionStopReason_SoftDeleteProcessor_php.md)
+        - [SoftDeleteProcessor.php](src_Api_StateProcessor_Admin_SubscriptionStopReason_SoftDeleteProcessor_php.md) <!-- repo:backend -->
     - **Common**
       - **Address**
-        - [CustomerFromUserTrait.php](src_Api_StateProcessor_Common_Address_CustomerFromUserTrait_php.md)
-        - [PersistProcessor.php](src_Api_StateProcessor_Common_Address_PersistProcessor_php.md)
-        - [RemoveProcessor.php](src_Api_StateProcessor_Common_Address_RemoveProcessor_php.md)
+        - [CustomerFromUserTrait.php](src_Api_StateProcessor_Common_Address_CustomerFromUserTrait_php.md) <!-- repo:backend -->
+        - [PersistProcessor.php](src_Api_StateProcessor_Common_Address_PersistProcessor_php.md) <!-- repo:backend -->
+        - [RemoveProcessor.php](src_Api_StateProcessor_Common_Address_RemoveProcessor_php.md) <!-- repo:backend -->
       - **Animal**
-        - [PersistProcessor.php](src_Api_StateProcessor_Common_Animal_PersistProcessor_php.md)
+        - [PersistProcessor.php](src_Api_StateProcessor_Common_Animal_PersistProcessor_php.md) <!-- repo:backend -->
   - **StateProvider**
     - **Admin**
       - **Auditor**
         - **LogAvailableDto**
-          - [CollectionProvider.php](src_Api_StateProvider_Admin_Auditor_LogAvailableDto_CollectionProvider_php.md)
+          - [CollectionProvider.php](src_Api_StateProvider_Admin_Auditor_LogAvailableDto_CollectionProvider_php.md) <!-- repo:backend -->
         - **LogDto**
-          - [CollectionProvider.php](src_Api_StateProvider_Admin_Auditor_LogDto_CollectionProvider_php.md)
+          - [CollectionProvider.php](src_Api_StateProvider_Admin_Auditor_LogDto_CollectionProvider_php.md) <!-- repo:backend -->
       - **FrequencyDto**
-        - [CollectionProvider.php](src_Api_StateProvider_Admin_FrequencyDto_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_Admin_FrequencyDto_CollectionProvider_php.md) <!-- repo:backend -->
       - **Order**
         - **Invoice**
-          - [InvoiceOutputProvider.php](src_Api_StateProvider_Admin_Order_Invoice_InvoiceOutputProvider_php.md)
+          - [InvoiceOutputProvider.php](src_Api_StateProvider_Admin_Order_Invoice_InvoiceOutputProvider_php.md) <!-- repo:backend -->
         - **Payment**
           - **PaymentMethod**
-            - [CollectionProvider.php](src_Api_StateProvider_Admin_Order_Payment_PaymentMethod_CollectionProvider_php.md)
+            - [CollectionProvider.php](src_Api_StateProvider_Admin_Order_Payment_PaymentMethod_CollectionProvider_php.md) <!-- repo:backend -->
       - **RecaptchaDto**
-        - [ItemProvider.php](src_Api_StateProvider_Admin_RecaptchaDto_ItemProvider_php.md)
+        - [ItemProvider.php](src_Api_StateProvider_Admin_RecaptchaDto_ItemProvider_php.md) <!-- repo:backend -->
       - **SettingDto**
-        - [CollectionProvider.php](src_Api_StateProvider_Admin_SettingDto_CollectionProvider_php.md)
-        - [ItemProvider.php](src_Api_StateProvider_Admin_SettingDto_ItemProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_Admin_SettingDto_CollectionProvider_php.md) <!-- repo:backend -->
+        - [ItemProvider.php](src_Api_StateProvider_Admin_SettingDto_ItemProvider_php.md) <!-- repo:backend -->
       - **SubscriptionMonitoringDto**
-        - [CollectionProvider.php](src_Api_StateProvider_Admin_SubscriptionMonitoringDto_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_Admin_SubscriptionMonitoringDto_CollectionProvider_php.md) <!-- repo:backend -->
     - **Common**
       - **Animal**
-        - [ItemProvider.php](src_Api_StateProvider_Common_Animal_ItemProvider_php.md)
+        - [ItemProvider.php](src_Api_StateProvider_Common_Animal_ItemProvider_php.md) <!-- repo:backend -->
       - **Order**
         - **Shipment**
           - **ShippingMethod**
-            - [CollectionProvider.php](src_Api_StateProvider_Common_Order_Shipment_ShippingMethod_CollectionProvider_php.md)
+            - [CollectionProvider.php](src_Api_StateProvider_Common_Order_Shipment_ShippingMethod_CollectionProvider_php.md) <!-- repo:backend -->
       - **PickupPoint**
-        - [CollectionProvider.php](src_Api_StateProvider_Common_PickupPoint_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_Common_PickupPoint_CollectionProvider_php.md) <!-- repo:backend -->
       - **Subscription**
         - **ShippingMethod**
-          - [CollectionProvider.php](src_Api_StateProvider_Common_Subscription_ShippingMethod_CollectionProvider_php.md)
+          - [CollectionProvider.php](src_Api_StateProvider_Common_Subscription_ShippingMethod_CollectionProvider_php.md) <!-- repo:backend -->
       - **SubscriptionStopReason**
-        - [CollectionProvider.php](src_Api_StateProvider_Common_SubscriptionStopReason_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_Common_SubscriptionStopReason_CollectionProvider_php.md) <!-- repo:backend -->
       - **Upsell**
-        - [CollectionProvider.php](src_Api_StateProvider_Common_Upsell_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_Common_Upsell_CollectionProvider_php.md) <!-- repo:backend -->
     - **NativeQuery**
-      - [AbstractCollectionProvider.php](src_Api_StateProvider_NativeQuery_AbstractCollectionProvider_php.md)
       - **Address**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Address_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Address_CollectionProvider_php.md) <!-- repo:backend -->
       - **Animal**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Animal_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Animal_CollectionProvider_php.md) <!-- repo:backend -->
       - **Cart**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Cart_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Cart_CollectionProvider_php.md) <!-- repo:backend -->
       - **Customer**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Customer_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Customer_CollectionProvider_php.md) <!-- repo:backend -->
       - **Order**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Order_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Order_CollectionProvider_php.md) <!-- repo:backend -->
       - **Payment**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Payment_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Payment_CollectionProvider_php.md) <!-- repo:backend -->
       - **Product**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Product_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Product_CollectionProvider_php.md) <!-- repo:backend -->
       - **ProductVariant**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_ProductVariant_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_ProductVariant_CollectionProvider_php.md) <!-- repo:backend -->
       - **Promotion**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Promotion_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Promotion_CollectionProvider_php.md) <!-- repo:backend -->
       - **Subscription**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Subscription_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_Subscription_CollectionProvider_php.md) <!-- repo:backend -->
       - **SubscriptionOrder**
-        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_SubscriptionOrder_CollectionProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_NativeQuery_SubscriptionOrder_CollectionProvider_php.md) <!-- repo:backend -->
+      - [AbstractCollectionProvider.php](src_Api_StateProvider_NativeQuery_AbstractCollectionProvider_php.md) <!-- repo:backend -->
     - **Shop**
       - **Subscription**
-        - [CollectionProvider.php](src_Api_StateProvider_Shop_Subscription_CollectionProvider_php.md)
-        - [ItemProvider.php](src_Api_StateProvider_Shop_Subscription_ItemProvider_php.md)
+        - [CollectionProvider.php](src_Api_StateProvider_Shop_Subscription_CollectionProvider_php.md) <!-- repo:backend -->
+        - [ItemProvider.php](src_Api_StateProvider_Shop_Subscription_ItemProvider_php.md) <!-- repo:backend -->
       - **SubscriptionOrder**
-        - [ItemProvider.php](src_Api_StateProvider_Shop_SubscriptionOrder_ItemProvider_php.md)
+        - [ItemProvider.php](src_Api_StateProvider_Shop_SubscriptionOrder_ItemProvider_php.md) <!-- repo:backend -->
   - **UpdateShipping**
     - **Dto**
-      - [UpdateShippingDto.php](src_Api_UpdateShipping_Dto_UpdateShippingDto_php.md)
+      - [UpdateShippingDto.php](src_Api_UpdateShipping_Dto_UpdateShippingDto_php.md) <!-- repo:backend -->
     - **Factory**
-      - [UpdateShippingDtoFactory.php](src_Api_UpdateShipping_Factory_UpdateShippingDtoFactory_php.md)
+      - [UpdateShippingDtoFactory.php](src_Api_UpdateShipping_Factory_UpdateShippingDtoFactory_php.md) <!-- repo:backend -->
   - **View**
-    - [CartShippingMethod.php](src_Api_View_CartShippingMethod_php.md)
-    - [CartShippingMethodInterface.php](src_Api_View_CartShippingMethodInterface_php.md)
     - **Factory**
-      - [CartShippingMethodFactory.php](src_Api_View_Factory_CartShippingMethodFactory_php.md)
-      - [CartShippingMethodFactoryInterface.php](src_Api_View_Factory_CartShippingMethodFactoryInterface_php.md)
-      - [PaymentInstrumentPublicConfigFactory.php](src_Api_View_Factory_PaymentInstrumentPublicConfigFactory_php.md)
-      - [PaymentPublicConfigFactory.php](src_Api_View_Factory_PaymentPublicConfigFactory_php.md)
-    - [PaymentInstrumentPublicConfig.php](src_Api_View_PaymentInstrumentPublicConfig_php.md)
-    - [PaymentPublicConfig.php](src_Api_View_PaymentPublicConfig_php.md)
+      - [CartShippingMethodFactoryInterface.php](src_Api_View_Factory_CartShippingMethodFactoryInterface_php.md) <!-- repo:backend -->
+      - [CartShippingMethodFactory.php](src_Api_View_Factory_CartShippingMethodFactory_php.md) <!-- repo:backend -->
+      - [PaymentInstrumentPublicConfigFactory.php](src_Api_View_Factory_PaymentInstrumentPublicConfigFactory_php.md) <!-- repo:backend -->
+      - [PaymentPublicConfigFactory.php](src_Api_View_Factory_PaymentPublicConfigFactory_php.md) <!-- repo:backend -->
+    - [CartShippingMethodInterface.php](src_Api_View_CartShippingMethodInterface_php.md) <!-- repo:backend -->
+    - [CartShippingMethod.php](src_Api_View_CartShippingMethod_php.md) <!-- repo:backend -->
+    - [PaymentInstrumentPublicConfig.php](src_Api_View_PaymentInstrumentPublicConfig_php.md) <!-- repo:backend -->
+    - [PaymentPublicConfig.php](src_Api_View_PaymentPublicConfig_php.md) <!-- repo:backend -->
 - **Applicator**
-  - [OrderCheckoutTransitionApplicator.php](src_Applicator_OrderCheckoutTransitionApplicator_php.md)
-  - [PaymentTransitionApplicator.php](src_Applicator_PaymentTransitionApplicator_php.md)
-  - [UnaddressedOrderApplicator.php](src_Applicator_UnaddressedOrderApplicator_php.md)
+  - [OrderCheckoutTransitionApplicator.php](src_Applicator_OrderCheckoutTransitionApplicator_php.md) <!-- repo:backend -->
+  - [PaymentTransitionApplicator.php](src_Applicator_PaymentTransitionApplicator_php.md) <!-- repo:backend -->
+  - [UnaddressedOrderApplicator.php](src_Applicator_UnaddressedOrderApplicator_php.md) <!-- repo:backend -->
 - **Assigner**
-  - [OrderNumberAssigner.php](src_Assigner_OrderNumberAssigner_php.md)
-  - [ShippingDateAssigner.php](src_Assigner_ShippingDateAssigner_php.md)
+  - [OrderNumberAssigner.php](src_Assigner_OrderNumberAssigner_php.md) <!-- repo:backend -->
+  - [ShippingDateAssigner.php](src_Assigner_ShippingDateAssigner_php.md) <!-- repo:backend -->
 - **CQRS**
   - **Bus**
-    - [MessengerQueryBus.php](src_CQRS_Bus_MessengerQueryBus_php.md)
-    - [QueryBusInterface.php](src_CQRS_Bus_QueryBusInterface_php.md)
+    - [MessengerQueryBus.php](src_CQRS_Bus_MessengerQueryBus_php.md) <!-- repo:backend -->
+    - [QueryBusInterface.php](src_CQRS_Bus_QueryBusInterface_php.md) <!-- repo:backend -->
   - **Query**
     - **Customer**
-      - [GetCustomerQuery.php](src_CQRS_Query_Customer_GetCustomerQuery_php.md)
+      - [GetCustomerQuery.php](src_CQRS_Query_Customer_GetCustomerQuery_php.md) <!-- repo:backend -->
     - **Order**
-      - [GetOrderQuery.php](src_CQRS_Query_Order_GetOrderQuery_php.md)
-      - [findCartByTokenValueQuery.php](src_CQRS_Query_Order_findCartByTokenValueQuery_php.md)
+      - [GetOrderQuery.php](src_CQRS_Query_Order_GetOrderQuery_php.md) <!-- repo:backend -->
+      - [findCartByTokenValueQuery.php](src_CQRS_Query_Order_findCartByTokenValueQuery_php.md) <!-- repo:backend -->
     - **ProductVariant**
-      - [GetProductVariantQuery.php](src_CQRS_Query_ProductVariant_GetProductVariantQuery_php.md)
-    - [QueryInterface.php](src_CQRS_Query_QueryInterface_php.md)
+      - [GetProductVariantQuery.php](src_CQRS_Query_ProductVariant_GetProductVariantQuery_php.md) <!-- repo:backend -->
     - **Subscription**
-      - [GetNextShippingSubscriptionsQuery.php](src_CQRS_Query_Subscription_GetNextShippingSubscriptionsQuery_php.md)
-      - [GetSubscriptionQuery.php](src_CQRS_Query_Subscription_GetSubscriptionQuery_php.md)
+      - [GetNextShippingSubscriptionsQuery.php](src_CQRS_Query_Subscription_GetNextShippingSubscriptionsQuery_php.md) <!-- repo:backend -->
+      - [GetSubscriptionQuery.php](src_CQRS_Query_Subscription_GetSubscriptionQuery_php.md) <!-- repo:backend -->
     - **SubscriptionOrder**
-      - [GetSubscriptionOrderQuery.php](src_CQRS_Query_SubscriptionOrder_GetSubscriptionOrderQuery_php.md)
+      - [GetSubscriptionOrderQuery.php](src_CQRS_Query_SubscriptionOrder_GetSubscriptionOrderQuery_php.md) <!-- repo:backend -->
     - **User**
-      - [findOneByEmailQuery.php](src_CQRS_Query_User_findOneByEmailQuery_php.md)
+      - [findOneByEmailQuery.php](src_CQRS_Query_User_findOneByEmailQuery_php.md) <!-- repo:backend -->
+    - [QueryInterface.php](src_CQRS_Query_QueryInterface_php.md) <!-- repo:backend -->
   - **QueryHandler**
     - **Customer**
-      - [GetCustomerQueryHandler.php](src_CQRS_QueryHandler_Customer_GetCustomerQueryHandler_php.md)
+      - [GetCustomerQueryHandler.php](src_CQRS_QueryHandler_Customer_GetCustomerQueryHandler_php.md) <!-- repo:backend -->
     - **Order**
-      - [GetOrderQueryHandler.php](src_CQRS_QueryHandler_Order_GetOrderQueryHandler_php.md)
-      - [findCartByTokenValueQueryHandler.php](src_CQRS_QueryHandler_Order_findCartByTokenValueQueryHandler_php.md)
+      - [GetOrderQueryHandler.php](src_CQRS_QueryHandler_Order_GetOrderQueryHandler_php.md) <!-- repo:backend -->
+      - [findCartByTokenValueQueryHandler.php](src_CQRS_QueryHandler_Order_findCartByTokenValueQueryHandler_php.md) <!-- repo:backend -->
     - **ProductVariant**
-      - [GetProductVariantQueryHandler.php](src_CQRS_QueryHandler_ProductVariant_GetProductVariantQueryHandler_php.md)
-    - [QueryHandlerInterface.php](src_CQRS_QueryHandler_QueryHandlerInterface_php.md)
+      - [GetProductVariantQueryHandler.php](src_CQRS_QueryHandler_ProductVariant_GetProductVariantQueryHandler_php.md) <!-- repo:backend -->
     - **Subscription**
-      - [GetPickupPointDailySubscriptionsQueryHandler.php](src_CQRS_QueryHandler_Subscription_GetPickupPointDailySubscriptionsQueryHandler_php.md)
-      - [GetSubscriptionQueryHandler.php](src_CQRS_QueryHandler_Subscription_GetSubscriptionQueryHandler_php.md)
+      - [GetPickupPointDailySubscriptionsQueryHandler.php](src_CQRS_QueryHandler_Subscription_GetPickupPointDailySubscriptionsQueryHandler_php.md) <!-- repo:backend -->
+      - [GetSubscriptionQueryHandler.php](src_CQRS_QueryHandler_Subscription_GetSubscriptionQueryHandler_php.md) <!-- repo:backend -->
     - **SubscriptionOrder**
-      - [GetSubscriptionOrderQueryHandler.php](src_CQRS_QueryHandler_SubscriptionOrder_GetSubscriptionOrderQueryHandler_php.md)
+      - [GetSubscriptionOrderQueryHandler.php](src_CQRS_QueryHandler_SubscriptionOrder_GetSubscriptionOrderQueryHandler_php.md) <!-- repo:backend -->
     - **User**
-      - [findOneByEmailQueryHandler.php](src_CQRS_QueryHandler_User_findOneByEmailQueryHandler_php.md)
+      - [findOneByEmailQueryHandler.php](src_CQRS_QueryHandler_User_findOneByEmailQueryHandler_php.md) <!-- repo:backend -->
+    - [QueryHandlerInterface.php](src_CQRS_QueryHandler_QueryHandlerInterface_php.md) <!-- repo:backend -->
 - **Calculator**
   - **Exception**
-    - [MissingConfigurationException.php](src_Calculator_Exception_MissingConfigurationException_php.md)
-  - [ProductVariantPriceCalculator.php](src_Calculator_ProductVariantPriceCalculator_php.md)
-  - [ProductVariantPricesCalculatorInterface.php](src_Calculator_ProductVariantPricesCalculatorInterface_php.md)
+    - [MissingConfigurationException.php](src_Calculator_Exception_MissingConfigurationException_php.md) <!-- repo:backend -->
+  - [ProductVariantPriceCalculator.php](src_Calculator_ProductVariantPriceCalculator_php.md) <!-- repo:backend -->
+  - [ProductVariantPricesCalculatorInterface.php](src_Calculator_ProductVariantPricesCalculatorInterface_php.md) <!-- repo:backend -->
 - **Checker**
-  - [IsDeletablePromotionChecker.php](src_Checker_IsDeletablePromotionChecker_php.md)
-  - [IsItemAvailableChecker.php](src_Checker_IsItemAvailableChecker_php.md)
-  - [PickupPointShipmentEligibilityChecker.php](src_Checker_PickupPointShipmentEligibilityChecker_php.md)
-  - [PickupPointWeightLimitEligibilityChecker.php](src_Checker_PickupPointWeightLimitEligibilityChecker_php.md)
-  - [ShippingRangePriceEligibilityChecker.php](src_Checker_ShippingRangePriceEligibilityChecker_php.md)
-  - [ShippingTypeEligibilityChecker.php](src_Checker_ShippingTypeEligibilityChecker_php.md)
-  - [StockAvailabilityChecker.php](src_Checker_StockAvailabilityChecker_php.md)
+  - [IsDeletablePromotionChecker.php](src_Checker_IsDeletablePromotionChecker_php.md) <!-- repo:backend -->
+  - [IsItemAvailableChecker.php](src_Checker_IsItemAvailableChecker_php.md) <!-- repo:backend -->
+  - [PickupPointShipmentEligibilityChecker.php](src_Checker_PickupPointShipmentEligibilityChecker_php.md) <!-- repo:backend -->
+  - [PickupPointWeightLimitEligibilityChecker.php](src_Checker_PickupPointWeightLimitEligibilityChecker_php.md) <!-- repo:backend -->
+  - [ShippingRangePriceEligibilityChecker.php](src_Checker_ShippingRangePriceEligibilityChecker_php.md) <!-- repo:backend -->
+  - [ShippingTypeEligibilityChecker.php](src_Checker_ShippingTypeEligibilityChecker_php.md) <!-- repo:backend -->
+  - [StockAvailabilityChecker.php](src_Checker_StockAvailabilityChecker_php.md) <!-- repo:backend -->
 - **Component**
   - **Order**
     - **Modifier**
-      - [OrderModifier.php](src_Component_Order_Modifier_OrderModifier_php.md)
-    - [OrderLockFactory.php](src_Component_Order_OrderLockFactory_php.md)
+      - [OrderModifier.php](src_Component_Order_Modifier_OrderModifier_php.md) <!-- repo:backend -->
+    - [OrderLockFactory.php](src_Component_Order_OrderLockFactory_php.md) <!-- repo:backend -->
 - **Context**
-  - [QueryParamsLocaleContext.php](src_Context_QueryParamsLocaleContext_php.md)
+  - [QueryParamsLocaleContext.php](src_Context_QueryParamsLocaleContext_php.md) <!-- repo:backend -->
 - **DataTransformer**
   - **Messenger**
-    - [OrderConfirmationEmailTransformer.php](src_DataTransformer_Messenger_OrderConfirmationEmailTransformer_php.md)
-    - [SubscriptionCreationEmailTransformer.php](src_DataTransformer_Messenger_SubscriptionCreationEmailTransformer_php.md)
+    - [OrderConfirmationEmailTransformer.php](src_DataTransformer_Messenger_OrderConfirmationEmailTransformer_php.md) <!-- repo:backend -->
+    - [SubscriptionCreationEmailTransformer.php](src_DataTransformer_Messenger_SubscriptionCreationEmailTransformer_php.md) <!-- repo:backend -->
 - **DependencyInjection**
   - **Compiler**
-    - [RegisterActionsAndRulesConfigurationSchemaPass.php](src_DependencyInjection_Compiler_RegisterActionsAndRulesConfigurationSchemaPass_php.md)
-    - [RegisterCartRuleCheckerPass.php](src_DependencyInjection_Compiler_RegisterCartRuleCheckerPass_php.md)
-    - [RegisterGatewayConfigSchemaPass.php](src_DependencyInjection_Compiler_RegisterGatewayConfigSchemaPass_php.md)
-    - [RegisterGatewayPass.php](src_DependencyInjection_Compiler_RegisterGatewayPass_php.md)
-    - [RegisterShippingMethodGatewayConfigTypePass.php](src_DependencyInjection_Compiler_RegisterShippingMethodGatewayConfigTypePass_php.md)
+    - [RegisterActionsAndRulesConfigurationSchemaPass.php](src_DependencyInjection_Compiler_RegisterActionsAndRulesConfigurationSchemaPass_php.md) <!-- repo:backend -->
+    - [RegisterCartRuleCheckerPass.php](src_DependencyInjection_Compiler_RegisterCartRuleCheckerPass_php.md) <!-- repo:backend -->
+    - [RegisterGatewayConfigSchemaPass.php](src_DependencyInjection_Compiler_RegisterGatewayConfigSchemaPass_php.md) <!-- repo:backend -->
+    - [RegisterGatewayPass.php](src_DependencyInjection_Compiler_RegisterGatewayPass_php.md) <!-- repo:backend -->
+    - [RegisterShippingMethodGatewayConfigTypePass.php](src_DependencyInjection_Compiler_RegisterShippingMethodGatewayConfigTypePass_php.md) <!-- repo:backend -->
 - **Doctrine**
-  - [DateFunction.php](src_Doctrine_DateFunction_php.md)
-  - [DoctrineDeferredProvider.php](src_Doctrine_DoctrineDeferredProvider_php.md)
   - **Extension**
-    - [AnimalBreedExtension.php](src_Doctrine_Extension_AnimalBreedExtension_php.md)
-    - [AnimalKibbleBrandExtension.php](src_Doctrine_Extension_AnimalKibbleBrandExtension_php.md)
-    - [AnimalsExtension.php](src_Doctrine_Extension_AnimalsExtension_php.md)
-    - [CartsByLoggedInUserExtension.php](src_Doctrine_Extension_CartsByLoggedInUserExtension_php.md)
-    - [CompletedOrderExtension.php](src_Doctrine_Extension_CompletedOrderExtension_php.md)
-    - [PaymentQueryCollectionExtension.php](src_Doctrine_Extension_PaymentQueryCollectionExtension_php.md)
-  - [Md5Function.php](src_Doctrine_Md5Function_php.md)
-  - [NativeQuery.php](src_Doctrine_NativeQuery_php.md)
+    - [AnimalBreedExtension.php](src_Doctrine_Extension_AnimalBreedExtension_php.md) <!-- repo:backend -->
+    - [AnimalKibbleBrandExtension.php](src_Doctrine_Extension_AnimalKibbleBrandExtension_php.md) <!-- repo:backend -->
+    - [AnimalsExtension.php](src_Doctrine_Extension_AnimalsExtension_php.md) <!-- repo:backend -->
+    - [CartsByLoggedInUserExtension.php](src_Doctrine_Extension_CartsByLoggedInUserExtension_php.md) <!-- repo:backend -->
+    - [CompletedOrderExtension.php](src_Doctrine_Extension_CompletedOrderExtension_php.md) <!-- repo:backend -->
+    - [PaymentQueryCollectionExtension.php](src_Doctrine_Extension_PaymentQueryCollectionExtension_php.md) <!-- repo:backend -->
   - **ORM**
     - **SqlWalker**
-      - [OrderByIdentifierSqlWalker.php](src_Doctrine_ORM_SqlWalker_OrderByIdentifierSqlWalker_php.md)
-  - [STDistanceSphere.php](src_Doctrine_STDistanceSphere_php.md)
+      - [OrderByIdentifierSqlWalker.php](src_Doctrine_ORM_SqlWalker_OrderByIdentifierSqlWalker_php.md) <!-- repo:backend -->
   - **Types**
-    - [UTCDateTimeType.php](src_Doctrine_Types_UTCDateTimeType_php.md)
-    - [UTCDateType.php](src_Doctrine_Types_UTCDateType_php.md)
+    - [UTCDateTimeType.php](src_Doctrine_Types_UTCDateTimeType_php.md) <!-- repo:backend -->
+    - [UTCDateType.php](src_Doctrine_Types_UTCDateType_php.md) <!-- repo:backend -->
+  - [DateFunction.php](src_Doctrine_DateFunction_php.md) <!-- repo:backend -->
+  - [DoctrineDeferredProvider.php](src_Doctrine_DoctrineDeferredProvider_php.md) <!-- repo:backend -->
+  - [Md5Function.php](src_Doctrine_Md5Function_php.md) <!-- repo:backend -->
+  - [NativeQuery.php](src_Doctrine_NativeQuery_php.md) <!-- repo:backend -->
+  - [STDistanceSphere.php](src_Doctrine_STDistanceSphere_php.md) <!-- repo:backend -->
 - **EmailManager**
-  - [ShipmentEmailManager.php](src_EmailManager_ShipmentEmailManager_php.md)
+  - [ShipmentEmailManager.php](src_EmailManager_ShipmentEmailManager_php.md) <!-- repo:backend -->
 - **EnterpriseBus**
-  - [AbstractEnterpriseNotifier.php](src_EnterpriseBus_AbstractEnterpriseNotifier_php.md)
-  - [CustomerToEnterpriseBusNotifier.php](src_EnterpriseBus_CustomerToEnterpriseBusNotifier_php.md)
-  - [OrderToEnterpriseBusNotifier.php](src_EnterpriseBus_OrderToEnterpriseBusNotifier_php.md)
-  - [PromotionToEnterpriseBusNotifier.php](src_EnterpriseBus_PromotionToEnterpriseBusNotifier_php.md)
-  - [SubscriptionToEnterpriseBusNotifier.php](src_EnterpriseBus_SubscriptionToEnterpriseBusNotifier_php.md)
+  - [AbstractEnterpriseNotifier.php](src_EnterpriseBus_AbstractEnterpriseNotifier_php.md) <!-- repo:backend -->
+  - [CustomerToEnterpriseBusNotifier.php](src_EnterpriseBus_CustomerToEnterpriseBusNotifier_php.md) <!-- repo:backend -->
+  - [OrderToEnterpriseBusNotifier.php](src_EnterpriseBus_OrderToEnterpriseBusNotifier_php.md) <!-- repo:backend -->
+  - [PromotionToEnterpriseBusNotifier.php](src_EnterpriseBus_PromotionToEnterpriseBusNotifier_php.md) <!-- repo:backend -->
+  - [SubscriptionToEnterpriseBusNotifier.php](src_EnterpriseBus_SubscriptionToEnterpriseBusNotifier_php.md) <!-- repo:backend -->
 - **Enum**
-  - [AwaitingPaymentMethodCode.php](src_Enum_AwaitingPaymentMethodCode_php.md)
   - **Subscription**
-    - [SubscriptionOrderState.php](src_Enum_Subscription_SubscriptionOrderState_php.md)
-    - [SubscriptionOrderTransitions.php](src_Enum_Subscription_SubscriptionOrderTransitions_php.md)
-    - [SubscriptionState.php](src_Enum_Subscription_SubscriptionState_php.md)
-    - [SubscriptionTransitions.php](src_Enum_Subscription_SubscriptionTransitions_php.md)
+    - [SubscriptionOrderState.php](src_Enum_Subscription_SubscriptionOrderState_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderTransitions.php](src_Enum_Subscription_SubscriptionOrderTransitions_php.md) <!-- repo:backend -->
+    - [SubscriptionState.php](src_Enum_Subscription_SubscriptionState_php.md) <!-- repo:backend -->
+    - [SubscriptionTransitions.php](src_Enum_Subscription_SubscriptionTransitions_php.md) <!-- repo:backend -->
+  - [AwaitingPaymentMethodCode.php](src_Enum_AwaitingPaymentMethodCode_php.md) <!-- repo:backend -->
 - **Exception**
-  - [AddressCannotBeRemoved.php](src_Exception_AddressCannotBeRemoved_php.md)
   - **CheckoutCom**
-    - [PaymentNotFoundException.php](src_Exception_CheckoutCom_PaymentNotFoundException_php.md)
-  - [InvalidArgumentException.php](src_Exception_InvalidArgumentException_php.md)
-  - [ResourceNotFoundException.php](src_Exception_ResourceNotFoundException_php.md)
-  - [TransactionalEmailException.php](src_Exception_TransactionalEmailException_php.md)
+    - [PaymentNotFoundException.php](src_Exception_CheckoutCom_PaymentNotFoundException_php.md) <!-- repo:backend -->
+  - [AddressCannotBeRemoved.php](src_Exception_AddressCannotBeRemoved_php.md) <!-- repo:backend -->
+  - [InvalidArgumentException.php](src_Exception_InvalidArgumentException_php.md) <!-- repo:backend -->
+  - [ResourceNotFoundException.php](src_Exception_ResourceNotFoundException_php.md) <!-- repo:backend -->
+  - [TransactionalEmailException.php](src_Exception_TransactionalEmailException_php.md) <!-- repo:backend -->
 - **Factory**
-  - [ActivityFactory.php](src_Factory_ActivityFactory_php.md)
-  - [EmailAuditFactory.php](src_Factory_EmailAuditFactory_php.md)
   - **Google**
-    - [GoogleStorageFactory.php](src_Factory_Google_GoogleStorageFactory_php.md)
-  - [OrderFactory.php](src_Factory_OrderFactory_php.md)
-  - [OrderFactoryInterface.php](src_Factory_OrderFactoryInterface_php.md)
-  - [OrderRuleFactory.php](src_Factory_OrderRuleFactory_php.md)
-  - [OrderRuleFactoryInterface.php](src_Factory_OrderRuleFactoryInterface_php.md)
-  - [PaymentInstrumentFactory.php](src_Factory_PaymentInstrumentFactory_php.md)
+    - [GoogleStorageFactory.php](src_Factory_Google_GoogleStorageFactory_php.md) <!-- repo:backend -->
+  - [ActivityFactory.php](src_Factory_ActivityFactory_php.md) <!-- repo:backend -->
+  - [EmailAuditFactory.php](src_Factory_EmailAuditFactory_php.md) <!-- repo:backend -->
+  - [OrderFactoryInterface.php](src_Factory_OrderFactoryInterface_php.md) <!-- repo:backend -->
+  - [OrderFactory.php](src_Factory_OrderFactory_php.md) <!-- repo:backend -->
+  - [OrderRuleFactoryInterface.php](src_Factory_OrderRuleFactoryInterface_php.md) <!-- repo:backend -->
+  - [OrderRuleFactory.php](src_Factory_OrderRuleFactory_php.md) <!-- repo:backend -->
+  - [PaymentInstrumentFactory.php](src_Factory_PaymentInstrumentFactory_php.md) <!-- repo:backend -->
 - **Feature**
   - **Checker**
-    - [DefaultFeatureFlagChecker.php](src_Feature_Checker_DefaultFeatureFlagChecker_php.md)
-  - [FeatureFlagCheckerInterface.php](src_Feature_FeatureFlagCheckerInterface_php.md)
+    - [DefaultFeatureFlagChecker.php](src_Feature_Checker_DefaultFeatureFlagChecker_php.md) <!-- repo:backend -->
+  - [FeatureFlagCheckerInterface.php](src_Feature_FeatureFlagCheckerInterface_php.md) <!-- repo:backend -->
 - **Fixture**
   - **Factory**
-    - [ExampleFactoryDecoratorTrait.php](src_Fixture_Factory_ExampleFactoryDecoratorTrait_php.md)
-    - [OrderExampleFactory.php](src_Fixture_Factory_OrderExampleFactory_php.md)
-    - [ProductExampleFactory.php](src_Fixture_Factory_ProductExampleFactory_php.md)
-    - [PromotionExampleFactory.php](src_Fixture_Factory_PromotionExampleFactory_php.md)
-    - [ShippingMethodExampleFactory.php](src_Fixture_Factory_ShippingMethodExampleFactory_php.md)
-    - [ShippingZoneExampleFactory.php](src_Fixture_Factory_ShippingZoneExampleFactory_php.md)
-    - [ShopUserExampleFactory.php](src_Fixture_Factory_ShopUserExampleFactory_php.md)
-  - [GatewayConfigFixture.php](src_Fixture_GatewayConfigFixture_php.md)
-  - [HolidayDateFixture.php](src_Fixture_HolidayDateFixture_php.md)
-  - [OrderFixture.php](src_Fixture_OrderFixture_php.md)
-  - [PickupPointFixture.php](src_Fixture_PickupPointFixture_php.md)
-  - [ProductFixture.php](src_Fixture_ProductFixture_php.md)
-  - [PromotionAnalyticFixture.php](src_Fixture_PromotionAnalyticFixture_php.md)
-  - [PromotionFixture.php](src_Fixture_PromotionFixture_php.md)
-  - [ShippingMethodFixture.php](src_Fixture_ShippingMethodFixture_php.md)
-  - [ShippingZoneFixture.php](src_Fixture_ShippingZoneFixture_php.md)
-  - [ShippingZoneMemberFixture.php](src_Fixture_ShippingZoneMemberFixture_php.md)
-  - [ShopUserFixture.php](src_Fixture_ShopUserFixture_php.md)
-  - [SubscriptionMonitoringFixture.php](src_Fixture_SubscriptionMonitoringFixture_php.md)
-  - [UpsellFixture.php](src_Fixture_UpsellFixture_php.md)
-  - [VariantFixture.php](src_Fixture_VariantFixture_php.md)
-  - [VariantSubscribableFixture.php](src_Fixture_VariantSubscribableFixture_php.md)
+    - [ExampleFactoryDecoratorTrait.php](src_Fixture_Factory_ExampleFactoryDecoratorTrait_php.md) <!-- repo:backend -->
+    - [OrderExampleFactory.php](src_Fixture_Factory_OrderExampleFactory_php.md) <!-- repo:backend -->
+    - [ProductExampleFactory.php](src_Fixture_Factory_ProductExampleFactory_php.md) <!-- repo:backend -->
+    - [PromotionExampleFactory.php](src_Fixture_Factory_PromotionExampleFactory_php.md) <!-- repo:backend -->
+    - [ShippingMethodExampleFactory.php](src_Fixture_Factory_ShippingMethodExampleFactory_php.md) <!-- repo:backend -->
+    - [ShippingZoneExampleFactory.php](src_Fixture_Factory_ShippingZoneExampleFactory_php.md) <!-- repo:backend -->
+    - [ShopUserExampleFactory.php](src_Fixture_Factory_ShopUserExampleFactory_php.md) <!-- repo:backend -->
+  - [GatewayConfigFixture.php](src_Fixture_GatewayConfigFixture_php.md) <!-- repo:backend -->
+  - [HolidayDateFixture.php](src_Fixture_HolidayDateFixture_php.md) <!-- repo:backend -->
+  - [OrderFixture.php](src_Fixture_OrderFixture_php.md) <!-- repo:backend -->
+  - [PickupPointFixture.php](src_Fixture_PickupPointFixture_php.md) <!-- repo:backend -->
+  - [ProductFixture.php](src_Fixture_ProductFixture_php.md) <!-- repo:backend -->
+  - [PromotionAnalyticFixture.php](src_Fixture_PromotionAnalyticFixture_php.md) <!-- repo:backend -->
+  - [PromotionFixture.php](src_Fixture_PromotionFixture_php.md) <!-- repo:backend -->
+  - [ShippingMethodFixture.php](src_Fixture_ShippingMethodFixture_php.md) <!-- repo:backend -->
+  - [ShippingZoneFixture.php](src_Fixture_ShippingZoneFixture_php.md) <!-- repo:backend -->
+  - [ShippingZoneMemberFixture.php](src_Fixture_ShippingZoneMemberFixture_php.md) <!-- repo:backend -->
+  - [ShopUserFixture.php](src_Fixture_ShopUserFixture_php.md) <!-- repo:backend -->
+  - [SubscriptionMonitoringFixture.php](src_Fixture_SubscriptionMonitoringFixture_php.md) <!-- repo:backend -->
+  - [UpsellFixture.php](src_Fixture_UpsellFixture_php.md) <!-- repo:backend -->
+  - [VariantFixture.php](src_Fixture_VariantFixture_php.md) <!-- repo:backend -->
+  - [VariantSubscribableFixture.php](src_Fixture_VariantSubscribableFixture_php.md) <!-- repo:backend -->
 - **Form**
   - **DataTransformer**
-    - [ProductVariantsToCodesTransformer.php](src_Form_DataTransformer_ProductVariantsToCodesTransformer_php.md)
+    - [ProductVariantsToCodesTransformer.php](src_Form_DataTransformer_ProductVariantsToCodesTransformer_php.md) <!-- repo:backend -->
   - **Extension**
-    - [FixedDiscountConfigurationTypeExtension.php](src_Form_Extension_FixedDiscountConfigurationTypeExtension_php.md)
-    - [HasTaxonConfigurationTypeExtension.php](src_Form_Extension_HasTaxonConfigurationTypeExtension_php.md)
-    - [ProductFilterConfigurationTypeExtension.php](src_Form_Extension_ProductFilterConfigurationTypeExtension_php.md)
-    - [PromotionFilterCollectionTypeExtension.php](src_Form_Extension_PromotionFilterCollectionTypeExtension_php.md)
     - **Rule**
-      - [ChannelBasedEntryTypeExtension.php](src_Form_Extension_Rule_ChannelBasedEntryTypeExtension_php.md)
-      - [MoneyNormalizerTypeExtension.php](src_Form_Extension_Rule_MoneyNormalizerTypeExtension_php.md)
-      - [PercentNormalizerTypeExtension.php](src_Form_Extension_Rule_PercentNormalizerTypeExtension_php.md)
-    - [TaxonFilterConfigurationTypeExtension.php](src_Form_Extension_TaxonFilterConfigurationTypeExtension_php.md)
-    - [UnitFixedDiscountConfigurationTypeExtension.php](src_Form_Extension_UnitFixedDiscountConfigurationTypeExtension_php.md)
-    - [UnitPercentageDiscountConfigurationTypeExtension.php](src_Form_Extension_UnitPercentageDiscountConfigurationTypeExtension_php.md)
-  - [ProductVariantAutocompleteChoiceType.php](src_Form_ProductVariantAutocompleteChoiceType_php.md)
-  - [ProductVariantFilterConfigurationType.php](src_Form_ProductVariantFilterConfigurationType_php.md)
-  - [SchemaSerializer.php](src_Form_SchemaSerializer_php.md)
+      - [ChannelBasedEntryTypeExtension.php](src_Form_Extension_Rule_ChannelBasedEntryTypeExtension_php.md) <!-- repo:backend -->
+      - [MoneyNormalizerTypeExtension.php](src_Form_Extension_Rule_MoneyNormalizerTypeExtension_php.md) <!-- repo:backend -->
+      - [PercentNormalizerTypeExtension.php](src_Form_Extension_Rule_PercentNormalizerTypeExtension_php.md) <!-- repo:backend -->
+    - [FixedDiscountConfigurationTypeExtension.php](src_Form_Extension_FixedDiscountConfigurationTypeExtension_php.md) <!-- repo:backend -->
+    - [HasTaxonConfigurationTypeExtension.php](src_Form_Extension_HasTaxonConfigurationTypeExtension_php.md) <!-- repo:backend -->
+    - [ProductFilterConfigurationTypeExtension.php](src_Form_Extension_ProductFilterConfigurationTypeExtension_php.md) <!-- repo:backend -->
+    - [PromotionFilterCollectionTypeExtension.php](src_Form_Extension_PromotionFilterCollectionTypeExtension_php.md) <!-- repo:backend -->
+    - [TaxonFilterConfigurationTypeExtension.php](src_Form_Extension_TaxonFilterConfigurationTypeExtension_php.md) <!-- repo:backend -->
+    - [UnitFixedDiscountConfigurationTypeExtension.php](src_Form_Extension_UnitFixedDiscountConfigurationTypeExtension_php.md) <!-- repo:backend -->
+    - [UnitPercentageDiscountConfigurationTypeExtension.php](src_Form_Extension_UnitPercentageDiscountConfigurationTypeExtension_php.md) <!-- repo:backend -->
   - **Type**
     - **Checkoutcom**
-      - [BancontactGatewayConfigurationType.php](src_Form_Type_Checkoutcom_BancontactGatewayConfigurationType_php.md)
-      - [CBGatewayConfigurationType.php](src_Form_Type_Checkoutcom_CBGatewayConfigurationType_php.md)
-      - [GatewayAbstractType.php](src_Form_Type_Checkoutcom_GatewayAbstractType_php.md)
-      - [GiropayGatewayConfigurationType.php](src_Form_Type_Checkoutcom_GiropayGatewayConfigurationType_php.md)
-      - [GooglePayGatewayConfigurationType.php](src_Form_Type_Checkoutcom_GooglePayGatewayConfigurationType_php.md)
-      - [IdealGatewayConfigurationType.php](src_Form_Type_Checkoutcom_IdealGatewayConfigurationType_php.md)
-      - [PaypalGatewayConfigurationType.php](src_Form_Type_Checkoutcom_PaypalGatewayConfigurationType_php.md)
-      - [SofortGatewayConfigurationType.php](src_Form_Type_Checkoutcom_SofortGatewayConfigurationType_php.md)
-    - [CustomerAutocompleteChoiceType.php](src_Form_Type_CustomerAutocompleteChoiceType_php.md)
-    - [LocaleCodeChoiceType.php](src_Form_Type_LocaleCodeChoiceType_php.md)
+      - [BancontactGatewayConfigurationType.php](src_Form_Type_Checkoutcom_BancontactGatewayConfigurationType_php.md) <!-- repo:backend -->
+      - [CBGatewayConfigurationType.php](src_Form_Type_Checkoutcom_CBGatewayConfigurationType_php.md) <!-- repo:backend -->
+      - [GatewayAbstractType.php](src_Form_Type_Checkoutcom_GatewayAbstractType_php.md) <!-- repo:backend -->
+      - [GiropayGatewayConfigurationType.php](src_Form_Type_Checkoutcom_GiropayGatewayConfigurationType_php.md) <!-- repo:backend -->
+      - [GooglePayGatewayConfigurationType.php](src_Form_Type_Checkoutcom_GooglePayGatewayConfigurationType_php.md) <!-- repo:backend -->
+      - [IdealGatewayConfigurationType.php](src_Form_Type_Checkoutcom_IdealGatewayConfigurationType_php.md) <!-- repo:backend -->
+      - [PaypalGatewayConfigurationType.php](src_Form_Type_Checkoutcom_PaypalGatewayConfigurationType_php.md) <!-- repo:backend -->
+      - [SofortGatewayConfigurationType.php](src_Form_Type_Checkoutcom_SofortGatewayConfigurationType_php.md) <!-- repo:backend -->
     - **Order**
-      - [OrderRuleConditionChoiceType.php](src_Form_Type_Order_OrderRuleConditionChoiceType_php.md)
-      - [OrderRuleConditionCollectionType.php](src_Form_Type_Order_OrderRuleConditionCollectionType_php.md)
-      - [OrderRuleConditionType.php](src_Form_Type_Order_OrderRuleConditionType_php.md)
-      - [OrderRuleTranslationType.php](src_Form_Type_Order_OrderRuleTranslationType_php.md)
-      - [OrderRuleType.php](src_Form_Type_Order_OrderRuleType_php.md)
       - **Rule**
-        - [AmountOnTaxonUntilConfigurationType.php](src_Form_Type_Order_Rule_AmountOnTaxonUntilConfigurationType_php.md)
-        - [AmountUntilConfigurationType.php](src_Form_Type_Order_Rule_AmountUntilConfigurationType_php.md)
-        - [EmptyCartRuleConfigurationType.php](src_Form_Type_Order_Rule_EmptyCartRuleConfigurationType_php.md)
-        - [MaxQuantityFromTaxonConfigurationType.php](src_Form_Type_Order_Rule_MaxQuantityFromTaxonConfigurationType_php.md)
-        - [OrderQuantityLessThanOrEqualOnTaxonConfigurationType.php](src_Form_Type_Order_Rule_OrderQuantityLessThanOrEqualOnTaxonConfigurationType_php.md)
-        - [OrderTotalMoreThanOrEqualConfigurationType.php](src_Form_Type_Order_Rule_OrderTotalMoreThanOrEqualConfigurationType_php.md)
-        - [OrderTotalMoreThanOrEqualOnTaxonConfigurationType.php](src_Form_Type_Order_Rule_OrderTotalMoreThanOrEqualOnTaxonConfigurationType_php.md)
-    - [ProductCollectionType.php](src_Form_Type_ProductCollectionType_php.md)
-    - [ProductVariantCollectionType.php](src_Form_Type_ProductVariantCollectionType_php.md)
+        - [AmountOnTaxonUntilConfigurationType.php](src_Form_Type_Order_Rule_AmountOnTaxonUntilConfigurationType_php.md) <!-- repo:backend -->
+        - [AmountUntilConfigurationType.php](src_Form_Type_Order_Rule_AmountUntilConfigurationType_php.md) <!-- repo:backend -->
+        - [EmptyCartRuleConfigurationType.php](src_Form_Type_Order_Rule_EmptyCartRuleConfigurationType_php.md) <!-- repo:backend -->
+        - [MaxQuantityFromTaxonConfigurationType.php](src_Form_Type_Order_Rule_MaxQuantityFromTaxonConfigurationType_php.md) <!-- repo:backend -->
+        - [OrderQuantityLessThanOrEqualOnTaxonConfigurationType.php](src_Form_Type_Order_Rule_OrderQuantityLessThanOrEqualOnTaxonConfigurationType_php.md) <!-- repo:backend -->
+        - [OrderTotalMoreThanOrEqualConfigurationType.php](src_Form_Type_Order_Rule_OrderTotalMoreThanOrEqualConfigurationType_php.md) <!-- repo:backend -->
+        - [OrderTotalMoreThanOrEqualOnTaxonConfigurationType.php](src_Form_Type_Order_Rule_OrderTotalMoreThanOrEqualOnTaxonConfigurationType_php.md) <!-- repo:backend -->
+      - [OrderRuleConditionChoiceType.php](src_Form_Type_Order_OrderRuleConditionChoiceType_php.md) <!-- repo:backend -->
+      - [OrderRuleConditionCollectionType.php](src_Form_Type_Order_OrderRuleConditionCollectionType_php.md) <!-- repo:backend -->
+      - [OrderRuleConditionType.php](src_Form_Type_Order_OrderRuleConditionType_php.md) <!-- repo:backend -->
+      - [OrderRuleTranslationType.php](src_Form_Type_Order_OrderRuleTranslationType_php.md) <!-- repo:backend -->
+      - [OrderRuleType.php](src_Form_Type_Order_OrderRuleType_php.md) <!-- repo:backend -->
     - **Promotion**
       - **Action**
-        - [AddProductDiscountConfigurationType.php](src_Form_Type_Promotion_Action_AddProductDiscountConfigurationType_php.md)
-        - [ChannelBasedPaymentChargesPercentageDiscountConfigurationType.php](src_Form_Type_Promotion_Action_ChannelBasedPaymentChargesPercentageDiscountConfigurationType_php.md)
-        - [FreeProductDiscountConfigurationType.php](src_Form_Type_Promotion_Action_FreeProductDiscountConfigurationType_php.md)
-      - [PromotionWithOnlyActionType.php](src_Form_Type_Promotion_PromotionWithOnlyActionType_php.md)
+        - [AddProductDiscountConfigurationType.php](src_Form_Type_Promotion_Action_AddProductDiscountConfigurationType_php.md) <!-- repo:backend -->
+        - [ChannelBasedPaymentChargesPercentageDiscountConfigurationType.php](src_Form_Type_Promotion_Action_ChannelBasedPaymentChargesPercentageDiscountConfigurationType_php.md) <!-- repo:backend -->
+        - [FreeProductDiscountConfigurationType.php](src_Form_Type_Promotion_Action_FreeProductDiscountConfigurationType_php.md) <!-- repo:backend -->
       - **Rule**
-        - [CartQuantityConfigurationType.php](src_Form_Type_Promotion_Rule_CartQuantityConfigurationType_php.md)
-        - [ChannelBasedItemTotalMaxConfigurationType.php](src_Form_Type_Promotion_Rule_ChannelBasedItemTotalMaxConfigurationType_php.md)
-        - [ContainsVariantConfigurationType.php](src_Form_Type_Promotion_Rule_ContainsVariantConfigurationType_php.md)
-        - [EmptyType.php](src_Form_Type_Promotion_Rule_EmptyType_php.md)
-        - [ItemTotalMaxConfigurationType.php](src_Form_Type_Promotion_Rule_ItemTotalMaxConfigurationType_php.md)
-        - [LimitFirstOrderConfigurationType.php](src_Form_Type_Promotion_Rule_LimitFirstOrderConfigurationType_php.md)
-        - [LimitFirstOrderOfProductConfigurationType.php](src_Form_Type_Promotion_Rule_LimitFirstOrderOfProductConfigurationType_php.md)
-      - [SubscribableFilterConfigurationType.php](src_Form_Type_Promotion_SubscribableFilterConfigurationType_php.md)
-    - [PromotionType.php](src_Form_Type_PromotionType_php.md)
+        - [CartQuantityConfigurationType.php](src_Form_Type_Promotion_Rule_CartQuantityConfigurationType_php.md) <!-- repo:backend -->
+        - [ChannelBasedItemTotalMaxConfigurationType.php](src_Form_Type_Promotion_Rule_ChannelBasedItemTotalMaxConfigurationType_php.md) <!-- repo:backend -->
+        - [ContainsVariantConfigurationType.php](src_Form_Type_Promotion_Rule_ContainsVariantConfigurationType_php.md) <!-- repo:backend -->
+        - [EmptyType.php](src_Form_Type_Promotion_Rule_EmptyType_php.md) <!-- repo:backend -->
+        - [ItemTotalMaxConfigurationType.php](src_Form_Type_Promotion_Rule_ItemTotalMaxConfigurationType_php.md) <!-- repo:backend -->
+        - [LimitFirstOrderConfigurationType.php](src_Form_Type_Promotion_Rule_LimitFirstOrderConfigurationType_php.md) <!-- repo:backend -->
+        - [LimitFirstOrderOfProductConfigurationType.php](src_Form_Type_Promotion_Rule_LimitFirstOrderOfProductConfigurationType_php.md) <!-- repo:backend -->
+      - [PromotionWithOnlyActionType.php](src_Form_Type_Promotion_PromotionWithOnlyActionType_php.md) <!-- repo:backend -->
+      - [SubscribableFilterConfigurationType.php](src_Form_Type_Promotion_SubscribableFilterConfigurationType_php.md) <!-- repo:backend -->
     - **Shipping**
       - **Gateway**
-        - [GlsGatewayConfigurationType.php](src_Form_Type_Shipping_Gateway_GlsGatewayConfigurationType_php.md)
-        - [MondialRelayGatewayConfigurationType.php](src_Form_Type_Shipping_Gateway_MondialRelayGatewayConfigurationType_php.md)
+        - [GlsGatewayConfigurationType.php](src_Form_Type_Shipping_Gateway_GlsGatewayConfigurationType_php.md) <!-- repo:backend -->
+        - [MondialRelayGatewayConfigurationType.php](src_Form_Type_Shipping_Gateway_MondialRelayGatewayConfigurationType_php.md) <!-- repo:backend -->
+    - [CustomerAutocompleteChoiceType.php](src_Form_Type_CustomerAutocompleteChoiceType_php.md) <!-- repo:backend -->
+    - [LocaleCodeChoiceType.php](src_Form_Type_LocaleCodeChoiceType_php.md) <!-- repo:backend -->
+    - [ProductCollectionType.php](src_Form_Type_ProductCollectionType_php.md) <!-- repo:backend -->
+    - [ProductVariantCollectionType.php](src_Form_Type_ProductVariantCollectionType_php.md) <!-- repo:backend -->
+    - [PromotionType.php](src_Form_Type_PromotionType_php.md) <!-- repo:backend -->
+  - [ProductVariantAutocompleteChoiceType.php](src_Form_ProductVariantAutocompleteChoiceType_php.md) <!-- repo:backend -->
+  - [ProductVariantFilterConfigurationType.php](src_Form_ProductVariantFilterConfigurationType_php.md) <!-- repo:backend -->
+  - [SchemaSerializer.php](src_Form_SchemaSerializer_php.md) <!-- repo:backend -->
 - **Gateway**
   - **Api**
     - **CheckoutCom**
-      - [CheckoutComGatewayTrait.php](src_Gateway_Api_CheckoutCom_CheckoutComGatewayTrait_php.md)
-      - [CheckoutComPaymentStateResolver.php](src_Gateway_Api_CheckoutCom_CheckoutComPaymentStateResolver_php.md)
       - **Client**
-        - [CheckoutComClient.php](src_Gateway_Api_CheckoutCom_Client_CheckoutComClient_php.md)
-        - [CheckoutComClientConfig.php](src_Gateway_Api_CheckoutCom_Client_CheckoutComClientConfig_php.md)
+        - [CheckoutComClientConfig.php](src_Gateway_Api_CheckoutCom_Client_CheckoutComClientConfig_php.md) <!-- repo:backend -->
+        - [CheckoutComClient.php](src_Gateway_Api_CheckoutCom_Client_CheckoutComClient_php.md) <!-- repo:backend -->
       - **Exception**
-        - [CheckoutComPaymentStateResolverException.php](src_Gateway_Api_CheckoutCom_Exception_CheckoutComPaymentStateResolverException_php.md)
+        - [CheckoutComPaymentStateResolverException.php](src_Gateway_Api_CheckoutCom_Exception_CheckoutComPaymentStateResolverException_php.md) <!-- repo:backend -->
       - **Factory**
-        - [PaymentLinkRequestFactory.php](src_Gateway_Api_CheckoutCom_Factory_PaymentLinkRequestFactory_php.md)
-        - [PaymentRequestFactory.php](src_Gateway_Api_CheckoutCom_Factory_PaymentRequestFactory_php.md)
-      - [PaymentApi.php](src_Gateway_Api_CheckoutCom_PaymentApi_php.md)
-      - [PaymentInstrumentApi.php](src_Gateway_Api_CheckoutCom_PaymentInstrumentApi_php.md)
+        - [PaymentLinkRequestFactory.php](src_Gateway_Api_CheckoutCom_Factory_PaymentLinkRequestFactory_php.md) <!-- repo:backend -->
+        - [PaymentRequestFactory.php](src_Gateway_Api_CheckoutCom_Factory_PaymentRequestFactory_php.md) <!-- repo:backend -->
+      - [CheckoutComGatewayTrait.php](src_Gateway_Api_CheckoutCom_CheckoutComGatewayTrait_php.md) <!-- repo:backend -->
+      - [CheckoutComPaymentStateResolver.php](src_Gateway_Api_CheckoutCom_CheckoutComPaymentStateResolver_php.md) <!-- repo:backend -->
+      - [PaymentApi.php](src_Gateway_Api_CheckoutCom_PaymentApi_php.md) <!-- repo:backend -->
+      - [PaymentInstrumentApi.php](src_Gateway_Api_CheckoutCom_PaymentInstrumentApi_php.md) <!-- repo:backend -->
     - **Colissimo**
       - **Builder**
-        - [PickupPointBuilder.php](src_Gateway_Api_Colissimo_Builder_PickupPointBuilder_php.md)
+        - [PickupPointBuilder.php](src_Gateway_Api_Colissimo_Builder_PickupPointBuilder_php.md) <!-- repo:backend -->
       - **Client**
-        - [ColissimoClient.php](src_Gateway_Api_Colissimo_Client_ColissimoClient_php.md)
+        - [ColissimoClient.php](src_Gateway_Api_Colissimo_Client_ColissimoClient_php.md) <!-- repo:backend -->
       - **Converter**
-        - [PickupPointDtoConverter.php](src_Gateway_Api_Colissimo_Converter_PickupPointDtoConverter_php.md)
+        - [PickupPointDtoConverter.php](src_Gateway_Api_Colissimo_Converter_PickupPointDtoConverter_php.md) <!-- repo:backend -->
     - **GLS**
       - **Client**
-        - [GlsShipItClient.php](src_Gateway_Api_GLS_Client_GlsShipItClient_php.md)
+        - [GlsShipItClient.php](src_Gateway_Api_GLS_Client_GlsShipItClient_php.md) <!-- repo:backend -->
       - **Converter**
-        - [PickupPointDtoConverter.php](src_Gateway_Api_GLS_Converter_PickupPointDtoConverter_php.md)
+        - [PickupPointDtoConverter.php](src_Gateway_Api_GLS_Converter_PickupPointDtoConverter_php.md) <!-- repo:backend -->
     - **MondialRelay**
       - **Exceptions**
-        - [Exception.php](src_Gateway_Api_MondialRelay_Exceptions_Exception_php.md)
+        - [Exception.php](src_Gateway_Api_MondialRelay_Exceptions_Exception_php.md) <!-- repo:backend -->
       - **Methods**
-        - [AbstractMethodInterface.php](src_Gateway_Api_MondialRelay_Methods_AbstractMethodInterface_php.md)
-        - [MethodInterface.php](src_Gateway_Api_MondialRelay_Methods_MethodInterface_php.md)
-        - [MondialRelayAbstractMethod.php](src_Gateway_Api_MondialRelay_Methods_MondialRelayAbstractMethod_php.md)
-        - [PointRelaisRecherche.php](src_Gateway_Api_MondialRelay_Methods_PointRelaisRecherche_php.md)
-      - [MondialRelayClient.php](src_Gateway_Api_MondialRelay_MondialRelayClient_php.md)
+        - [AbstractMethodInterface.php](src_Gateway_Api_MondialRelay_Methods_AbstractMethodInterface_php.md) <!-- repo:backend -->
+        - [MethodInterface.php](src_Gateway_Api_MondialRelay_Methods_MethodInterface_php.md) <!-- repo:backend -->
+        - [MondialRelayAbstractMethod.php](src_Gateway_Api_MondialRelay_Methods_MondialRelayAbstractMethod_php.md) <!-- repo:backend -->
+        - [PointRelaisRecherche.php](src_Gateway_Api_MondialRelay_Methods_PointRelaisRecherche_php.md) <!-- repo:backend -->
       - **Resources**
-        - [MondialRelayFtpResponse.php](src_Gateway_Api_MondialRelay_Resources_MondialRelayFtpResponse_php.md)
-        - [MondialRelayResponse.php](src_Gateway_Api_MondialRelay_Resources_MondialRelayResponse_php.md)
+        - [MondialRelayFtpResponse.php](src_Gateway_Api_MondialRelay_Resources_MondialRelayFtpResponse_php.md) <!-- repo:backend -->
+        - [MondialRelayResponse.php](src_Gateway_Api_MondialRelay_Resources_MondialRelayResponse_php.md) <!-- repo:backend -->
+      - [MondialRelayClient.php](src_Gateway_Api_MondialRelay_MondialRelayClient_php.md) <!-- repo:backend -->
     - **Paypal**
-      - [PaymentApi.php](src_Gateway_Api_Paypal_PaymentApi_php.md)
+      - [PaymentApi.php](src_Gateway_Api_Paypal_PaymentApi_php.md) <!-- repo:backend -->
     - **Payzen**
       - **Client**
-        - [PayzenClient.php](src_Gateway_Api_Payzen_Client_PayzenClient_php.md)
-        - [PayzenClientConfig.php](src_Gateway_Api_Payzen_Client_PayzenClientConfig_php.md)
-      - [PaymentApi.php](src_Gateway_Api_Payzen_PaymentApi_php.md)
-      - [PaymentInstrumentApi.php](src_Gateway_Api_Payzen_PaymentInstrumentApi_php.md)
-  - [CheckoutComGateway.php](src_Gateway_CheckoutComGateway_php.md)
-  - [ColissimoPointGateway.php](src_Gateway_ColissimoPointGateway_php.md)
+        - [PayzenClientConfig.php](src_Gateway_Api_Payzen_Client_PayzenClientConfig_php.md) <!-- repo:backend -->
+        - [PayzenClient.php](src_Gateway_Api_Payzen_Client_PayzenClient_php.md) <!-- repo:backend -->
+      - [PaymentApi.php](src_Gateway_Api_Payzen_PaymentApi_php.md) <!-- repo:backend -->
+      - [PaymentInstrumentApi.php](src_Gateway_Api_Payzen_PaymentInstrumentApi_php.md) <!-- repo:backend -->
   - **Exception**
-    - [AsyncPaymentException.php](src_Gateway_Exception_AsyncPaymentException_php.md)
-    - [GatewayException.php](src_Gateway_Exception_GatewayException_php.md)
-    - [InstrumentVerificationRequestRedirectionException.php](src_Gateway_Exception_InstrumentVerificationRequestRedirectionException_php.md)
-    - [PaymentException.php](src_Gateway_Exception_PaymentException_php.md)
-    - [PaymentInstrumentException.php](src_Gateway_Exception_PaymentInstrumentException_php.md)
-    - [RecurrentPaymentTokenNotFoundException.php](src_Gateway_Exception_RecurrentPaymentTokenNotFoundException_php.md)
-  - [GlsByMondialRelayPointGateway.php](src_Gateway_GlsByMondialRelayPointGateway_php.md)
+    - [AsyncPaymentException.php](src_Gateway_Exception_AsyncPaymentException_php.md) <!-- repo:backend -->
+    - [GatewayException.php](src_Gateway_Exception_GatewayException_php.md) <!-- repo:backend -->
+    - [InstrumentVerificationRequestRedirectionException.php](src_Gateway_Exception_InstrumentVerificationRequestRedirectionException_php.md) <!-- repo:backend -->
+    - [PaymentException.php](src_Gateway_Exception_PaymentException_php.md) <!-- repo:backend -->
+    - [PaymentInstrumentException.php](src_Gateway_Exception_PaymentInstrumentException_php.md) <!-- repo:backend -->
+    - [RecurrentPaymentTokenNotFoundException.php](src_Gateway_Exception_RecurrentPaymentTokenNotFoundException_php.md) <!-- repo:backend -->
   - **Interface**
     - **PaymentMethod**
-      - [AsyncPaymentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_AsyncPaymentGatewayInterface_php.md)
-      - [InstrumentCardGatewayInterface.php](src_Gateway_Interface_PaymentMethod_InstrumentCardGatewayInterface_php.md)
-      - [InstrumentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_InstrumentGatewayInterface_php.md)
-      - [PaymentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_PaymentGatewayInterface_php.md)
-      - [SubscriptionPaymentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_SubscriptionPaymentGatewayInterface_php.md)
+      - [AsyncPaymentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_AsyncPaymentGatewayInterface_php.md) <!-- repo:backend -->
+      - [InstrumentCardGatewayInterface.php](src_Gateway_Interface_PaymentMethod_InstrumentCardGatewayInterface_php.md) <!-- repo:backend -->
+      - [InstrumentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_InstrumentGatewayInterface_php.md) <!-- repo:backend -->
+      - [PaymentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_PaymentGatewayInterface_php.md) <!-- repo:backend -->
+      - [SubscriptionPaymentGatewayInterface.php](src_Gateway_Interface_PaymentMethod_SubscriptionPaymentGatewayInterface_php.md) <!-- repo:backend -->
     - **ShippingMethod**
-      - [PickupPointGatewayInterface.php](src_Gateway_Interface_ShippingMethod_PickupPointGatewayInterface_php.md)
-  - [ManualPaymentGateway.php](src_Gateway_ManualPaymentGateway_php.md)
+      - [PickupPointGatewayInterface.php](src_Gateway_Interface_ShippingMethod_PickupPointGatewayInterface_php.md) <!-- repo:backend -->
   - **Model**
-    - [CardRepresentation.php](src_Gateway_Model_CardRepresentation_php.md)
-    - [ProcessPaymentResponse.php](src_Gateway_Model_ProcessPaymentResponse_php.md)
-  - [MondialRelayPointGateway.php](src_Gateway_MondialRelayPointGateway_php.md)
-  - [PaypalGateway.php](src_Gateway_PaypalGateway_php.md)
-  - [PayzenGateway.php](src_Gateway_PayzenGateway_php.md)
+    - [CardRepresentation.php](src_Gateway_Model_CardRepresentation_php.md) <!-- repo:backend -->
+    - [ProcessPaymentResponse.php](src_Gateway_Model_ProcessPaymentResponse_php.md) <!-- repo:backend -->
   - **Registry**
-    - [GatewayRegistry.php](src_Gateway_Registry_GatewayRegistry_php.md)
-    - [GatewayRegistryInterface.php](src_Gateway_Registry_GatewayRegistryInterface_php.md)
-    - [GatewayRegistryWithFactoryNamesInterface.php](src_Gateway_Registry_GatewayRegistryWithFactoryNamesInterface_php.md)
-  - [UpcomingPaymentGateway.php](src_Gateway_UpcomingPaymentGateway_php.md)
+    - [GatewayRegistryInterface.php](src_Gateway_Registry_GatewayRegistryInterface_php.md) <!-- repo:backend -->
+    - [GatewayRegistryWithFactoryNamesInterface.php](src_Gateway_Registry_GatewayRegistryWithFactoryNamesInterface_php.md) <!-- repo:backend -->
+    - [GatewayRegistry.php](src_Gateway_Registry_GatewayRegistry_php.md) <!-- repo:backend -->
+  - [CheckoutComGateway.php](src_Gateway_CheckoutComGateway_php.md) <!-- repo:backend -->
+  - [ColissimoPointGateway.php](src_Gateway_ColissimoPointGateway_php.md) <!-- repo:backend -->
+  - [GlsByMondialRelayPointGateway.php](src_Gateway_GlsByMondialRelayPointGateway_php.md) <!-- repo:backend -->
+  - [ManualPaymentGateway.php](src_Gateway_ManualPaymentGateway_php.md) <!-- repo:backend -->
+  - [MondialRelayPointGateway.php](src_Gateway_MondialRelayPointGateway_php.md) <!-- repo:backend -->
+  - [PaypalGateway.php](src_Gateway_PaypalGateway_php.md) <!-- repo:backend -->
+  - [PayzenGateway.php](src_Gateway_PayzenGateway_php.md) <!-- repo:backend -->
+  - [UpcomingPaymentGateway.php](src_Gateway_UpcomingPaymentGateway_php.md) <!-- repo:backend -->
 - **JWTBlockedToken**
-  - [AdditionalAccessTokenClaimsAndHeaderSubscriber.php](src_JWTBlockedToken_AdditionalAccessTokenClaimsAndHeaderSubscriber_php.md)
-  - [CacheItemPoolBlockedTokenManager.php](src_JWTBlockedToken_CacheItemPoolBlockedTokenManager_php.md)
-  - [MissingClaimException.php](src_JWTBlockedToken_MissingClaimException_php.md)
-- [Kernel.php](src_Kernel_php.md)
+  - [AdditionalAccessTokenClaimsAndHeaderSubscriber.php](src_JWTBlockedToken_AdditionalAccessTokenClaimsAndHeaderSubscriber_php.md) <!-- repo:backend -->
+  - [CacheItemPoolBlockedTokenManager.php](src_JWTBlockedToken_CacheItemPoolBlockedTokenManager_php.md) <!-- repo:backend -->
+  - [MissingClaimException.php](src_JWTBlockedToken_MissingClaimException_php.md) <!-- repo:backend -->
 - **Message**
   - **ProductVariant**
-    - [ProductVariantUpdatedMessage.php](src_Message_ProductVariant_ProductVariantUpdatedMessage_php.md)
+    - [ProductVariantUpdatedMessage.php](src_Message_ProductVariant_ProductVariantUpdatedMessage_php.md) <!-- repo:backend -->
 - **MessageHandler**
   - **ProductVariant**
-    - [ProductVariantUpdatedMessageHandler.php](src_MessageHandler_ProductVariant_ProductVariantUpdatedMessageHandler_php.md)
+    - [ProductVariantUpdatedMessageHandler.php](src_MessageHandler_ProductVariant_ProductVariantUpdatedMessageHandler_php.md) <!-- repo:backend -->
 - **Model**
   - **CheckoutCom**
-    - [Address.php](src_Model_CheckoutCom_Address_php.md)
-    - [PaymentLinkRequest.php](src_Model_CheckoutCom_PaymentLinkRequest_php.md)
-    - [PaymentLinkStatus.php](src_Model_CheckoutCom_PaymentLinkStatus_php.md)
-    - [PaymentRequest.php](src_Model_CheckoutCom_PaymentRequest_php.md)
-    - [PaymentStatus.php](src_Model_CheckoutCom_PaymentStatus_php.md)
-    - [RequestBancontactSource.php](src_Model_CheckoutCom_RequestBancontactSource_php.md)
-  - [PaymentStatusInterface.php](src_Model_PaymentStatusInterface_php.md)
+    - [Address.php](src_Model_CheckoutCom_Address_php.md) <!-- repo:backend -->
+    - [PaymentLinkRequest.php](src_Model_CheckoutCom_PaymentLinkRequest_php.md) <!-- repo:backend -->
+    - [PaymentLinkStatus.php](src_Model_CheckoutCom_PaymentLinkStatus_php.md) <!-- repo:backend -->
+    - [PaymentRequest.php](src_Model_CheckoutCom_PaymentRequest_php.md) <!-- repo:backend -->
+    - [PaymentStatus.php](src_Model_CheckoutCom_PaymentStatus_php.md) <!-- repo:backend -->
+    - [RequestBancontactSource.php](src_Model_CheckoutCom_RequestBancontactSource_php.md) <!-- repo:backend -->
+  - [PaymentStatusInterface.php](src_Model_PaymentStatusInterface_php.md) <!-- repo:backend -->
 - **Monolog**
   - **Datadog**
-    - [DatadogFormatter.php](src_Monolog_Datadog_DatadogFormatter_php.md)
-    - [DatadogHandler.php](src_Monolog_Datadog_DatadogHandler_php.md)
-    - [DatadogSender.php](src_Monolog_Datadog_DatadogSender_php.md)
     - **Dto**
-      - [DatadogLog.php](src_Monolog_Datadog_Dto_DatadogLog_php.md)
+      - [DatadogLog.php](src_Monolog_Datadog_Dto_DatadogLog_php.md) <!-- repo:backend -->
     - **Factory**
-      - [DatadogLogFactory.php](src_Monolog_Datadog_Factory_DatadogLogFactory_php.md)
+      - [DatadogLogFactory.php](src_Monolog_Datadog_Factory_DatadogLogFactory_php.md) <!-- repo:backend -->
     - **Processor**
-      - [DatadogProcessor.php](src_Monolog_Datadog_Processor_DatadogProcessor_php.md)
-      - [ExceptionProcessor.php](src_Monolog_Datadog_Processor_ExceptionProcessor_php.md)
-      - [HttpProcessor.php](src_Monolog_Datadog_Processor_HttpProcessor_php.md)
-      - [TraceIdProcessor.php](src_Monolog_Datadog_Processor_TraceIdProcessor_php.md)
+      - [DatadogProcessor.php](src_Monolog_Datadog_Processor_DatadogProcessor_php.md) <!-- repo:backend -->
+      - [ExceptionProcessor.php](src_Monolog_Datadog_Processor_ExceptionProcessor_php.md) <!-- repo:backend -->
+      - [HttpProcessor.php](src_Monolog_Datadog_Processor_HttpProcessor_php.md) <!-- repo:backend -->
+      - [TraceIdProcessor.php](src_Monolog_Datadog_Processor_TraceIdProcessor_php.md) <!-- repo:backend -->
+    - [DatadogFormatter.php](src_Monolog_Datadog_DatadogFormatter_php.md) <!-- repo:backend -->
+    - [DatadogHandler.php](src_Monolog_Datadog_DatadogHandler_php.md) <!-- repo:backend -->
+    - [DatadogSender.php](src_Monolog_Datadog_DatadogSender_php.md) <!-- repo:backend -->
   - **Email**
-    - [EmailLogger.php](src_Monolog_Email_EmailLogger_php.md)
+    - [EmailLogger.php](src_Monolog_Email_EmailLogger_php.md) <!-- repo:backend -->
 - **Order**
   - **Generator**
-    - [UuidOrderNumberGenerator.php](src_Order_Generator_UuidOrderNumberGenerator_php.md)
+    - [UuidOrderNumberGenerator.php](src_Order_Generator_UuidOrderNumberGenerator_php.md) <!-- repo:backend -->
   - **Modifier**
-    - [LimitingOrderItemQuantityModifier.php](src_Order_Modifier_LimitingOrderItemQuantityModifier_php.md)
+    - [LimitingOrderItemQuantityModifier.php](src_Order_Modifier_LimitingOrderItemQuantityModifier_php.md) <!-- repo:backend -->
   - **Processor**
-    - [OrderPaymentProcessor.php](src_Order_Processor_OrderPaymentProcessor_php.md)
-    - [OrderShipmentProcessor.php](src_Order_Processor_OrderShipmentProcessor_php.md)
-    - [PaymentChargesProcessor.php](src_Order_Processor_PaymentChargesProcessor_php.md)
-    - [SubscriptionOrderItemProcessor.php](src_Order_Processor_SubscriptionOrderItemProcessor_php.md)
-    - [SubscriptionOrderProductUnavailableProcessor.php](src_Order_Processor_SubscriptionOrderProductUnavailableProcessor_php.md)
-    - [TalonOneProcessor.php](src_Order_Processor_TalonOneProcessor_php.md)
-    - [UpsellItemProcessor.php](src_Order_Processor_UpsellItemProcessor_php.md)
+    - [OrderPaymentProcessor.php](src_Order_Processor_OrderPaymentProcessor_php.md) <!-- repo:backend -->
+    - [OrderShipmentProcessor.php](src_Order_Processor_OrderShipmentProcessor_php.md) <!-- repo:backend -->
+    - [PaymentChargesProcessor.php](src_Order_Processor_PaymentChargesProcessor_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderItemProcessor.php](src_Order_Processor_SubscriptionOrderItemProcessor_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderProductUnavailableProcessor.php](src_Order_Processor_SubscriptionOrderProductUnavailableProcessor_php.md) <!-- repo:backend -->
+    - [TalonOneProcessor.php](src_Order_Processor_TalonOneProcessor_php.md) <!-- repo:backend -->
+    - [UpsellItemProcessor.php](src_Order_Processor_UpsellItemProcessor_php.md) <!-- repo:backend -->
   - **Provider**
-    - [OrderDataProvider.php](src_Order_Provider_OrderDataProvider_php.md)
-    - [OrderRulesConfigurationProvider.php](src_Order_Provider_OrderRulesConfigurationProvider_php.md)
+    - [OrderDataProvider.php](src_Order_Provider_OrderDataProvider_php.md) <!-- repo:backend -->
+    - [OrderRulesConfigurationProvider.php](src_Order_Provider_OrderRulesConfigurationProvider_php.md) <!-- repo:backend -->
   - **Rule**
-    - [AmountUntilCartRule.php](src_Order_Rule_AmountUntilCartRule_php.md)
-    - [AmountUntilOnTaxonCartRule.php](src_Order_Rule_AmountUntilOnTaxonCartRule_php.md)
-    - [CartRuleAbstract.php](src_Order_Rule_CartRuleAbstract_php.md)
-    - [CartRuleInterface.php](src_Order_Rule_CartRuleInterface_php.md)
     - **Checker**
-      - [CartRulesValidityChecker.php](src_Order_Rule_Checker_CartRulesValidityChecker_php.md)
-      - [CartValidityCheckerInterface.php](src_Order_Rule_Checker_CartValidityCheckerInterface_php.md)
-      - [RuleViolation.php](src_Order_Rule_Checker_RuleViolation_php.md)
-      - [RuleViolationList.php](src_Order_Rule_Checker_RuleViolationList_php.md)
-    - [ItemUnavailableCartRule.php](src_Order_Rule_ItemUnavailableCartRule_php.md)
-    - [MaxQuantityFromTaxonCartRule.php](src_Order_Rule_MaxQuantityFromTaxonCartRule_php.md)
-    - [RuleAbstract.php](src_Order_Rule_RuleAbstract_php.md)
-    - [ValidShipmentCartRule.php](src_Order_Rule_ValidShipmentCartRule_php.md)
+      - [CartRulesValidityChecker.php](src_Order_Rule_Checker_CartRulesValidityChecker_php.md) <!-- repo:backend -->
+      - [CartValidityCheckerInterface.php](src_Order_Rule_Checker_CartValidityCheckerInterface_php.md) <!-- repo:backend -->
+      - [RuleViolationList.php](src_Order_Rule_Checker_RuleViolationList_php.md) <!-- repo:backend -->
+      - [RuleViolation.php](src_Order_Rule_Checker_RuleViolation_php.md) <!-- repo:backend -->
+    - [AmountUntilCartRule.php](src_Order_Rule_AmountUntilCartRule_php.md) <!-- repo:backend -->
+    - [AmountUntilOnTaxonCartRule.php](src_Order_Rule_AmountUntilOnTaxonCartRule_php.md) <!-- repo:backend -->
+    - [CartRuleAbstract.php](src_Order_Rule_CartRuleAbstract_php.md) <!-- repo:backend -->
+    - [CartRuleInterface.php](src_Order_Rule_CartRuleInterface_php.md) <!-- repo:backend -->
+    - [ItemUnavailableCartRule.php](src_Order_Rule_ItemUnavailableCartRule_php.md) <!-- repo:backend -->
+    - [MaxQuantityFromTaxonCartRule.php](src_Order_Rule_MaxQuantityFromTaxonCartRule_php.md) <!-- repo:backend -->
+    - [RuleAbstract.php](src_Order_Rule_RuleAbstract_php.md) <!-- repo:backend -->
+    - [ValidShipmentCartRule.php](src_Order_Rule_ValidShipmentCartRule_php.md) <!-- repo:backend -->
 - **Payment**
   - **Provider**
-    - [OrderPaymentProvider.php](src_Payment_Provider_OrderPaymentProvider_php.md)
+    - [OrderPaymentProvider.php](src_Payment_Provider_OrderPaymentProvider_php.md) <!-- repo:backend -->
   - **Resolver**
-    - [PaymentMethodsOrderResolver.php](src_Payment_Resolver_PaymentMethodsOrderResolver_php.md)
-    - [SubscriptionAwareResolver.php](src_Payment_Resolver_SubscriptionAwareResolver_php.md)
+    - [PaymentMethodsOrderResolver.php](src_Payment_Resolver_PaymentMethodsOrderResolver_php.md) <!-- repo:backend -->
+    - [SubscriptionAwareResolver.php](src_Payment_Resolver_SubscriptionAwareResolver_php.md) <!-- repo:backend -->
 - **PickupPoint**
   - **Dto**
-    - [PickupPointDto.php](src_PickupPoint_Dto_PickupPointDto_php.md)
+    - [PickupPointDto.php](src_PickupPoint_Dto_PickupPointDto_php.md) <!-- repo:backend -->
   - **Factory**
-    - [PickupAddressFactory.php](src_PickupPoint_Factory_PickupAddressFactory_php.md)
-    - [PickupPointFactory.php](src_PickupPoint_Factory_PickupPointFactory_php.md)
+    - [PickupAddressFactory.php](src_PickupPoint_Factory_PickupAddressFactory_php.md) <!-- repo:backend -->
+    - [PickupPointFactory.php](src_PickupPoint_Factory_PickupPointFactory_php.md) <!-- repo:backend -->
   - **Filter**
-    - [PointFilter.php](src_PickupPoint_Filter_PointFilter_php.md)
-    - [ShippingMethodFilter.php](src_PickupPoint_Filter_ShippingMethodFilter_php.md)
+    - [PointFilter.php](src_PickupPoint_Filter_PointFilter_php.md) <!-- repo:backend -->
+    - [ShippingMethodFilter.php](src_PickupPoint_Filter_ShippingMethodFilter_php.md) <!-- repo:backend -->
   - **Importer**
-    - [PickupPointImporter.php](src_PickupPoint_Importer_PickupPointImporter_php.md)
+    - [PickupPointImporter.php](src_PickupPoint_Importer_PickupPointImporter_php.md) <!-- repo:backend -->
   - **Provider**
-    - [AddressPickupPointProvider.php](src_PickupPoint_Provider_AddressPickupPointProvider_php.md)
+    - [AddressPickupPointProvider.php](src_PickupPoint_Provider_AddressPickupPointProvider_php.md) <!-- repo:backend -->
   - **Updater**
-    - [PickupPointUpdater.php](src_PickupPoint_Updater_PickupPointUpdater_php.md)
+    - [PickupPointUpdater.php](src_PickupPoint_Updater_PickupPointUpdater_php.md) <!-- repo:backend -->
 - **Promotion**
   - **Applicator**
-    - [UnitsPromotionAdjustmentsApplicator.php](src_Promotion_Applicator_UnitsPromotionAdjustmentsApplicator_php.md)
+    - [UnitsPromotionAdjustmentsApplicator.php](src_Promotion_Applicator_UnitsPromotionAdjustmentsApplicator_php.md) <!-- repo:backend -->
   - **Assigner**
-    - [OrderPromotionCodeAssigner.php](src_Promotion_Assigner_OrderPromotionCodeAssigner_php.md)
+    - [OrderPromotionCodeAssigner.php](src_Promotion_Assigner_OrderPromotionCodeAssigner_php.md) <!-- repo:backend -->
   - **Checker**
     - **Eligibility**
-      - [PromotionCouponDurationEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionCouponDurationEligibilityChecker_php.md)
-      - [PromotionDurationEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionDurationEligibilityChecker_php.md)
-      - [PromotionExclusivityModelEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionExclusivityModelEligibilityChecker_php.md)
-      - [PromotionSubjectCouponEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionSubjectCouponEligibilityChecker_php.md)
-      - [PromotionUsageLimitEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionUsageLimitEligibilityChecker_php.md)
+      - [PromotionCouponDurationEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionCouponDurationEligibilityChecker_php.md) <!-- repo:backend -->
+      - [PromotionDurationEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionDurationEligibilityChecker_php.md) <!-- repo:backend -->
+      - [PromotionExclusivityModelEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionExclusivityModelEligibilityChecker_php.md) <!-- repo:backend -->
+      - [PromotionSubjectCouponEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionSubjectCouponEligibilityChecker_php.md) <!-- repo:backend -->
+      - [PromotionUsageLimitEligibilityChecker.php](src_Promotion_Checker_Eligibility_PromotionUsageLimitEligibilityChecker_php.md) <!-- repo:backend -->
     - **Rule**
-      - [CartQuantityRuleChecker.php](src_Promotion_Checker_Rule_CartQuantityRuleChecker_php.md)
-      - [ContainsProductRuleChecker.php](src_Promotion_Checker_Rule_ContainsProductRuleChecker_php.md)
-      - [ContainsVariantRuleChecker.php](src_Promotion_Checker_Rule_ContainsVariantRuleChecker_php.md)
-      - [ItemTotalMaxRuleChecker.php](src_Promotion_Checker_Rule_ItemTotalMaxRuleChecker_php.md)
-      - [LimitFirstOrderOfProductRuleChecker.php](src_Promotion_Checker_Rule_LimitFirstOrderOfProductRuleChecker_php.md)
-      - [LimitFirstOrderRuleChecker.php](src_Promotion_Checker_Rule_LimitFirstOrderRuleChecker_php.md)
-      - [LimitNonSubscribedCustomersRuleChecker.php](src_Promotion_Checker_Rule_LimitNonSubscribedCustomersRuleChecker_php.md)
-      - [LimitNonSubscriptionProductsRuleChecker.php](src_Promotion_Checker_Rule_LimitNonSubscriptionProductsRuleChecker_php.md)
-      - [LimitSubscribedCustomersRuleChecker.php](src_Promotion_Checker_Rule_LimitSubscribedCustomersRuleChecker_php.md)
-      - [LimitSubscriptionProductsRuleChecker.php](src_Promotion_Checker_Rule_LimitSubscriptionProductsRuleChecker_php.md)
-      - [NthOrderRuleChecker.php](src_Promotion_Checker_Rule_NthOrderRuleChecker_php.md)
-      - [TotalOfItemsFromTaxonRuleChecker.php](src_Promotion_Checker_Rule_TotalOfItemsFromTaxonRuleChecker_php.md)
-  - [ExclusiveModePromotionSubjectInterface.php](src_Promotion_ExclusiveModePromotionSubjectInterface_php.md)
+      - [CartQuantityRuleChecker.php](src_Promotion_Checker_Rule_CartQuantityRuleChecker_php.md) <!-- repo:backend -->
+      - [ContainsProductRuleChecker.php](src_Promotion_Checker_Rule_ContainsProductRuleChecker_php.md) <!-- repo:backend -->
+      - [ContainsVariantRuleChecker.php](src_Promotion_Checker_Rule_ContainsVariantRuleChecker_php.md) <!-- repo:backend -->
+      - [ItemTotalMaxRuleChecker.php](src_Promotion_Checker_Rule_ItemTotalMaxRuleChecker_php.md) <!-- repo:backend -->
+      - [LimitFirstOrderOfProductRuleChecker.php](src_Promotion_Checker_Rule_LimitFirstOrderOfProductRuleChecker_php.md) <!-- repo:backend -->
+      - [LimitFirstOrderRuleChecker.php](src_Promotion_Checker_Rule_LimitFirstOrderRuleChecker_php.md) <!-- repo:backend -->
+      - [LimitNonSubscribedCustomersRuleChecker.php](src_Promotion_Checker_Rule_LimitNonSubscribedCustomersRuleChecker_php.md) <!-- repo:backend -->
+      - [LimitNonSubscriptionProductsRuleChecker.php](src_Promotion_Checker_Rule_LimitNonSubscriptionProductsRuleChecker_php.md) <!-- repo:backend -->
+      - [LimitSubscribedCustomersRuleChecker.php](src_Promotion_Checker_Rule_LimitSubscribedCustomersRuleChecker_php.md) <!-- repo:backend -->
+      - [LimitSubscriptionProductsRuleChecker.php](src_Promotion_Checker_Rule_LimitSubscriptionProductsRuleChecker_php.md) <!-- repo:backend -->
+      - [NthOrderRuleChecker.php](src_Promotion_Checker_Rule_NthOrderRuleChecker_php.md) <!-- repo:backend -->
+      - [TotalOfItemsFromTaxonRuleChecker.php](src_Promotion_Checker_Rule_TotalOfItemsFromTaxonRuleChecker_php.md) <!-- repo:backend -->
   - **Factory**
-    - [PromotionForOrderFactory.php](src_Promotion_Factory_PromotionForOrderFactory_php.md)
+    - [PromotionForOrderFactory.php](src_Promotion_Factory_PromotionForOrderFactory_php.md) <!-- repo:backend -->
   - **Filter**
-    - [ExcludedProductFilter.php](src_Promotion_Filter_ExcludedProductFilter_php.md)
-    - [ExcludedProductVariantFilter.php](src_Promotion_Filter_ExcludedProductVariantFilter_php.md)
-    - [ExcludedTaxonFilter.php](src_Promotion_Filter_ExcludedTaxonFilter_php.md)
-    - [NonSubscribableProductsFilter.php](src_Promotion_Filter_NonSubscribableProductsFilter_php.md)
-    - [ProductVariantFilter.php](src_Promotion_Filter_ProductVariantFilter_php.md)
-    - [SubscribableProductsFilter.php](src_Promotion_Filter_SubscribableProductsFilter_php.md)
+    - [ExcludedProductFilter.php](src_Promotion_Filter_ExcludedProductFilter_php.md) <!-- repo:backend -->
+    - [ExcludedProductVariantFilter.php](src_Promotion_Filter_ExcludedProductVariantFilter_php.md) <!-- repo:backend -->
+    - [ExcludedTaxonFilter.php](src_Promotion_Filter_ExcludedTaxonFilter_php.md) <!-- repo:backend -->
+    - [NonSubscribableProductsFilter.php](src_Promotion_Filter_NonSubscribableProductsFilter_php.md) <!-- repo:backend -->
+    - [ProductVariantFilter.php](src_Promotion_Filter_ProductVariantFilter_php.md) <!-- repo:backend -->
+    - [SubscribableProductsFilter.php](src_Promotion_Filter_SubscribableProductsFilter_php.md) <!-- repo:backend -->
   - **Generator**
-    - [PromotionCouponGenerator.php](src_Promotion_Generator_PromotionCouponGenerator_php.md)
-    - [PromotionCouponGeneratorInstruction.php](src_Promotion_Generator_PromotionCouponGeneratorInstruction_php.md)
+    - [PromotionCouponGeneratorInstruction.php](src_Promotion_Generator_PromotionCouponGeneratorInstruction_php.md) <!-- repo:backend -->
+    - [PromotionCouponGenerator.php](src_Promotion_Generator_PromotionCouponGenerator_php.md) <!-- repo:backend -->
   - **Model**
-    - [AdjustmentInterface.php](src_Promotion_Model_AdjustmentInterface_php.md)
+    - [AdjustmentInterface.php](src_Promotion_Model_AdjustmentInterface_php.md) <!-- repo:backend -->
   - **Modifier**
-    - [OrderPromotionsUsageModifier.php](src_Promotion_Modifier_OrderPromotionsUsageModifier_php.md)
+    - [OrderPromotionsUsageModifier.php](src_Promotion_Modifier_OrderPromotionsUsageModifier_php.md) <!-- repo:backend -->
   - **Processor**
-    - [PromotionProcessor.php](src_Promotion_Processor_PromotionProcessor_php.md)
+    - [PromotionProcessor.php](src_Promotion_Processor_PromotionProcessor_php.md) <!-- repo:backend -->
   - **Provider**
-    - [ActivePromotionsByChannelProvider.php](src_Promotion_Provider_ActivePromotionsByChannelProvider_php.md)
+    - [ActivePromotionsByChannelProvider.php](src_Promotion_Provider_ActivePromotionsByChannelProvider_php.md) <!-- repo:backend -->
+  - [ExclusiveModePromotionSubjectInterface.php](src_Promotion_ExclusiveModePromotionSubjectInterface_php.md) <!-- repo:backend -->
 - **Provider**
   - **Channel**
-    - [ChannelEnvConfigProvider.php](src_Provider_Channel_ChannelEnvConfigProvider_php.md)
+    - [ChannelEnvConfigProvider.php](src_Provider_Channel_ChannelEnvConfigProvider_php.md) <!-- repo:backend -->
   - **CheckoutCom**
-    - [PaymentStateProvider.php](src_Provider_CheckoutCom_PaymentStateProvider_php.md)
+    - [PaymentStateProvider.php](src_Provider_CheckoutCom_PaymentStateProvider_php.md) <!-- repo:backend -->
   - **Customer**
-    - [CustomerProvider.php](src_Provider_Customer_CustomerProvider_php.md)
+    - [CustomerProvider.php](src_Provider_Customer_CustomerProvider_php.md) <!-- repo:backend -->
   - **Email**
-    - [SubscriptionEmailParamsProvider.php](src_Provider_Email_SubscriptionEmailParamsProvider_php.md)
+    - [SubscriptionEmailParamsProvider.php](src_Provider_Email_SubscriptionEmailParamsProvider_php.md) <!-- repo:backend -->
   - **User**
-    - [UserProvider.php](src_Provider_User_UserProvider_php.md)
+    - [UserProvider.php](src_Provider_User_UserProvider_php.md) <!-- repo:backend -->
 - **PubSub**
   - **BigQuery**
-    - [BigQueryPaginator.php](src_PubSub_BigQuery_BigQueryPaginator_php.md)
+    - [BigQueryPaginator.php](src_PubSub_BigQuery_BigQueryPaginator_php.md) <!-- repo:backend -->
   - **DTO**
-    - [CustomerLog.php](src_PubSub_DTO_CustomerLog_php.md)
-    - [OrderLog.php](src_PubSub_DTO_OrderLog_php.md)
-    - [PromotionLog.php](src_PubSub_DTO_PromotionLog_php.md)
-    - [PubSubLog.php](src_PubSub_DTO_PubSubLog_php.md)
-    - [SubscriptionLog.php](src_PubSub_DTO_SubscriptionLog_php.md)
+    - [CustomerLog.php](src_PubSub_DTO_CustomerLog_php.md) <!-- repo:backend -->
+    - [OrderLog.php](src_PubSub_DTO_OrderLog_php.md) <!-- repo:backend -->
+    - [PromotionLog.php](src_PubSub_DTO_PromotionLog_php.md) <!-- repo:backend -->
+    - [PubSubLog.php](src_PubSub_DTO_PubSubLog_php.md) <!-- repo:backend -->
+    - [SubscriptionLog.php](src_PubSub_DTO_SubscriptionLog_php.md) <!-- repo:backend -->
   - **Enum**
-    - [LogsType.php](src_PubSub_Enum_LogsType_php.md)
+    - [LogsType.php](src_PubSub_Enum_LogsType_php.md) <!-- repo:backend -->
   - **GraphQL**
     - **Provider**
-      - [PubSubLogsProvider.php](src_PubSub_GraphQL_Provider_PubSubLogsProvider_php.md)
+      - [PubSubLogsProvider.php](src_PubSub_GraphQL_Provider_PubSubLogsProvider_php.md) <!-- repo:backend -->
     - **Resolver**
-      - [OrderLogsCollectionResolver.php](src_PubSub_GraphQL_Resolver_OrderLogsCollectionResolver_php.md)
-      - [OrderLogsItemResolver.php](src_PubSub_GraphQL_Resolver_OrderLogsItemResolver_php.md)
-- [README.md](README_md.md)
+      - [OrderLogsCollectionResolver.php](src_PubSub_GraphQL_Resolver_OrderLogsCollectionResolver_php.md) <!-- repo:backend -->
+      - [OrderLogsItemResolver.php](src_PubSub_GraphQL_Resolver_OrderLogsItemResolver_php.md) <!-- repo:backend -->
+- [README.md](README_md.md) <!-- repo:frontend -->
 - **Resolver**
-  - [DefaultPaymentMethodResolver.php](src_Resolver_DefaultPaymentMethodResolver_php.md)
-  - [DefaultShippingMethodResolver.php](src_Resolver_DefaultShippingMethodResolver_php.md)
-  - [HolidayDateResolver.php](src_Resolver_HolidayDateResolver_php.md)
-  - [PaymentMethodChargesResolver.php](src_Resolver_PaymentMethodChargesResolver_php.md)
-  - [PaymentMethodChargesResolverInterface.php](src_Resolver_PaymentMethodChargesResolverInterface_php.md)
-  - [ShippingMethodResolver.php](src_Resolver_ShippingMethodResolver_php.md)
+  - [DefaultPaymentMethodResolver.php](src_Resolver_DefaultPaymentMethodResolver_php.md) <!-- repo:backend -->
+  - [DefaultShippingMethodResolver.php](src_Resolver_DefaultShippingMethodResolver_php.md) <!-- repo:backend -->
+  - [HolidayDateResolver.php](src_Resolver_HolidayDateResolver_php.md) <!-- repo:backend -->
+  - [PaymentMethodChargesResolverInterface.php](src_Resolver_PaymentMethodChargesResolverInterface_php.md) <!-- repo:backend -->
+  - [PaymentMethodChargesResolver.php](src_Resolver_PaymentMethodChargesResolver_php.md) <!-- repo:backend -->
+  - [ShippingMethodResolver.php](src_Resolver_ShippingMethodResolver_php.md) <!-- repo:backend -->
 - **Shipping**
   - **Calculator**
-    - [FlatRateCalculator.php](src_Shipping_Calculator_FlatRateCalculator_php.md)
-    - [ShippingRangePriceCalculator.php](src_Shipping_Calculator_ShippingRangePriceCalculator_php.md)
+    - [FlatRateCalculator.php](src_Shipping_Calculator_FlatRateCalculator_php.md) <!-- repo:backend -->
+    - [ShippingRangePriceCalculator.php](src_Shipping_Calculator_ShippingRangePriceCalculator_php.md) <!-- repo:backend -->
   - **Checker**
     - **Rule**
-      - [ContainsAllProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ContainsAllProductCriteriaRuleChecker_php.md)
-      - [ContainsAtLeastOneProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ContainsAtLeastOneProductCriteriaRuleChecker_php.md)
-      - [ContainsNoProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ContainsNoProductCriteriaRuleChecker_php.md)
-      - [ProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ProductCriteriaRuleChecker_php.md)
+      - [ContainsAllProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ContainsAllProductCriteriaRuleChecker_php.md) <!-- repo:backend -->
+      - [ContainsAtLeastOneProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ContainsAtLeastOneProductCriteriaRuleChecker_php.md) <!-- repo:backend -->
+      - [ContainsNoProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ContainsNoProductCriteriaRuleChecker_php.md) <!-- repo:backend -->
+      - [ProductCriteriaRuleChecker.php](src_Shipping_Checker_Rule_ProductCriteriaRuleChecker_php.md) <!-- repo:backend -->
   - **Enricher**
-    - [ShipmentEnricherInterface.php](src_Shipping_Enricher_ShipmentEnricherInterface_php.md)
-    - [Shipup.php](src_Shipping_Enricher_Shipup_php.md)
+    - [ShipmentEnricherInterface.php](src_Shipping_Enricher_ShipmentEnricherInterface_php.md) <!-- repo:backend -->
+    - [Shipup.php](src_Shipping_Enricher_Shipup_php.md) <!-- repo:backend -->
   - **Form**
     - **Type**
       - **Rule**
-        - [ProductCriteriaConfigurationType.php](src_Shipping_Form_Type_Rule_ProductCriteriaConfigurationType_php.md)
+        - [ProductCriteriaConfigurationType.php](src_Shipping_Form_Type_Rule_ProductCriteriaConfigurationType_php.md) <!-- repo:backend -->
   - **Matcher**
-    - [ShippingZoneMatcher.php](src_Shipping_Matcher_ShippingZoneMatcher_php.md)
+    - [ShippingZoneMatcher.php](src_Shipping_Matcher_ShippingZoneMatcher_php.md) <!-- repo:backend -->
   - **Provider**
-    - [ShippingWeightProvider.php](src_Shipping_Provider_ShippingWeightProvider_php.md)
-    - [SupportedShippingMethodProvider.php](src_Shipping_Provider_SupportedShippingMethodProvider_php.md)
+    - [ShippingWeightProvider.php](src_Shipping_Provider_ShippingWeightProvider_php.md) <!-- repo:backend -->
+    - [SupportedShippingMethodProvider.php](src_Shipping_Provider_SupportedShippingMethodProvider_php.md) <!-- repo:backend -->
 - **StateMachine**
   - **Guard**
-    - [CartValidationGuardCondition.php](src_StateMachine_Guard_CartValidationGuardCondition_php.md)
+    - [CartValidationGuardCondition.php](src_StateMachine_Guard_CartValidationGuardCondition_php.md) <!-- repo:backend -->
   - **Order**
-    - [BeforeOrderAwaitingPayment.php](src_StateMachine_Order_BeforeOrderAwaitingPayment_php.md)
-    - [OrderAwaitingPayment.php](src_StateMachine_Order_OrderAwaitingPayment_php.md)
-    - [OrderCancelled.php](src_StateMachine_Order_OrderCancelled_php.md)
-    - [OrderCheckoutGuardSelectShipping.php](src_StateMachine_Order_OrderCheckoutGuardSelectShipping_php.md)
-    - [OrderCheckoutSelectPaymentSetUpcoming.php](src_StateMachine_Order_OrderCheckoutSelectPaymentSetUpcoming_php.md)
-    - [OrderCompleted.php](src_StateMachine_Order_OrderCompleted_php.md)
-    - [OrderCompletedAndPaid.php](src_StateMachine_Order_OrderCompletedAndPaid_php.md)
-    - [OrderCreateSubscription.php](src_StateMachine_Order_OrderCreateSubscription_php.md)
-    - [OrderPaid.php](src_StateMachine_Order_OrderPaid_php.md)
-    - [OrderPaymentFail.php](src_StateMachine_Order_OrderPaymentFail_php.md)
-    - [OrderPaymentGuardPay.php](src_StateMachine_Order_OrderPaymentGuardPay_php.md)
-    - [OrderPaymentSetUpcomingOnComplete.php](src_StateMachine_Order_OrderPaymentSetUpcomingOnComplete_php.md)
-    - [OrderPaymentSetUpcomingOnPay.php](src_StateMachine_Order_OrderPaymentSetUpcomingOnPay_php.md)
-    - [ProductAvailableGuardComplete.php](src_StateMachine_Order_ProductAvailableGuardComplete_php.md)
-  - [OrderCheckoutStates.php](src_StateMachine_OrderCheckoutStates_php.md)
-  - [OrderPaymentStates.php](src_StateMachine_OrderPaymentStates_php.md)
-  - [OrderPaymentTransitions.php](src_StateMachine_OrderPaymentTransitions_php.md)
-  - [PaymentStates.php](src_StateMachine_PaymentStates_php.md)
-  - [StateMachineCallback.php](src_StateMachine_StateMachineCallback_php.md)
+    - [BeforeOrderAwaitingPayment.php](src_StateMachine_Order_BeforeOrderAwaitingPayment_php.md) <!-- repo:backend -->
+    - [OrderAwaitingPayment.php](src_StateMachine_Order_OrderAwaitingPayment_php.md) <!-- repo:backend -->
+    - [OrderCancelled.php](src_StateMachine_Order_OrderCancelled_php.md) <!-- repo:backend -->
+    - [OrderCheckoutGuardSelectShipping.php](src_StateMachine_Order_OrderCheckoutGuardSelectShipping_php.md) <!-- repo:backend -->
+    - [OrderCheckoutSelectPaymentSetUpcoming.php](src_StateMachine_Order_OrderCheckoutSelectPaymentSetUpcoming_php.md) <!-- repo:backend -->
+    - [OrderCompletedAndPaid.php](src_StateMachine_Order_OrderCompletedAndPaid_php.md) <!-- repo:backend -->
+    - [OrderCompleted.php](src_StateMachine_Order_OrderCompleted_php.md) <!-- repo:backend -->
+    - [OrderCreateSubscription.php](src_StateMachine_Order_OrderCreateSubscription_php.md) <!-- repo:backend -->
+    - [OrderPaid.php](src_StateMachine_Order_OrderPaid_php.md) <!-- repo:backend -->
+    - [OrderPaymentFail.php](src_StateMachine_Order_OrderPaymentFail_php.md) <!-- repo:backend -->
+    - [OrderPaymentGuardPay.php](src_StateMachine_Order_OrderPaymentGuardPay_php.md) <!-- repo:backend -->
+    - [OrderPaymentSetUpcomingOnComplete.php](src_StateMachine_Order_OrderPaymentSetUpcomingOnComplete_php.md) <!-- repo:backend -->
+    - [OrderPaymentSetUpcomingOnPay.php](src_StateMachine_Order_OrderPaymentSetUpcomingOnPay_php.md) <!-- repo:backend -->
+    - [ProductAvailableGuardComplete.php](src_StateMachine_Order_ProductAvailableGuardComplete_php.md) <!-- repo:backend -->
   - **StateResolver**
-    - [CheckoutStateResolver.php](src_StateMachine_StateResolver_CheckoutStateResolver_php.md)
+    - [CheckoutStateResolver.php](src_StateMachine_StateResolver_CheckoutStateResolver_php.md) <!-- repo:backend -->
+  - [OrderCheckoutStates.php](src_StateMachine_OrderCheckoutStates_php.md) <!-- repo:backend -->
+  - [OrderPaymentStates.php](src_StateMachine_OrderPaymentStates_php.md) <!-- repo:backend -->
+  - [OrderPaymentTransitions.php](src_StateMachine_OrderPaymentTransitions_php.md) <!-- repo:backend -->
+  - [PaymentStates.php](src_StateMachine_PaymentStates_php.md) <!-- repo:backend -->
+  - [StateMachineCallback.php](src_StateMachine_StateMachineCallback_php.md) <!-- repo:backend -->
 - **Strapi**
   - **Email**
-    - [StrapiApiClient.php](src_Strapi_Email_StrapiApiClient_php.md)
+    - [StrapiApiClient.php](src_Strapi_Email_StrapiApiClient_php.md) <!-- repo:backend -->
 - **Subscription**
   - **Applicator**
-    - [SubscriptionOrderTransitionApplicator.php](src_Subscription_Applicator_SubscriptionOrderTransitionApplicator_php.md)
-    - [SubscriptionTransitionApplicator.php](src_Subscription_Applicator_SubscriptionTransitionApplicator_php.md)
+    - [SubscriptionOrderTransitionApplicator.php](src_Subscription_Applicator_SubscriptionOrderTransitionApplicator_php.md) <!-- repo:backend -->
+    - [SubscriptionTransitionApplicator.php](src_Subscription_Applicator_SubscriptionTransitionApplicator_php.md) <!-- repo:backend -->
   - **Callback**
-    - [SubscriptionClosed.php](src_Subscription_Callback_SubscriptionClosed_php.md)
-    - [SubscriptionNotification.php](src_Subscription_Callback_SubscriptionNotification_php.md)
-    - [SubscriptionOrderProcess.php](src_Subscription_Callback_SubscriptionOrderProcess_php.md)
-    - [SubscriptionOrderProcessed.php](src_Subscription_Callback_SubscriptionOrderProcessed_php.md)
-    - [SubscriptionOrderResolver.php](src_Subscription_Callback_SubscriptionOrderResolver_php.md)
+    - [SubscriptionClosed.php](src_Subscription_Callback_SubscriptionClosed_php.md) <!-- repo:backend -->
+    - [SubscriptionNotification.php](src_Subscription_Callback_SubscriptionNotification_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderProcess.php](src_Subscription_Callback_SubscriptionOrderProcess_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderProcessed.php](src_Subscription_Callback_SubscriptionOrderProcessed_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderResolver.php](src_Subscription_Callback_SubscriptionOrderResolver_php.md) <!-- repo:backend -->
   - **Exception**
-    - [SubscriptionCannotBeCreatedException.php](src_Subscription_Exception_SubscriptionCannotBeCreatedException_php.md)
-    - [SubscriptionCannotBeUpdatedException.php](src_Subscription_Exception_SubscriptionCannotBeUpdatedException_php.md)
-    - [SubscriptionOrderCannotBeCreatedException.php](src_Subscription_Exception_SubscriptionOrderCannotBeCreatedException_php.md)
-    - [SubscriptionOrderCannotBeDebitedException.php](src_Subscription_Exception_SubscriptionOrderCannotBeDebitedException_php.md)
-    - [SubscriptionOrderCannotBeUpdatedException.php](src_Subscription_Exception_SubscriptionOrderCannotBeUpdatedException_php.md)
+    - [SubscriptionCannotBeCreatedException.php](src_Subscription_Exception_SubscriptionCannotBeCreatedException_php.md) <!-- repo:backend -->
+    - [SubscriptionCannotBeUpdatedException.php](src_Subscription_Exception_SubscriptionCannotBeUpdatedException_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderCannotBeCreatedException.php](src_Subscription_Exception_SubscriptionOrderCannotBeCreatedException_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderCannotBeDebitedException.php](src_Subscription_Exception_SubscriptionOrderCannotBeDebitedException_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderCannotBeUpdatedException.php](src_Subscription_Exception_SubscriptionOrderCannotBeUpdatedException_php.md) <!-- repo:backend -->
   - **Factory**
-    - [SubscriptionFactory.php](src_Subscription_Factory_SubscriptionFactory_php.md)
-    - [SubscriptionOrderFactory.php](src_Subscription_Factory_SubscriptionOrderFactory_php.md)
+    - [SubscriptionFactory.php](src_Subscription_Factory_SubscriptionFactory_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderFactory.php](src_Subscription_Factory_SubscriptionOrderFactory_php.md) <!-- repo:backend -->
   - **Lock**
-    - [SubscriptionLockFactory.php](src_Subscription_Lock_SubscriptionLockFactory_php.md)
+    - [SubscriptionLockFactory.php](src_Subscription_Lock_SubscriptionLockFactory_php.md) <!-- repo:backend -->
   - **Processor**
-    - [SubscriptionOrderPaymentProcessor.php](src_Subscription_Processor_SubscriptionOrderPaymentProcessor_php.md)
+    - [SubscriptionOrderPaymentProcessor.php](src_Subscription_Processor_SubscriptionOrderPaymentProcessor_php.md) <!-- repo:backend -->
   - **Provider**
-    - [SubscriptionAdjustmentProvider.php](src_Subscription_Provider_SubscriptionAdjustmentProvider_php.md)
-    - [SubscriptionOrderProvider.php](src_Subscription_Provider_SubscriptionOrderProvider_php.md)
+    - [SubscriptionAdjustmentProvider.php](src_Subscription_Provider_SubscriptionAdjustmentProvider_php.md) <!-- repo:backend -->
+    - [SubscriptionOrderProvider.php](src_Subscription_Provider_SubscriptionOrderProvider_php.md) <!-- repo:backend -->
   - **Updater**
-    - [ShippingSubscriptionOrderUpdater.php](src_Subscription_Updater_ShippingSubscriptionOrderUpdater_php.md)
+    - [ShippingSubscriptionOrderUpdater.php](src_Subscription_Updater_ShippingSubscriptionOrderUpdater_php.md) <!-- repo:backend -->
 - **SyliusExtension**
   - **UserBundle**
-    - [Md5PasswordEncoder.php](src_SyliusExtension_UserBundle_Md5PasswordEncoder_php.md)
+    - [Md5PasswordEncoder.php](src_SyliusExtension_UserBundle_Md5PasswordEncoder_php.md) <!-- repo:backend -->
 - **TalonOne**
   - **Core**
     - **Config**
-      - [TalonOneClientInterface.php](src_TalonOne_Core_Config_TalonOneClientInterface_php.md)
-      - [TalonOneRequestInterface.php](src_TalonOne_Core_Config_TalonOneRequestInterface_php.md)
+      - [TalonOneClientInterface.php](src_TalonOne_Core_Config_TalonOneClientInterface_php.md) <!-- repo:backend -->
+      - [TalonOneRequestInterface.php](src_TalonOne_Core_Config_TalonOneRequestInterface_php.md) <!-- repo:backend -->
     - **DTO**
-      - [Attribute.php](src_TalonOne_Core_DTO_Attribute_php.md)
-      - [Campaign.php](src_TalonOne_Core_DTO_Campaign_php.md)
-      - [CampaignCollection.php](src_TalonOne_Core_DTO_CampaignCollection_php.md)
-      - [CampaignCouponsListRequest.php](src_TalonOne_Core_DTO_CampaignCouponsListRequest_php.md)
       - **Catalogs**
         - **Actions**
-          - [AddItemCatalogAction.php](src_TalonOne_Core_DTO_Catalogs_Actions_AddItemCatalogAction_php.md)
-          - [UpdateAttributesItemCatalogAction.php](src_TalonOne_Core_DTO_Catalogs_Actions_UpdateAttributesItemCatalogAction_php.md)
-          - [UpdateAttributesMultipleItemsCatalogAction.php](src_TalonOne_Core_DTO_Catalogs_Actions_UpdateAttributesMultipleItemsCatalogAction_php.md)
-        - [CatalogAction.php](src_TalonOne_Core_DTO_Catalogs_CatalogAction_php.md)
-        - [Filter.php](src_TalonOne_Core_DTO_Catalogs_Filter_php.md)
-        - [SyncCartItemCatalogRequest.php](src_TalonOne_Core_DTO_Catalogs_SyncCartItemCatalogRequest_php.md)
-        - [SyncCartItemCatalogResponse.php](src_TalonOne_Core_DTO_Catalogs_SyncCartItemCatalogResponse_php.md)
-      - [Coupon.php](src_TalonOne_Core_DTO_Coupon_php.md)
-      - [CouponsFinderRequest.php](src_TalonOne_Core_DTO_CouponsFinderRequest_php.md)
+          - [AddItemCatalogAction.php](src_TalonOne_Core_DTO_Catalogs_Actions_AddItemCatalogAction_php.md) <!-- repo:backend -->
+          - [UpdateAttributesItemCatalogAction.php](src_TalonOne_Core_DTO_Catalogs_Actions_UpdateAttributesItemCatalogAction_php.md) <!-- repo:backend -->
+          - [UpdateAttributesMultipleItemsCatalogAction.php](src_TalonOne_Core_DTO_Catalogs_Actions_UpdateAttributesMultipleItemsCatalogAction_php.md) <!-- repo:backend -->
+        - [CatalogAction.php](src_TalonOne_Core_DTO_Catalogs_CatalogAction_php.md) <!-- repo:backend -->
+        - [Filter.php](src_TalonOne_Core_DTO_Catalogs_Filter_php.md) <!-- repo:backend -->
+        - [SyncCartItemCatalogRequest.php](src_TalonOne_Core_DTO_Catalogs_SyncCartItemCatalogRequest_php.md) <!-- repo:backend -->
+        - [SyncCartItemCatalogResponse.php](src_TalonOne_Core_DTO_Catalogs_SyncCartItemCatalogResponse_php.md) <!-- repo:backend -->
       - **CustomerProfiles**
-        - [AudienceMembership.php](src_TalonOne_Core_DTO_CustomerProfiles_AudienceMembership_php.md)
-        - [CustomerProfile.php](src_TalonOne_Core_DTO_CustomerProfiles_CustomerProfile_php.md)
-        - [LoyaltyMembership.php](src_TalonOne_Core_DTO_CustomerProfiles_LoyaltyMembership_php.md)
-        - [UpdateCustomerProfileRequest.php](src_TalonOne_Core_DTO_CustomerProfiles_UpdateCustomerProfileRequest_php.md)
-        - [UpdateCustomerProfileResponse.php](src_TalonOne_Core_DTO_CustomerProfiles_UpdateCustomerProfileResponse_php.md)
+        - [AudienceMembership.php](src_TalonOne_Core_DTO_CustomerProfiles_AudienceMembership_php.md) <!-- repo:backend -->
+        - [CustomerProfile.php](src_TalonOne_Core_DTO_CustomerProfiles_CustomerProfile_php.md) <!-- repo:backend -->
+        - [LoyaltyMembership.php](src_TalonOne_Core_DTO_CustomerProfiles_LoyaltyMembership_php.md) <!-- repo:backend -->
+        - [UpdateCustomerProfileRequest.php](src_TalonOne_Core_DTO_CustomerProfiles_UpdateCustomerProfileRequest_php.md) <!-- repo:backend -->
+        - [UpdateCustomerProfileResponse.php](src_TalonOne_Core_DTO_CustomerProfiles_UpdateCustomerProfileResponse_php.md) <!-- repo:backend -->
       - **CustomerSessions**
-        - [AdditionalCosts.php](src_TalonOne_Core_DTO_CustomerSessions_AdditionalCosts_php.md)
-        - [AdditionalCostsItem.php](src_TalonOne_Core_DTO_CustomerSessions_AdditionalCostsItem_php.md)
-        - [CartItem.php](src_TalonOne_Core_DTO_CustomerSessions_CartItem_php.md)
-        - [CustomerSession.php](src_TalonOne_Core_DTO_CustomerSessions_CustomerSession_php.md)
-        - [UpdateCustomerSessionRequest.php](src_TalonOne_Core_DTO_CustomerSessions_UpdateCustomerSessionRequest_php.md)
-        - [UpdateCustomerSessionResponse.php](src_TalonOne_Core_DTO_CustomerSessions_UpdateCustomerSessionResponse_php.md)
+        - [AdditionalCostsItem.php](src_TalonOne_Core_DTO_CustomerSessions_AdditionalCostsItem_php.md) <!-- repo:backend -->
+        - [AdditionalCosts.php](src_TalonOne_Core_DTO_CustomerSessions_AdditionalCosts_php.md) <!-- repo:backend -->
+        - [CartItem.php](src_TalonOne_Core_DTO_CustomerSessions_CartItem_php.md) <!-- repo:backend -->
+        - [CustomerSession.php](src_TalonOne_Core_DTO_CustomerSessions_CustomerSession_php.md) <!-- repo:backend -->
+        - [UpdateCustomerSessionRequest.php](src_TalonOne_Core_DTO_CustomerSessions_UpdateCustomerSessionRequest_php.md) <!-- repo:backend -->
+        - [UpdateCustomerSessionResponse.php](src_TalonOne_Core_DTO_CustomerSessions_UpdateCustomerSessionResponse_php.md) <!-- repo:backend -->
       - **Effect**
-        - [AcceptCouponEffect.php](src_TalonOne_Core_DTO_Effect_AcceptCouponEffect_php.md)
-        - [AcceptReferralEffect.php](src_TalonOne_Core_DTO_Effect_AcceptReferralEffect_php.md)
-        - [AddFreeItemEffect.php](src_TalonOne_Core_DTO_Effect_AddFreeItemEffect_php.md)
-        - [AddLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_AddLoyaltyPointsEffect_php.md)
-        - [AddToAudienceEffect.php](src_TalonOne_Core_DTO_Effect_AddToAudienceEffect_php.md)
-        - [AwardGiveawayEffect.php](src_TalonOne_Core_DTO_Effect_AwardGiveawayEffect_php.md)
-        - [ChangeLoyaltyTierLevelEffect.php](src_TalonOne_Core_DTO_Effect_ChangeLoyaltyTierLevelEffect_php.md)
-        - [CouponCreatedEffect.php](src_TalonOne_Core_DTO_Effect_CouponCreatedEffect_php.md)
-        - [CustomEffect.php](src_TalonOne_Core_DTO_Effect_CustomEffect_php.md)
-        - [DeductLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_DeductLoyaltyPointsEffect_php.md)
-        - [Effect.php](src_TalonOne_Core_DTO_Effect_Effect_php.md)
-        - [ErrorEffect.php](src_TalonOne_Core_DTO_Effect_ErrorEffect_php.md)
-        - [IncreaseAchievementProgressEffect.php](src_TalonOne_Core_DTO_Effect_IncreaseAchievementProgressEffect_php.md)
         - **Interface**
-          - [SetDiscountEffectInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountEffectInterface_php.md)
-          - [SetDiscountEffectPropsInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountEffectPropsInterface_php.md)
-          - [SetDiscountPerAdditionalCostEffectPropsInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountPerAdditionalCostEffectPropsInterface_php.md)
-          - [SetDiscountPerItemEffectInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountPerItemEffectInterface_php.md)
-          - [SetDiscountPerItemEffectPropsInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountPerItemEffectPropsInterface_php.md)
+          - [SetDiscountEffectInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountEffectInterface_php.md) <!-- repo:backend -->
+          - [SetDiscountEffectPropsInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountEffectPropsInterface_php.md) <!-- repo:backend -->
+          - [SetDiscountPerAdditionalCostEffectPropsInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountPerAdditionalCostEffectPropsInterface_php.md) <!-- repo:backend -->
+          - [SetDiscountPerItemEffectInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountPerItemEffectInterface_php.md) <!-- repo:backend -->
+          - [SetDiscountPerItemEffectPropsInterface.php](src_TalonOne_Core_DTO_Effect_Interface_SetDiscountPerItemEffectPropsInterface_php.md) <!-- repo:backend -->
         - **Props**
-          - [AcceptCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AcceptCouponEffectProps_php.md)
-          - [AcceptReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AcceptReferralEffectProps_php.md)
-          - [AddFreeItemEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AddFreeItemEffectProps_php.md)
-          - [AddLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AddLoyaltyPointsEffectProps_php.md)
-          - [AddToAudienceEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AddToAudienceEffectProps_php.md)
-          - [AwardGiveawayEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AwardGiveawayEffectProps_php.md)
-          - [ChangeLoyaltyTierLevelEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ChangeLoyaltyTierLevelEffectProps_php.md)
-          - [CouponCreatedEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_CouponCreatedEffectProps_php.md)
-          - [CustomEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_CustomEffectProps_php.md)
-          - [DeductLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_DeductLoyaltyPointsEffectProps_php.md)
-          - [ErrorEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ErrorEffectProps_php.md)
-          - [IncreaseAchievementProgressEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_IncreaseAchievementProgressEffectProps_php.md)
-          - [RedeemReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RedeemReferralEffectProps_php.md)
-          - [ReferralCreatedEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ReferralCreatedEffectProps_php.md)
-          - [RejectCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RejectCouponEffectProps_php.md)
-          - [RejectReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RejectReferralEffectProps_php.md)
-          - [RemoveFromAudienceEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RemoveFromAudienceEffectProps_php.md)
-          - [ReserveCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ReserveCouponEffectProps_php.md)
-          - [RollbackAddedLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackAddedLoyaltyPointsEffectProps_php.md)
-          - [RollbackCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackCouponEffectProps_php.md)
-          - [RollbackDeductedLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackDeductedLoyaltyPointsEffectProps_php.md)
-          - [RollbackDiscountEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackDiscountEffectProps_php.md)
-          - [RollbackIncreasedAchievementProgressEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackIncreasedAchievementProgressEffectProps_php.md)
-          - [RollbackReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackReferralEffectProps_php.md)
-          - [SetDiscountEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountEffectProps_php.md)
-          - [SetDiscountPerAdditionalCostEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountPerAdditionalCostEffectProps_php.md)
-          - [SetDiscountPerAdditionalCostPerItemEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountPerAdditionalCostPerItemEffectProps_php.md)
-          - [SetDiscountPerItemEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountPerItemEffectProps_php.md)
-          - [ShowBundleMetadataEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ShowBundleMetadataEffectProps_php.md)
-          - [ShowNotificationEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ShowNotificationEffectProps_php.md)
-          - [TriggerWebhookEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_TriggerWebhookEffectProps_php.md)
-          - [UpdateAttributeEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_UpdateAttributeEffectProps_php.md)
-          - [WillAwardGiveawayEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_WillAwardGiveawayEffectProps_php.md)
-        - [RedeemReferralEffect.php](src_TalonOne_Core_DTO_Effect_RedeemReferralEffect_php.md)
-        - [ReferralCreatedEffect.php](src_TalonOne_Core_DTO_Effect_ReferralCreatedEffect_php.md)
-        - [RejectCouponEffect.php](src_TalonOne_Core_DTO_Effect_RejectCouponEffect_php.md)
-        - [RejectReferralEffect.php](src_TalonOne_Core_DTO_Effect_RejectReferralEffect_php.md)
-        - [RemoveFromAudienceEffect.php](src_TalonOne_Core_DTO_Effect_RemoveFromAudienceEffect_php.md)
-        - [ReserveCouponEffect.php](src_TalonOne_Core_DTO_Effect_ReserveCouponEffect_php.md)
-        - [RollbackAddedLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_RollbackAddedLoyaltyPointsEffect_php.md)
-        - [RollbackCouponEffect.php](src_TalonOne_Core_DTO_Effect_RollbackCouponEffect_php.md)
-        - [RollbackDeductedLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_RollbackDeductedLoyaltyPointsEffect_php.md)
-        - [RollbackDiscountEffect.php](src_TalonOne_Core_DTO_Effect_RollbackDiscountEffect_php.md)
-        - [RollbackIncreasedAchievementProgressEffect.php](src_TalonOne_Core_DTO_Effect_RollbackIncreasedAchievementProgressEffect_php.md)
-        - [RollbackReferralEffect.php](src_TalonOne_Core_DTO_Effect_RollbackReferralEffect_php.md)
-        - [SetDiscountEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountEffect_php.md)
-        - [SetDiscountPerAdditionalCostEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountPerAdditionalCostEffect_php.md)
-        - [SetDiscountPerAdditionalCostPerItemEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountPerAdditionalCostPerItemEffect_php.md)
-        - [SetDiscountPerItemEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountPerItemEffect_php.md)
-        - [SetEffect.php](src_TalonOne_Core_DTO_Effect_SetEffect_php.md)
-        - [ShowBundleMetadataEffect.php](src_TalonOne_Core_DTO_Effect_ShowBundleMetadataEffect_php.md)
-        - [ShowNotificationEffect.php](src_TalonOne_Core_DTO_Effect_ShowNotificationEffect_php.md)
-        - [TriggerWebhookEffect.php](src_TalonOne_Core_DTO_Effect_TriggerWebhookEffect_php.md)
-        - [UpdateAttributeEffect.php](src_TalonOne_Core_DTO_Effect_UpdateAttributeEffect_php.md)
-        - [WillAwardGiveawayEffect.php](src_TalonOne_Core_DTO_Effect_WillAwardGiveawayEffect_php.md)
+          - [AcceptCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AcceptCouponEffectProps_php.md) <!-- repo:backend -->
+          - [AcceptReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AcceptReferralEffectProps_php.md) <!-- repo:backend -->
+          - [AddFreeItemEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AddFreeItemEffectProps_php.md) <!-- repo:backend -->
+          - [AddLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AddLoyaltyPointsEffectProps_php.md) <!-- repo:backend -->
+          - [AddToAudienceEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AddToAudienceEffectProps_php.md) <!-- repo:backend -->
+          - [AwardGiveawayEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_AwardGiveawayEffectProps_php.md) <!-- repo:backend -->
+          - [ChangeLoyaltyTierLevelEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ChangeLoyaltyTierLevelEffectProps_php.md) <!-- repo:backend -->
+          - [CouponCreatedEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_CouponCreatedEffectProps_php.md) <!-- repo:backend -->
+          - [CustomEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_CustomEffectProps_php.md) <!-- repo:backend -->
+          - [DeductLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_DeductLoyaltyPointsEffectProps_php.md) <!-- repo:backend -->
+          - [ErrorEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ErrorEffectProps_php.md) <!-- repo:backend -->
+          - [IncreaseAchievementProgressEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_IncreaseAchievementProgressEffectProps_php.md) <!-- repo:backend -->
+          - [RedeemReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RedeemReferralEffectProps_php.md) <!-- repo:backend -->
+          - [ReferralCreatedEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ReferralCreatedEffectProps_php.md) <!-- repo:backend -->
+          - [RejectCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RejectCouponEffectProps_php.md) <!-- repo:backend -->
+          - [RejectReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RejectReferralEffectProps_php.md) <!-- repo:backend -->
+          - [RemoveFromAudienceEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RemoveFromAudienceEffectProps_php.md) <!-- repo:backend -->
+          - [ReserveCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ReserveCouponEffectProps_php.md) <!-- repo:backend -->
+          - [RollbackAddedLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackAddedLoyaltyPointsEffectProps_php.md) <!-- repo:backend -->
+          - [RollbackCouponEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackCouponEffectProps_php.md) <!-- repo:backend -->
+          - [RollbackDeductedLoyaltyPointsEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackDeductedLoyaltyPointsEffectProps_php.md) <!-- repo:backend -->
+          - [RollbackDiscountEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackDiscountEffectProps_php.md) <!-- repo:backend -->
+          - [RollbackIncreasedAchievementProgressEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackIncreasedAchievementProgressEffectProps_php.md) <!-- repo:backend -->
+          - [RollbackReferralEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_RollbackReferralEffectProps_php.md) <!-- repo:backend -->
+          - [SetDiscountEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountEffectProps_php.md) <!-- repo:backend -->
+          - [SetDiscountPerAdditionalCostEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountPerAdditionalCostEffectProps_php.md) <!-- repo:backend -->
+          - [SetDiscountPerAdditionalCostPerItemEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountPerAdditionalCostPerItemEffectProps_php.md) <!-- repo:backend -->
+          - [SetDiscountPerItemEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_SetDiscountPerItemEffectProps_php.md) <!-- repo:backend -->
+          - [ShowBundleMetadataEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ShowBundleMetadataEffectProps_php.md) <!-- repo:backend -->
+          - [ShowNotificationEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_ShowNotificationEffectProps_php.md) <!-- repo:backend -->
+          - [TriggerWebhookEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_TriggerWebhookEffectProps_php.md) <!-- repo:backend -->
+          - [UpdateAttributeEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_UpdateAttributeEffectProps_php.md) <!-- repo:backend -->
+          - [WillAwardGiveawayEffectProps.php](src_TalonOne_Core_DTO_Effect_Props_WillAwardGiveawayEffectProps_php.md) <!-- repo:backend -->
+        - [AcceptCouponEffect.php](src_TalonOne_Core_DTO_Effect_AcceptCouponEffect_php.md) <!-- repo:backend -->
+        - [AcceptReferralEffect.php](src_TalonOne_Core_DTO_Effect_AcceptReferralEffect_php.md) <!-- repo:backend -->
+        - [AddFreeItemEffect.php](src_TalonOne_Core_DTO_Effect_AddFreeItemEffect_php.md) <!-- repo:backend -->
+        - [AddLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_AddLoyaltyPointsEffect_php.md) <!-- repo:backend -->
+        - [AddToAudienceEffect.php](src_TalonOne_Core_DTO_Effect_AddToAudienceEffect_php.md) <!-- repo:backend -->
+        - [AwardGiveawayEffect.php](src_TalonOne_Core_DTO_Effect_AwardGiveawayEffect_php.md) <!-- repo:backend -->
+        - [ChangeLoyaltyTierLevelEffect.php](src_TalonOne_Core_DTO_Effect_ChangeLoyaltyTierLevelEffect_php.md) <!-- repo:backend -->
+        - [CouponCreatedEffect.php](src_TalonOne_Core_DTO_Effect_CouponCreatedEffect_php.md) <!-- repo:backend -->
+        - [CustomEffect.php](src_TalonOne_Core_DTO_Effect_CustomEffect_php.md) <!-- repo:backend -->
+        - [DeductLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_DeductLoyaltyPointsEffect_php.md) <!-- repo:backend -->
+        - [Effect.php](src_TalonOne_Core_DTO_Effect_Effect_php.md) <!-- repo:backend -->
+        - [ErrorEffect.php](src_TalonOne_Core_DTO_Effect_ErrorEffect_php.md) <!-- repo:backend -->
+        - [IncreaseAchievementProgressEffect.php](src_TalonOne_Core_DTO_Effect_IncreaseAchievementProgressEffect_php.md) <!-- repo:backend -->
+        - [RedeemReferralEffect.php](src_TalonOne_Core_DTO_Effect_RedeemReferralEffect_php.md) <!-- repo:backend -->
+        - [ReferralCreatedEffect.php](src_TalonOne_Core_DTO_Effect_ReferralCreatedEffect_php.md) <!-- repo:backend -->
+        - [RejectCouponEffect.php](src_TalonOne_Core_DTO_Effect_RejectCouponEffect_php.md) <!-- repo:backend -->
+        - [RejectReferralEffect.php](src_TalonOne_Core_DTO_Effect_RejectReferralEffect_php.md) <!-- repo:backend -->
+        - [RemoveFromAudienceEffect.php](src_TalonOne_Core_DTO_Effect_RemoveFromAudienceEffect_php.md) <!-- repo:backend -->
+        - [ReserveCouponEffect.php](src_TalonOne_Core_DTO_Effect_ReserveCouponEffect_php.md) <!-- repo:backend -->
+        - [RollbackAddedLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_RollbackAddedLoyaltyPointsEffect_php.md) <!-- repo:backend -->
+        - [RollbackCouponEffect.php](src_TalonOne_Core_DTO_Effect_RollbackCouponEffect_php.md) <!-- repo:backend -->
+        - [RollbackDeductedLoyaltyPointsEffect.php](src_TalonOne_Core_DTO_Effect_RollbackDeductedLoyaltyPointsEffect_php.md) <!-- repo:backend -->
+        - [RollbackDiscountEffect.php](src_TalonOne_Core_DTO_Effect_RollbackDiscountEffect_php.md) <!-- repo:backend -->
+        - [RollbackIncreasedAchievementProgressEffect.php](src_TalonOne_Core_DTO_Effect_RollbackIncreasedAchievementProgressEffect_php.md) <!-- repo:backend -->
+        - [RollbackReferralEffect.php](src_TalonOne_Core_DTO_Effect_RollbackReferralEffect_php.md) <!-- repo:backend -->
+        - [SetDiscountEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountEffect_php.md) <!-- repo:backend -->
+        - [SetDiscountPerAdditionalCostEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountPerAdditionalCostEffect_php.md) <!-- repo:backend -->
+        - [SetDiscountPerAdditionalCostPerItemEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountPerAdditionalCostPerItemEffect_php.md) <!-- repo:backend -->
+        - [SetDiscountPerItemEffect.php](src_TalonOne_Core_DTO_Effect_SetDiscountPerItemEffect_php.md) <!-- repo:backend -->
+        - [SetEffect.php](src_TalonOne_Core_DTO_Effect_SetEffect_php.md) <!-- repo:backend -->
+        - [ShowBundleMetadataEffect.php](src_TalonOne_Core_DTO_Effect_ShowBundleMetadataEffect_php.md) <!-- repo:backend -->
+        - [ShowNotificationEffect.php](src_TalonOne_Core_DTO_Effect_ShowNotificationEffect_php.md) <!-- repo:backend -->
+        - [TriggerWebhookEffect.php](src_TalonOne_Core_DTO_Effect_TriggerWebhookEffect_php.md) <!-- repo:backend -->
+        - [UpdateAttributeEffect.php](src_TalonOne_Core_DTO_Effect_UpdateAttributeEffect_php.md) <!-- repo:backend -->
+        - [WillAwardGiveawayEffect.php](src_TalonOne_Core_DTO_Effect_WillAwardGiveawayEffect_php.md) <!-- repo:backend -->
       - **Error**
-        - [ErrorDetail.php](src_TalonOne_Core_DTO_Error_ErrorDetail_php.md)
-      - [Error.php](src_TalonOne_Core_DTO_Error_php.md)
-      - [Giveaway.php](src_TalonOne_Core_DTO_Giveaway_php.md)
-      - [Limit.php](src_TalonOne_Core_DTO_Limit_php.md)
+        - [ErrorDetail.php](src_TalonOne_Core_DTO_Error_ErrorDetail_php.md) <!-- repo:backend -->
       - **Loyalty**
-        - [Card.php](src_TalonOne_Core_DTO_Loyalty_Card_php.md)
-        - [Loyalty.php](src_TalonOne_Core_DTO_Loyalty_Loyalty_php.md)
-        - [Program.php](src_TalonOne_Core_DTO_Loyalty_Program_php.md)
-      - [Product.php](src_TalonOne_Core_DTO_Product_php.md)
-      - [Referral.php](src_TalonOne_Core_DTO_Referral_php.md)
-      - [RequestTrait.php](src_TalonOne_Core_DTO_RequestTrait_php.md)
-      - [RuleFailureReason.php](src_TalonOne_Core_DTO_RuleFailureReason_php.md)
-      - [Setting.php](src_TalonOne_Core_DTO_Setting_php.md)
+        - [Card.php](src_TalonOne_Core_DTO_Loyalty_Card_php.md) <!-- repo:backend -->
+        - [Loyalty.php](src_TalonOne_Core_DTO_Loyalty_Loyalty_php.md) <!-- repo:backend -->
+        - [Program.php](src_TalonOne_Core_DTO_Loyalty_Program_php.md) <!-- repo:backend -->
+      - [Attribute.php](src_TalonOne_Core_DTO_Attribute_php.md) <!-- repo:backend -->
+      - [CampaignCollection.php](src_TalonOne_Core_DTO_CampaignCollection_php.md) <!-- repo:backend -->
+      - [CampaignCouponsListRequest.php](src_TalonOne_Core_DTO_CampaignCouponsListRequest_php.md) <!-- repo:backend -->
+      - [Campaign.php](src_TalonOne_Core_DTO_Campaign_php.md) <!-- repo:backend -->
+      - [Coupon.php](src_TalonOne_Core_DTO_Coupon_php.md) <!-- repo:backend -->
+      - [CouponsFinderRequest.php](src_TalonOne_Core_DTO_CouponsFinderRequest_php.md) <!-- repo:backend -->
+      - [Error.php](src_TalonOne_Core_DTO_Error_php.md) <!-- repo:backend -->
+      - [Giveaway.php](src_TalonOne_Core_DTO_Giveaway_php.md) <!-- repo:backend -->
+      - [Limit.php](src_TalonOne_Core_DTO_Limit_php.md) <!-- repo:backend -->
+      - [Product.php](src_TalonOne_Core_DTO_Product_php.md) <!-- repo:backend -->
+      - [Referral.php](src_TalonOne_Core_DTO_Referral_php.md) <!-- repo:backend -->
+      - [RequestTrait.php](src_TalonOne_Core_DTO_RequestTrait_php.md) <!-- repo:backend -->
+      - [RuleFailureReason.php](src_TalonOne_Core_DTO_RuleFailureReason_php.md) <!-- repo:backend -->
+      - [Setting.php](src_TalonOne_Core_DTO_Setting_php.md) <!-- repo:backend -->
     - **Enum**
-      - [CustomerSessionState.php](src_TalonOne_Core_Enum_CustomerSessionState_php.md)
+      - [CustomerSessionState.php](src_TalonOne_Core_Enum_CustomerSessionState_php.md) <!-- repo:backend -->
     - **Exception**
-      - [IntegrationClientException.php](src_TalonOne_Core_Exception_IntegrationClientException_php.md)
-      - [ManagementClientException.php](src_TalonOne_Core_Exception_ManagementClientException_php.md)
-      - [TalonOneCriticalException.php](src_TalonOne_Core_Exception_TalonOneCriticalException_php.md)
-      - [TalonOneKillSwitchException.php](src_TalonOne_Core_Exception_TalonOneKillSwitchException_php.md)
-      - [TalonOneTechnicalException.php](src_TalonOne_Core_Exception_TalonOneTechnicalException_php.md)
+      - [IntegrationClientException.php](src_TalonOne_Core_Exception_IntegrationClientException_php.md) <!-- repo:backend -->
+      - [ManagementClientException.php](src_TalonOne_Core_Exception_ManagementClientException_php.md) <!-- repo:backend -->
+      - [TalonOneCriticalException.php](src_TalonOne_Core_Exception_TalonOneCriticalException_php.md) <!-- repo:backend -->
+      - [TalonOneKillSwitchException.php](src_TalonOne_Core_Exception_TalonOneKillSwitchException_php.md) <!-- repo:backend -->
+      - [TalonOneTechnicalException.php](src_TalonOne_Core_Exception_TalonOneTechnicalException_php.md) <!-- repo:backend -->
     - **IntegrationApi**
       - **Decorator**
-        - [KillSwitchClient.php](src_TalonOne_Core_IntegrationApi_Decorator_KillSwitchClient_php.md)
-        - [LoggerClient.php](src_TalonOne_Core_IntegrationApi_Decorator_LoggerClient_php.md)
-        - [MockClient.php](src_TalonOne_Core_IntegrationApi_Decorator_MockClient_php.md)
-        - [ResponseNormalizerClient.php](src_TalonOne_Core_IntegrationApi_Decorator_ResponseNormalizerClient_php.md)
-      - [IntegrationClient.php](src_TalonOne_Core_IntegrationApi_IntegrationClient_php.md)
-      - [IntegrationClientInterface.php](src_TalonOne_Core_IntegrationApi_IntegrationClientInterface_php.md)
+        - [KillSwitchClient.php](src_TalonOne_Core_IntegrationApi_Decorator_KillSwitchClient_php.md) <!-- repo:backend -->
+        - [LoggerClient.php](src_TalonOne_Core_IntegrationApi_Decorator_LoggerClient_php.md) <!-- repo:backend -->
+        - [MockClient.php](src_TalonOne_Core_IntegrationApi_Decorator_MockClient_php.md) <!-- repo:backend -->
+        - [ResponseNormalizerClient.php](src_TalonOne_Core_IntegrationApi_Decorator_ResponseNormalizerClient_php.md) <!-- repo:backend -->
       - **Mock**
         - **CustomerSession**
-          - [PutCustomerSessionMock.php](src_TalonOne_Core_IntegrationApi_Mock_CustomerSession_PutCustomerSessionMock_php.md)
-          - [PutCustomerSessionResponse.json](src_TalonOne_Core_IntegrationApi_Mock_CustomerSession_PutCustomerSessionResponse_json.md)
+          - [PutCustomerSessionMock.php](src_TalonOne_Core_IntegrationApi_Mock_CustomerSession_PutCustomerSessionMock_php.md) <!-- repo:backend -->
+          - [PutCustomerSessionResponse.json](src_TalonOne_Core_IntegrationApi_Mock_CustomerSession_PutCustomerSessionResponse_json.md) <!-- repo:backend -->
       - **Request**
         - **Catalog**
-          - [PutCatalogSyncRequest.php](src_TalonOne_Core_IntegrationApi_Request_Catalog_PutCatalogSyncRequest_php.md)
+          - [PutCatalogSyncRequest.php](src_TalonOne_Core_IntegrationApi_Request_Catalog_PutCatalogSyncRequest_php.md) <!-- repo:backend -->
         - **CustomerProfile**
-          - [PutCustomerProfileRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerProfile_PutCustomerProfileRequest_php.md)
-          - [PutCustomersProfileBatchRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerProfile_PutCustomersProfileBatchRequest_php.md)
+          - [PutCustomerProfileRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerProfile_PutCustomerProfileRequest_php.md) <!-- repo:backend -->
+          - [PutCustomersProfileBatchRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerProfile_PutCustomersProfileBatchRequest_php.md) <!-- repo:backend -->
         - **CustomerSession**
-          - [GetCustomerSessionRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerSession_GetCustomerSessionRequest_php.md)
-          - [PutCustomerSessionRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerSession_PutCustomerSessionRequest_php.md)
-          - [ReopenCustomerSessionRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerSession_ReopenCustomerSessionRequest_php.md)
-        - [IntegrationRequest.php](src_TalonOne_Core_IntegrationApi_Request_IntegrationRequest_php.md)
-        - [IntegrationRequestInterface.php](src_TalonOne_Core_IntegrationApi_Request_IntegrationRequestInterface_php.md)
+          - [GetCustomerSessionRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerSession_GetCustomerSessionRequest_php.md) <!-- repo:backend -->
+          - [PutCustomerSessionRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerSession_PutCustomerSessionRequest_php.md) <!-- repo:backend -->
+          - [ReopenCustomerSessionRequest.php](src_TalonOne_Core_IntegrationApi_Request_CustomerSession_ReopenCustomerSessionRequest_php.md) <!-- repo:backend -->
+        - [IntegrationRequestInterface.php](src_TalonOne_Core_IntegrationApi_Request_IntegrationRequestInterface_php.md) <!-- repo:backend -->
+        - [IntegrationRequest.php](src_TalonOne_Core_IntegrationApi_Request_IntegrationRequest_php.md) <!-- repo:backend -->
+      - [IntegrationClientInterface.php](src_TalonOne_Core_IntegrationApi_IntegrationClientInterface_php.md) <!-- repo:backend -->
+      - [IntegrationClient.php](src_TalonOne_Core_IntegrationApi_IntegrationClient_php.md) <!-- repo:backend -->
     - **ManagementApi**
       - **Decorator**
-        - [CacheClient.php](src_TalonOne_Core_ManagementApi_Decorator_CacheClient_php.md)
-        - [KillSwitchClient.php](src_TalonOne_Core_ManagementApi_Decorator_KillSwitchClient_php.md)
-        - [LoggerClient.php](src_TalonOne_Core_ManagementApi_Decorator_LoggerClient_php.md)
-        - [MockClient.php](src_TalonOne_Core_ManagementApi_Decorator_MockClient_php.md)
-        - [ResponseNormalizerClient.php](src_TalonOne_Core_ManagementApi_Decorator_ResponseNormalizerClient_php.md)
-      - [ManagementClient.php](src_TalonOne_Core_ManagementApi_ManagementClient_php.md)
-      - [ManagementClientInterface.php](src_TalonOne_Core_ManagementApi_ManagementClientInterface_php.md)
+        - [CacheClient.php](src_TalonOne_Core_ManagementApi_Decorator_CacheClient_php.md) <!-- repo:backend -->
+        - [KillSwitchClient.php](src_TalonOne_Core_ManagementApi_Decorator_KillSwitchClient_php.md) <!-- repo:backend -->
+        - [LoggerClient.php](src_TalonOne_Core_ManagementApi_Decorator_LoggerClient_php.md) <!-- repo:backend -->
+        - [MockClient.php](src_TalonOne_Core_ManagementApi_Decorator_MockClient_php.md) <!-- repo:backend -->
+        - [ResponseNormalizerClient.php](src_TalonOne_Core_ManagementApi_Decorator_ResponseNormalizerClient_php.md) <!-- repo:backend -->
       - **Mock**
         - **Campaign**
-          - [GetCampaignTalonOneMock.php](src_TalonOne_Core_ManagementApi_Mock_Campaign_GetCampaignTalonOneMock_php.md)
-          - [GetCollectionCampaignMock.php](src_TalonOne_Core_ManagementApi_Mock_Campaign_GetCollectionCampaignMock_php.md)
+          - [GetCampaignTalonOneMock.php](src_TalonOne_Core_ManagementApi_Mock_Campaign_GetCampaignTalonOneMock_php.md) <!-- repo:backend -->
+          - [GetCollectionCampaignMock.php](src_TalonOne_Core_ManagementApi_Mock_Campaign_GetCollectionCampaignMock_php.md) <!-- repo:backend -->
       - **Request**
         - **Attributes**
-          - [GetListCouponAttributeRequest.php](src_TalonOne_Core_ManagementApi_Request_Attributes_GetListCouponAttributeRequest_php.md)
+          - [GetListCouponAttributeRequest.php](src_TalonOne_Core_ManagementApi_Request_Attributes_GetListCouponAttributeRequest_php.md) <!-- repo:backend -->
         - **Campaign**
-          - [GetCampaignRequest.php](src_TalonOne_Core_ManagementApi_Request_Campaign_GetCampaignRequest_php.md)
-          - [GetCollectionCampaignRequest.php](src_TalonOne_Core_ManagementApi_Request_Campaign_GetCollectionCampaignRequest_php.md)
-          - [PutCampaignRequest.php](src_TalonOne_Core_ManagementApi_Request_Campaign_PutCampaignRequest_php.md)
+          - [GetCampaignRequest.php](src_TalonOne_Core_ManagementApi_Request_Campaign_GetCampaignRequest_php.md) <!-- repo:backend -->
+          - [GetCollectionCampaignRequest.php](src_TalonOne_Core_ManagementApi_Request_Campaign_GetCollectionCampaignRequest_php.md) <!-- repo:backend -->
+          - [PutCampaignRequest.php](src_TalonOne_Core_ManagementApi_Request_Campaign_PutCampaignRequest_php.md) <!-- repo:backend -->
         - **Coupons**
-          - [CampaignCouponsSearchAdvancedNoTotalRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_CampaignCouponsSearchAdvancedNoTotalRequest_php.md)
-          - [CouponsSearchAdvancedNoTotalRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_CouponsSearchAdvancedNoTotalRequest_php.md)
-          - [DeleteCouponRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_DeleteCouponRequest_php.md)
-          - [GetListCouponsRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_GetListCouponsRequest_php.md)
-          - [GetListCouponsSearchAdvancedRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_GetListCouponsSearchAdvancedRequest_php.md)
-          - [PostCreateAsyncCouponsRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_PostCreateAsyncCouponsRequest_php.md)
-          - [PostCreateCouponsRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_PostCreateCouponsRequest_php.md)
-          - [PutUpdateCouponRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_PutUpdateCouponRequest_php.md)
-        - [ManagementRequest.php](src_TalonOne_Core_ManagementApi_Request_ManagementRequest_php.md)
-        - [ManagementRequestInterface.php](src_TalonOne_Core_ManagementApi_Request_ManagementRequestInterface_php.md)
+          - [CampaignCouponsSearchAdvancedNoTotalRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_CampaignCouponsSearchAdvancedNoTotalRequest_php.md) <!-- repo:backend -->
+          - [CouponsSearchAdvancedNoTotalRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_CouponsSearchAdvancedNoTotalRequest_php.md) <!-- repo:backend -->
+          - [DeleteCouponRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_DeleteCouponRequest_php.md) <!-- repo:backend -->
+          - [GetListCouponsRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_GetListCouponsRequest_php.md) <!-- repo:backend -->
+          - [GetListCouponsSearchAdvancedRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_GetListCouponsSearchAdvancedRequest_php.md) <!-- repo:backend -->
+          - [PostCreateAsyncCouponsRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_PostCreateAsyncCouponsRequest_php.md) <!-- repo:backend -->
+          - [PostCreateCouponsRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_PostCreateCouponsRequest_php.md) <!-- repo:backend -->
+          - [PutUpdateCouponRequest.php](src_TalonOne_Core_ManagementApi_Request_Coupons_PutUpdateCouponRequest_php.md) <!-- repo:backend -->
+        - [ManagementRequestInterface.php](src_TalonOne_Core_ManagementApi_Request_ManagementRequestInterface_php.md) <!-- repo:backend -->
+        - [ManagementRequest.php](src_TalonOne_Core_ManagementApi_Request_ManagementRequest_php.md) <!-- repo:backend -->
+      - [ManagementClientInterface.php](src_TalonOne_Core_ManagementApi_ManagementClientInterface_php.md) <!-- repo:backend -->
+      - [ManagementClient.php](src_TalonOne_Core_ManagementApi_ManagementClient_php.md) <!-- repo:backend -->
   - **DataProvider**
     - **Campaign**
-      - [CollectionProvider.php](src_TalonOne_DataProvider_Campaign_CollectionProvider_php.md)
-      - [ItemProvider.php](src_TalonOne_DataProvider_Campaign_ItemProvider_php.md)
+      - [CollectionProvider.php](src_TalonOne_DataProvider_Campaign_CollectionProvider_php.md) <!-- repo:backend -->
+      - [ItemProvider.php](src_TalonOne_DataProvider_Campaign_ItemProvider_php.md) <!-- repo:backend -->
     - **Coupon**
-      - [CampaignDataProvider.php](src_TalonOne_DataProvider_Coupon_CampaignDataProvider_php.md)
-      - [CollectionProvider.php](src_TalonOne_DataProvider_Coupon_CollectionProvider_php.md)
-      - [ItemProvider.php](src_TalonOne_DataProvider_Coupon_ItemProvider_php.md)
+      - [CampaignDataProvider.php](src_TalonOne_DataProvider_Coupon_CampaignDataProvider_php.md) <!-- repo:backend -->
+      - [CollectionProvider.php](src_TalonOne_DataProvider_Coupon_CollectionProvider_php.md) <!-- repo:backend -->
+      - [ItemProvider.php](src_TalonOne_DataProvider_Coupon_ItemProvider_php.md) <!-- repo:backend -->
   - **Domain**
     - **Builder**
-      - [AbstractRequestBuilder.php](src_TalonOne_Domain_Builder_AbstractRequestBuilder_php.md)
       - **CampaignCouponsList**
-        - [CampaignCouponsListRequestBuilder.php](src_TalonOne_Domain_Builder_CampaignCouponsList_CampaignCouponsListRequestBuilder_php.md)
+        - [CampaignCouponsListRequestBuilder.php](src_TalonOne_Domain_Builder_CampaignCouponsList_CampaignCouponsListRequestBuilder_php.md) <!-- repo:backend -->
       - **CouponsFinderRequest**
-        - [CouponsFinderRequestBuilder.php](src_TalonOne_Domain_Builder_CouponsFinderRequest_CouponsFinderRequestBuilder_php.md)
+        - [CouponsFinderRequestBuilder.php](src_TalonOne_Domain_Builder_CouponsFinderRequest_CouponsFinderRequestBuilder_php.md) <!-- repo:backend -->
       - **DeleteCouponRequest**
-        - [DeleteCouponRequestBuilder.php](src_TalonOne_Domain_Builder_DeleteCouponRequest_DeleteCouponRequestBuilder_php.md)
+        - [DeleteCouponRequestBuilder.php](src_TalonOne_Domain_Builder_DeleteCouponRequest_DeleteCouponRequestBuilder_php.md) <!-- repo:backend -->
       - **GetAttributesRequest**
-        - [GetCouponAttributeRequestBuilder.php](src_TalonOne_Domain_Builder_GetAttributesRequest_GetCouponAttributeRequestBuilder_php.md)
+        - [GetCouponAttributeRequestBuilder.php](src_TalonOne_Domain_Builder_GetAttributesRequest_GetCouponAttributeRequestBuilder_php.md) <!-- repo:backend -->
       - **GetCampaignRequest**
-        - [GetCampaignRequestBuilder.php](src_TalonOne_Domain_Builder_GetCampaignRequest_GetCampaignRequestBuilder_php.md)
+        - [GetCampaignRequestBuilder.php](src_TalonOne_Domain_Builder_GetCampaignRequest_GetCampaignRequestBuilder_php.md) <!-- repo:backend -->
       - **GetCollectionCampaignRequest**
-        - [GetCollectionCampaignRequestBuilder.php](src_TalonOne_Domain_Builder_GetCollectionCampaignRequest_GetCollectionCampaignRequestBuilder_php.md)
-        - [GetTaggedCollectionCampaignRequestBuilder.php](src_TalonOne_Domain_Builder_GetCollectionCampaignRequest_GetTaggedCollectionCampaignRequestBuilder_php.md)
+        - [GetCollectionCampaignRequestBuilder.php](src_TalonOne_Domain_Builder_GetCollectionCampaignRequest_GetCollectionCampaignRequestBuilder_php.md) <!-- repo:backend -->
+        - [GetTaggedCollectionCampaignRequestBuilder.php](src_TalonOne_Domain_Builder_GetCollectionCampaignRequest_GetTaggedCollectionCampaignRequestBuilder_php.md) <!-- repo:backend -->
       - **GetCustomerSessionRequest**
-        - [GetCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_GetCustomerSessionRequest_GetCustomerSessionRequestBuilder_php.md)
+        - [GetCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_GetCustomerSessionRequest_GetCustomerSessionRequestBuilder_php.md) <!-- repo:backend -->
       - **GetListCoupons**
-        - [AllListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_AllListCouponsRequestBuilder_php.md)
-        - [ByDateListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_ByDateListCouponsRequestBuilder_php.md)
-        - [CustomerListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_CustomerListCouponsRequestBuilder_php.md)
-        - [CustomerListCouponsSearchAdvancedRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_CustomerListCouponsSearchAdvancedRequestBuilder_php.md)
-        - [ExpiredListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_ExpiredListCouponsRequestBuilder_php.md)
-        - [FilteredListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_FilteredListCouponsRequestBuilder_php.md)
-        - [GetCouponByCodeRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_GetCouponByCodeRequestBuilder_php.md)
-        - [GetCouponByValueRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_GetCouponByValueRequestBuilder_php.md)
-        - [ValidNowListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_ValidNowListCouponsRequestBuilder_php.md)
+        - [AllListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_AllListCouponsRequestBuilder_php.md) <!-- repo:backend -->
+        - [ByDateListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_ByDateListCouponsRequestBuilder_php.md) <!-- repo:backend -->
+        - [CustomerListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_CustomerListCouponsRequestBuilder_php.md) <!-- repo:backend -->
+        - [CustomerListCouponsSearchAdvancedRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_CustomerListCouponsSearchAdvancedRequestBuilder_php.md) <!-- repo:backend -->
+        - [ExpiredListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_ExpiredListCouponsRequestBuilder_php.md) <!-- repo:backend -->
+        - [FilteredListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_FilteredListCouponsRequestBuilder_php.md) <!-- repo:backend -->
+        - [GetCouponByCodeRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_GetCouponByCodeRequestBuilder_php.md) <!-- repo:backend -->
+        - [GetCouponByValueRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_GetCouponByValueRequestBuilder_php.md) <!-- repo:backend -->
+        - [ValidNowListCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_GetListCoupons_ValidNowListCouponsRequestBuilder_php.md) <!-- repo:backend -->
       - **PostCreateCouponsRequest**
-        - [CreateAsyncBulkCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_PostCreateCouponsRequest_CreateAsyncBulkCouponsRequestBuilder_php.md)
-        - [CreateBulkCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_PostCreateCouponsRequest_CreateBulkCouponsRequestBuilder_php.md)
+        - [CreateAsyncBulkCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_PostCreateCouponsRequest_CreateAsyncBulkCouponsRequestBuilder_php.md) <!-- repo:backend -->
+        - [CreateBulkCouponsRequestBuilder.php](src_TalonOne_Domain_Builder_PostCreateCouponsRequest_CreateBulkCouponsRequestBuilder_php.md) <!-- repo:backend -->
       - **PutCustomerProfile**
-        - [UpdateAnonymousProfileRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerProfile_UpdateAnonymousProfileRequestBuilder_php.md)
-        - [UpdateCustomerProfileRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerProfile_UpdateCustomerProfileRequestBuilder_php.md)
+        - [UpdateAnonymousProfileRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerProfile_UpdateAnonymousProfileRequestBuilder_php.md) <!-- repo:backend -->
+        - [UpdateCustomerProfileRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerProfile_UpdateCustomerProfileRequestBuilder_php.md) <!-- repo:backend -->
       - **PutCustomerSessionRequest**
-        - [CancelCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_CancelCustomerSessionRequestBuilder_php.md)
-        - [CheckSubscriptionOrderCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_CheckSubscriptionOrderCustomerSessionRequestBuilder_php.md)
-        - [CloseCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_CloseCustomerSessionRequestBuilder_php.md)
-        - [DryUpdateCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_DryUpdateCustomerSessionRequestBuilder_php.md)
-        - [ReopenCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_ReopenCustomerSessionRequestBuilder_php.md)
-        - [UpdateCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_UpdateCustomerSessionRequestBuilder_php.md)
+        - [CancelCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_CancelCustomerSessionRequestBuilder_php.md) <!-- repo:backend -->
+        - [CheckSubscriptionOrderCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_CheckSubscriptionOrderCustomerSessionRequestBuilder_php.md) <!-- repo:backend -->
+        - [CloseCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_CloseCustomerSessionRequestBuilder_php.md) <!-- repo:backend -->
+        - [DryUpdateCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_DryUpdateCustomerSessionRequestBuilder_php.md) <!-- repo:backend -->
+        - [ReopenCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_ReopenCustomerSessionRequestBuilder_php.md) <!-- repo:backend -->
+        - [UpdateCustomerSessionRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomerSessionRequest_UpdateCustomerSessionRequestBuilder_php.md) <!-- repo:backend -->
       - **PutCustomersProfile**
-        - [UpdateCustomersProfileBatchRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomersProfile_UpdateCustomersProfileBatchRequestBuilder_php.md)
-      - [RequestBuilderInterface.php](src_TalonOne_Domain_Builder_RequestBuilderInterface_php.md)
-      - [RequestDirector.php](src_TalonOne_Domain_Builder_RequestDirector_php.md)
+        - [UpdateCustomersProfileBatchRequestBuilder.php](src_TalonOne_Domain_Builder_PutCustomersProfile_UpdateCustomersProfileBatchRequestBuilder_php.md) <!-- repo:backend -->
       - **SyncCatalogRequest**
-        - [SyncCatalogAddRequestBuilder.php](src_TalonOne_Domain_Builder_SyncCatalogRequest_SyncCatalogAddRequestBuilder_php.md)
+        - [SyncCatalogAddRequestBuilder.php](src_TalonOne_Domain_Builder_SyncCatalogRequest_SyncCatalogAddRequestBuilder_php.md) <!-- repo:backend -->
       - **UpdateCoupon**
-        - [UpdateCouponRequestBuilder.php](src_TalonOne_Domain_Builder_UpdateCoupon_UpdateCouponRequestBuilder_php.md)
+        - [UpdateCouponRequestBuilder.php](src_TalonOne_Domain_Builder_UpdateCoupon_UpdateCouponRequestBuilder_php.md) <!-- repo:backend -->
+      - [AbstractRequestBuilder.php](src_TalonOne_Domain_Builder_AbstractRequestBuilder_php.md) <!-- repo:backend -->
+      - [RequestBuilderInterface.php](src_TalonOne_Domain_Builder_RequestBuilderInterface_php.md) <!-- repo:backend -->
+      - [RequestDirector.php](src_TalonOne_Domain_Builder_RequestDirector_php.md) <!-- repo:backend -->
     - **DTO**
-      - [BulkCouponsRequest.php](src_TalonOne_Domain_DTO_BulkCouponsRequest_php.md)
-      - [CouponAttributes.php](src_TalonOne_Domain_DTO_CouponAttributes_php.md)
+      - [BulkCouponsRequest.php](src_TalonOne_Domain_DTO_BulkCouponsRequest_php.md) <!-- repo:backend -->
+      - [CouponAttributes.php](src_TalonOne_Domain_DTO_CouponAttributes_php.md) <!-- repo:backend -->
     - **Enum**
-      - [NotificationType.php](src_TalonOne_Domain_Enum_NotificationType_php.md)
+      - [NotificationType.php](src_TalonOne_Domain_Enum_NotificationType_php.md) <!-- repo:backend -->
     - **Exception**
-      - [ErrorNotificationException.php](src_TalonOne_Domain_Exception_ErrorNotificationException_php.md)
-      - [NoCouponCreatedException.php](src_TalonOne_Domain_Exception_NoCouponCreatedException_php.md)
-      - [NoEffectCouponException.php](src_TalonOne_Domain_Exception_NoEffectCouponException_php.md)
-      - [NotFoundException.php](src_TalonOne_Domain_Exception_NotFoundException_php.md)
-      - [RejectCouponException.php](src_TalonOne_Domain_Exception_RejectCouponException_php.md)
-      - [TalonOneApiErrorException.php](src_TalonOne_Domain_Exception_TalonOneApiErrorException_php.md)
-      - [TalonOneApiException.php](src_TalonOne_Domain_Exception_TalonOneApiException_php.md)
-      - [TalonOneException.php](src_TalonOne_Domain_Exception_TalonOneException_php.md)
+      - [ErrorNotificationException.php](src_TalonOne_Domain_Exception_ErrorNotificationException_php.md) <!-- repo:backend -->
+      - [NoCouponCreatedException.php](src_TalonOne_Domain_Exception_NoCouponCreatedException_php.md) <!-- repo:backend -->
+      - [NoEffectCouponException.php](src_TalonOne_Domain_Exception_NoEffectCouponException_php.md) <!-- repo:backend -->
+      - [NotFoundException.php](src_TalonOne_Domain_Exception_NotFoundException_php.md) <!-- repo:backend -->
+      - [RejectCouponException.php](src_TalonOne_Domain_Exception_RejectCouponException_php.md) <!-- repo:backend -->
+      - [TalonOneApiErrorException.php](src_TalonOne_Domain_Exception_TalonOneApiErrorException_php.md) <!-- repo:backend -->
+      - [TalonOneApiException.php](src_TalonOne_Domain_Exception_TalonOneApiException_php.md) <!-- repo:backend -->
+      - [TalonOneException.php](src_TalonOne_Domain_Exception_TalonOneException_php.md) <!-- repo:backend -->
     - **Factory**
-      - [OrderTalonOneCouponFactory.php](src_TalonOne_Domain_Factory_OrderTalonOneCouponFactory_php.md)
-      - [PayloadCustomerSessionFactory.php](src_TalonOne_Domain_Factory_PayloadCustomerSessionFactory_php.md)
-      - [TalonOneIdFactory.php](src_TalonOne_Domain_Factory_TalonOneIdFactory_php.md)
+      - [OrderTalonOneCouponFactory.php](src_TalonOne_Domain_Factory_OrderTalonOneCouponFactory_php.md) <!-- repo:backend -->
+      - [PayloadCustomerSessionFactory.php](src_TalonOne_Domain_Factory_PayloadCustomerSessionFactory_php.md) <!-- repo:backend -->
+      - [TalonOneIdFactory.php](src_TalonOne_Domain_Factory_TalonOneIdFactory_php.md) <!-- repo:backend -->
     - **Manager**
-      - [CustomEffectManager.php](src_TalonOne_Domain_Manager_CustomEffectManager_php.md)
-      - [EffectNotificationManager.php](src_TalonOne_Domain_Manager_EffectNotificationManager_php.md)
+      - [CustomEffectManager.php](src_TalonOne_Domain_Manager_CustomEffectManager_php.md) <!-- repo:backend -->
+      - [EffectNotificationManager.php](src_TalonOne_Domain_Manager_EffectNotificationManager_php.md) <!-- repo:backend -->
     - **Model**
-      - [Coupon.php](src_TalonOne_Domain_Model_Coupon_php.md)
       - **Trait**
-        - [CouponAvailabilityTrait.php](src_TalonOne_Domain_Model_Trait_CouponAvailabilityTrait_php.md)
-        - [CouponEffectsTrait.php](src_TalonOne_Domain_Model_Trait_CouponEffectsTrait_php.md)
+        - [CouponAvailabilityTrait.php](src_TalonOne_Domain_Model_Trait_CouponAvailabilityTrait_php.md) <!-- repo:backend -->
+        - [CouponEffectsTrait.php](src_TalonOne_Domain_Model_Trait_CouponEffectsTrait_php.md) <!-- repo:backend -->
+      - [Coupon.php](src_TalonOne_Domain_Model_Coupon_php.md) <!-- repo:backend -->
     - **UseCase**
-      - [CampaignCouponsList.php](src_TalonOne_Domain_UseCase_CampaignCouponsList_php.md)
-      - [CancelCustomerSession.php](src_TalonOne_Domain_UseCase_CancelCustomerSession_php.md)
-      - [CheckCouponAvailability.php](src_TalonOne_Domain_UseCase_CheckCouponAvailability_php.md)
-      - [CheckPotentialShippingFeesDiscount.php](src_TalonOne_Domain_UseCase_CheckPotentialShippingFeesDiscount_php.md)
-      - [CloseCustomerSession.php](src_TalonOne_Domain_UseCase_CloseCustomerSession_php.md)
-      - [CouponsFinder.php](src_TalonOne_Domain_UseCase_CouponsFinder_php.md)
-      - [CreateBulkCoupons.php](src_TalonOne_Domain_UseCase_CreateBulkCoupons_php.md)
-      - [DeleteCoupon.php](src_TalonOne_Domain_UseCase_DeleteCoupon_php.md)
-      - [GetCampaign.php](src_TalonOne_Domain_UseCase_GetCampaign_php.md)
-      - [GetCouponByCustomer.php](src_TalonOne_Domain_UseCase_GetCouponByCustomer_php.md)
-      - [GetCustomerSession.php](src_TalonOne_Domain_UseCase_GetCustomerSession_php.md)
-      - [ListCampaign.php](src_TalonOne_Domain_UseCase_ListCampaign_php.md)
-      - [ListCouponAttribute.php](src_TalonOne_Domain_UseCase_ListCouponAttribute_php.md)
-      - [ReopenCustomerSession.php](src_TalonOne_Domain_UseCase_ReopenCustomerSession_php.md)
-      - [SyncCatalog.php](src_TalonOne_Domain_UseCase_SyncCatalog_php.md)
-      - [UpdateAnonymousProfile.php](src_TalonOne_Domain_UseCase_UpdateAnonymousProfile_php.md)
-      - [UpdateCoupon.php](src_TalonOne_Domain_UseCase_UpdateCoupon_php.md)
-      - [UpdateCustomerProfile.php](src_TalonOne_Domain_UseCase_UpdateCustomerProfile_php.md)
-      - [UpdateCustomerSession.php](src_TalonOne_Domain_UseCase_UpdateCustomerSession_php.md)
-      - [UpdateCustomersProfileBatch.php](src_TalonOne_Domain_UseCase_UpdateCustomersProfileBatch_php.md)
+      - [CampaignCouponsList.php](src_TalonOne_Domain_UseCase_CampaignCouponsList_php.md) <!-- repo:backend -->
+      - [CancelCustomerSession.php](src_TalonOne_Domain_UseCase_CancelCustomerSession_php.md) <!-- repo:backend -->
+      - [CheckCouponAvailability.php](src_TalonOne_Domain_UseCase_CheckCouponAvailability_php.md) <!-- repo:backend -->
+      - [CheckPotentialShippingFeesDiscount.php](src_TalonOne_Domain_UseCase_CheckPotentialShippingFeesDiscount_php.md) <!-- repo:backend -->
+      - [CloseCustomerSession.php](src_TalonOne_Domain_UseCase_CloseCustomerSession_php.md) <!-- repo:backend -->
+      - [CouponsFinder.php](src_TalonOne_Domain_UseCase_CouponsFinder_php.md) <!-- repo:backend -->
+      - [CreateBulkCoupons.php](src_TalonOne_Domain_UseCase_CreateBulkCoupons_php.md) <!-- repo:backend -->
+      - [DeleteCoupon.php](src_TalonOne_Domain_UseCase_DeleteCoupon_php.md) <!-- repo:backend -->
+      - [GetCampaign.php](src_TalonOne_Domain_UseCase_GetCampaign_php.md) <!-- repo:backend -->
+      - [GetCouponByCustomer.php](src_TalonOne_Domain_UseCase_GetCouponByCustomer_php.md) <!-- repo:backend -->
+      - [GetCustomerSession.php](src_TalonOne_Domain_UseCase_GetCustomerSession_php.md) <!-- repo:backend -->
+      - [ListCampaign.php](src_TalonOne_Domain_UseCase_ListCampaign_php.md) <!-- repo:backend -->
+      - [ListCouponAttribute.php](src_TalonOne_Domain_UseCase_ListCouponAttribute_php.md) <!-- repo:backend -->
+      - [ReopenCustomerSession.php](src_TalonOne_Domain_UseCase_ReopenCustomerSession_php.md) <!-- repo:backend -->
+      - [SyncCatalog.php](src_TalonOne_Domain_UseCase_SyncCatalog_php.md) <!-- repo:backend -->
+      - [UpdateAnonymousProfile.php](src_TalonOne_Domain_UseCase_UpdateAnonymousProfile_php.md) <!-- repo:backend -->
+      - [UpdateCoupon.php](src_TalonOne_Domain_UseCase_UpdateCoupon_php.md) <!-- repo:backend -->
+      - [UpdateCustomerProfile.php](src_TalonOne_Domain_UseCase_UpdateCustomerProfile_php.md) <!-- repo:backend -->
+      - [UpdateCustomerSession.php](src_TalonOne_Domain_UseCase_UpdateCustomerSession_php.md) <!-- repo:backend -->
+      - [UpdateCustomersProfileBatch.php](src_TalonOne_Domain_UseCase_UpdateCustomersProfileBatch_php.md) <!-- repo:backend -->
   - **Form**
-    - [CouponAttributesType.php](src_TalonOne_Form_CouponAttributesType_php.md)
-    - [CouponType.php](src_TalonOne_Form_CouponType_php.md)
-    - [TestType.php](src_TalonOne_Form_TestType_php.md)
+    - [CouponAttributesType.php](src_TalonOne_Form_CouponAttributesType_php.md) <!-- repo:backend -->
+    - [CouponType.php](src_TalonOne_Form_CouponType_php.md) <!-- repo:backend -->
+    - [TestType.php](src_TalonOne_Form_TestType_php.md) <!-- repo:backend -->
   - **Serializer**
-    - [TalonOneArrayDenormalizer.php](src_TalonOne_Serializer_TalonOneArrayDenormalizer_php.md)
-    - [TalonOneCollectionDenormalizer.php](src_TalonOne_Serializer_TalonOneCollectionDenormalizer_php.md)
-    - [TalonOneContextBuilder.php](src_TalonOne_Serializer_TalonOneContextBuilder_php.md)
+    - [TalonOneArrayDenormalizer.php](src_TalonOne_Serializer_TalonOneArrayDenormalizer_php.md) <!-- repo:backend -->
+    - [TalonOneCollectionDenormalizer.php](src_TalonOne_Serializer_TalonOneCollectionDenormalizer_php.md) <!-- repo:backend -->
+    - [TalonOneContextBuilder.php](src_TalonOne_Serializer_TalonOneContextBuilder_php.md) <!-- repo:backend -->
   - **StateMachine**
     - **Order**
-      - [CancelTalonOneSession.php](src_TalonOne_StateMachine_Order_CancelTalonOneSession_php.md)
-      - [CloseTalonOneSession.php](src_TalonOne_StateMachine_Order_CloseTalonOneSession_php.md)
+      - [CancelTalonOneSession.php](src_TalonOne_StateMachine_Order_CancelTalonOneSession_php.md) <!-- repo:backend -->
+      - [CloseTalonOneSession.php](src_TalonOne_StateMachine_Order_CloseTalonOneSession_php.md) <!-- repo:backend -->
   - **Updater**
-    - [CustomerBusinessReportUpdater.php](src_TalonOne_Updater_CustomerBusinessReportUpdater_php.md)
-    - [CustomerBusinessReportUpdaterFilter.php](src_TalonOne_Updater_CustomerBusinessReportUpdaterFilter_php.md)
-    - [CustomerBusinessReportUpdaterInterface.php](src_TalonOne_Updater_CustomerBusinessReportUpdaterInterface_php.md)
-    - [OrderUpdater.php](src_TalonOne_Updater_OrderUpdater_php.md)
-    - [SubscriberUpdater.php](src_TalonOne_Updater_SubscriberUpdater_php.md)
+    - [CustomerBusinessReportUpdaterFilter.php](src_TalonOne_Updater_CustomerBusinessReportUpdaterFilter_php.md) <!-- repo:backend -->
+    - [CustomerBusinessReportUpdaterInterface.php](src_TalonOne_Updater_CustomerBusinessReportUpdaterInterface_php.md) <!-- repo:backend -->
+    - [CustomerBusinessReportUpdater.php](src_TalonOne_Updater_CustomerBusinessReportUpdater_php.md) <!-- repo:backend -->
+    - [OrderUpdater.php](src_TalonOne_Updater_OrderUpdater_php.md) <!-- repo:backend -->
+    - [SubscriberUpdater.php](src_TalonOne_Updater_SubscriberUpdater_php.md) <!-- repo:backend -->
 - **Taxation**
   - **Applicator**
-    - [OrderItemUnitsTaxesWithoutDiscountApplicator.php](src_Taxation_Applicator_OrderItemUnitsTaxesWithoutDiscountApplicator_php.md)
-    - [OrderItemsTaxesWithoutDiscountApplicator.php](src_Taxation_Applicator_OrderItemsTaxesWithoutDiscountApplicator_php.md)
-    - [OrderPaymentTaxesApplicator.php](src_Taxation_Applicator_OrderPaymentTaxesApplicator_php.md)
+    - [OrderItemUnitsTaxesWithoutDiscountApplicator.php](src_Taxation_Applicator_OrderItemUnitsTaxesWithoutDiscountApplicator_php.md) <!-- repo:backend -->
+    - [OrderItemsTaxesWithoutDiscountApplicator.php](src_Taxation_Applicator_OrderItemsTaxesWithoutDiscountApplicator_php.md) <!-- repo:backend -->
+    - [OrderPaymentTaxesApplicator.php](src_Taxation_Applicator_OrderPaymentTaxesApplicator_php.md) <!-- repo:backend -->
 - **Validator**
-  - [AbstractProductVariantConstraints.php](src_Validator_AbstractProductVariantConstraints_php.md)
-  - [AbstractProductVariantValidator.php](src_Validator_AbstractProductVariantValidator_php.md)
-  - [AddItemToCartQuantityEligibility.php](src_Validator_AddItemToCartQuantityEligibility_php.md)
-  - [AddItemToCartQuantityEligibilityValidator.php](src_Validator_AddItemToCartQuantityEligibilityValidator_php.md)
-  - [AddingEligibleProductVariantToCart.php](src_Validator_AddingEligibleProductVariantToCart_php.md)
-  - [AddingEligibleProductVariantToCartValidator.php](src_Validator_AddingEligibleProductVariantToCartValidator_php.md)
-  - [AvailableProductVariant.php](src_Validator_AvailableProductVariant_php.md)
-  - [AvailableProductVariantValidator.php](src_Validator_AvailableProductVariantValidator_php.md)
-  - [BillingAddress.php](src_Validator_BillingAddress_php.md)
-  - [BillingAddressValidator.php](src_Validator_BillingAddressValidator_php.md)
-  - [ChangeItemQuantityInCartEligibility.php](src_Validator_ChangeItemQuantityInCartEligibility_php.md)
-  - [ChangeItemQuantityInCartEligibilityValidator.php](src_Validator_ChangeItemQuantityInCartEligibilityValidator_php.md)
-  - [ChosenPaymentMethodEligibility.php](src_Validator_ChosenPaymentMethodEligibility_php.md)
-  - [ChosenPaymentMethodEligibilityValidator.php](src_Validator_ChosenPaymentMethodEligibilityValidator_php.md)
   - **Constraints**
-    - [AddressChannelConstraint.php](src_Validator_Constraints_AddressChannelConstraint_php.md)
-    - [AddressChannelConstraintValidator.php](src_Validator_Constraints_AddressChannelConstraintValidator_php.md)
-    - [ChannelCodeCollectionValidator.php](src_Validator_Constraints_ChannelCodeCollectionValidator_php.md)
-    - [OrderRefundCompletion.php](src_Validator_Constraints_OrderRefundCompletion_php.md)
-    - [OrderRefundCompletionValidator.php](src_Validator_Constraints_OrderRefundCompletionValidator_php.md)
-    - [PaymentMethodChargesRangePrice.php](src_Validator_Constraints_PaymentMethodChargesRangePrice_php.md)
-    - [PaymentMethodChargesRangePriceValidator.php](src_Validator_Constraints_PaymentMethodChargesRangePriceValidator_php.md)
-    - [ValidRoles.php](src_Validator_Constraints_ValidRoles_php.md)
-  - [InStockValidator.php](src_Validator_InStockValidator_php.md)
-  - [JunkEmail.php](src_Validator_JunkEmail_php.md)
-  - [JunkEmailValidator.php](src_Validator_JunkEmailValidator_php.md)
+    - [AddressChannelConstraintValidator.php](src_Validator_Constraints_AddressChannelConstraintValidator_php.md) <!-- repo:backend -->
+    - [AddressChannelConstraint.php](src_Validator_Constraints_AddressChannelConstraint_php.md) <!-- repo:backend -->
+    - [ChannelCodeCollectionValidator.php](src_Validator_Constraints_ChannelCodeCollectionValidator_php.md) <!-- repo:backend -->
+    - [OrderRefundCompletionValidator.php](src_Validator_Constraints_OrderRefundCompletionValidator_php.md) <!-- repo:backend -->
+    - [OrderRefundCompletion.php](src_Validator_Constraints_OrderRefundCompletion_php.md) <!-- repo:backend -->
+    - [PaymentMethodChargesRangePriceValidator.php](src_Validator_Constraints_PaymentMethodChargesRangePriceValidator_php.md) <!-- repo:backend -->
+    - [PaymentMethodChargesRangePrice.php](src_Validator_Constraints_PaymentMethodChargesRangePrice_php.md) <!-- repo:backend -->
+    - [ValidRoles.php](src_Validator_Constraints_ValidRoles_php.md) <!-- repo:backend -->
   - **Locale**
-    - [ChannelLocale.php](src_Validator_Locale_ChannelLocale_php.md)
-    - [ChannelLocaleValidator.php](src_Validator_Locale_ChannelLocaleValidator_php.md)
-  - [PasswordNotBlank.php](src_Validator_PasswordNotBlank_php.md)
-  - [PasswordNotBlankValidator.php](src_Validator_PasswordNotBlankValidator_php.md)
-  - [PhoneFormat.php](src_Validator_PhoneFormat_php.md)
-  - [PhoneFormatValidator.php](src_Validator_PhoneFormatValidator_php.md)
-  - [ProductAndOrderChannelMatch.php](src_Validator_ProductAndOrderChannelMatch_php.md)
-  - [ProductAndOrderChannelMatchValidator.php](src_Validator_ProductAndOrderChannelMatchValidator_php.md)
+    - [ChannelLocaleValidator.php](src_Validator_Locale_ChannelLocaleValidator_php.md) <!-- repo:backend -->
+    - [ChannelLocale.php](src_Validator_Locale_ChannelLocale_php.md) <!-- repo:backend -->
   - **ProductVariant**
-    - [HasAllPricesDefinedValidator.php](src_Validator_ProductVariant_HasAllPricesDefinedValidator_php.md)
-    - [ProductVariantCombinationValidator.php](src_Validator_ProductVariant_ProductVariantCombinationValidator_php.md)
+    - [HasAllPricesDefinedValidator.php](src_Validator_ProductVariant_HasAllPricesDefinedValidator_php.md) <!-- repo:backend -->
+    - [ProductVariantCombinationValidator.php](src_Validator_ProductVariant_ProductVariantCombinationValidator_php.md) <!-- repo:backend -->
   - **Promotion**
-    - [CreatePromotionCoupon.php](src_Validator_Promotion_CreatePromotionCoupon_php.md)
-    - [CreatePromotionCouponValidator.php](src_Validator_Promotion_CreatePromotionCouponValidator_php.md)
-    - [RemovePromotion.php](src_Validator_Promotion_RemovePromotion_php.md)
-    - [RemovePromotionCoupon.php](src_Validator_Promotion_RemovePromotionCoupon_php.md)
-    - [RemovePromotionCouponValidator.php](src_Validator_Promotion_RemovePromotionCouponValidator_php.md)
-    - [RemovePromotionValidator.php](src_Validator_Promotion_RemovePromotionValidator_php.md)
-  - [PromotionCouponEligibility.php](src_Validator_PromotionCouponEligibility_php.md)
-  - [PromotionCouponEligibilityValidator.php](src_Validator_PromotionCouponEligibilityValidator_php.md)
-  - [RemoveAddress.php](src_Validator_RemoveAddress_php.md)
-  - [RemoveAddressValidator.php](src_Validator_RemoveAddressValidator_php.md)
-  - [RemoveCartEligibility.php](src_Validator_RemoveCartEligibility_php.md)
-  - [RemoveCartEligibilityValidator.php](src_Validator_RemoveCartEligibilityValidator_php.md)
-  - [ShippingMethodConsistency.php](src_Validator_ShippingMethodConsistency_php.md)
-  - [ShippingMethodConsistencyValidator.php](src_Validator_ShippingMethodConsistencyValidator_php.md)
+    - [CreatePromotionCouponValidator.php](src_Validator_Promotion_CreatePromotionCouponValidator_php.md) <!-- repo:backend -->
+    - [CreatePromotionCoupon.php](src_Validator_Promotion_CreatePromotionCoupon_php.md) <!-- repo:backend -->
+    - [RemovePromotionCouponValidator.php](src_Validator_Promotion_RemovePromotionCouponValidator_php.md) <!-- repo:backend -->
+    - [RemovePromotionCoupon.php](src_Validator_Promotion_RemovePromotionCoupon_php.md) <!-- repo:backend -->
+    - [RemovePromotionValidator.php](src_Validator_Promotion_RemovePromotionValidator_php.md) <!-- repo:backend -->
+    - [RemovePromotion.php](src_Validator_Promotion_RemovePromotion_php.md) <!-- repo:backend -->
   - **Subscription**
-    - [AddingEligibleProductVariantToSubscription.php](src_Validator_Subscription_AddingEligibleProductVariantToSubscription_php.md)
-    - [AddingEligibleProductVariantToSubscriptionValidator.php](src_Validator_Subscription_AddingEligibleProductVariantToSubscriptionValidator_php.md)
-    - [DebitSubscriptionOrder.php](src_Validator_Subscription_DebitSubscriptionOrder_php.md)
-    - [DebitSubscriptionOrderValidator.php](src_Validator_Subscription_DebitSubscriptionOrderValidator_php.md)
-    - [ItemQuantitySubscriptionOrder.php](src_Validator_Subscription_ItemQuantitySubscriptionOrder_php.md)
-    - [ItemQuantitySubscriptionOrderValidator.php](src_Validator_Subscription_ItemQuantitySubscriptionOrderValidator_php.md)
+    - [AddingEligibleProductVariantToSubscriptionValidator.php](src_Validator_Subscription_AddingEligibleProductVariantToSubscriptionValidator_php.md) <!-- repo:backend -->
+    - [AddingEligibleProductVariantToSubscription.php](src_Validator_Subscription_AddingEligibleProductVariantToSubscription_php.md) <!-- repo:backend -->
+    - [DebitSubscriptionOrderValidator.php](src_Validator_Subscription_DebitSubscriptionOrderValidator_php.md) <!-- repo:backend -->
+    - [DebitSubscriptionOrder.php](src_Validator_Subscription_DebitSubscriptionOrder_php.md) <!-- repo:backend -->
+    - [ItemQuantitySubscriptionOrderValidator.php](src_Validator_Subscription_ItemQuantitySubscriptionOrderValidator_php.md) <!-- repo:backend -->
+    - [ItemQuantitySubscriptionOrder.php](src_Validator_Subscription_ItemQuantitySubscriptionOrder_php.md) <!-- repo:backend -->
   - **SubscriptionOrder**
-    - [AddingEligibleProductVariantToSubscriptionOrder.php](src_Validator_SubscriptionOrder_AddingEligibleProductVariantToSubscriptionOrder_php.md)
-    - [AddingEligibleProductVariantToSubscriptionOrderValidator.php](src_Validator_SubscriptionOrder_AddingEligibleProductVariantToSubscriptionOrderValidator_php.md)
-  - [UniqueCustomerEmailForChannel.php](src_Validator_UniqueCustomerEmailForChannel_php.md)
-  - [UniqueCustomerEmailForChannelValidator.php](src_Validator_UniqueCustomerEmailForChannelValidator_php.md)
-  - [UniqueShippingRangePrice.php](src_Validator_UniqueShippingRangePrice_php.md)
-  - [UniqueShippingRangePriceValidator.php](src_Validator_UniqueShippingRangePriceValidator_php.md)
-  - [UniqueUpSell.php](src_Validator_UniqueUpSell_php.md)
-  - [UniqueUpSellValidator.php](src_Validator_UniqueUpSellValidator_php.md)
-  - [UpdateShippingPickupPoint.php](src_Validator_UpdateShippingPickupPoint_php.md)
-  - [UpdateShippingPickupPointValidator.php](src_Validator_UpdateShippingPickupPointValidator_php.md)
-  - [ValidRolesValidator.php](src_Validator_ValidRolesValidator_php.md)
+    - [AddingEligibleProductVariantToSubscriptionOrderValidator.php](src_Validator_SubscriptionOrder_AddingEligibleProductVariantToSubscriptionOrderValidator_php.md) <!-- repo:backend -->
+    - [AddingEligibleProductVariantToSubscriptionOrder.php](src_Validator_SubscriptionOrder_AddingEligibleProductVariantToSubscriptionOrder_php.md) <!-- repo:backend -->
+  - [AbstractProductVariantConstraints.php](src_Validator_AbstractProductVariantConstraints_php.md) <!-- repo:backend -->
+  - [AbstractProductVariantValidator.php](src_Validator_AbstractProductVariantValidator_php.md) <!-- repo:backend -->
+  - [AddItemToCartQuantityEligibilityValidator.php](src_Validator_AddItemToCartQuantityEligibilityValidator_php.md) <!-- repo:backend -->
+  - [AddItemToCartQuantityEligibility.php](src_Validator_AddItemToCartQuantityEligibility_php.md) <!-- repo:backend -->
+  - [AddingEligibleProductVariantToCartValidator.php](src_Validator_AddingEligibleProductVariantToCartValidator_php.md) <!-- repo:backend -->
+  - [AddingEligibleProductVariantToCart.php](src_Validator_AddingEligibleProductVariantToCart_php.md) <!-- repo:backend -->
+  - [AvailableProductVariantValidator.php](src_Validator_AvailableProductVariantValidator_php.md) <!-- repo:backend -->
+  - [AvailableProductVariant.php](src_Validator_AvailableProductVariant_php.md) <!-- repo:backend -->
+  - [BillingAddressValidator.php](src_Validator_BillingAddressValidator_php.md) <!-- repo:backend -->
+  - [BillingAddress.php](src_Validator_BillingAddress_php.md) <!-- repo:backend -->
+  - [ChangeItemQuantityInCartEligibilityValidator.php](src_Validator_ChangeItemQuantityInCartEligibilityValidator_php.md) <!-- repo:backend -->
+  - [ChangeItemQuantityInCartEligibility.php](src_Validator_ChangeItemQuantityInCartEligibility_php.md) <!-- repo:backend -->
+  - [ChosenPaymentMethodEligibilityValidator.php](src_Validator_ChosenPaymentMethodEligibilityValidator_php.md) <!-- repo:backend -->
+  - [ChosenPaymentMethodEligibility.php](src_Validator_ChosenPaymentMethodEligibility_php.md) <!-- repo:backend -->
+  - [InStockValidator.php](src_Validator_InStockValidator_php.md) <!-- repo:backend -->
+  - [JunkEmailValidator.php](src_Validator_JunkEmailValidator_php.md) <!-- repo:backend -->
+  - [JunkEmail.php](src_Validator_JunkEmail_php.md) <!-- repo:backend -->
+  - [PasswordNotBlankValidator.php](src_Validator_PasswordNotBlankValidator_php.md) <!-- repo:backend -->
+  - [PasswordNotBlank.php](src_Validator_PasswordNotBlank_php.md) <!-- repo:backend -->
+  - [PhoneFormatValidator.php](src_Validator_PhoneFormatValidator_php.md) <!-- repo:backend -->
+  - [PhoneFormat.php](src_Validator_PhoneFormat_php.md) <!-- repo:backend -->
+  - [ProductAndOrderChannelMatchValidator.php](src_Validator_ProductAndOrderChannelMatchValidator_php.md) <!-- repo:backend -->
+  - [ProductAndOrderChannelMatch.php](src_Validator_ProductAndOrderChannelMatch_php.md) <!-- repo:backend -->
+  - [PromotionCouponEligibilityValidator.php](src_Validator_PromotionCouponEligibilityValidator_php.md) <!-- repo:backend -->
+  - [PromotionCouponEligibility.php](src_Validator_PromotionCouponEligibility_php.md) <!-- repo:backend -->
+  - [RemoveAddressValidator.php](src_Validator_RemoveAddressValidator_php.md) <!-- repo:backend -->
+  - [RemoveAddress.php](src_Validator_RemoveAddress_php.md) <!-- repo:backend -->
+  - [RemoveCartEligibilityValidator.php](src_Validator_RemoveCartEligibilityValidator_php.md) <!-- repo:backend -->
+  - [RemoveCartEligibility.php](src_Validator_RemoveCartEligibility_php.md) <!-- repo:backend -->
+  - [ShippingMethodConsistencyValidator.php](src_Validator_ShippingMethodConsistencyValidator_php.md) <!-- repo:backend -->
+  - [ShippingMethodConsistency.php](src_Validator_ShippingMethodConsistency_php.md) <!-- repo:backend -->
+  - [UniqueCustomerEmailForChannelValidator.php](src_Validator_UniqueCustomerEmailForChannelValidator_php.md) <!-- repo:backend -->
+  - [UniqueCustomerEmailForChannel.php](src_Validator_UniqueCustomerEmailForChannel_php.md) <!-- repo:backend -->
+  - [UniqueShippingRangePriceValidator.php](src_Validator_UniqueShippingRangePriceValidator_php.md) <!-- repo:backend -->
+  - [UniqueShippingRangePrice.php](src_Validator_UniqueShippingRangePrice_php.md) <!-- repo:backend -->
+  - [UniqueUpSellValidator.php](src_Validator_UniqueUpSellValidator_php.md) <!-- repo:backend -->
+  - [UniqueUpSell.php](src_Validator_UniqueUpSell_php.md) <!-- repo:backend -->
+  - [UpdateShippingPickupPointValidator.php](src_Validator_UpdateShippingPickupPointValidator_php.md) <!-- repo:backend -->
+  - [UpdateShippingPickupPoint.php](src_Validator_UpdateShippingPickupPoint_php.md) <!-- repo:backend -->
+  - [ValidRolesValidator.php](src_Validator_ValidRolesValidator_php.md) <!-- repo:backend -->
 - **WonderPush**
   - **Client**
-    - [WonderPushClient.php](src_WonderPush_Client_WonderPushClient_php.md)
+    - [WonderPushClient.php](src_WonderPush_Client_WonderPushClient_php.md) <!-- repo:backend -->
   - **Dto**
-    - [DeliveryPayloadDto.php](src_WonderPush_Dto_DeliveryPayloadDto_php.md)
-    - [NotificationParamsDto.php](src_WonderPush_Dto_NotificationParamsDto_php.md)
+    - [DeliveryPayloadDto.php](src_WonderPush_Dto_DeliveryPayloadDto_php.md) <!-- repo:backend -->
+    - [NotificationParamsDto.php](src_WonderPush_Dto_NotificationParamsDto_php.md) <!-- repo:backend -->
   - **Exception**
-    - [WonderPushException.php](src_WonderPush_Exception_WonderPushException_php.md)
+    - [WonderPushException.php](src_WonderPush_Exception_WonderPushException_php.md) <!-- repo:backend -->
   - **Factory**
-    - [DeliveryPayloadFactory.php](src_WonderPush_Factory_DeliveryPayloadFactory_php.md)
+    - [DeliveryPayloadFactory.php](src_WonderPush_Factory_DeliveryPayloadFactory_php.md) <!-- repo:backend -->
   - **Notifier**
-    - [WonderPushNotifier.php](src_WonderPush_Notifier_WonderPushNotifier_php.md)
+    - [WonderPushNotifier.php](src_WonderPush_Notifier_WonderPushNotifier_php.md) <!-- repo:backend -->
   - **Resolver**
-    - [WonderPushResolver.php](src_WonderPush_Resolver_WonderPushResolver_php.md)
+    - [WonderPushResolver.php](src_WonderPush_Resolver_WonderPushResolver_php.md) <!-- repo:backend -->
+- [.eslintrc-auto-import.json](_eslintrc-auto-import_json.md) <!-- repo:frontend -->
+- [.eslintrc.js](_eslintrc_js.md) <!-- repo:backend -->
+- [.php-cs-fixer.php](_php-cs-fixer_php.md) <!-- repo:backend -->
+- [.stylelintrc.json](_stylelintrc_json.md) <!-- repo:frontend -->
+- [.yarnrc.yml](_yarnrc_yml.md) <!-- repo:frontend -->
 - **apps**
   - **front-ecommerce**
     - **.docker**
-      - [Dockerfile](apps_front-ecommerce__docker_Dockerfile.md)
-      - [docker-entrypoint.sh](apps_front-ecommerce__docker_docker-entrypoint_sh.md)
-    - [.stylelintrc.json](apps_front-ecommerce__stylelintrc_json.md)
-    - [.yarnrc.yml](apps_front-ecommerce__yarnrc_yml.md)
-    - [README.md](apps_front-ecommerce_README_md.md)
+      - [Dockerfile](apps_front-ecommerce__docker_Dockerfile.md) <!-- repo:frontend -->
+      - [docker-entrypoint.sh](apps_front-ecommerce__docker_docker-entrypoint_sh.md) <!-- repo:frontend -->
     - **app**
-      - [app.vue](apps_front-ecommerce_app_app_vue.md)
+      - [app.vue](apps_front-ecommerce_app_app_vue.md) <!-- repo:frontend -->
+      - [error.vue](apps_front-ecommerce_app_error_vue.md) <!-- repo:frontend -->
       - **assets**
-        - [README.md](apps_front-ecommerce_app_assets_README_md.md)
+        - [README.md](apps_front-ecommerce_app_assets_README_md.md) <!-- repo:frontend -->
         - **css**
-          - [tailwind.css](apps_front-ecommerce_app_assets_css_tailwind_css.md)
+          - [tailwind.css](apps_front-ecommerce_app_assets_css_tailwind_css.md) <!-- repo:frontend -->
       - **components**
         - **animal**
-          - [AnimalForm.vue](apps_front-ecommerce_app_components_animal_AnimalForm_vue.md)
-          - [AnimalHeader.vue](apps_front-ecommerce_app_components_animal_AnimalHeader_vue.md)
-          - [AnimalPhotoCropper.vue](apps_front-ecommerce_app_components_animal_AnimalPhotoCropper_vue.md)
+          - [AnimalForm.vue](apps_front-ecommerce_app_components_animal_AnimalForm_vue.md) <!-- repo:frontend -->
+          - [AnimalHeader.vue](apps_front-ecommerce_app_components_animal_AnimalHeader_vue.md) <!-- repo:frontend -->
+          - [AnimalPhotoCropper.vue](apps_front-ecommerce_app_components_animal_AnimalPhotoCropper_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [AnimalForm.stories.ts](apps_front-ecommerce_app_components_animal_stories_AnimalForm_stories_ts.md)
-            - [AnimalHeader.stories.ts](apps_front-ecommerce_app_components_animal_stories_AnimalHeader_stories_ts.md)
-            - [AnimalPhotoCropper.stories.ts](apps_front-ecommerce_app_components_animal_stories_AnimalPhotoCropper_stories_ts.md)
+            - [AnimalForm.stories.ts](apps_front-ecommerce_app_components_animal_stories_AnimalForm_stories_ts.md) <!-- repo:frontend -->
+            - [AnimalHeader.stories.ts](apps_front-ecommerce_app_components_animal_stories_AnimalHeader_stories_ts.md) <!-- repo:frontend -->
+            - [AnimalPhotoCropper.stories.ts](apps_front-ecommerce_app_components_animal_stories_AnimalPhotoCropper_stories_ts.md) <!-- repo:frontend -->
         - **cart**
-          - [CartAdditionalProductOffer.vue](apps_front-ecommerce_app_components_cart_CartAdditionalProductOffer_vue.md)
-          - [CartButton.vue](apps_front-ecommerce_app_components_cart_CartButton_vue.md)
-          - [CartPromoTag.vue](apps_front-ecommerce_app_components_cart_CartPromoTag_vue.md)
-          - [CartPromotions.vue](apps_front-ecommerce_app_components_cart_CartPromotions_vue.md)
-          - [CartUpsell.vue](apps_front-ecommerce_app_components_cart_CartUpsell_vue.md)
-          - [MiniCart.vue](apps_front-ecommerce_app_components_cart_MiniCart_vue.md)
-          - [MiniCartHeader.vue](apps_front-ecommerce_app_components_cart_MiniCartHeader_vue.md)
+          - [CartAdditionalProductOffer.vue](apps_front-ecommerce_app_components_cart_CartAdditionalProductOffer_vue.md) <!-- repo:frontend -->
+          - [CartButton.vue](apps_front-ecommerce_app_components_cart_CartButton_vue.md) <!-- repo:frontend -->
+          - [CartPromoTag.vue](apps_front-ecommerce_app_components_cart_CartPromoTag_vue.md) <!-- repo:frontend -->
+          - [CartPromotions.vue](apps_front-ecommerce_app_components_cart_CartPromotions_vue.md) <!-- repo:frontend -->
+          - [CartUpsell.vue](apps_front-ecommerce_app_components_cart_CartUpsell_vue.md) <!-- repo:frontend -->
+          - [MiniCartHeader.vue](apps_front-ecommerce_app_components_cart_MiniCartHeader_vue.md) <!-- repo:frontend -->
+          - [MiniCart.vue](apps_front-ecommerce_app_components_cart_MiniCart_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [CartAdditionalProductOffer.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartAdditionalProductOffer_stories_ts.md)
-            - [CartPromoTag.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartPromoTag_stories_ts.md)
-            - [CartPromotions.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartPromotions_stories_ts.md)
-            - [CartUpsell.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartUpsell_stories_ts.md)
-            - [MiniCart.stories.ts](apps_front-ecommerce_app_components_cart_stories_MiniCart_stories_ts.md)
-            - [MiniCartHeader.stories.ts](apps_front-ecommerce_app_components_cart_stories_MiniCartHeader_stories_ts.md)
+            - [CartAdditionalProductOffer.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartAdditionalProductOffer_stories_ts.md) <!-- repo:frontend -->
+            - [CartPromoTag.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartPromoTag_stories_ts.md) <!-- repo:frontend -->
+            - [CartPromotions.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartPromotions_stories_ts.md) <!-- repo:frontend -->
+            - [CartUpsell.stories.ts](apps_front-ecommerce_app_components_cart_stories_CartUpsell_stories_ts.md) <!-- repo:frontend -->
+            - [MiniCartHeader.stories.ts](apps_front-ecommerce_app_components_cart_stories_MiniCartHeader_stories_ts.md) <!-- repo:frontend -->
+            - [MiniCart.stories.ts](apps_front-ecommerce_app_components_cart_stories_MiniCart_stories_ts.md) <!-- repo:frontend -->
         - **checkout**
-          - [AvailablePaymentMethods.vue](apps_front-ecommerce_app_components_checkout_AvailablePaymentMethods_vue.md)
-          - [PaymentStepFunnel.vue](apps_front-ecommerce_app_components_checkout_PaymentStepFunnel_vue.md)
           - **Payments**
-            - [CheckoutApplePayPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutApplePayPaymentForm_vue.md)
-            - [CheckoutCBPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutCBPaymentForm_vue.md)
-            - [CheckoutGooglePayPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutGooglePayPaymentForm_vue.md)
-            - [CheckoutRedirectGenericPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutRedirectGenericPaymentForm_vue.md)
-            - [DefaultPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_DefaultPaymentForm_vue.md)
-            - [PaypalPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_PaypalPaymentForm_vue.md)
-            - [PayzenPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_PayzenPaymentForm_vue.md)
+            - [CheckoutApplePayPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutApplePayPaymentForm_vue.md) <!-- repo:frontend -->
+            - [CheckoutCBPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutCBPaymentForm_vue.md) <!-- repo:frontend -->
+            - [CheckoutGooglePayPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutGooglePayPaymentForm_vue.md) <!-- repo:frontend -->
+            - [CheckoutRedirectGenericPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_CheckoutRedirectGenericPaymentForm_vue.md) <!-- repo:frontend -->
+            - [DefaultPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_DefaultPaymentForm_vue.md) <!-- repo:frontend -->
+            - [PaypalPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_PaypalPaymentForm_vue.md) <!-- repo:frontend -->
+            - [PayzenPaymentForm.vue](apps_front-ecommerce_app_components_checkout_Payments_PayzenPaymentForm_vue.md) <!-- repo:frontend -->
             - **stories**
-              - [CheckoutApplePayPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_CheckoutApplePayPaymentForm_stories_ts.md)
-              - [CheckoutCBPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_CheckoutCBPaymentForm_stories_ts.md)
-              - [CheckoutGooglePayPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_CheckoutGooglePayPaymentForm_stories_ts.md)
-              - [PaypalPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_PaypalPaymentForm_stories_ts.md)
-          - [PickupPointSummary.vue](apps_front-ecommerce_app_components_checkout_PickupPointSummary_vue.md)
-          - [ShippingConfigurator.vue](apps_front-ecommerce_app_components_checkout_ShippingConfigurator_vue.md)
-          - [ShippingStepFunnel.vue](apps_front-ecommerce_app_components_checkout_ShippingStepFunnel_vue.md)
-          - [SummaryFunnel.vue](apps_front-ecommerce_app_components_checkout_SummaryFunnel_vue.md)
+              - [CheckoutApplePayPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_CheckoutApplePayPaymentForm_stories_ts.md) <!-- repo:frontend -->
+              - [CheckoutCBPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_CheckoutCBPaymentForm_stories_ts.md) <!-- repo:frontend -->
+              - [CheckoutGooglePayPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_CheckoutGooglePayPaymentForm_stories_ts.md) <!-- repo:frontend -->
+              - [PaypalPaymentForm.stories.ts](apps_front-ecommerce_app_components_checkout_Payments_stories_PaypalPaymentForm_stories_ts.md) <!-- repo:frontend -->
+          - [AvailablePaymentMethods.vue](apps_front-ecommerce_app_components_checkout_AvailablePaymentMethods_vue.md) <!-- repo:frontend -->
+          - [PaymentStepFunnel.vue](apps_front-ecommerce_app_components_checkout_PaymentStepFunnel_vue.md) <!-- repo:frontend -->
+          - [PickupPointSummary.vue](apps_front-ecommerce_app_components_checkout_PickupPointSummary_vue.md) <!-- repo:frontend -->
+          - [ShippingConfigurator.vue](apps_front-ecommerce_app_components_checkout_ShippingConfigurator_vue.md) <!-- repo:frontend -->
+          - [ShippingStepFunnel.vue](apps_front-ecommerce_app_components_checkout_ShippingStepFunnel_vue.md) <!-- repo:frontend -->
+          - [SummaryFunnel.vue](apps_front-ecommerce_app_components_checkout_SummaryFunnel_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [PickupPointSummary.stories.ts](apps_front-ecommerce_app_components_checkout_stories_PickupPointSummary_stories_ts.md)
-            - [ShippingConfigurator.stories.ts](apps_front-ecommerce_app_components_checkout_stories_ShippingConfigurator_stories_ts.md)
-            - [SummaryFunnel.stories.ts](apps_front-ecommerce_app_components_checkout_stories_SummaryFunnel_stories_ts.md)
+            - [PickupPointSummary.stories.ts](apps_front-ecommerce_app_components_checkout_stories_PickupPointSummary_stories_ts.md) <!-- repo:frontend -->
+            - [ShippingConfigurator.stories.ts](apps_front-ecommerce_app_components_checkout_stories_ShippingConfigurator_stories_ts.md) <!-- repo:frontend -->
+            - [SummaryFunnel.stories.ts](apps_front-ecommerce_app_components_checkout_stories_SummaryFunnel_stories_ts.md) <!-- repo:frontend -->
         - **content**
-          - [AccountCards.vue](apps_front-ecommerce_app_components_content_AccountCards_vue.md)
-          - [AccountLinks.vue](apps_front-ecommerce_app_components_content_AccountLinks_vue.md)
-          - [AddressesList.vue](apps_front-ecommerce_app_components_content_AddressesList_vue.md)
-          - [AnimalsList.vue](apps_front-ecommerce_app_components_content_AnimalsList_vue.md)
-          - [BooxiCTA.vue](apps_front-ecommerce_app_components_content_BooxiCTA_vue.md)
-          - [CTAListing.vue](apps_front-ecommerce_app_components_content_CTAListing_vue.md)
-          - [Calendly.vue](apps_front-ecommerce_app_components_content_Calendly_vue.md)
-          - [CalendlyEntrance.vue](apps_front-ecommerce_app_components_content_CalendlyEntrance_vue.md)
-          - [CarouselAnimal.vue](apps_front-ecommerce_app_components_content_CarouselAnimal_vue.md)
-          - [CarouselEdito.vue](apps_front-ecommerce_app_components_content_CarouselEdito_vue.md)
-          - [CarouselGeneric.vue](apps_front-ecommerce_app_components_content_CarouselGeneric_vue.md)
-          - [CarouselShorts.vue](apps_front-ecommerce_app_components_content_CarouselShorts_vue.md)
-          - [CartContent.vue](apps_front-ecommerce_app_components_content_CartContent_vue.md)
-          - [CartCrossSell.vue](apps_front-ecommerce_app_components_content_CartCrossSell_vue.md)
-          - [CategoryCard.vue](apps_front-ecommerce_app_components_content_CategoryCard_vue.md)
-          - [CategoryGrid.vue](apps_front-ecommerce_app_components_content_CategoryGrid_vue.md)
-          - [ContactForm.vue](apps_front-ecommerce_app_components_content_ContactForm_vue.md)
-          - [ContactUs.vue](apps_front-ecommerce_app_components_content_ContactUs_vue.md)
-          - [CrossSell.vue](apps_front-ecommerce_app_components_content_CrossSell_vue.md)
-          - [CrossSellMainProduct.vue](apps_front-ecommerce_app_components_content_CrossSellMainProduct_vue.md)
-          - [CrossSellSameCategory.vue](apps_front-ecommerce_app_components_content_CrossSellSameCategory_vue.md)
-          - [DescriptionProduct.vue](apps_front-ecommerce_app_components_content_DescriptionProduct_vue.md)
-          - [EditoImages.vue](apps_front-ecommerce_app_components_content_EditoImages_vue.md)
-          - [Expertise.vue](apps_front-ecommerce_app_components_content_Expertise_vue.md)
-          - [FAQQuestions.vue](apps_front-ecommerce_app_components_content_FAQQuestions_vue.md)
-          - [FaqEdito.vue](apps_front-ecommerce_app_components_content_FaqEdito_vue.md)
-          - [FaqExcerpt.vue](apps_front-ecommerce_app_components_content_FaqExcerpt_vue.md)
-          - [FeedInstagram.vue](apps_front-ecommerce_app_components_content_FeedInstagram_vue.md)
-          - [FiltersProductCategory.vue](apps_front-ecommerce_app_components_content_FiltersProductCategory_vue.md)
-          - [FiltersProductsCategoryContent.vue](apps_front-ecommerce_app_components_content_FiltersProductsCategoryContent_vue.md)
-          - [Glossary.vue](apps_front-ecommerce_app_components_content_Glossary_vue.md)
-          - [GuideEntrance.vue](apps_front-ecommerce_app_components_content_GuideEntrance_vue.md)
-          - [HeroCoverCategory.vue](apps_front-ecommerce_app_components_content_HeroCoverCategory_vue.md)
-          - [HeroCoverPro.vue](apps_front-ecommerce_app_components_content_HeroCoverPro_vue.md)
-          - [HeroSlider.vue](apps_front-ecommerce_app_components_content_HeroSlider_vue.md)
-          - [HorizontalCard.vue](apps_front-ecommerce_app_components_content_HorizontalCard_vue.md)
-          - [InstantSearchAlgolia.vue](apps_front-ecommerce_app_components_content_InstantSearchAlgolia_vue.md)
-          - [ItemBlog.vue](apps_front-ecommerce_app_components_content_ItemBlog_vue.md)
-          - [ItemBlogGrid.vue](apps_front-ecommerce_app_components_content_ItemBlogGrid_vue.md)
-          - [ItemCategory.vue](apps_front-ecommerce_app_components_content_ItemCategory_vue.md)
-          - [Jumbotron.vue](apps_front-ecommerce_app_components_content_Jumbotron_vue.md)
-          - [LastOrder.vue](apps_front-ecommerce_app_components_content_LastOrder_vue.md)
-          - [ListingProduct.vue](apps_front-ecommerce_app_components_content_ListingProduct_vue.md)
-          - [ListingProductCategory.vue](apps_front-ecommerce_app_components_content_ListingProductCategory_vue.md)
-          - [MentionMe.vue](apps_front-ecommerce_app_components_content_MentionMe_vue.md)
-          - [MutationForm.vue](apps_front-ecommerce_app_components_content_MutationForm_vue.md)
-          - [Newsletter.vue](apps_front-ecommerce_app_components_content_Newsletter_vue.md)
-          - [OrderAgainAccount.vue](apps_front-ecommerce_app_components_content_OrderAgainAccount_vue.md)
-          - [OrderListing.vue](apps_front-ecommerce_app_components_content_OrderListing_vue.md)
-          - [OrdersList.vue](apps_front-ecommerce_app_components_content_OrdersList_vue.md)
-          - [PaymentLogos.vue](apps_front-ecommerce_app_components_content_PaymentLogos_vue.md)
-          - [Podcast.vue](apps_front-ecommerce_app_components_content_Podcast_vue.md)
-          - [ReviewLarge.vue](apps_front-ecommerce_app_components_content_ReviewLarge_vue.md)
-          - [ReviewsProduct.vue](apps_front-ecommerce_app_components_content_ReviewsProduct_vue.md)
-          - [SalesForceForm.vue](apps_front-ecommerce_app_components_content_SalesForceForm_vue.md)
-          - [SearchFaq.vue](apps_front-ecommerce_app_components_content_SearchFaq_vue.md)
-          - [Shipup.vue](apps_front-ecommerce_app_components_content_Shipup_vue.md)
-          - [ShopDetails.vue](apps_front-ecommerce_app_components_content_ShopDetails_vue.md)
-          - [ShopLocationListing.vue](apps_front-ecommerce_app_components_content_ShopLocationListing_vue.md)
-          - [ShopRelations.vue](apps_front-ecommerce_app_components_content_ShopRelations_vue.md)
-          - [ShopSEOListing.vue](apps_front-ecommerce_app_components_content_ShopSEOListing_vue.md)
-          - [SimilarProducts.vue](apps_front-ecommerce_app_components_content_SimilarProducts_vue.md)
-          - [SliderImages.vue](apps_front-ecommerce_app_components_content_SliderImages_vue.md)
-          - [SocialLinks.vue](apps_front-ecommerce_app_components_content_SocialLinks_vue.md)
-          - [StrapiOrderCard.vue](apps_front-ecommerce_app_components_content_StrapiOrderCard_vue.md)
-          - [StrapiSubscriptionCard.vue](apps_front-ecommerce_app_components_content_StrapiSubscriptionCard_vue.md)
-          - [SubscriptionCardDetails.vue](apps_front-ecommerce_app_components_content_SubscriptionCardDetails_vue.md)
-          - [SubscriptionContent.vue](apps_front-ecommerce_app_components_content_SubscriptionContent_vue.md)
-          - [SubscriptionFaq.vue](apps_front-ecommerce_app_components_content_SubscriptionFaq_vue.md)
-          - [SubscriptionSearch.vue](apps_front-ecommerce_app_components_content_SubscriptionSearch_vue.md)
-          - [SubscriptionsListing.vue](apps_front-ecommerce_app_components_content_SubscriptionsListing_vue.md)
-          - [TheEdito.vue](apps_front-ecommerce_app_components_content_TheEdito_vue.md)
-          - [Title.vue](apps_front-ecommerce_app_components_content_Title_vue.md)
-          - [USP.vue](apps_front-ecommerce_app_components_content_USP_vue.md)
-          - [USPLarge.vue](apps_front-ecommerce_app_components_content_USPLarge_vue.md)
+          - [AccountCards.vue](apps_front-ecommerce_app_components_content_AccountCards_vue.md) <!-- repo:frontend -->
+          - [AccountLinks.vue](apps_front-ecommerce_app_components_content_AccountLinks_vue.md) <!-- repo:frontend -->
+          - [AddressesList.vue](apps_front-ecommerce_app_components_content_AddressesList_vue.md) <!-- repo:frontend -->
+          - [AnimalsList.vue](apps_front-ecommerce_app_components_content_AnimalsList_vue.md) <!-- repo:frontend -->
+          - [BooxiCTA.vue](apps_front-ecommerce_app_components_content_BooxiCTA_vue.md) <!-- repo:frontend -->
+          - [CTAListing.vue](apps_front-ecommerce_app_components_content_CTAListing_vue.md) <!-- repo:frontend -->
+          - [CalendlyEntrance.vue](apps_front-ecommerce_app_components_content_CalendlyEntrance_vue.md) <!-- repo:frontend -->
+          - [Calendly.vue](apps_front-ecommerce_app_components_content_Calendly_vue.md) <!-- repo:frontend -->
+          - [CarouselAnimal.vue](apps_front-ecommerce_app_components_content_CarouselAnimal_vue.md) <!-- repo:frontend -->
+          - [CarouselEdito.vue](apps_front-ecommerce_app_components_content_CarouselEdito_vue.md) <!-- repo:frontend -->
+          - [CarouselGeneric.vue](apps_front-ecommerce_app_components_content_CarouselGeneric_vue.md) <!-- repo:frontend -->
+          - [CarouselShorts.vue](apps_front-ecommerce_app_components_content_CarouselShorts_vue.md) <!-- repo:frontend -->
+          - [CartContent.vue](apps_front-ecommerce_app_components_content_CartContent_vue.md) <!-- repo:frontend -->
+          - [CartCrossSell.vue](apps_front-ecommerce_app_components_content_CartCrossSell_vue.md) <!-- repo:frontend -->
+          - [CategoryCard.vue](apps_front-ecommerce_app_components_content_CategoryCard_vue.md) <!-- repo:frontend -->
+          - [CategoryGrid.vue](apps_front-ecommerce_app_components_content_CategoryGrid_vue.md) <!-- repo:frontend -->
+          - [ContactForm.vue](apps_front-ecommerce_app_components_content_ContactForm_vue.md) <!-- repo:frontend -->
+          - [ContactUs.vue](apps_front-ecommerce_app_components_content_ContactUs_vue.md) <!-- repo:frontend -->
+          - [CrossSellMainProduct.vue](apps_front-ecommerce_app_components_content_CrossSellMainProduct_vue.md) <!-- repo:frontend -->
+          - [CrossSellSameCategory.vue](apps_front-ecommerce_app_components_content_CrossSellSameCategory_vue.md) <!-- repo:frontend -->
+          - [CrossSell.vue](apps_front-ecommerce_app_components_content_CrossSell_vue.md) <!-- repo:frontend -->
+          - [DescriptionProduct.vue](apps_front-ecommerce_app_components_content_DescriptionProduct_vue.md) <!-- repo:frontend -->
+          - [EditoImages.vue](apps_front-ecommerce_app_components_content_EditoImages_vue.md) <!-- repo:frontend -->
+          - [Expertise.vue](apps_front-ecommerce_app_components_content_Expertise_vue.md) <!-- repo:frontend -->
+          - [FAQQuestions.vue](apps_front-ecommerce_app_components_content_FAQQuestions_vue.md) <!-- repo:frontend -->
+          - [FaqEdito.vue](apps_front-ecommerce_app_components_content_FaqEdito_vue.md) <!-- repo:frontend -->
+          - [FaqExcerpt.vue](apps_front-ecommerce_app_components_content_FaqExcerpt_vue.md) <!-- repo:frontend -->
+          - [FeedInstagram.vue](apps_front-ecommerce_app_components_content_FeedInstagram_vue.md) <!-- repo:frontend -->
+          - [FiltersProductCategory.vue](apps_front-ecommerce_app_components_content_FiltersProductCategory_vue.md) <!-- repo:frontend -->
+          - [FiltersProductsCategoryContent.vue](apps_front-ecommerce_app_components_content_FiltersProductsCategoryContent_vue.md) <!-- repo:frontend -->
+          - [Glossary.vue](apps_front-ecommerce_app_components_content_Glossary_vue.md) <!-- repo:frontend -->
+          - [GuideEntrance.vue](apps_front-ecommerce_app_components_content_GuideEntrance_vue.md) <!-- repo:frontend -->
+          - [HeroCoverCategory.vue](apps_front-ecommerce_app_components_content_HeroCoverCategory_vue.md) <!-- repo:frontend -->
+          - [HeroCoverPro.vue](apps_front-ecommerce_app_components_content_HeroCoverPro_vue.md) <!-- repo:frontend -->
+          - [HeroSlider.vue](apps_front-ecommerce_app_components_content_HeroSlider_vue.md) <!-- repo:frontend -->
+          - [HorizontalCard.vue](apps_front-ecommerce_app_components_content_HorizontalCard_vue.md) <!-- repo:frontend -->
+          - [InstantSearchAlgolia.vue](apps_front-ecommerce_app_components_content_InstantSearchAlgolia_vue.md) <!-- repo:frontend -->
+          - [ItemBlogGrid.vue](apps_front-ecommerce_app_components_content_ItemBlogGrid_vue.md) <!-- repo:frontend -->
+          - [ItemBlog.vue](apps_front-ecommerce_app_components_content_ItemBlog_vue.md) <!-- repo:frontend -->
+          - [ItemCategory.vue](apps_front-ecommerce_app_components_content_ItemCategory_vue.md) <!-- repo:frontend -->
+          - [Jumbotron.vue](apps_front-ecommerce_app_components_content_Jumbotron_vue.md) <!-- repo:frontend -->
+          - [LastOrder.vue](apps_front-ecommerce_app_components_content_LastOrder_vue.md) <!-- repo:frontend -->
+          - [ListingProductCategory.vue](apps_front-ecommerce_app_components_content_ListingProductCategory_vue.md) <!-- repo:frontend -->
+          - [ListingProduct.vue](apps_front-ecommerce_app_components_content_ListingProduct_vue.md) <!-- repo:frontend -->
+          - [MentionMe.vue](apps_front-ecommerce_app_components_content_MentionMe_vue.md) <!-- repo:frontend -->
+          - [MutationForm.vue](apps_front-ecommerce_app_components_content_MutationForm_vue.md) <!-- repo:frontend -->
+          - [Newsletter.vue](apps_front-ecommerce_app_components_content_Newsletter_vue.md) <!-- repo:frontend -->
+          - [OrderAgainAccount.vue](apps_front-ecommerce_app_components_content_OrderAgainAccount_vue.md) <!-- repo:frontend -->
+          - [OrderListing.vue](apps_front-ecommerce_app_components_content_OrderListing_vue.md) <!-- repo:frontend -->
+          - [OrdersList.vue](apps_front-ecommerce_app_components_content_OrdersList_vue.md) <!-- repo:frontend -->
+          - [PaymentLogos.vue](apps_front-ecommerce_app_components_content_PaymentLogos_vue.md) <!-- repo:frontend -->
+          - [Podcast.vue](apps_front-ecommerce_app_components_content_Podcast_vue.md) <!-- repo:frontend -->
+          - [ReviewLarge.vue](apps_front-ecommerce_app_components_content_ReviewLarge_vue.md) <!-- repo:frontend -->
+          - [ReviewsProduct.vue](apps_front-ecommerce_app_components_content_ReviewsProduct_vue.md) <!-- repo:frontend -->
+          - [SalesForceForm.vue](apps_front-ecommerce_app_components_content_SalesForceForm_vue.md) <!-- repo:frontend -->
+          - [SearchFaq.vue](apps_front-ecommerce_app_components_content_SearchFaq_vue.md) <!-- repo:frontend -->
+          - [Shipup.vue](apps_front-ecommerce_app_components_content_Shipup_vue.md) <!-- repo:frontend -->
+          - [ShopDetails.vue](apps_front-ecommerce_app_components_content_ShopDetails_vue.md) <!-- repo:frontend -->
+          - [ShopLocationListing.vue](apps_front-ecommerce_app_components_content_ShopLocationListing_vue.md) <!-- repo:frontend -->
+          - [ShopRelations.vue](apps_front-ecommerce_app_components_content_ShopRelations_vue.md) <!-- repo:frontend -->
+          - [ShopSEOListing.vue](apps_front-ecommerce_app_components_content_ShopSEOListing_vue.md) <!-- repo:frontend -->
+          - [SimilarProducts.vue](apps_front-ecommerce_app_components_content_SimilarProducts_vue.md) <!-- repo:frontend -->
+          - [SliderImages.vue](apps_front-ecommerce_app_components_content_SliderImages_vue.md) <!-- repo:frontend -->
+          - [SocialLinks.vue](apps_front-ecommerce_app_components_content_SocialLinks_vue.md) <!-- repo:frontend -->
+          - [StrapiOrderCard.vue](apps_front-ecommerce_app_components_content_StrapiOrderCard_vue.md) <!-- repo:frontend -->
+          - [StrapiSubscriptionCard.vue](apps_front-ecommerce_app_components_content_StrapiSubscriptionCard_vue.md) <!-- repo:frontend -->
+          - [SubscriptionCardDetails.vue](apps_front-ecommerce_app_components_content_SubscriptionCardDetails_vue.md) <!-- repo:frontend -->
+          - [SubscriptionContent.vue](apps_front-ecommerce_app_components_content_SubscriptionContent_vue.md) <!-- repo:frontend -->
+          - [SubscriptionFaq.vue](apps_front-ecommerce_app_components_content_SubscriptionFaq_vue.md) <!-- repo:frontend -->
+          - [SubscriptionSearch.vue](apps_front-ecommerce_app_components_content_SubscriptionSearch_vue.md) <!-- repo:frontend -->
+          - [SubscriptionsListing.vue](apps_front-ecommerce_app_components_content_SubscriptionsListing_vue.md) <!-- repo:frontend -->
+          - [TheEdito.vue](apps_front-ecommerce_app_components_content_TheEdito_vue.md) <!-- repo:frontend -->
+          - [Title.vue](apps_front-ecommerce_app_components_content_Title_vue.md) <!-- repo:frontend -->
+          - [USPLarge.vue](apps_front-ecommerce_app_components_content_USPLarge_vue.md) <!-- repo:frontend -->
+          - [USP.vue](apps_front-ecommerce_app_components_content_USP_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [AccountCards.stories.ts](apps_front-ecommerce_app_components_content_stories_AccountCards_stories_ts.md)
-            - [AccountLinks.stories.ts](apps_front-ecommerce_app_components_content_stories_AccountLinks_stories_ts.md)
-            - [AddressesList.stories.ts](apps_front-ecommerce_app_components_content_stories_AddressesList_stories_ts.md)
-            - [AnimalsList.stories.ts](apps_front-ecommerce_app_components_content_stories_AnimalsList_stories_ts.md)
-            - [BooxiCTA.stories.ts](apps_front-ecommerce_app_components_content_stories_BooxiCTA_stories_ts.md)
-            - [CTAListing.stories.ts](apps_front-ecommerce_app_components_content_stories_CTAListing_stories_ts.md)
-            - [CarouselAnimal.stories.ts](apps_front-ecommerce_app_components_content_stories_CarouselAnimal_stories_ts.md)
-            - [CarouselEdito.stories.ts](apps_front-ecommerce_app_components_content_stories_CarouselEdito_stories_ts.md)
-            - [CartContent.stories.ts](apps_front-ecommerce_app_components_content_stories_CartContent_stories_ts.md)
-            - [CartCrossSell.stories.ts](apps_front-ecommerce_app_components_content_stories_CartCrossSell_stories_ts.md)
-            - [CategoryCard.stories.ts](apps_front-ecommerce_app_components_content_stories_CategoryCard_stories_ts.md)
-            - [CategoryGrid.stories.ts](apps_front-ecommerce_app_components_content_stories_CategoryGrid_stories_ts.md)
-            - [ContactForm.stories.ts](apps_front-ecommerce_app_components_content_stories_ContactForm_stories_ts.md)
-            - [ContactUs.stories.ts](apps_front-ecommerce_app_components_content_stories_ContactUs_stories_ts.md)
-            - [CrossSell.stories.ts](apps_front-ecommerce_app_components_content_stories_CrossSell_stories_ts.md)
-            - [CrossSellMainProduct.stories.ts](apps_front-ecommerce_app_components_content_stories_CrossSellMainProduct_stories_ts.md)
-            - [EditoImages.stories.ts](apps_front-ecommerce_app_components_content_stories_EditoImages_stories_ts.md)
-            - [FAQQuestions.stories.ts](apps_front-ecommerce_app_components_content_stories_FAQQuestions_stories_ts.md)
-            - [FaqExcerpt.stories.ts](apps_front-ecommerce_app_components_content_stories_FaqExcerpt_stories_ts.md)
-            - [FeedInstagram.stories.ts](apps_front-ecommerce_app_components_content_stories_FeedInstagram_stories_ts.md)
-            - [FiltersProductCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_FiltersProductCategory_stories_ts.md)
-            - [FiltersProductsCategoryContent.stories.ts](apps_front-ecommerce_app_components_content_stories_FiltersProductsCategoryContent_stories_ts.md)
-            - [Glossary.stories.ts](apps_front-ecommerce_app_components_content_stories_Glossary_stories_ts.md)
-            - [GuideEntrance.stories.ts](apps_front-ecommerce_app_components_content_stories_GuideEntrance_stories_ts.md)
-            - [HeroCoverCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_HeroCoverCategory_stories_ts.md)
-            - [HeroCoverPro.stories.ts](apps_front-ecommerce_app_components_content_stories_HeroCoverPro_stories_ts.md)
-            - [HeroSlider.stories.ts](apps_front-ecommerce_app_components_content_stories_HeroSlider_stories_ts.md)
-            - [HorizontalCard.stories.ts](apps_front-ecommerce_app_components_content_stories_HorizontalCard_stories_ts.md)
-            - [ItemBlog.stories.ts](apps_front-ecommerce_app_components_content_stories_ItemBlog_stories_ts.md)
-            - [ItemBlogGrid.stories.ts](apps_front-ecommerce_app_components_content_stories_ItemBlogGrid_stories_ts.md)
-            - [ItemCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_ItemCategory_stories_ts.md)
-            - [LastOrder.stories.ts](apps_front-ecommerce_app_components_content_stories_LastOrder_stories_ts.md)
-            - [ListingProduct.stories.ts](apps_front-ecommerce_app_components_content_stories_ListingProduct_stories_ts.md)
-            - [ListingProductCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_ListingProductCategory_stories_ts.md)
-            - [MentionMe.stories.ts](apps_front-ecommerce_app_components_content_stories_MentionMe_stories_ts.md)
-            - [MutationForm.stories.ts](apps_front-ecommerce_app_components_content_stories_MutationForm_stories_ts.md)
-            - [Newsletter.stories.ts](apps_front-ecommerce_app_components_content_stories_Newsletter_stories_ts.md)
-            - [OrderAgainAccount.stories.ts](apps_front-ecommerce_app_components_content_stories_OrderAgainAccount_stories_ts.md)
-            - [OrderListing.stories.ts](apps_front-ecommerce_app_components_content_stories_OrderListing_stories_ts.md)
-            - [OrdersList.stories.ts](apps_front-ecommerce_app_components_content_stories_OrdersList_stories_ts.md)
-            - [PaymentLogos.stories.ts](apps_front-ecommerce_app_components_content_stories_PaymentLogos_stories_ts.md)
-            - [Podcast.stories.ts](apps_front-ecommerce_app_components_content_stories_Podcast_stories_ts.md)
-            - [ReviewLarge.stories.ts](apps_front-ecommerce_app_components_content_stories_ReviewLarge_stories_ts.md)
-            - [SalesForceForm.stories.ts](apps_front-ecommerce_app_components_content_stories_SalesForceForm_stories_ts.md)
-            - [SearchFaq.stories.ts](apps_front-ecommerce_app_components_content_stories_SearchFaq_stories_ts.md)
-            - [Shipup.stories.ts](apps_front-ecommerce_app_components_content_stories_Shipup_stories_ts.md)
-            - [ShopDetails.stories.ts](apps_front-ecommerce_app_components_content_stories_ShopDetails_stories_ts.md)
-            - [ShopLocationListing.stories.ts](apps_front-ecommerce_app_components_content_stories_ShopLocationListing_stories_ts.md)
-            - [ShopRelations.stories.ts](apps_front-ecommerce_app_components_content_stories_ShopRelations_stories_ts.md)
-            - [SocialLinks.stories.ts](apps_front-ecommerce_app_components_content_stories_SocialLinks_stories_ts.md)
-            - [StrapiOrderCard.stories.ts](apps_front-ecommerce_app_components_content_stories_StrapiOrderCard_stories_ts.md)
-            - [StrapiSubscriptionCard.stories.ts](apps_front-ecommerce_app_components_content_stories_StrapiSubscriptionCard_stories_ts.md)
-            - [SubscriptionFaq.stories.ts](apps_front-ecommerce_app_components_content_stories_SubscriptionFaq_stories_ts.md)
-            - [SubscriptionsListing.stories.ts](apps_front-ecommerce_app_components_content_stories_SubscriptionsListing_stories_ts.md)
-            - [TheEdito.stories.ts](apps_front-ecommerce_app_components_content_stories_TheEdito_stories_ts.md)
-            - [Title.stories.ts](apps_front-ecommerce_app_components_content_stories_Title_stories_ts.md)
-            - [USP.stories.ts](apps_front-ecommerce_app_components_content_stories_USP_stories_ts.md)
-            - [USPLarge.stories.ts](apps_front-ecommerce_app_components_content_stories_USPLarge_stories_ts.md)
+            - [AccountCards.stories.ts](apps_front-ecommerce_app_components_content_stories_AccountCards_stories_ts.md) <!-- repo:frontend -->
+            - [AccountLinks.stories.ts](apps_front-ecommerce_app_components_content_stories_AccountLinks_stories_ts.md) <!-- repo:frontend -->
+            - [AddressesList.stories.ts](apps_front-ecommerce_app_components_content_stories_AddressesList_stories_ts.md) <!-- repo:frontend -->
+            - [AnimalsList.stories.ts](apps_front-ecommerce_app_components_content_stories_AnimalsList_stories_ts.md) <!-- repo:frontend -->
+            - [BooxiCTA.stories.ts](apps_front-ecommerce_app_components_content_stories_BooxiCTA_stories_ts.md) <!-- repo:frontend -->
+            - [CTAListing.stories.ts](apps_front-ecommerce_app_components_content_stories_CTAListing_stories_ts.md) <!-- repo:frontend -->
+            - [CarouselAnimal.stories.ts](apps_front-ecommerce_app_components_content_stories_CarouselAnimal_stories_ts.md) <!-- repo:frontend -->
+            - [CarouselEdito.stories.ts](apps_front-ecommerce_app_components_content_stories_CarouselEdito_stories_ts.md) <!-- repo:frontend -->
+            - [CartContent.stories.ts](apps_front-ecommerce_app_components_content_stories_CartContent_stories_ts.md) <!-- repo:frontend -->
+            - [CartCrossSell.stories.ts](apps_front-ecommerce_app_components_content_stories_CartCrossSell_stories_ts.md) <!-- repo:frontend -->
+            - [CategoryCard.stories.ts](apps_front-ecommerce_app_components_content_stories_CategoryCard_stories_ts.md) <!-- repo:frontend -->
+            - [CategoryGrid.stories.ts](apps_front-ecommerce_app_components_content_stories_CategoryGrid_stories_ts.md) <!-- repo:frontend -->
+            - [ContactForm.stories.ts](apps_front-ecommerce_app_components_content_stories_ContactForm_stories_ts.md) <!-- repo:frontend -->
+            - [ContactUs.stories.ts](apps_front-ecommerce_app_components_content_stories_ContactUs_stories_ts.md) <!-- repo:frontend -->
+            - [CrossSellMainProduct.stories.ts](apps_front-ecommerce_app_components_content_stories_CrossSellMainProduct_stories_ts.md) <!-- repo:frontend -->
+            - [CrossSell.stories.ts](apps_front-ecommerce_app_components_content_stories_CrossSell_stories_ts.md) <!-- repo:frontend -->
+            - [EditoImages.stories.ts](apps_front-ecommerce_app_components_content_stories_EditoImages_stories_ts.md) <!-- repo:frontend -->
+            - [FAQQuestions.stories.ts](apps_front-ecommerce_app_components_content_stories_FAQQuestions_stories_ts.md) <!-- repo:frontend -->
+            - [FaqExcerpt.stories.ts](apps_front-ecommerce_app_components_content_stories_FaqExcerpt_stories_ts.md) <!-- repo:frontend -->
+            - [FeedInstagram.stories.ts](apps_front-ecommerce_app_components_content_stories_FeedInstagram_stories_ts.md) <!-- repo:frontend -->
+            - [FiltersProductCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_FiltersProductCategory_stories_ts.md) <!-- repo:frontend -->
+            - [FiltersProductsCategoryContent.stories.ts](apps_front-ecommerce_app_components_content_stories_FiltersProductsCategoryContent_stories_ts.md) <!-- repo:frontend -->
+            - [Glossary.stories.ts](apps_front-ecommerce_app_components_content_stories_Glossary_stories_ts.md) <!-- repo:frontend -->
+            - [GuideEntrance.stories.ts](apps_front-ecommerce_app_components_content_stories_GuideEntrance_stories_ts.md) <!-- repo:frontend -->
+            - [HeroCoverCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_HeroCoverCategory_stories_ts.md) <!-- repo:frontend -->
+            - [HeroCoverPro.stories.ts](apps_front-ecommerce_app_components_content_stories_HeroCoverPro_stories_ts.md) <!-- repo:frontend -->
+            - [HeroSlider.stories.ts](apps_front-ecommerce_app_components_content_stories_HeroSlider_stories_ts.md) <!-- repo:frontend -->
+            - [HorizontalCard.stories.ts](apps_front-ecommerce_app_components_content_stories_HorizontalCard_stories_ts.md) <!-- repo:frontend -->
+            - [ItemBlogGrid.stories.ts](apps_front-ecommerce_app_components_content_stories_ItemBlogGrid_stories_ts.md) <!-- repo:frontend -->
+            - [ItemBlog.stories.ts](apps_front-ecommerce_app_components_content_stories_ItemBlog_stories_ts.md) <!-- repo:frontend -->
+            - [ItemCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_ItemCategory_stories_ts.md) <!-- repo:frontend -->
+            - [LastOrder.stories.ts](apps_front-ecommerce_app_components_content_stories_LastOrder_stories_ts.md) <!-- repo:frontend -->
+            - [ListingProductCategory.stories.ts](apps_front-ecommerce_app_components_content_stories_ListingProductCategory_stories_ts.md) <!-- repo:frontend -->
+            - [ListingProduct.stories.ts](apps_front-ecommerce_app_components_content_stories_ListingProduct_stories_ts.md) <!-- repo:frontend -->
+            - [MentionMe.stories.ts](apps_front-ecommerce_app_components_content_stories_MentionMe_stories_ts.md) <!-- repo:frontend -->
+            - [MutationForm.stories.ts](apps_front-ecommerce_app_components_content_stories_MutationForm_stories_ts.md) <!-- repo:frontend -->
+            - [Newsletter.stories.ts](apps_front-ecommerce_app_components_content_stories_Newsletter_stories_ts.md) <!-- repo:frontend -->
+            - [OrderAgainAccount.stories.ts](apps_front-ecommerce_app_components_content_stories_OrderAgainAccount_stories_ts.md) <!-- repo:frontend -->
+            - [OrderListing.stories.ts](apps_front-ecommerce_app_components_content_stories_OrderListing_stories_ts.md) <!-- repo:frontend -->
+            - [OrdersList.stories.ts](apps_front-ecommerce_app_components_content_stories_OrdersList_stories_ts.md) <!-- repo:frontend -->
+            - [PaymentLogos.stories.ts](apps_front-ecommerce_app_components_content_stories_PaymentLogos_stories_ts.md) <!-- repo:frontend -->
+            - [Podcast.stories.ts](apps_front-ecommerce_app_components_content_stories_Podcast_stories_ts.md) <!-- repo:frontend -->
+            - [ReviewLarge.stories.ts](apps_front-ecommerce_app_components_content_stories_ReviewLarge_stories_ts.md) <!-- repo:frontend -->
+            - [SalesForceForm.stories.ts](apps_front-ecommerce_app_components_content_stories_SalesForceForm_stories_ts.md) <!-- repo:frontend -->
+            - [SearchFaq.stories.ts](apps_front-ecommerce_app_components_content_stories_SearchFaq_stories_ts.md) <!-- repo:frontend -->
+            - [Shipup.stories.ts](apps_front-ecommerce_app_components_content_stories_Shipup_stories_ts.md) <!-- repo:frontend -->
+            - [ShopDetails.stories.ts](apps_front-ecommerce_app_components_content_stories_ShopDetails_stories_ts.md) <!-- repo:frontend -->
+            - [ShopLocationListing.stories.ts](apps_front-ecommerce_app_components_content_stories_ShopLocationListing_stories_ts.md) <!-- repo:frontend -->
+            - [ShopRelations.stories.ts](apps_front-ecommerce_app_components_content_stories_ShopRelations_stories_ts.md) <!-- repo:frontend -->
+            - [SocialLinks.stories.ts](apps_front-ecommerce_app_components_content_stories_SocialLinks_stories_ts.md) <!-- repo:frontend -->
+            - [StrapiOrderCard.stories.ts](apps_front-ecommerce_app_components_content_stories_StrapiOrderCard_stories_ts.md) <!-- repo:frontend -->
+            - [StrapiSubscriptionCard.stories.ts](apps_front-ecommerce_app_components_content_stories_StrapiSubscriptionCard_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionFaq.stories.ts](apps_front-ecommerce_app_components_content_stories_SubscriptionFaq_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionsListing.stories.ts](apps_front-ecommerce_app_components_content_stories_SubscriptionsListing_stories_ts.md) <!-- repo:frontend -->
+            - [TheEdito.stories.ts](apps_front-ecommerce_app_components_content_stories_TheEdito_stories_ts.md) <!-- repo:frontend -->
+            - [Title.stories.ts](apps_front-ecommerce_app_components_content_stories_Title_stories_ts.md) <!-- repo:frontend -->
+            - [USPLarge.stories.ts](apps_front-ecommerce_app_components_content_stories_USPLarge_stories_ts.md) <!-- repo:frontend -->
+            - [USP.stories.ts](apps_front-ecommerce_app_components_content_stories_USP_stories_ts.md) <!-- repo:frontend -->
         - **footer**
-          - [BottomBanner.vue](apps_front-ecommerce_app_components_footer_BottomBanner_vue.md)
-          - [TheFooter.vue](apps_front-ecommerce_app_components_footer_TheFooter_vue.md)
+          - [BottomBanner.vue](apps_front-ecommerce_app_components_footer_BottomBanner_vue.md) <!-- repo:frontend -->
+          - [TheFooter.vue](apps_front-ecommerce_app_components_footer_TheFooter_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [BottomBanner.stories.ts](apps_front-ecommerce_app_components_footer_stories_BottomBanner_stories_ts.md)
-            - [TheFooter.stories.ts](apps_front-ecommerce_app_components_footer_stories_TheFooter_stories_ts.md)
+            - [BottomBanner.stories.ts](apps_front-ecommerce_app_components_footer_stories_BottomBanner_stories_ts.md) <!-- repo:frontend -->
+            - [TheFooter.stories.ts](apps_front-ecommerce_app_components_footer_stories_TheFooter_stories_ts.md) <!-- repo:frontend -->
         - **googleMap**
-          - [Geolocator.vue](apps_front-ecommerce_app_components_googleMap_Geolocator_vue.md)
-          - [GoogleMapContainer.vue](apps_front-ecommerce_app_components_googleMap_GoogleMapContainer_vue.md)
-          - [GoogleMapDisplayType.vue](apps_front-ecommerce_app_components_googleMap_GoogleMapDisplayType_vue.md)
-          - [GoogleMapListing.vue](apps_front-ecommerce_app_components_googleMap_GoogleMapListing_vue.md)
+          - [Geolocator.vue](apps_front-ecommerce_app_components_googleMap_Geolocator_vue.md) <!-- repo:frontend -->
+          - [GoogleMapContainer.vue](apps_front-ecommerce_app_components_googleMap_GoogleMapContainer_vue.md) <!-- repo:frontend -->
+          - [GoogleMapDisplayType.vue](apps_front-ecommerce_app_components_googleMap_GoogleMapDisplayType_vue.md) <!-- repo:frontend -->
+          - [GoogleMapListing.vue](apps_front-ecommerce_app_components_googleMap_GoogleMapListing_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [Geolocator.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_Geolocator_stories_ts.md)
-            - [GoogleMapContainer.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_GoogleMapContainer_stories_ts.md)
-            - [GoogleMapDisplayType.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_GoogleMapDisplayType_stories_ts.md)
-            - [GoogleMapListing.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_GoogleMapListing_stories_ts.md)
+            - [Geolocator.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_Geolocator_stories_ts.md) <!-- repo:frontend -->
+            - [GoogleMapContainer.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_GoogleMapContainer_stories_ts.md) <!-- repo:frontend -->
+            - [GoogleMapDisplayType.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_GoogleMapDisplayType_stories_ts.md) <!-- repo:frontend -->
+            - [GoogleMapListing.stories.ts](apps_front-ecommerce_app_components_googleMap_stories_GoogleMapListing_stories_ts.md) <!-- repo:frontend -->
         - **header**
-          - [LangSwitcherHeader.vue](apps_front-ecommerce_app_components_header_LangSwitcherHeader_vue.md)
-          - [TheHeader.vue](apps_front-ecommerce_app_components_header_TheHeader_vue.md)
-          - [TopHeader.vue](apps_front-ecommerce_app_components_header_TopHeader_vue.md)
+          - [LangSwitcherHeader.vue](apps_front-ecommerce_app_components_header_LangSwitcherHeader_vue.md) <!-- repo:frontend -->
+          - [TheHeader.vue](apps_front-ecommerce_app_components_header_TheHeader_vue.md) <!-- repo:frontend -->
+          - [TopHeader.vue](apps_front-ecommerce_app_components_header_TopHeader_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [LangSwitcherHeader.stories.ts](apps_front-ecommerce_app_components_header_stories_LangSwitcherHeader_stories_ts.md)
-            - [TheHeader.stories.ts](apps_front-ecommerce_app_components_header_stories_TheHeader_stories_ts.md)
-            - [TopHeader.stories.ts](apps_front-ecommerce_app_components_header_stories_TopHeader_stories_ts.md)
+            - [LangSwitcherHeader.stories.ts](apps_front-ecommerce_app_components_header_stories_LangSwitcherHeader_stories_ts.md) <!-- repo:frontend -->
+            - [TheHeader.stories.ts](apps_front-ecommerce_app_components_header_stories_TheHeader_stories_ts.md) <!-- repo:frontend -->
+            - [TopHeader.stories.ts](apps_front-ecommerce_app_components_header_stories_TopHeader_stories_ts.md) <!-- repo:frontend -->
         - **modals**
-          - [BiNutritionEntranceDialog.vue](apps_front-ecommerce_app_components_modals_BiNutritionEntranceDialog_vue.md)
-          - [BiNutritionPopupDialog.vue](apps_front-ecommerce_app_components_modals_BiNutritionPopupDialog_vue.md)
-          - [CountryWall.vue](apps_front-ecommerce_app_components_modals_CountryWall_vue.md)
-          - [ExitPopup.vue](apps_front-ecommerce_app_components_modals_ExitPopup_vue.md)
-          - [LangSwitcherWall.vue](apps_front-ecommerce_app_components_modals_LangSwitcherWall_vue.md)
-          - [ModalShipup.vue](apps_front-ecommerce_app_components_modals_ModalShipup_vue.md)
-          - [NextDeliveryPromotionDialog.vue](apps_front-ecommerce_app_components_modals_NextDeliveryPromotionDialog_vue.md)
-          - [SubscriptionContactDialog.vue](apps_front-ecommerce_app_components_modals_SubscriptionContactDialog_vue.md)
-          - [UnavailableCouponDialog.vue](apps_front-ecommerce_app_components_modals_UnavailableCouponDialog_vue.md)
-          - [UrgentDispatchDialog.vue](apps_front-ecommerce_app_components_modals_UrgentDispatchDialog_vue.md)
+          - [BiNutritionEntranceDialog.vue](apps_front-ecommerce_app_components_modals_BiNutritionEntranceDialog_vue.md) <!-- repo:frontend -->
+          - [BiNutritionPopupDialog.vue](apps_front-ecommerce_app_components_modals_BiNutritionPopupDialog_vue.md) <!-- repo:frontend -->
+          - [CountryWall.vue](apps_front-ecommerce_app_components_modals_CountryWall_vue.md) <!-- repo:frontend -->
+          - [ExitPopup.vue](apps_front-ecommerce_app_components_modals_ExitPopup_vue.md) <!-- repo:frontend -->
+          - [LangSwitcherWall.vue](apps_front-ecommerce_app_components_modals_LangSwitcherWall_vue.md) <!-- repo:frontend -->
+          - [ModalShipup.vue](apps_front-ecommerce_app_components_modals_ModalShipup_vue.md) <!-- repo:frontend -->
+          - [NextDeliveryPromotionDialog.vue](apps_front-ecommerce_app_components_modals_NextDeliveryPromotionDialog_vue.md) <!-- repo:frontend -->
+          - [SubscriptionContactDialog.vue](apps_front-ecommerce_app_components_modals_SubscriptionContactDialog_vue.md) <!-- repo:frontend -->
+          - [UnavailableCouponDialog.vue](apps_front-ecommerce_app_components_modals_UnavailableCouponDialog_vue.md) <!-- repo:frontend -->
+          - [UrgentDispatchDialog.vue](apps_front-ecommerce_app_components_modals_UrgentDispatchDialog_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [BiNutritionEntranceDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_BiNutritionEntranceDialog_stories_ts.md)
-            - [BiNutritionPopupDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_BiNutritionPopupDialog_stories_ts.md)
-            - [CountryWall.stories.ts](apps_front-ecommerce_app_components_modals_stories_CountryWall_stories_ts.md)
-            - [ExitPopup.stories.ts](apps_front-ecommerce_app_components_modals_stories_ExitPopup_stories_ts.md)
-            - [LangSwitcherWall.stories.ts](apps_front-ecommerce_app_components_modals_stories_LangSwitcherWall_stories_ts.md)
-            - [ModalShipup.stories.ts](apps_front-ecommerce_app_components_modals_stories_ModalShipup_stories_ts.md)
-            - [SubscriptionContactDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_SubscriptionContactDialog_stories_ts.md)
-            - [UrgentDispatchDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_UrgentDispatchDialog_stories_ts.md)
+            - [BiNutritionEntranceDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_BiNutritionEntranceDialog_stories_ts.md) <!-- repo:frontend -->
+            - [BiNutritionPopupDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_BiNutritionPopupDialog_stories_ts.md) <!-- repo:frontend -->
+            - [CountryWall.stories.ts](apps_front-ecommerce_app_components_modals_stories_CountryWall_stories_ts.md) <!-- repo:frontend -->
+            - [ExitPopup.stories.ts](apps_front-ecommerce_app_components_modals_stories_ExitPopup_stories_ts.md) <!-- repo:frontend -->
+            - [LangSwitcherWall.stories.ts](apps_front-ecommerce_app_components_modals_stories_LangSwitcherWall_stories_ts.md) <!-- repo:frontend -->
+            - [ModalShipup.stories.ts](apps_front-ecommerce_app_components_modals_stories_ModalShipup_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionContactDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_SubscriptionContactDialog_stories_ts.md) <!-- repo:frontend -->
+            - [UrgentDispatchDialog.stories.ts](apps_front-ecommerce_app_components_modals_stories_UrgentDispatchDialog_stories_ts.md) <!-- repo:frontend -->
         - **order**
-          - [OrderAgain.vue](apps_front-ecommerce_app_components_order_OrderAgain_vue.md)
-          - [OrderFrequencySelect.vue](apps_front-ecommerce_app_components_order_OrderFrequencySelect_vue.md)
-          - [OrderInvoice.vue](apps_front-ecommerce_app_components_order_OrderInvoice_vue.md)
+          - [OrderAgain.vue](apps_front-ecommerce_app_components_order_OrderAgain_vue.md) <!-- repo:frontend -->
+          - [OrderFrequencySelect.vue](apps_front-ecommerce_app_components_order_OrderFrequencySelect_vue.md) <!-- repo:frontend -->
+          - [OrderInvoice.vue](apps_front-ecommerce_app_components_order_OrderInvoice_vue.md) <!-- repo:frontend -->
           - **orderInfos**
             - **billingAddress**
-              - [OrderInfoBillingAddressDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_OrderInfoBillingAddressDisplay_vue.md)
-              - [OrderInfoBillingAddressEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_OrderInfoBillingAddressEdit_vue.md)
-              - [OrderInfoBillingAddressMain.vue](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_OrderInfoBillingAddressMain_vue.md)
+              - [OrderInfoBillingAddressDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_OrderInfoBillingAddressDisplay_vue.md) <!-- repo:frontend -->
+              - [OrderInfoBillingAddressEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_OrderInfoBillingAddressEdit_vue.md) <!-- repo:frontend -->
+              - [OrderInfoBillingAddressMain.vue](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_OrderInfoBillingAddressMain_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoBillingAddressDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_stories_OrderInfoBillingAddressDisplay_stories_ts.md)
-                - [OrderInfoBillingAddressEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_stories_OrderInfoBillingAddressEdit_stories_ts.md)
-                - [OrderInfoBillingAddressMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_stories_OrderInfoBillingAddressMain_stories_ts.md)
+                - [OrderInfoBillingAddressDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_stories_OrderInfoBillingAddressDisplay_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoBillingAddressEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_stories_OrderInfoBillingAddressEdit_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoBillingAddressMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_billingAddress_stories_OrderInfoBillingAddressMain_stories_ts.md) <!-- repo:frontend -->
             - **frequencies**
-              - [OrderInfoFrequencyDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_frequencies_OrderInfoFrequencyDisplay_vue.md)
-              - [OrderInfoFrequencyEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_frequencies_OrderInfoFrequencyEdit_vue.md)
-              - [OrderInfoFrequencyMain.vue](apps_front-ecommerce_app_components_order_orderInfos_frequencies_OrderInfoFrequencyMain_vue.md)
+              - [OrderInfoFrequencyDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_frequencies_OrderInfoFrequencyDisplay_vue.md) <!-- repo:frontend -->
+              - [OrderInfoFrequencyEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_frequencies_OrderInfoFrequencyEdit_vue.md) <!-- repo:frontend -->
+              - [OrderInfoFrequencyMain.vue](apps_front-ecommerce_app_components_order_orderInfos_frequencies_OrderInfoFrequencyMain_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoFrequencyDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_frequencies_stories_OrderInfoFrequencyDisplay_stories_ts.md)
-                - [OrderInfoFrequencyEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_frequencies_stories_OrderInfoFrequencyEdit_stories_ts.md)
-                - [OrderInfoFrequencyMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_frequencies_stories_OrderInfoFrequencyMain_stories_ts.md)
+                - [OrderInfoFrequencyDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_frequencies_stories_OrderInfoFrequencyDisplay_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoFrequencyEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_frequencies_stories_OrderInfoFrequencyEdit_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoFrequencyMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_frequencies_stories_OrderInfoFrequencyMain_stories_ts.md) <!-- repo:frontend -->
             - **history**
-              - [OrderInfoHistoryDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_history_OrderInfoHistoryDisplay_vue.md)
+              - [OrderInfoHistoryDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_history_OrderInfoHistoryDisplay_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoHistoryDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_history_stories_OrderInfoHistoryDisplay_stories_ts.md)
+                - [OrderInfoHistoryDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_history_stories_OrderInfoHistoryDisplay_stories_ts.md) <!-- repo:frontend -->
             - **nextDelivery**
-              - [OrderInfoNextDeliveryDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_OrderInfoNextDeliveryDisplay_vue.md)
-              - [OrderInfoNextDeliveryEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_OrderInfoNextDeliveryEdit_vue.md)
-              - [OrderInfoNextDeliveryMain.vue](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_OrderInfoNextDeliveryMain_vue.md)
+              - [OrderInfoNextDeliveryDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_OrderInfoNextDeliveryDisplay_vue.md) <!-- repo:frontend -->
+              - [OrderInfoNextDeliveryEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_OrderInfoNextDeliveryEdit_vue.md) <!-- repo:frontend -->
+              - [OrderInfoNextDeliveryMain.vue](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_OrderInfoNextDeliveryMain_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoNextDeliveryDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_stories_OrderInfoNextDeliveryDisplay_stories_ts.md)
-                - [OrderInfoNextDeliveryEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_stories_OrderInfoNextDeliveryEdit_stories_ts.md)
-                - [OrderInfoNextDeliveryMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_stories_OrderInfoNextDeliveryMain_stories_ts.md)
+                - [OrderInfoNextDeliveryDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_stories_OrderInfoNextDeliveryDisplay_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoNextDeliveryEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_stories_OrderInfoNextDeliveryEdit_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoNextDeliveryMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_nextDelivery_stories_OrderInfoNextDeliveryMain_stories_ts.md) <!-- repo:frontend -->
             - **paymentMethod**
-              - [OrderInfoPaymentMethodDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_OrderInfoPaymentMethodDisplay_vue.md)
-              - [OrderInfoPaymentMethodEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_OrderInfoPaymentMethodEdit_vue.md)
-              - [OrderInfoPaymentMethodMain.vue](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_OrderInfoPaymentMethodMain_vue.md)
+              - [OrderInfoPaymentMethodDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_OrderInfoPaymentMethodDisplay_vue.md) <!-- repo:frontend -->
+              - [OrderInfoPaymentMethodEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_OrderInfoPaymentMethodEdit_vue.md) <!-- repo:frontend -->
+              - [OrderInfoPaymentMethodMain.vue](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_OrderInfoPaymentMethodMain_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoPaymentMethodDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_stories_OrderInfoPaymentMethodDisplay_stories_ts.md)
-                - [OrderInfoPaymentMethodEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_stories_OrderInfoPaymentMethodEdit_stories_ts.md)
-                - [OrderInfoPaymentMethodMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_stories_OrderInfoPaymentMethodMain_stories_ts.md)
+                - [OrderInfoPaymentMethodDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_stories_OrderInfoPaymentMethodDisplay_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoPaymentMethodEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_stories_OrderInfoPaymentMethodEdit_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoPaymentMethodMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_paymentMethod_stories_OrderInfoPaymentMethodMain_stories_ts.md) <!-- repo:frontend -->
             - **productsList**
-              - [OrderInfoProductsList.vue](apps_front-ecommerce_app_components_order_orderInfos_productsList_OrderInfoProductsList_vue.md)
-              - [OrderInfoProductsMain.vue](apps_front-ecommerce_app_components_order_orderInfos_productsList_OrderInfoProductsMain_vue.md)
+              - [OrderInfoProductsList.vue](apps_front-ecommerce_app_components_order_orderInfos_productsList_OrderInfoProductsList_vue.md) <!-- repo:frontend -->
+              - [OrderInfoProductsMain.vue](apps_front-ecommerce_app_components_order_orderInfos_productsList_OrderInfoProductsMain_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoProductsList.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_productsList_stories_OrderInfoProductsList_stories_ts.md)
-                - [OrderInfoProductsMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_productsList_stories_OrderInfoProductsMain_stories_ts.md)
+                - [OrderInfoProductsList.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_productsList_stories_OrderInfoProductsList_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoProductsMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_productsList_stories_OrderInfoProductsMain_stories_ts.md) <!-- repo:frontend -->
             - **promotions**
-              - [OrderInfoPromotionsDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_promotions_OrderInfoPromotionsDisplay_vue.md)
+              - [OrderInfoPromotionsDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_promotions_OrderInfoPromotionsDisplay_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoPromotionsDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_promotions_stories_OrderInfoPromotionsDisplay_stories_ts.md)
+                - [OrderInfoPromotionsDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_promotions_stories_OrderInfoPromotionsDisplay_stories_ts.md) <!-- repo:frontend -->
             - **shippingAddress**
-              - [OrderInfoShippingAddressDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_OrderInfoShippingAddressDisplay_vue.md)
-              - [OrderInfoShippingAddressEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_OrderInfoShippingAddressEdit_vue.md)
-              - [OrderInfoShippingAddressMain.vue](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_OrderInfoShippingAddressMain_vue.md)
+              - [OrderInfoShippingAddressDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_OrderInfoShippingAddressDisplay_vue.md) <!-- repo:frontend -->
+              - [OrderInfoShippingAddressEdit.vue](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_OrderInfoShippingAddressEdit_vue.md) <!-- repo:frontend -->
+              - [OrderInfoShippingAddressMain.vue](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_OrderInfoShippingAddressMain_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoShippingAddressDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_stories_OrderInfoShippingAddressDisplay_stories_ts.md)
-                - [OrderInfoShippingAddressEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_stories_OrderInfoShippingAddressEdit_stories_ts.md)
-                - [OrderInfoShippingAddressMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_stories_OrderInfoShippingAddressMain_stories_ts.md)
+                - [OrderInfoShippingAddressDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_stories_OrderInfoShippingAddressDisplay_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoShippingAddressEdit.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_stories_OrderInfoShippingAddressEdit_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoShippingAddressMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_shippingAddress_stories_OrderInfoShippingAddressMain_stories_ts.md) <!-- repo:frontend -->
             - **total**
-              - [OrderInfoTotalDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_total_OrderInfoTotalDisplay_vue.md)
+              - [OrderInfoTotalDisplay.vue](apps_front-ecommerce_app_components_order_orderInfos_total_OrderInfoTotalDisplay_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoTotalDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_total_stories_OrderInfoTotalDisplay_stories_ts.md)
+                - [OrderInfoTotalDisplay.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_total_stories_OrderInfoTotalDisplay_stories_ts.md) <!-- repo:frontend -->
             - **upsell**
-              - [OrderInfoExclusiveProductMain.vue](apps_front-ecommerce_app_components_order_orderInfos_upsell_OrderInfoExclusiveProductMain_vue.md)
-              - [OrderInfoExclusiveProductUpsellsList.vue](apps_front-ecommerce_app_components_order_orderInfos_upsell_OrderInfoExclusiveProductUpsellsList_vue.md)
-              - [OrderInfoExclusiveUpsell.vue](apps_front-ecommerce_app_components_order_orderInfos_upsell_OrderInfoExclusiveUpsell_vue.md)
+              - [OrderInfoExclusiveProductMain.vue](apps_front-ecommerce_app_components_order_orderInfos_upsell_OrderInfoExclusiveProductMain_vue.md) <!-- repo:frontend -->
+              - [OrderInfoExclusiveProductUpsellsList.vue](apps_front-ecommerce_app_components_order_orderInfos_upsell_OrderInfoExclusiveProductUpsellsList_vue.md) <!-- repo:frontend -->
+              - [OrderInfoExclusiveUpsell.vue](apps_front-ecommerce_app_components_order_orderInfos_upsell_OrderInfoExclusiveUpsell_vue.md) <!-- repo:frontend -->
               - **stories**
-                - [OrderInfoExclusiveProductMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_upsell_stories_OrderInfoExclusiveProductMain_stories_ts.md)
-                - [OrderInfoExclusiveProductUpsellsList.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_upsell_stories_OrderInfoExclusiveProductUpsellsList_stories_ts.md)
-                - [OrderInfoExclusiveUpsell.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_upsell_stories_OrderInfoExclusiveUpsell_stories_ts.md)
+                - [OrderInfoExclusiveProductMain.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_upsell_stories_OrderInfoExclusiveProductMain_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoExclusiveProductUpsellsList.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_upsell_stories_OrderInfoExclusiveProductUpsellsList_stories_ts.md) <!-- repo:frontend -->
+                - [OrderInfoExclusiveUpsell.stories.ts](apps_front-ecommerce_app_components_order_orderInfos_upsell_stories_OrderInfoExclusiveUpsell_stories_ts.md) <!-- repo:frontend -->
           - **stories**
-            - [OrderAgain.stories.ts](apps_front-ecommerce_app_components_order_stories_OrderAgain_stories_ts.md)
-            - [OrderFrequencySelect.stories.ts](apps_front-ecommerce_app_components_order_stories_OrderFrequencySelect_stories_ts.md)
-            - [OrderInvoice.stories.ts](apps_front-ecommerce_app_components_order_stories_OrderInvoice_stories_ts.md)
+            - [OrderAgain.stories.ts](apps_front-ecommerce_app_components_order_stories_OrderAgain_stories_ts.md) <!-- repo:frontend -->
+            - [OrderFrequencySelect.stories.ts](apps_front-ecommerce_app_components_order_stories_OrderFrequencySelect_stories_ts.md) <!-- repo:frontend -->
+            - [OrderInvoice.stories.ts](apps_front-ecommerce_app_components_order_stories_OrderInvoice_stories_ts.md) <!-- repo:frontend -->
           - **summary**
-            - [OrderSummaryDetails.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryDetails_vue.md)
-            - [OrderSummaryDetailsTotalPrice.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryDetailsTotalPrice_vue.md)
-            - [OrderSummaryHeader.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryHeader_vue.md)
-            - [OrderSummaryPromotions.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryPromotions_vue.md)
-            - [OrderSummaryPromotionsListing.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryPromotionsListing_vue.md)
+            - [OrderSummaryDetailsTotalPrice.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryDetailsTotalPrice_vue.md) <!-- repo:frontend -->
+            - [OrderSummaryDetails.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryDetails_vue.md) <!-- repo:frontend -->
+            - [OrderSummaryHeader.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryHeader_vue.md) <!-- repo:frontend -->
+            - [OrderSummaryPromotionsListing.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryPromotionsListing_vue.md) <!-- repo:frontend -->
+            - [OrderSummaryPromotions.vue](apps_front-ecommerce_app_components_order_summary_OrderSummaryPromotions_vue.md) <!-- repo:frontend -->
             - **stories**
-              - [OrderSummaryDetails.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryDetails_stories_ts.md)
-              - [OrderSummaryDetailsTotalPrice.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryDetailsTotalPrice_stories_ts.md)
-              - [OrderSummaryHeader.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryHeader_stories_ts.md)
-              - [OrderSummaryPromotions.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryPromotions_stories_ts.md)
+              - [OrderSummaryDetailsTotalPrice.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryDetailsTotalPrice_stories_ts.md) <!-- repo:frontend -->
+              - [OrderSummaryDetails.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryDetails_stories_ts.md) <!-- repo:frontend -->
+              - [OrderSummaryHeader.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryHeader_stories_ts.md) <!-- repo:frontend -->
+              - [OrderSummaryPromotions.stories.ts](apps_front-ecommerce_app_components_order_summary_stories_OrderSummaryPromotions_stories_ts.md) <!-- repo:frontend -->
         - **overlay**
-          - [LayerCTAButtons.vue](apps_front-ecommerce_app_components_overlay_LayerCTAButtons_vue.md)
-          - [LayerMadeIn.vue](apps_front-ecommerce_app_components_overlay_LayerMadeIn_vue.md)
-          - [LayerMarkdown.vue](apps_front-ecommerce_app_components_overlay_LayerMarkdown_vue.md)
-          - [LayerProductCard.vue](apps_front-ecommerce_app_components_overlay_LayerProductCard_vue.md)
-          - [LayerReview.vue](apps_front-ecommerce_app_components_overlay_LayerReview_vue.md)
-          - [Overlay.vue](apps_front-ecommerce_app_components_overlay_Overlay_vue.md)
+          - [LayerCTAButtons.vue](apps_front-ecommerce_app_components_overlay_LayerCTAButtons_vue.md) <!-- repo:frontend -->
+          - [LayerMadeIn.vue](apps_front-ecommerce_app_components_overlay_LayerMadeIn_vue.md) <!-- repo:frontend -->
+          - [LayerMarkdown.vue](apps_front-ecommerce_app_components_overlay_LayerMarkdown_vue.md) <!-- repo:frontend -->
+          - [LayerProductCard.vue](apps_front-ecommerce_app_components_overlay_LayerProductCard_vue.md) <!-- repo:frontend -->
+          - [LayerReview.vue](apps_front-ecommerce_app_components_overlay_LayerReview_vue.md) <!-- repo:frontend -->
+          - [Overlay.vue](apps_front-ecommerce_app_components_overlay_Overlay_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [LayerCTAButtons.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerCTAButtons_stories_ts.md)
-            - [LayerMadeIn.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerMadeIn_stories_ts.md)
-            - [LayerMarkdown.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerMarkdown_stories_ts.md)
-            - [LayerProductCard.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerProductCard_stories_ts.md)
-            - [LayerReview.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerReview_stories_ts.md)
-            - [Overlay.stories.ts](apps_front-ecommerce_app_components_overlay_stories_Overlay_stories_ts.md)
+            - [LayerCTAButtons.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerCTAButtons_stories_ts.md) <!-- repo:frontend -->
+            - [LayerMadeIn.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerMadeIn_stories_ts.md) <!-- repo:frontend -->
+            - [LayerMarkdown.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerMarkdown_stories_ts.md) <!-- repo:frontend -->
+            - [LayerProductCard.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerProductCard_stories_ts.md) <!-- repo:frontend -->
+            - [LayerReview.stories.ts](apps_front-ecommerce_app_components_overlay_stories_LayerReview_stories_ts.md) <!-- repo:frontend -->
+            - [Overlay.stories.ts](apps_front-ecommerce_app_components_overlay_stories_Overlay_stories_ts.md) <!-- repo:frontend -->
         - **product**
-          - [DisplayImages.vue](apps_front-ecommerce_app_components_product_DisplayImages_vue.md)
-          - [HeadingGuideResultPage.vue](apps_front-ecommerce_app_components_product_HeadingGuideResultPage_vue.md)
-          - [HeadingProductPage.vue](apps_front-ecommerce_app_components_product_HeadingProductPage_vue.md)
-          - [Ingredients.vue](apps_front-ecommerce_app_components_product_Ingredients_vue.md)
-          - [ProductAccordions.vue](apps_front-ecommerce_app_components_product_ProductAccordions_vue.md)
-          - [ProductTags.vue](apps_front-ecommerce_app_components_product_ProductTags_vue.md)
-          - [RationCalculator.vue](apps_front-ecommerce_app_components_product_RationCalculator_vue.md)
-          - [RationCalculatorModal.vue](apps_front-ecommerce_app_components_product_RationCalculatorModal_vue.md)
-          - [Sample.vue](apps_front-ecommerce_app_components_product_Sample_vue.md)
-          - [Samples.vue](apps_front-ecommerce_app_components_product_Samples_vue.md)
-          - [ShoppingPanel.vue](apps_front-ecommerce_app_components_product_ShoppingPanel_vue.md)
-          - [ShoppingPanelEmitOnly.vue](apps_front-ecommerce_app_components_product_ShoppingPanelEmitOnly_vue.md)
-          - [ShoppingPanelFooter.vue](apps_front-ecommerce_app_components_product_ShoppingPanelFooter_vue.md)
-          - [ShoppingPanelOption.vue](apps_front-ecommerce_app_components_product_ShoppingPanelOption_vue.md)
-          - [ShoppingPanelRegular.vue](apps_front-ecommerce_app_components_product_ShoppingPanelRegular_vue.md)
-          - [ShoppingPanelSubscription.vue](apps_front-ecommerce_app_components_product_ShoppingPanelSubscription_vue.md)
-          - [ShoppingTableRow.vue](apps_front-ecommerce_app_components_product_ShoppingTableRow_vue.md)
-          - [ShoppingTableSamples.vue](apps_front-ecommerce_app_components_product_ShoppingTableSamples_vue.md)
+          - [DisplayImages.vue](apps_front-ecommerce_app_components_product_DisplayImages_vue.md) <!-- repo:frontend -->
+          - [HeadingGuideResultPage.vue](apps_front-ecommerce_app_components_product_HeadingGuideResultPage_vue.md) <!-- repo:frontend -->
+          - [HeadingProductPage.vue](apps_front-ecommerce_app_components_product_HeadingProductPage_vue.md) <!-- repo:frontend -->
+          - [Ingredients.vue](apps_front-ecommerce_app_components_product_Ingredients_vue.md) <!-- repo:frontend -->
+          - [ProductAccordions.vue](apps_front-ecommerce_app_components_product_ProductAccordions_vue.md) <!-- repo:frontend -->
+          - [ProductTags.vue](apps_front-ecommerce_app_components_product_ProductTags_vue.md) <!-- repo:frontend -->
+          - [RationCalculatorModal.vue](apps_front-ecommerce_app_components_product_RationCalculatorModal_vue.md) <!-- repo:frontend -->
+          - [RationCalculator.vue](apps_front-ecommerce_app_components_product_RationCalculator_vue.md) <!-- repo:frontend -->
+          - [Sample.vue](apps_front-ecommerce_app_components_product_Sample_vue.md) <!-- repo:frontend -->
+          - [Samples.vue](apps_front-ecommerce_app_components_product_Samples_vue.md) <!-- repo:frontend -->
+          - [ShoppingPanelEmitOnly.vue](apps_front-ecommerce_app_components_product_ShoppingPanelEmitOnly_vue.md) <!-- repo:frontend -->
+          - [ShoppingPanelFooter.vue](apps_front-ecommerce_app_components_product_ShoppingPanelFooter_vue.md) <!-- repo:frontend -->
+          - [ShoppingPanelOption.vue](apps_front-ecommerce_app_components_product_ShoppingPanelOption_vue.md) <!-- repo:frontend -->
+          - [ShoppingPanelRegular.vue](apps_front-ecommerce_app_components_product_ShoppingPanelRegular_vue.md) <!-- repo:frontend -->
+          - [ShoppingPanelSubscription.vue](apps_front-ecommerce_app_components_product_ShoppingPanelSubscription_vue.md) <!-- repo:frontend -->
+          - [ShoppingPanel.vue](apps_front-ecommerce_app_components_product_ShoppingPanel_vue.md) <!-- repo:frontend -->
+          - [ShoppingTableRow.vue](apps_front-ecommerce_app_components_product_ShoppingTableRow_vue.md) <!-- repo:frontend -->
+          - [ShoppingTableSamples.vue](apps_front-ecommerce_app_components_product_ShoppingTableSamples_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [DisplayImages.stories.ts](apps_front-ecommerce_app_components_product_stories_DisplayImages_stories_ts.md)
-            - [HeadingGuideResultPage.stories.ts](apps_front-ecommerce_app_components_product_stories_HeadingGuideResultPage_stories_ts.md)
-            - [HeadingProductPage.stories.ts](apps_front-ecommerce_app_components_product_stories_HeadingProductPage_stories_ts.md)
-            - [Ingredients.stories.ts](apps_front-ecommerce_app_components_product_stories_Ingredients_stories_ts.md)
-            - [ProductAccordions.stories.ts](apps_front-ecommerce_app_components_product_stories_ProductAccordions_stories_ts.md)
-            - [ProductTags.stories.ts](apps_front-ecommerce_app_components_product_stories_ProductTags_stories_ts.md)
-            - [RationCalculator.stories.ts](apps_front-ecommerce_app_components_product_stories_RationCalculator_stories_ts.md)
-            - [RationCalculatorModal.stories.ts](apps_front-ecommerce_app_components_product_stories_RationCalculatorModal_stories_ts.md)
-            - [Sample.stories.ts](apps_front-ecommerce_app_components_product_stories_Sample_stories_ts.md)
-            - [ShoppingPanel.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingPanel_stories_ts.md)
-            - [ShoppingPanelEmitOnly.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingPanelEmitOnly_stories_ts.md)
-            - [ShoppingTableRow.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingTableRow_stories_ts.md)
-            - [ShoppingTableSamples.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingTableSamples_stories_ts.md)
+            - [DisplayImages.stories.ts](apps_front-ecommerce_app_components_product_stories_DisplayImages_stories_ts.md) <!-- repo:frontend -->
+            - [HeadingGuideResultPage.stories.ts](apps_front-ecommerce_app_components_product_stories_HeadingGuideResultPage_stories_ts.md) <!-- repo:frontend -->
+            - [HeadingProductPage.stories.ts](apps_front-ecommerce_app_components_product_stories_HeadingProductPage_stories_ts.md) <!-- repo:frontend -->
+            - [Ingredients.stories.ts](apps_front-ecommerce_app_components_product_stories_Ingredients_stories_ts.md) <!-- repo:frontend -->
+            - [ProductAccordions.stories.ts](apps_front-ecommerce_app_components_product_stories_ProductAccordions_stories_ts.md) <!-- repo:frontend -->
+            - [ProductTags.stories.ts](apps_front-ecommerce_app_components_product_stories_ProductTags_stories_ts.md) <!-- repo:frontend -->
+            - [RationCalculatorModal.stories.ts](apps_front-ecommerce_app_components_product_stories_RationCalculatorModal_stories_ts.md) <!-- repo:frontend -->
+            - [RationCalculator.stories.ts](apps_front-ecommerce_app_components_product_stories_RationCalculator_stories_ts.md) <!-- repo:frontend -->
+            - [Sample.stories.ts](apps_front-ecommerce_app_components_product_stories_Sample_stories_ts.md) <!-- repo:frontend -->
+            - [ShoppingPanelEmitOnly.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingPanelEmitOnly_stories_ts.md) <!-- repo:frontend -->
+            - [ShoppingPanel.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingPanel_stories_ts.md) <!-- repo:frontend -->
+            - [ShoppingTableRow.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingTableRow_stories_ts.md) <!-- repo:frontend -->
+            - [ShoppingTableSamples.stories.ts](apps_front-ecommerce_app_components_product_stories_ShoppingTableSamples_stories_ts.md) <!-- repo:frontend -->
         - **search**
-          - [SearchInput.vue](apps_front-ecommerce_app_components_search_SearchInput_vue.md)
-          - [SearchResults.vue](apps_front-ecommerce_app_components_search_SearchResults_vue.md)
-          - [SubscriptionSearchResults.vue](apps_front-ecommerce_app_components_search_SubscriptionSearchResults_vue.md)
+          - [SearchInput.vue](apps_front-ecommerce_app_components_search_SearchInput_vue.md) <!-- repo:frontend -->
+          - [SearchResults.vue](apps_front-ecommerce_app_components_search_SearchResults_vue.md) <!-- repo:frontend -->
+          - [SubscriptionSearchResults.vue](apps_front-ecommerce_app_components_search_SubscriptionSearchResults_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [SearchInput.stories.ts](apps_front-ecommerce_app_components_search_stories_SearchInput_stories_ts.md)
+            - [SearchInput.stories.ts](apps_front-ecommerce_app_components_search_stories_SearchInput_stories_ts.md) <!-- repo:frontend -->
         - **shared**
-          - [AddressCard.vue](apps_front-ecommerce_app_components_shared_AddressCard_vue.md)
-          - [AddressForm.vue](apps_front-ecommerce_app_components_shared_AddressForm_vue.md)
-          - [AnimalCard.vue](apps_front-ecommerce_app_components_shared_AnimalCard_vue.md)
-          - [AutoCounting.vue](apps_front-ecommerce_app_components_shared_AutoCounting_vue.md)
-          - [Bancontact.vue](apps_front-ecommerce_app_components_shared_Bancontact_vue.md)
-          - [BiNutritionProductCard.vue](apps_front-ecommerce_app_components_shared_BiNutritionProductCard_vue.md)
-          - [Booxi.vue](apps_front-ecommerce_app_components_shared_Booxi_vue.md)
-          - [CategoryQuickLinks.vue](apps_front-ecommerce_app_components_shared_CategoryQuickLinks_vue.md)
-          - [Entrance.vue](apps_front-ecommerce_app_components_shared_Entrance_vue.md)
-          - [FrequencyModal.vue](apps_front-ecommerce_app_components_shared_FrequencyModal_vue.md)
-          - [IDeal.vue](apps_front-ecommerce_app_components_shared_IDeal_vue.md)
-          - [Logo.vue](apps_front-ecommerce_app_components_shared_Logo_vue.md)
-          - [Markdown.vue](apps_front-ecommerce_app_components_shared_Markdown_vue.md)
-          - [Modal.vue](apps_front-ecommerce_app_components_shared_Modal_vue.md)
-          - [OrderCard.vue](apps_front-ecommerce_app_components_shared_OrderCard_vue.md)
-          - [OrderInfos.vue](apps_front-ecommerce_app_components_shared_OrderInfos_vue.md)
-          - [OrderItemCard.vue](apps_front-ecommerce_app_components_shared_OrderItemCard_vue.md)
-          - [OrderItemUpsell.vue](apps_front-ecommerce_app_components_shared_OrderItemUpsell_vue.md)
-          - [ProductCard.vue](apps_front-ecommerce_app_components_shared_ProductCard_vue.md)
-          - [ProductCardSkeleton.vue](apps_front-ecommerce_app_components_shared_ProductCardSkeleton_vue.md)
-          - [ProductOrderItemCard.vue](apps_front-ecommerce_app_components_shared_ProductOrderItemCard_vue.md)
-          - [ProductsSlider.vue](apps_front-ecommerce_app_components_shared_ProductsSlider_vue.md)
-          - [RecommendationsProductCard.vue](apps_front-ecommerce_app_components_shared_RecommendationsProductCard_vue.md)
-          - [ReviewContent.vue](apps_front-ecommerce_app_components_shared_ReviewContent_vue.md)
-          - [ReviewTitle.vue](apps_front-ecommerce_app_components_shared_ReviewTitle_vue.md)
-          - [Select.vue](apps_front-ecommerce_app_components_shared_Select_vue.md)
-          - [Stars.vue](apps_front-ecommerce_app_components_shared_Stars_vue.md)
-          - [SubscriptionCard.vue](apps_front-ecommerce_app_components_shared_SubscriptionCard_vue.md)
-          - [SubscriptionCardCollapse.vue](apps_front-ecommerce_app_components_shared_SubscriptionCardCollapse_vue.md)
-          - [SubscriptionInfoAddressCard.vue](apps_front-ecommerce_app_components_shared_SubscriptionInfoAddressCard_vue.md)
-          - [TransitionComponent.vue](apps_front-ecommerce_app_components_shared_TransitionComponent_vue.md)
-          - [UPDLoading.vue](apps_front-ecommerce_app_components_shared_UPDLoading_vue.md)
+          - [AddressCard.vue](apps_front-ecommerce_app_components_shared_AddressCard_vue.md) <!-- repo:frontend -->
+          - [AddressForm.vue](apps_front-ecommerce_app_components_shared_AddressForm_vue.md) <!-- repo:frontend -->
+          - [AnimalCard.vue](apps_front-ecommerce_app_components_shared_AnimalCard_vue.md) <!-- repo:frontend -->
+          - [AutoCounting.vue](apps_front-ecommerce_app_components_shared_AutoCounting_vue.md) <!-- repo:frontend -->
+          - [Bancontact.vue](apps_front-ecommerce_app_components_shared_Bancontact_vue.md) <!-- repo:frontend -->
+          - [BiNutritionProductCard.vue](apps_front-ecommerce_app_components_shared_BiNutritionProductCard_vue.md) <!-- repo:frontend -->
+          - [Booxi.vue](apps_front-ecommerce_app_components_shared_Booxi_vue.md) <!-- repo:frontend -->
+          - [CategoryQuickLinks.vue](apps_front-ecommerce_app_components_shared_CategoryQuickLinks_vue.md) <!-- repo:frontend -->
+          - [Entrance.vue](apps_front-ecommerce_app_components_shared_Entrance_vue.md) <!-- repo:frontend -->
+          - [FrequencyModal.vue](apps_front-ecommerce_app_components_shared_FrequencyModal_vue.md) <!-- repo:frontend -->
+          - [IDeal.vue](apps_front-ecommerce_app_components_shared_IDeal_vue.md) <!-- repo:frontend -->
+          - [Logo.vue](apps_front-ecommerce_app_components_shared_Logo_vue.md) <!-- repo:frontend -->
+          - [Markdown.vue](apps_front-ecommerce_app_components_shared_Markdown_vue.md) <!-- repo:frontend -->
+          - [Modal.vue](apps_front-ecommerce_app_components_shared_Modal_vue.md) <!-- repo:frontend -->
+          - [OrderCard.vue](apps_front-ecommerce_app_components_shared_OrderCard_vue.md) <!-- repo:frontend -->
+          - [OrderInfos.vue](apps_front-ecommerce_app_components_shared_OrderInfos_vue.md) <!-- repo:frontend -->
+          - [OrderItemCard.vue](apps_front-ecommerce_app_components_shared_OrderItemCard_vue.md) <!-- repo:frontend -->
+          - [OrderItemUpsell.vue](apps_front-ecommerce_app_components_shared_OrderItemUpsell_vue.md) <!-- repo:frontend -->
+          - [ProductCardSkeleton.vue](apps_front-ecommerce_app_components_shared_ProductCardSkeleton_vue.md) <!-- repo:frontend -->
+          - [ProductCard.vue](apps_front-ecommerce_app_components_shared_ProductCard_vue.md) <!-- repo:frontend -->
+          - [ProductOrderItemCard.vue](apps_front-ecommerce_app_components_shared_ProductOrderItemCard_vue.md) <!-- repo:frontend -->
+          - [ProductsSlider.vue](apps_front-ecommerce_app_components_shared_ProductsSlider_vue.md) <!-- repo:frontend -->
+          - [RecommendationsProductCard.vue](apps_front-ecommerce_app_components_shared_RecommendationsProductCard_vue.md) <!-- repo:frontend -->
+          - [ReviewContent.vue](apps_front-ecommerce_app_components_shared_ReviewContent_vue.md) <!-- repo:frontend -->
+          - [ReviewTitle.vue](apps_front-ecommerce_app_components_shared_ReviewTitle_vue.md) <!-- repo:frontend -->
+          - [Select.vue](apps_front-ecommerce_app_components_shared_Select_vue.md) <!-- repo:frontend -->
+          - [Stars.vue](apps_front-ecommerce_app_components_shared_Stars_vue.md) <!-- repo:frontend -->
+          - [SubscriptionCardCollapse.vue](apps_front-ecommerce_app_components_shared_SubscriptionCardCollapse_vue.md) <!-- repo:frontend -->
+          - [SubscriptionCard.vue](apps_front-ecommerce_app_components_shared_SubscriptionCard_vue.md) <!-- repo:frontend -->
+          - [SubscriptionInfoAddressCard.vue](apps_front-ecommerce_app_components_shared_SubscriptionInfoAddressCard_vue.md) <!-- repo:frontend -->
+          - [TransitionComponent.vue](apps_front-ecommerce_app_components_shared_TransitionComponent_vue.md) <!-- repo:frontend -->
+          - [UPDLoading.vue](apps_front-ecommerce_app_components_shared_UPDLoading_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [AddressCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_AddressCard_stories_ts.md)
-            - [AddressForm.stories.ts](apps_front-ecommerce_app_components_shared_stories_AddressForm_stories_ts.md)
-            - [AnimalCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_AnimalCard_stories_ts.md)
-            - [AutoCounting.stories.ts](apps_front-ecommerce_app_components_shared_stories_AutoCounting_stories_ts.md)
-            - [Bancontact.stories.ts](apps_front-ecommerce_app_components_shared_stories_Bancontact_stories_ts.md)
-            - [BiNutritionProductCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_BiNutritionProductCard_stories_ts.md)
-            - [Booxi.stories.ts](apps_front-ecommerce_app_components_shared_stories_Booxi_stories_ts.md)
-            - [CategoryQuickLinks.stories.ts](apps_front-ecommerce_app_components_shared_stories_CategoryQuickLinks_stories_ts.md)
-            - [Entrance.stories.ts](apps_front-ecommerce_app_components_shared_stories_Entrance_stories_ts.md)
-            - [FrequencyModal.stories.ts](apps_front-ecommerce_app_components_shared_stories_FrequencyModal_stories_ts.md)
-            - [Logo.stories.ts](apps_front-ecommerce_app_components_shared_stories_Logo_stories_ts.md)
-            - [Markdown.stories.ts](apps_front-ecommerce_app_components_shared_stories_Markdown_stories_ts.md)
-            - [Modal.stories.ts](apps_front-ecommerce_app_components_shared_stories_Modal_stories_ts.md)
-            - [OrderCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_OrderCard_stories_ts.md)
-            - [OrderInfos.stories.ts](apps_front-ecommerce_app_components_shared_stories_OrderInfos_stories_ts.md)
-            - [OrderItemCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_OrderItemCard_stories_ts.md)
-            - [ProductCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_ProductCard_stories_ts.md)
-            - [ProductCardSkeleton.stories.ts](apps_front-ecommerce_app_components_shared_stories_ProductCardSkeleton_stories_ts.md)
-            - [ProductOrderItemCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_ProductOrderItemCard_stories_ts.md)
-            - [RecommendationsProductCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_RecommendationsProductCard_stories_ts.md)
-            - [ReviewContent.stories.ts](apps_front-ecommerce_app_components_shared_stories_ReviewContent_stories_ts.md)
-            - [ReviewTitle.stories.ts](apps_front-ecommerce_app_components_shared_stories_ReviewTitle_stories_ts.md)
-            - [Select.stories.ts](apps_front-ecommerce_app_components_shared_stories_Select_stories_ts.md)
-            - [Stars.stories.ts](apps_front-ecommerce_app_components_shared_stories_Stars_stories_ts.md)
-            - [SubscriptionCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_SubscriptionCard_stories_ts.md)
-            - [SubscriptionCardCollapse.stories.ts](apps_front-ecommerce_app_components_shared_stories_SubscriptionCardCollapse_stories_ts.md)
-            - [SubscriptionInfoAddressCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_SubscriptionInfoAddressCard_stories_ts.md)
-            - [TransitionComponent.stories.ts](apps_front-ecommerce_app_components_shared_stories_TransitionComponent_stories_ts.md)
-            - [UPDLoading.stories.ts](apps_front-ecommerce_app_components_shared_stories_UPDLoading_stories_ts.md)
+            - [AddressCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_AddressCard_stories_ts.md) <!-- repo:frontend -->
+            - [AddressForm.stories.ts](apps_front-ecommerce_app_components_shared_stories_AddressForm_stories_ts.md) <!-- repo:frontend -->
+            - [AnimalCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_AnimalCard_stories_ts.md) <!-- repo:frontend -->
+            - [AutoCounting.stories.ts](apps_front-ecommerce_app_components_shared_stories_AutoCounting_stories_ts.md) <!-- repo:frontend -->
+            - [Bancontact.stories.ts](apps_front-ecommerce_app_components_shared_stories_Bancontact_stories_ts.md) <!-- repo:frontend -->
+            - [BiNutritionProductCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_BiNutritionProductCard_stories_ts.md) <!-- repo:frontend -->
+            - [Booxi.stories.ts](apps_front-ecommerce_app_components_shared_stories_Booxi_stories_ts.md) <!-- repo:frontend -->
+            - [CategoryQuickLinks.stories.ts](apps_front-ecommerce_app_components_shared_stories_CategoryQuickLinks_stories_ts.md) <!-- repo:frontend -->
+            - [Entrance.stories.ts](apps_front-ecommerce_app_components_shared_stories_Entrance_stories_ts.md) <!-- repo:frontend -->
+            - [FrequencyModal.stories.ts](apps_front-ecommerce_app_components_shared_stories_FrequencyModal_stories_ts.md) <!-- repo:frontend -->
+            - [Logo.stories.ts](apps_front-ecommerce_app_components_shared_stories_Logo_stories_ts.md) <!-- repo:frontend -->
+            - [Markdown.stories.ts](apps_front-ecommerce_app_components_shared_stories_Markdown_stories_ts.md) <!-- repo:frontend -->
+            - [Modal.stories.ts](apps_front-ecommerce_app_components_shared_stories_Modal_stories_ts.md) <!-- repo:frontend -->
+            - [OrderCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_OrderCard_stories_ts.md) <!-- repo:frontend -->
+            - [OrderInfos.stories.ts](apps_front-ecommerce_app_components_shared_stories_OrderInfos_stories_ts.md) <!-- repo:frontend -->
+            - [OrderItemCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_OrderItemCard_stories_ts.md) <!-- repo:frontend -->
+            - [ProductCardSkeleton.stories.ts](apps_front-ecommerce_app_components_shared_stories_ProductCardSkeleton_stories_ts.md) <!-- repo:frontend -->
+            - [ProductCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_ProductCard_stories_ts.md) <!-- repo:frontend -->
+            - [ProductOrderItemCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_ProductOrderItemCard_stories_ts.md) <!-- repo:frontend -->
+            - [RecommendationsProductCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_RecommendationsProductCard_stories_ts.md) <!-- repo:frontend -->
+            - [ReviewContent.stories.ts](apps_front-ecommerce_app_components_shared_stories_ReviewContent_stories_ts.md) <!-- repo:frontend -->
+            - [ReviewTitle.stories.ts](apps_front-ecommerce_app_components_shared_stories_ReviewTitle_stories_ts.md) <!-- repo:frontend -->
+            - [Select.stories.ts](apps_front-ecommerce_app_components_shared_stories_Select_stories_ts.md) <!-- repo:frontend -->
+            - [Stars.stories.ts](apps_front-ecommerce_app_components_shared_stories_Stars_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionCardCollapse.stories.ts](apps_front-ecommerce_app_components_shared_stories_SubscriptionCardCollapse_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_SubscriptionCard_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionInfoAddressCard.stories.ts](apps_front-ecommerce_app_components_shared_stories_SubscriptionInfoAddressCard_stories_ts.md) <!-- repo:frontend -->
+            - [TransitionComponent.stories.ts](apps_front-ecommerce_app_components_shared_stories_TransitionComponent_stories_ts.md) <!-- repo:frontend -->
+            - [UPDLoading.stories.ts](apps_front-ecommerce_app_components_shared_stories_UPDLoading_stories_ts.md) <!-- repo:frontend -->
         - **subscription**
-          - [SubscriptionOrderPromotions.vue](apps_front-ecommerce_app_components_subscription_SubscriptionOrderPromotions_vue.md)
-          - [SubscriptionOrderUpsell.vue](apps_front-ecommerce_app_components_subscription_SubscriptionOrderUpsell_vue.md)
-          - [SubscriptionProductCard.vue](apps_front-ecommerce_app_components_subscription_SubscriptionProductCard_vue.md)
+          - [SubscriptionOrderPromotions.vue](apps_front-ecommerce_app_components_subscription_SubscriptionOrderPromotions_vue.md) <!-- repo:frontend -->
+          - [SubscriptionOrderUpsell.vue](apps_front-ecommerce_app_components_subscription_SubscriptionOrderUpsell_vue.md) <!-- repo:frontend -->
+          - [SubscriptionProductCard.vue](apps_front-ecommerce_app_components_subscription_SubscriptionProductCard_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [SubscriptionOrderPromotions.stories.ts](apps_front-ecommerce_app_components_subscription_stories_SubscriptionOrderPromotions_stories_ts.md)
-            - [SubscriptionOrderUpsell.stories.ts](apps_front-ecommerce_app_components_subscription_stories_SubscriptionOrderUpsell_stories_ts.md)
-            - [SubscriptionProductCard.stories.ts](apps_front-ecommerce_app_components_subscription_stories_SubscriptionProductCard_stories_ts.md)
+            - [SubscriptionOrderPromotions.stories.ts](apps_front-ecommerce_app_components_subscription_stories_SubscriptionOrderPromotions_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionOrderUpsell.stories.ts](apps_front-ecommerce_app_components_subscription_stories_SubscriptionOrderUpsell_stories_ts.md) <!-- repo:frontend -->
+            - [SubscriptionProductCard.stories.ts](apps_front-ecommerce_app_components_subscription_stories_SubscriptionProductCard_stories_ts.md) <!-- repo:frontend -->
         - **userGuide**
-          - [BiNutritionNoResults.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionNoResults_vue.md)
-          - [BiNutritionStep1.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionStep1_vue.md)
-          - [BiNutritionStep2.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionStep2_vue.md)
-          - [BiNutritionStep3.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionStep3_vue.md)
-          - [FullBiNutritionStep1.vue](apps_front-ecommerce_app_components_userGuide_FullBiNutritionStep1_vue.md)
-          - [FullBiNutritionStep2.vue](apps_front-ecommerce_app_components_userGuide_FullBiNutritionStep2_vue.md)
-          - [UserGuideMenuLayout.vue](apps_front-ecommerce_app_components_userGuide_UserGuideMenuLayout_vue.md)
-          - [UserGuideNoResult.vue](apps_front-ecommerce_app_components_userGuide_UserGuideNoResult_vue.md)
-          - [UserGuideProducts.vue](apps_front-ecommerce_app_components_userGuide_UserGuideProducts_vue.md)
-          - [UserGuideStep1.vue](apps_front-ecommerce_app_components_userGuide_UserGuideStep1_vue.md)
-          - [UserGuideStep2.vue](apps_front-ecommerce_app_components_userGuide_UserGuideStep2_vue.md)
-          - [UserGuideStep3.vue](apps_front-ecommerce_app_components_userGuide_UserGuideStep3_vue.md)
+          - [BiNutritionNoResults.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionNoResults_vue.md) <!-- repo:frontend -->
+          - [BiNutritionStep1.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionStep1_vue.md) <!-- repo:frontend -->
+          - [BiNutritionStep2.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionStep2_vue.md) <!-- repo:frontend -->
+          - [BiNutritionStep3.vue](apps_front-ecommerce_app_components_userGuide_BiNutritionStep3_vue.md) <!-- repo:frontend -->
+          - [FullBiNutritionStep1.vue](apps_front-ecommerce_app_components_userGuide_FullBiNutritionStep1_vue.md) <!-- repo:frontend -->
+          - [FullBiNutritionStep2.vue](apps_front-ecommerce_app_components_userGuide_FullBiNutritionStep2_vue.md) <!-- repo:frontend -->
+          - [UserGuideMenuLayout.vue](apps_front-ecommerce_app_components_userGuide_UserGuideMenuLayout_vue.md) <!-- repo:frontend -->
+          - [UserGuideNoResult.vue](apps_front-ecommerce_app_components_userGuide_UserGuideNoResult_vue.md) <!-- repo:frontend -->
+          - [UserGuideProducts.vue](apps_front-ecommerce_app_components_userGuide_UserGuideProducts_vue.md) <!-- repo:frontend -->
+          - [UserGuideStep1.vue](apps_front-ecommerce_app_components_userGuide_UserGuideStep1_vue.md) <!-- repo:frontend -->
+          - [UserGuideStep2.vue](apps_front-ecommerce_app_components_userGuide_UserGuideStep2_vue.md) <!-- repo:frontend -->
+          - [UserGuideStep3.vue](apps_front-ecommerce_app_components_userGuide_UserGuideStep3_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [BiNutritionNoResults.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_BiNutritionNoResults_stories_ts.md)
-            - [BiNutritionStep1.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_BiNutritionStep1_stories_ts.md)
-            - [FullBiNutritionStep1.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_FullBiNutritionStep1_stories_ts.md)
-            - [UserGuideMenuLayout.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideMenuLayout_stories_ts.md)
-            - [UserGuideNoResult.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideNoResult_stories_ts.md)
-            - [UserGuideProducts.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideProducts_stories_ts.md)
-            - [UserGuideStep1.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideStep1_stories_ts.md)
-            - [UserGuideStep2.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideStep2_stories_ts.md)
-            - [UserGuideStep3.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideStep3_stories_ts.md)
+            - [BiNutritionNoResults.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_BiNutritionNoResults_stories_ts.md) <!-- repo:frontend -->
+            - [BiNutritionStep1.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_BiNutritionStep1_stories_ts.md) <!-- repo:frontend -->
+            - [FullBiNutritionStep1.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_FullBiNutritionStep1_stories_ts.md) <!-- repo:frontend -->
+            - [UserGuideMenuLayout.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideMenuLayout_stories_ts.md) <!-- repo:frontend -->
+            - [UserGuideNoResult.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideNoResult_stories_ts.md) <!-- repo:frontend -->
+            - [UserGuideProducts.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideProducts_stories_ts.md) <!-- repo:frontend -->
+            - [UserGuideStep1.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideStep1_stories_ts.md) <!-- repo:frontend -->
+            - [UserGuideStep2.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideStep2_stories_ts.md) <!-- repo:frontend -->
+            - [UserGuideStep3.stories.ts](apps_front-ecommerce_app_components_userGuide_stories_UserGuideStep3_stories_ts.md) <!-- repo:frontend -->
       - **composables**
         - **PageContexts**
-          - [useCmsCategoryContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsCategoryContext_ts.md)
-          - [useCmsFaqContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsFaqContext_ts.md)
-          - [useCmsHomepageContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsHomepageContext_ts.md)
-          - [useCmsPageContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsPageContext_ts.md)
-          - [useCmsProductContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsProductContext_ts.md)
-          - [useCmsShopContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsShopContext_ts.md)
-          - [useCmsShopsContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsShopsContext_ts.md)
-          - [usePageContext.ts](apps_front-ecommerce_app_composables_PageContexts_usePageContext_ts.md)
+          - [useCmsCategoryContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsCategoryContext_ts.md) <!-- repo:frontend -->
+          - [useCmsFaqContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsFaqContext_ts.md) <!-- repo:frontend -->
+          - [useCmsHomepageContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsHomepageContext_ts.md) <!-- repo:frontend -->
+          - [useCmsPageContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsPageContext_ts.md) <!-- repo:frontend -->
+          - [useCmsProductContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsProductContext_ts.md) <!-- repo:frontend -->
+          - [useCmsShopContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsShopContext_ts.md) <!-- repo:frontend -->
+          - [useCmsShopsContext.ts](apps_front-ecommerce_app_composables_PageContexts_useCmsShopsContext_ts.md) <!-- repo:frontend -->
+          - [usePageContext.ts](apps_front-ecommerce_app_composables_PageContexts_usePageContext_ts.md) <!-- repo:frontend -->
         - **PaymentMethods**
-          - [useCheckoutApplePayPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutApplePayPaymentMethod_ts.md)
-          - [useCheckoutCBPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutCBPaymentMethod_ts.md)
-          - [useCheckoutGooglePayPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutGooglePayPaymentMethod_ts.md)
-          - [useCheckoutRedirectGenericPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutRedirectGenericPaymentMethod_ts.md)
-          - [useOfflinePaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useOfflinePaymentMethod_ts.md)
-          - [usePaypalPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_usePaypalPaymentMethod_ts.md)
-          - [usePayzenPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_usePayzenPaymentMethod_ts.md)
-        - [useAddress.ts](apps_front-ecommerce_app_composables_useAddress_ts.md)
-        - [useBiNutritionResults.ts](apps_front-ecommerce_app_composables_useBiNutritionResults_ts.md)
-        - [useBooxi.ts](apps_front-ecommerce_app_composables_useBooxi_ts.md)
-        - [useCart.ts](apps_front-ecommerce_app_composables_useCart_ts.md)
-        - [useCatalog.ts](apps_front-ecommerce_app_composables_useCatalog_ts.md)
-        - [useCheckout.ts](apps_front-ecommerce_app_composables_useCheckout_ts.md)
-        - [useCms.ts](apps_front-ecommerce_app_composables_useCms_ts.md)
-        - [useCmsError.ts](apps_front-ecommerce_app_composables_useCmsError_ts.md)
-        - [useCompositePage.ts](apps_front-ecommerce_app_composables_useCompositePage_ts.md)
-        - [useCustomerAnimals.ts](apps_front-ecommerce_app_composables_useCustomerAnimals_ts.md)
-        - [useCustomerOrders.ts](apps_front-ecommerce_app_composables_useCustomerOrders_ts.md)
-        - [useCustomerSubscription.ts](apps_front-ecommerce_app_composables_useCustomerSubscription_ts.md)
-        - [useDate.ts](apps_front-ecommerce_app_composables_useDate_ts.md)
-        - [useDialog.ts](apps_front-ecommerce_app_composables_useDialog_ts.md)
-        - [useDynamicPlural.ts](apps_front-ecommerce_app_composables_useDynamicPlural_ts.md)
-        - [useFetchBackend.ts](apps_front-ecommerce_app_composables_useFetchBackend_ts.md)
-        - [useFetchCloudContact.ts](apps_front-ecommerce_app_composables_useFetchCloudContact_ts.md)
-        - [useFetchCms.ts](apps_front-ecommerce_app_composables_useFetchCms_ts.md)
-        - [useFetchError.ts](apps_front-ecommerce_app_composables_useFetchError_ts.md)
-        - [useFetchRecommendation.ts](apps_front-ecommerce_app_composables_useFetchRecommendation_ts.md)
-        - [useGTMGhost.ts](apps_front-ecommerce_app_composables_useGTMGhost_ts.md)
-        - [useGoogleMap.ts](apps_front-ecommerce_app_composables_useGoogleMap_ts.md)
-        - [useGoogleMapGeolocator.ts](apps_front-ecommerce_app_composables_useGoogleMapGeolocator_ts.md)
-        - [useI18nRoutes.ts](apps_front-ecommerce_app_composables_useI18nRoutes_ts.md)
-        - [useIntersectionObserverOnce.ts](apps_front-ecommerce_app_composables_useIntersectionObserverOnce_ts.md)
-        - [useLanguage.ts](apps_front-ecommerce_app_composables_useLanguage_ts.md)
-        - [useLayout.ts](apps_front-ecommerce_app_composables_useLayout_ts.md)
-        - [useListingProduct.ts](apps_front-ecommerce_app_composables_useListingProduct_ts.md)
-        - [useMentionMe.ts](apps_front-ecommerce_app_composables_useMentionMe_ts.md)
-        - [useNuxtPayload.ts](apps_front-ecommerce_app_composables_useNuxtPayload_ts.md)
-        - [useOrder.ts](apps_front-ecommerce_app_composables_useOrder_ts.md)
-        - [useOrderInfos.ts](apps_front-ecommerce_app_composables_useOrderInfos_ts.md)
-        - [useOrderItem.ts](apps_front-ecommerce_app_composables_useOrderItem_ts.md)
-        - [usePet.ts](apps_front-ecommerce_app_composables_usePet_ts.md)
-        - [usePickupPoint.ts](apps_front-ecommerce_app_composables_usePickupPoint_ts.md)
-        - [usePrice.ts](apps_front-ecommerce_app_composables_usePrice_ts.md)
-        - [useProduct.ts](apps_front-ecommerce_app_composables_useProduct_ts.md)
-        - [useRecaptchaHelper.ts](apps_front-ecommerce_app_composables_useRecaptchaHelper_ts.md)
-        - [useRecommendation.ts](apps_front-ecommerce_app_composables_useRecommendation_ts.md)
-        - [useRender.ts](apps_front-ecommerce_app_composables_useRender_ts.md)
-        - [useScrollTo.ts](apps_front-ecommerce_app_composables_useScrollTo_ts.md)
-        - [useServerI18n.ts](apps_front-ecommerce_app_composables_useServerI18n_ts.md)
-        - [useShoppingProduct.ts](apps_front-ecommerce_app_composables_useShoppingProduct_ts.md)
-        - [useSitemap.ts](apps_front-ecommerce_app_composables_useSitemap_ts.md)
-        - [useSmartFormGuide.ts](apps_front-ecommerce_app_composables_useSmartFormGuide_ts.md)
-        - [useStepper.ts](apps_front-ecommerce_app_composables_useStepper_ts.md)
-        - [useSubscription.ts](apps_front-ecommerce_app_composables_useSubscription_ts.md)
-        - [useSubscriptionContent.ts](apps_front-ecommerce_app_composables_useSubscriptionContent_ts.md)
-        - [useSubscriptionOrder.ts](apps_front-ecommerce_app_composables_useSubscriptionOrder_ts.md)
-        - [useUserGuide.ts](apps_front-ecommerce_app_composables_useUserGuide_ts.md)
-        - [useUtilsTracking.ts](apps_front-ecommerce_app_composables_useUtilsTracking_ts.md)
-      - [error.vue](apps_front-ecommerce_app_error_vue.md)
+          - [useCheckoutApplePayPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutApplePayPaymentMethod_ts.md) <!-- repo:frontend -->
+          - [useCheckoutCBPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutCBPaymentMethod_ts.md) <!-- repo:frontend -->
+          - [useCheckoutGooglePayPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutGooglePayPaymentMethod_ts.md) <!-- repo:frontend -->
+          - [useCheckoutRedirectGenericPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useCheckoutRedirectGenericPaymentMethod_ts.md) <!-- repo:frontend -->
+          - [useOfflinePaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_useOfflinePaymentMethod_ts.md) <!-- repo:frontend -->
+          - [usePaypalPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_usePaypalPaymentMethod_ts.md) <!-- repo:frontend -->
+          - [usePayzenPaymentMethod.ts](apps_front-ecommerce_app_composables_PaymentMethods_usePayzenPaymentMethod_ts.md) <!-- repo:frontend -->
+        - [useAddress.ts](apps_front-ecommerce_app_composables_useAddress_ts.md) <!-- repo:frontend -->
+        - [useBiNutritionResults.ts](apps_front-ecommerce_app_composables_useBiNutritionResults_ts.md) <!-- repo:frontend -->
+        - [useBooxi.ts](apps_front-ecommerce_app_composables_useBooxi_ts.md) <!-- repo:frontend -->
+        - [useCart.ts](apps_front-ecommerce_app_composables_useCart_ts.md) <!-- repo:frontend -->
+        - [useCatalog.ts](apps_front-ecommerce_app_composables_useCatalog_ts.md) <!-- repo:frontend -->
+        - [useCheckout.ts](apps_front-ecommerce_app_composables_useCheckout_ts.md) <!-- repo:frontend -->
+        - [useCmsError.ts](apps_front-ecommerce_app_composables_useCmsError_ts.md) <!-- repo:frontend -->
+        - [useCms.ts](apps_front-ecommerce_app_composables_useCms_ts.md) <!-- repo:frontend -->
+        - [useCompositePage.ts](apps_front-ecommerce_app_composables_useCompositePage_ts.md) <!-- repo:frontend -->
+        - [useCustomerAnimals.ts](apps_front-ecommerce_app_composables_useCustomerAnimals_ts.md) <!-- repo:frontend -->
+        - [useCustomerOrders.ts](apps_front-ecommerce_app_composables_useCustomerOrders_ts.md) <!-- repo:frontend -->
+        - [useCustomerSubscription.ts](apps_front-ecommerce_app_composables_useCustomerSubscription_ts.md) <!-- repo:frontend -->
+        - [useDate.ts](apps_front-ecommerce_app_composables_useDate_ts.md) <!-- repo:frontend -->
+        - [useDialog.ts](apps_front-ecommerce_app_composables_useDialog_ts.md) <!-- repo:frontend -->
+        - [useDynamicPlural.ts](apps_front-ecommerce_app_composables_useDynamicPlural_ts.md) <!-- repo:frontend -->
+        - [useFetchBackend.ts](apps_front-ecommerce_app_composables_useFetchBackend_ts.md) <!-- repo:frontend -->
+        - [useFetchCloudContact.ts](apps_front-ecommerce_app_composables_useFetchCloudContact_ts.md) <!-- repo:frontend -->
+        - [useFetchCms.ts](apps_front-ecommerce_app_composables_useFetchCms_ts.md) <!-- repo:frontend -->
+        - [useFetchError.ts](apps_front-ecommerce_app_composables_useFetchError_ts.md) <!-- repo:frontend -->
+        - [useFetchRecommendation.ts](apps_front-ecommerce_app_composables_useFetchRecommendation_ts.md) <!-- repo:frontend -->
+        - [useGTMGhost.ts](apps_front-ecommerce_app_composables_useGTMGhost_ts.md) <!-- repo:frontend -->
+        - [useGoogleMapGeolocator.ts](apps_front-ecommerce_app_composables_useGoogleMapGeolocator_ts.md) <!-- repo:frontend -->
+        - [useGoogleMap.ts](apps_front-ecommerce_app_composables_useGoogleMap_ts.md) <!-- repo:frontend -->
+        - [useI18nRoutes.ts](apps_front-ecommerce_app_composables_useI18nRoutes_ts.md) <!-- repo:frontend -->
+        - [useIntersectionObserverOnce.ts](apps_front-ecommerce_app_composables_useIntersectionObserverOnce_ts.md) <!-- repo:frontend -->
+        - [useLanguage.ts](apps_front-ecommerce_app_composables_useLanguage_ts.md) <!-- repo:frontend -->
+        - [useLayout.ts](apps_front-ecommerce_app_composables_useLayout_ts.md) <!-- repo:frontend -->
+        - [useListingProduct.ts](apps_front-ecommerce_app_composables_useListingProduct_ts.md) <!-- repo:frontend -->
+        - [useMentionMe.ts](apps_front-ecommerce_app_composables_useMentionMe_ts.md) <!-- repo:frontend -->
+        - [useNuxtPayload.ts](apps_front-ecommerce_app_composables_useNuxtPayload_ts.md) <!-- repo:frontend -->
+        - [useOrderInfos.ts](apps_front-ecommerce_app_composables_useOrderInfos_ts.md) <!-- repo:frontend -->
+        - [useOrderItem.ts](apps_front-ecommerce_app_composables_useOrderItem_ts.md) <!-- repo:frontend -->
+        - [useOrder.ts](apps_front-ecommerce_app_composables_useOrder_ts.md) <!-- repo:frontend -->
+        - [usePet.ts](apps_front-ecommerce_app_composables_usePet_ts.md) <!-- repo:frontend -->
+        - [usePickupPoint.ts](apps_front-ecommerce_app_composables_usePickupPoint_ts.md) <!-- repo:frontend -->
+        - [usePrice.ts](apps_front-ecommerce_app_composables_usePrice_ts.md) <!-- repo:frontend -->
+        - [useProduct.ts](apps_front-ecommerce_app_composables_useProduct_ts.md) <!-- repo:frontend -->
+        - [useRecaptchaHelper.ts](apps_front-ecommerce_app_composables_useRecaptchaHelper_ts.md) <!-- repo:frontend -->
+        - [useRecommendation.ts](apps_front-ecommerce_app_composables_useRecommendation_ts.md) <!-- repo:frontend -->
+        - [useRender.ts](apps_front-ecommerce_app_composables_useRender_ts.md) <!-- repo:frontend -->
+        - [useScrollTo.ts](apps_front-ecommerce_app_composables_useScrollTo_ts.md) <!-- repo:frontend -->
+        - [useServerI18n.ts](apps_front-ecommerce_app_composables_useServerI18n_ts.md) <!-- repo:frontend -->
+        - [useShoppingProduct.ts](apps_front-ecommerce_app_composables_useShoppingProduct_ts.md) <!-- repo:frontend -->
+        - [useSitemap.ts](apps_front-ecommerce_app_composables_useSitemap_ts.md) <!-- repo:frontend -->
+        - [useSmartFormGuide.ts](apps_front-ecommerce_app_composables_useSmartFormGuide_ts.md) <!-- repo:frontend -->
+        - [useStepper.ts](apps_front-ecommerce_app_composables_useStepper_ts.md) <!-- repo:frontend -->
+        - [useSubscriptionContent.ts](apps_front-ecommerce_app_composables_useSubscriptionContent_ts.md) <!-- repo:frontend -->
+        - [useSubscriptionOrder.ts](apps_front-ecommerce_app_composables_useSubscriptionOrder_ts.md) <!-- repo:frontend -->
+        - [useSubscription.ts](apps_front-ecommerce_app_composables_useSubscription_ts.md) <!-- repo:frontend -->
+        - [useUserGuide.ts](apps_front-ecommerce_app_composables_useUserGuide_ts.md) <!-- repo:frontend -->
+        - [useUtilsTracking.ts](apps_front-ecommerce_app_composables_useUtilsTracking_ts.md) <!-- repo:frontend -->
       - **layouts**
-        - [default.vue](apps_front-ecommerce_app_layouts_default_vue.md)
-        - [user-guide.vue](apps_front-ecommerce_app_layouts_user-guide_vue.md)
+        - [default.vue](apps_front-ecommerce_app_layouts_default_vue.md) <!-- repo:frontend -->
+        - [user-guide.vue](apps_front-ecommerce_app_layouts_user-guide_vue.md) <!-- repo:frontend -->
       - **middleware**
-        - [animalsFeatureGuard.ts](apps_front-ecommerce_app_middleware_animalsFeatureGuard_ts.md)
-        - [anonymousGetHomepage.ts](apps_front-ecommerce_app_middleware_anonymousGetHomepage_ts.md)
-        - [customerGetReturnUser.ts](apps_front-ecommerce_app_middleware_customerGetReturnUser_ts.md)
-        - [guideBiNutritionEntranceFeatureGuard.ts](apps_front-ecommerce_app_middleware_guideBiNutritionEntranceFeatureGuard_ts.md)
-        - [guideBiNutritionNoAnimalFeatureGuard.ts](apps_front-ecommerce_app_middleware_guideBiNutritionNoAnimalFeatureGuard_ts.md)
-        - [guideEntranceFeatureGuard.ts](apps_front-ecommerce_app_middleware_guideEntranceFeatureGuard_ts.md)
-        - [isAnonymous.ts](apps_front-ecommerce_app_middleware_isAnonymous_ts.md)
-        - [isAuthenticated.ts](apps_front-ecommerce_app_middleware_isAuthenticated_ts.md)
-        - [isWebViewAllowed.ts](apps_front-ecommerce_app_middleware_isWebViewAllowed_ts.md)
-        - [maintenance.global.ts](apps_front-ecommerce_app_middleware_maintenance_global_ts.md)
-        - [mentionMeFeatureGuard.ts](apps_front-ecommerce_app_middleware_mentionMeFeatureGuard_ts.md)
-        - [noAnimalToCreateOne.ts](apps_front-ecommerce_app_middleware_noAnimalToCreateOne_ts.md)
-        - [orderRedirectFeature.ts](apps_front-ecommerce_app_middleware_orderRedirectFeature_ts.md)
-        - [productSkuRedirect.ts](apps_front-ecommerce_app_middleware_productSkuRedirect_ts.md)
-        - [subscriptionRedirectFeature.ts](apps_front-ecommerce_app_middleware_subscriptionRedirectFeature_ts.md)
+        - [animalsFeatureGuard.ts](apps_front-ecommerce_app_middleware_animalsFeatureGuard_ts.md) <!-- repo:frontend -->
+        - [anonymousGetHomepage.ts](apps_front-ecommerce_app_middleware_anonymousGetHomepage_ts.md) <!-- repo:frontend -->
+        - [customerGetReturnUser.ts](apps_front-ecommerce_app_middleware_customerGetReturnUser_ts.md) <!-- repo:frontend -->
+        - [guideBiNutritionEntranceFeatureGuard.ts](apps_front-ecommerce_app_middleware_guideBiNutritionEntranceFeatureGuard_ts.md) <!-- repo:frontend -->
+        - [guideBiNutritionNoAnimalFeatureGuard.ts](apps_front-ecommerce_app_middleware_guideBiNutritionNoAnimalFeatureGuard_ts.md) <!-- repo:frontend -->
+        - [guideEntranceFeatureGuard.ts](apps_front-ecommerce_app_middleware_guideEntranceFeatureGuard_ts.md) <!-- repo:frontend -->
+        - [isAnonymous.ts](apps_front-ecommerce_app_middleware_isAnonymous_ts.md) <!-- repo:frontend -->
+        - [isAuthenticated.ts](apps_front-ecommerce_app_middleware_isAuthenticated_ts.md) <!-- repo:frontend -->
+        - [isWebViewAllowed.ts](apps_front-ecommerce_app_middleware_isWebViewAllowed_ts.md) <!-- repo:frontend -->
+        - [maintenance.global.ts](apps_front-ecommerce_app_middleware_maintenance_global_ts.md) <!-- repo:frontend -->
+        - [mentionMeFeatureGuard.ts](apps_front-ecommerce_app_middleware_mentionMeFeatureGuard_ts.md) <!-- repo:frontend -->
+        - [noAnimalToCreateOne.ts](apps_front-ecommerce_app_middleware_noAnimalToCreateOne_ts.md) <!-- repo:frontend -->
+        - [orderRedirectFeature.ts](apps_front-ecommerce_app_middleware_orderRedirectFeature_ts.md) <!-- repo:frontend -->
+        - [productSkuRedirect.ts](apps_front-ecommerce_app_middleware_productSkuRedirect_ts.md) <!-- repo:frontend -->
+        - [subscriptionRedirectFeature.ts](apps_front-ecommerce_app_middleware_subscriptionRedirectFeature_ts.md) <!-- repo:frontend -->
       - **pages**
-        - [[[faqQuery]].vue](apps_front-ecommerce_app_pages_[[faqQuery]]_vue.md)
-        - [[landing].vue](apps_front-ecommerce_app_pages_[landing]_vue.md)
-        - [[page].vue](apps_front-ecommerce_app_pages_[page]_vue.md)
         - **account**
-          - [[forgotPassword].vue](apps_front-ecommerce_app_pages_account_[forgotPassword]_vue.md)
-          - [addresses.vue](apps_front-ecommerce_app_pages_account_addresses_vue.md)
           - **animals**
             - **[animal]**
-              - [edit.vue](apps_front-ecommerce_app_pages_account_animals_[animal]_edit_vue.md)
-              - [view.vue](apps_front-ecommerce_app_pages_account_animals_[animal]_view_vue.md)
-            - [index.vue](apps_front-ecommerce_app_pages_account_animals_index_vue.md)
-            - [new.vue](apps_front-ecommerce_app_pages_account_animals_new_vue.md)
-          - [index.vue](apps_front-ecommerce_app_pages_account_index_vue.md)
-          - [login.vue](apps_front-ecommerce_app_pages_account_login_vue.md)
-          - [menu.vue](apps_front-ecommerce_app_pages_account_menu_vue.md)
-          - [mySponsorships.vue](apps_front-ecommerce_app_pages_account_mySponsorships_vue.md)
+              - [edit.vue](apps_front-ecommerce_app_pages_account_animals_[animal]_edit_vue.md) <!-- repo:frontend -->
+              - [view.vue](apps_front-ecommerce_app_pages_account_animals_[animal]_view_vue.md) <!-- repo:frontend -->
+            - [index.vue](apps_front-ecommerce_app_pages_account_animals_index_vue.md) <!-- repo:frontend -->
+            - [new.vue](apps_front-ecommerce_app_pages_account_animals_new_vue.md) <!-- repo:frontend -->
+          - [[forgotPassword].vue](apps_front-ecommerce_app_pages_account_[forgotPassword]_vue.md) <!-- repo:frontend -->
+          - [addresses.vue](apps_front-ecommerce_app_pages_account_addresses_vue.md) <!-- repo:frontend -->
+          - [index.vue](apps_front-ecommerce_app_pages_account_index_vue.md) <!-- repo:frontend -->
+          - [login.vue](apps_front-ecommerce_app_pages_account_login_vue.md) <!-- repo:frontend -->
+          - [menu.vue](apps_front-ecommerce_app_pages_account_menu_vue.md) <!-- repo:frontend -->
+          - [mySponsorships.vue](apps_front-ecommerce_app_pages_account_mySponsorships_vue.md) <!-- repo:frontend -->
+          - [personalData.vue](apps_front-ecommerce_app_pages_account_personalData_vue.md) <!-- repo:frontend -->
           - **orders**
-            - [[order].vue](apps_front-ecommerce_app_pages_account_orders_[order]_vue.md)
-            - [index.vue](apps_front-ecommerce_app_pages_account_orders_index_vue.md)
-          - [personalData.vue](apps_front-ecommerce_app_pages_account_personalData_vue.md)
+            - [[order].vue](apps_front-ecommerce_app_pages_account_orders_[order]_vue.md) <!-- repo:frontend -->
+            - [index.vue](apps_front-ecommerce_app_pages_account_orders_index_vue.md) <!-- repo:frontend -->
           - **subscriptions**
-            - [[subscription].vue](apps_front-ecommerce_app_pages_account_subscriptions_[subscription]_vue.md)
+            - [[subscription].vue](apps_front-ecommerce_app_pages_account_subscriptions_[subscription]_vue.md) <!-- repo:frontend -->
+            - [index.vue](apps_front-ecommerce_app_pages_account_subscriptions_index_vue.md) <!-- repo:frontend -->
             - **history-[subscription]**
-              - [[order].vue](apps_front-ecommerce_app_pages_account_subscriptions_history-[subscription]_[order]_vue.md)
-              - [index.vue](apps_front-ecommerce_app_pages_account_subscriptions_history-[subscription]_index_vue.md)
-            - [index.vue](apps_front-ecommerce_app_pages_account_subscriptions_index_vue.md)
+              - [[order].vue](apps_front-ecommerce_app_pages_account_subscriptions_history-[subscription]_[order]_vue.md) <!-- repo:frontend -->
+              - [index.vue](apps_front-ecommerce_app_pages_account_subscriptions_history-[subscription]_index_vue.md) <!-- repo:frontend -->
+        - [[[faqQuery]].vue](apps_front-ecommerce_app_pages_[[faqQuery]]_vue.md) <!-- repo:frontend -->
+        - [[landing].vue](apps_front-ecommerce_app_pages_[landing]_vue.md) <!-- repo:frontend -->
+        - [[page].vue](apps_front-ecommerce_app_pages_[page]_vue.md) <!-- repo:frontend -->
+        - [contact.vue](apps_front-ecommerce_app_pages_contact_vue.md) <!-- repo:frontend -->
+        - [index.vue](apps_front-ecommerce_app_pages_index_vue.md) <!-- repo:frontend -->
+        - [maintenance.vue](apps_front-ecommerce_app_pages_maintenance_vue.md) <!-- repo:frontend -->
+        - [search.vue](apps_front-ecommerce_app_pages_search_vue.md) <!-- repo:frontend -->
         - **catalog**
-          - [[category].vue](apps_front-ecommerce_app_pages_catalog_[category]_vue.md)
-          - [[product].vue](apps_front-ecommerce_app_pages_catalog_[product]_vue.md)
-          - [[sample].vue](apps_front-ecommerce_app_pages_catalog_[sample]_vue.md)
+          - [[category].vue](apps_front-ecommerce_app_pages_catalog_[category]_vue.md) <!-- repo:frontend -->
+          - [[product].vue](apps_front-ecommerce_app_pages_catalog_[product]_vue.md) <!-- repo:frontend -->
+          - [[sample].vue](apps_front-ecommerce_app_pages_catalog_[sample]_vue.md) <!-- repo:frontend -->
         - **checkout**
           - **[order]**
-            - [confirmation.vue](apps_front-ecommerce_app_pages_checkout_[order]_confirmation_vue.md)
-            - [funnel.vue](apps_front-ecommerce_app_pages_checkout_[order]_funnel_vue.md)
-          - [cart.vue](apps_front-ecommerce_app_pages_checkout_cart_vue.md)
-        - [contact.vue](apps_front-ecommerce_app_pages_contact_vue.md)
-        - [index.vue](apps_front-ecommerce_app_pages_index_vue.md)
-        - [maintenance.vue](apps_front-ecommerce_app_pages_maintenance_vue.md)
-        - [search.vue](apps_front-ecommerce_app_pages_search_vue.md)
+            - [confirmation.vue](apps_front-ecommerce_app_pages_checkout_[order]_confirmation_vue.md) <!-- repo:frontend -->
+            - [funnel.vue](apps_front-ecommerce_app_pages_checkout_[order]_funnel_vue.md) <!-- repo:frontend -->
+          - [cart.vue](apps_front-ecommerce_app_pages_checkout_cart_vue.md) <!-- repo:frontend -->
         - **shop**
-          - [[shop].vue](apps_front-ecommerce_app_pages_shop_[shop]_vue.md)
-          - [index.vue](apps_front-ecommerce_app_pages_shop_index_vue.md)
+          - [[shop].vue](apps_front-ecommerce_app_pages_shop_[shop]_vue.md) <!-- repo:frontend -->
+          - [index.vue](apps_front-ecommerce_app_pages_shop_index_vue.md) <!-- repo:frontend -->
         - **userGuide**
-          - [guide-[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-[animal]_vue.md)
+          - [guide-[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-[animal]_vue.md) <!-- repo:frontend -->
+          - [index.vue](apps_front-ecommerce_app_pages_userGuide_index_vue.md) <!-- repo:frontend -->
+          - [result-[animal].vue](apps_front-ecommerce_app_pages_userGuide_result-[animal]_vue.md) <!-- repo:frontend -->
           - **guide-nutrition-full**
-            - [[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-full_[animal]_vue.md)
-            - [index.vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-full_index_vue.md)
-            - [result-[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-full_result-[animal]_vue.md)
+            - [[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-full_[animal]_vue.md) <!-- repo:frontend -->
+            - [index.vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-full_index_vue.md) <!-- repo:frontend -->
+            - [result-[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-full_result-[animal]_vue.md) <!-- repo:frontend -->
           - **guide-nutrition-short**
-            - [[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-short_[animal]_vue.md)
-            - [index.vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-short_index_vue.md)
-            - [result-[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-short_result-[animal]_vue.md)
-          - [index.vue](apps_front-ecommerce_app_pages_userGuide_index_vue.md)
-          - [result-[animal].vue](apps_front-ecommerce_app_pages_userGuide_result-[animal]_vue.md)
+            - [[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-short_[animal]_vue.md) <!-- repo:frontend -->
+            - [index.vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-short_index_vue.md) <!-- repo:frontend -->
+            - [result-[animal].vue](apps_front-ecommerce_app_pages_userGuide_guide-nutrition-short_result-[animal]_vue.md) <!-- repo:frontend -->
         - **webView**
-          - [[subscription]-PaymentChange.vue](apps_front-ecommerce_app_pages_webView_[subscription]-PaymentChange_vue.md)
-          - [demo.vue](apps_front-ecommerce_app_pages_webView_demo_vue.md)
+          - [[subscription]-PaymentChange.vue](apps_front-ecommerce_app_pages_webView_[subscription]-PaymentChange_vue.md) <!-- repo:frontend -->
+          - [demo.vue](apps_front-ecommerce_app_pages_webView_demo_vue.md) <!-- repo:frontend -->
       - **stores**
-        - [cart.ts](apps_front-ecommerce_app_stores_cart_ts.md)
-        - [customer.ts](apps_front-ecommerce_app_stores_customer_ts.md)
-    - [commitlint.config.js](apps_front-ecommerce_commitlint_config_js.md)
+        - [cart.ts](apps_front-ecommerce_app_stores_cart_ts.md) <!-- repo:frontend -->
+        - [customer.ts](apps_front-ecommerce_app_stores_customer_ts.md) <!-- repo:frontend -->
+    - [README.md](apps_front-ecommerce_README_md.md) <!-- repo:frontend -->
+    - [.stylelintrc.json](apps_front-ecommerce__stylelintrc_json.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](apps_front-ecommerce__yarnrc_yml.md) <!-- repo:frontend -->
+    - [commitlint.config.js](apps_front-ecommerce_commitlint_config_js.md) <!-- repo:frontend -->
+    - [index.d.ts](apps_front-ecommerce_index_d_ts.md) <!-- repo:frontend -->
+    - [nuxt.config.ts](apps_front-ecommerce_nuxt_config_ts.md) <!-- repo:frontend -->
+    - [package.json](apps_front-ecommerce_package_json.md) <!-- repo:frontend -->
+    - [project.json](apps_front-ecommerce_project_json.md) <!-- repo:frontend -->
+    - [shims-vue.d.ts](apps_front-ecommerce_shims-vue_d_ts.md) <!-- repo:frontend -->
+    - [svgo.config.js](apps_front-ecommerce_svgo_config_js.md) <!-- repo:frontend -->
+    - [tsconfig.json](apps_front-ecommerce_tsconfig_json.md) <!-- repo:frontend -->
+    - [vitest.config.ts](apps_front-ecommerce_vitest_config_ts.md) <!-- repo:frontend -->
     - **i18n**
-      - [i18n.config.ts](apps_front-ecommerce_i18n_i18n_config_ts.md)
+      - [i18n.config.ts](apps_front-ecommerce_i18n_i18n_config_ts.md) <!-- repo:frontend -->
       - **locales**
-        - [fr-BE.json](apps_front-ecommerce_i18n_locales_fr-BE_json.md)
-        - [fr-FR.json](apps_front-ecommerce_i18n_locales_fr-FR_json.md)
-        - [fr.json](apps_front-ecommerce_i18n_locales_fr_json.md)
-        - [nl-BE.json](apps_front-ecommerce_i18n_locales_nl-BE_json.md)
-        - [nl-NL.json](apps_front-ecommerce_i18n_locales_nl-NL_json.md)
-        - [nl.json](apps_front-ecommerce_i18n_locales_nl_json.md)
-    - [index.d.ts](apps_front-ecommerce_index_d_ts.md)
-    - [nuxt.config.ts](apps_front-ecommerce_nuxt_config_ts.md)
-    - [package.json](apps_front-ecommerce_package_json.md)
-    - [project.json](apps_front-ecommerce_project_json.md)
+        - [fr-BE.json](apps_front-ecommerce_i18n_locales_fr-BE_json.md) <!-- repo:frontend -->
+        - [fr-FR.json](apps_front-ecommerce_i18n_locales_fr-FR_json.md) <!-- repo:frontend -->
+        - [fr.json](apps_front-ecommerce_i18n_locales_fr_json.md) <!-- repo:frontend -->
+        - [nl-BE.json](apps_front-ecommerce_i18n_locales_nl-BE_json.md) <!-- repo:frontend -->
+        - [nl-NL.json](apps_front-ecommerce_i18n_locales_nl-NL_json.md) <!-- repo:frontend -->
+        - [nl.json](apps_front-ecommerce_i18n_locales_nl_json.md) <!-- repo:frontend -->
     - **public**
       - **.well-known**
-        - [assetlinks.json](apps_front-ecommerce_public__well-known_assetlinks_json.md)
+        - [assetlinks.json](apps_front-ecommerce_public__well-known_assetlinks_json.md) <!-- repo:frontend -->
     - **server**
+      - [tsconfig.json](apps_front-ecommerce_server_tsconfig_json.md) <!-- repo:frontend -->
       - **routes**
-        - [health.ts](apps_front-ecommerce_server_routes_health_ts.md)
-        - [manifest.json.ts](apps_front-ecommerce_server_routes_manifest_json_ts.md)
-        - [robots.txt.ts](apps_front-ecommerce_server_routes_robots_txt_ts.md)
-        - [sitemap.xml.ts](apps_front-ecommerce_server_routes_sitemap_xml_ts.md)
+        - [health.ts](apps_front-ecommerce_server_routes_health_ts.md) <!-- repo:frontend -->
+        - [manifest.json.ts](apps_front-ecommerce_server_routes_manifest_json_ts.md) <!-- repo:frontend -->
+        - [robots.txt.ts](apps_front-ecommerce_server_routes_robots_txt_ts.md) <!-- repo:frontend -->
+        - [sitemap.xml.ts](apps_front-ecommerce_server_routes_sitemap_xml_ts.md) <!-- repo:frontend -->
         - **sitemaps**
-          - [[sitemap].xml.ts](apps_front-ecommerce_server_routes_sitemaps_[sitemap]_xml_ts.md)
           - **[sitemapindexlocalized]**
-            - [[sitemap].xml.ts](apps_front-ecommerce_server_routes_sitemaps_[sitemapindexlocalized]_[sitemap]_xml_ts.md)
-      - [tsconfig.json](apps_front-ecommerce_server_tsconfig_json.md)
-    - [shims-vue.d.ts](apps_front-ecommerce_shims-vue_d_ts.md)
+            - [[sitemap].xml.ts](apps_front-ecommerce_server_routes_sitemaps_[sitemapindexlocalized]_[sitemap]_xml_ts.md) <!-- repo:frontend -->
+          - [[sitemap].xml.ts](apps_front-ecommerce_server_routes_sitemaps_[sitemap]_xml_ts.md) <!-- repo:frontend -->
     - **static**
-      - [animalTypes.ts](apps_front-ecommerce_static_animalTypes_ts.md)
-      - [bodyAttributes.ts](apps_front-ecommerce_static_bodyAttributes_ts.md)
-      - [checkoutSteps.ts](apps_front-ecommerce_static_checkoutSteps_ts.md)
-      - [contactFormSupportedFiles.ts](apps_front-ecommerce_static_contactFormSupportedFiles_ts.md)
-      - [metadata.custom.json](apps_front-ecommerce_static_metadata_custom_json.md)
-      - [orderStates.ts](apps_front-ecommerce_static_orderStates_ts.md)
+      - [animalTypes.ts](apps_front-ecommerce_static_animalTypes_ts.md) <!-- repo:frontend -->
+      - [bodyAttributes.ts](apps_front-ecommerce_static_bodyAttributes_ts.md) <!-- repo:frontend -->
+      - [checkoutSteps.ts](apps_front-ecommerce_static_checkoutSteps_ts.md) <!-- repo:frontend -->
+      - [contactFormSupportedFiles.ts](apps_front-ecommerce_static_contactFormSupportedFiles_ts.md) <!-- repo:frontend -->
+      - [metadata.custom.json](apps_front-ecommerce_static_metadata_custom_json.md) <!-- repo:frontend -->
+      - [orderStates.ts](apps_front-ecommerce_static_orderStates_ts.md) <!-- repo:frontend -->
+      - [paymentMethods.ts](apps_front-ecommerce_static_paymentMethods_ts.md) <!-- repo:frontend -->
+      - [productPageStates.ts](apps_front-ecommerce_static_productPageStates_ts.md) <!-- repo:frontend -->
+      - [searchIndexes.ts](apps_front-ecommerce_static_searchIndexes_ts.md) <!-- repo:frontend -->
+      - [shipmentStates.ts](apps_front-ecommerce_static_shipmentStates_ts.md) <!-- repo:frontend -->
+      - [subscriptionOrderState.ts](apps_front-ecommerce_static_subscriptionOrderState_ts.md) <!-- repo:frontend -->
+      - [subscriptionStates.ts](apps_front-ecommerce_static_subscriptionStates_ts.md) <!-- repo:frontend -->
+      - [userGuideMenuLayout.ts](apps_front-ecommerce_static_userGuideMenuLayout_ts.md) <!-- repo:frontend -->
       - **pages-content**
-        - [subscriptionContent.ts](apps_front-ecommerce_static_pages-content_subscriptionContent_ts.md)
-      - [paymentMethods.ts](apps_front-ecommerce_static_paymentMethods_ts.md)
-      - [productPageStates.ts](apps_front-ecommerce_static_productPageStates_ts.md)
-      - [searchIndexes.ts](apps_front-ecommerce_static_searchIndexes_ts.md)
-      - [shipmentStates.ts](apps_front-ecommerce_static_shipmentStates_ts.md)
-      - [subscriptionOrderState.ts](apps_front-ecommerce_static_subscriptionOrderState_ts.md)
-      - [subscriptionStates.ts](apps_front-ecommerce_static_subscriptionStates_ts.md)
-      - [userGuideMenuLayout.ts](apps_front-ecommerce_static_userGuideMenuLayout_ts.md)
-    - [svgo.config.js](apps_front-ecommerce_svgo_config_js.md)
+        - [subscriptionContent.ts](apps_front-ecommerce_static_pages-content_subscriptionContent_ts.md) <!-- repo:frontend -->
     - **template**
-      - [upd-spa-loading-template.html](apps_front-ecommerce_template_upd-spa-loading-template_html.md)
+      - [upd-spa-loading-template.html](apps_front-ecommerce_template_upd-spa-loading-template_html.md) <!-- repo:frontend -->
     - **test**
+      - [useTest.ts](apps_front-ecommerce_test_useTest_ts.md) <!-- repo:frontend -->
       - **mocks**
-        - [accountCardsMock.ts](apps_front-ecommerce_test_mocks_accountCardsMock_ts.md)
-        - [accountLinksMock.ts](apps_front-ecommerce_test_mocks_accountLinksMock_ts.md)
-        - [addressesMock.ts](apps_front-ecommerce_test_mocks_addressesMock_ts.md)
-        - [animalConditionsMock.ts](apps_front-ecommerce_test_mocks_animalConditionsMock_ts.md)
-        - [animals.ts](apps_front-ecommerce_test_mocks_animals_ts.md)
-        - [calendlyMock.ts](apps_front-ecommerce_test_mocks_calendlyMock_ts.md)
-        - [carouselAnimalMock.ts](apps_front-ecommerce_test_mocks_carouselAnimalMock_ts.md)
-        - [carouselItemsMock.ts](apps_front-ecommerce_test_mocks_carouselItemsMock_ts.md)
-        - [categoryGrid.ts](apps_front-ecommerce_test_mocks_categoryGrid_ts.md)
-        - [crossSellMock.ts](apps_front-ecommerce_test_mocks_crossSellMock_ts.md)
-        - [draftOrderMock.ts](apps_front-ecommerce_test_mocks_draftOrderMock_ts.md)
-        - [editoMock.ts](apps_front-ecommerce_test_mocks_editoMock_ts.md)
-        - [emptyCart.ts](apps_front-ecommerce_test_mocks_emptyCart_ts.md)
-        - [faqExcerptMock.ts](apps_front-ecommerce_test_mocks_faqExcerptMock_ts.md)
-        - [faqQuestionsMock.ts](apps_front-ecommerce_test_mocks_faqQuestionsMock_ts.md)
-        - [feedInstagramMock.ts](apps_front-ecommerce_test_mocks_feedInstagramMock_ts.md)
-        - [fieldsMock.ts](apps_front-ecommerce_test_mocks_fieldsMock_ts.md)
-        - [filtersProductCategoryMock.ts](apps_front-ecommerce_test_mocks_filtersProductCategoryMock_ts.md)
-        - [frequenciesMock.ts](apps_front-ecommerce_test_mocks_frequenciesMock_ts.md)
-        - [glossaryMock.ts](apps_front-ecommerce_test_mocks_glossaryMock_ts.md)
-        - [guideEntranceMock.ts](apps_front-ecommerce_test_mocks_guideEntranceMock_ts.md)
-        - [guideFormMock.ts](apps_front-ecommerce_test_mocks_guideFormMock_ts.md)
-        - [heroSliderMock.ts](apps_front-ecommerce_test_mocks_heroSliderMock_ts.md)
-        - [itemBlogGridMock.ts](apps_front-ecommerce_test_mocks_itemBlogGridMock_ts.md)
-        - [linksSubscriptionMock.ts](apps_front-ecommerce_test_mocks_linksSubscriptionMock_ts.md)
-        - [listingProductCategoryMock.ts](apps_front-ecommerce_test_mocks_listingProductCategoryMock_ts.md)
-        - [mainProductMock.ts](apps_front-ecommerce_test_mocks_mainProductMock_ts.md)
-        - [megaMenuMock.ts](apps_front-ecommerce_test_mocks_megaMenuMock_ts.md)
-        - [mentionMeMock.ts](apps_front-ecommerce_test_mocks_mentionMeMock_ts.md)
-        - [mondialRelayMock.ts](apps_front-ecommerce_test_mocks_mondialRelayMock_ts.md)
-        - [orderListingSubscriptionMock.ts](apps_front-ecommerce_test_mocks_orderListingSubscriptionMock_ts.md)
-        - [ordersMock.ts](apps_front-ecommerce_test_mocks_ordersMock_ts.md)
-        - [productMock.ts](apps_front-ecommerce_test_mocks_productMock_ts.md)
-        - [productsListCatMock.ts](apps_front-ecommerce_test_mocks_productsListCatMock_ts.md)
-        - [productsListDogMock.ts](apps_front-ecommerce_test_mocks_productsListDogMock_ts.md)
-        - [recommendationsMock.ts](apps_front-ecommerce_test_mocks_recommendationsMock_ts.md)
-        - [reviewLargeMock.ts](apps_front-ecommerce_test_mocks_reviewLargeMock_ts.md)
-        - [reviewsProduct.ts](apps_front-ecommerce_test_mocks_reviewsProduct_ts.md)
-        - [shoppingProduct.ts](apps_front-ecommerce_test_mocks_shoppingProduct_ts.md)
-        - [strapiProduct.ts](apps_front-ecommerce_test_mocks_strapiProduct_ts.md)
-        - [subscriptionMock.ts](apps_front-ecommerce_test_mocks_subscriptionMock_ts.md)
-        - [syliusProduct.ts](apps_front-ecommerce_test_mocks_syliusProduct_ts.md)
-        - [uspsMock.ts](apps_front-ecommerce_test_mocks_uspsMock_ts.md)
-      - [useTest.ts](apps_front-ecommerce_test_useTest_ts.md)
-    - [tsconfig.json](apps_front-ecommerce_tsconfig_json.md)
+        - [accountCardsMock.ts](apps_front-ecommerce_test_mocks_accountCardsMock_ts.md) <!-- repo:frontend -->
+        - [accountLinksMock.ts](apps_front-ecommerce_test_mocks_accountLinksMock_ts.md) <!-- repo:frontend -->
+        - [addressesMock.ts](apps_front-ecommerce_test_mocks_addressesMock_ts.md) <!-- repo:frontend -->
+        - [animalConditionsMock.ts](apps_front-ecommerce_test_mocks_animalConditionsMock_ts.md) <!-- repo:frontend -->
+        - [animals.ts](apps_front-ecommerce_test_mocks_animals_ts.md) <!-- repo:frontend -->
+        - [calendlyMock.ts](apps_front-ecommerce_test_mocks_calendlyMock_ts.md) <!-- repo:frontend -->
+        - [carouselAnimalMock.ts](apps_front-ecommerce_test_mocks_carouselAnimalMock_ts.md) <!-- repo:frontend -->
+        - [carouselItemsMock.ts](apps_front-ecommerce_test_mocks_carouselItemsMock_ts.md) <!-- repo:frontend -->
+        - [categoryGrid.ts](apps_front-ecommerce_test_mocks_categoryGrid_ts.md) <!-- repo:frontend -->
+        - [crossSellMock.ts](apps_front-ecommerce_test_mocks_crossSellMock_ts.md) <!-- repo:frontend -->
+        - [draftOrderMock.ts](apps_front-ecommerce_test_mocks_draftOrderMock_ts.md) <!-- repo:frontend -->
+        - [editoMock.ts](apps_front-ecommerce_test_mocks_editoMock_ts.md) <!-- repo:frontend -->
+        - [emptyCart.ts](apps_front-ecommerce_test_mocks_emptyCart_ts.md) <!-- repo:frontend -->
+        - [faqExcerptMock.ts](apps_front-ecommerce_test_mocks_faqExcerptMock_ts.md) <!-- repo:frontend -->
+        - [faqQuestionsMock.ts](apps_front-ecommerce_test_mocks_faqQuestionsMock_ts.md) <!-- repo:frontend -->
+        - [feedInstagramMock.ts](apps_front-ecommerce_test_mocks_feedInstagramMock_ts.md) <!-- repo:frontend -->
+        - [fieldsMock.ts](apps_front-ecommerce_test_mocks_fieldsMock_ts.md) <!-- repo:frontend -->
+        - [filtersProductCategoryMock.ts](apps_front-ecommerce_test_mocks_filtersProductCategoryMock_ts.md) <!-- repo:frontend -->
+        - [frequenciesMock.ts](apps_front-ecommerce_test_mocks_frequenciesMock_ts.md) <!-- repo:frontend -->
+        - [glossaryMock.ts](apps_front-ecommerce_test_mocks_glossaryMock_ts.md) <!-- repo:frontend -->
+        - [guideEntranceMock.ts](apps_front-ecommerce_test_mocks_guideEntranceMock_ts.md) <!-- repo:frontend -->
+        - [guideFormMock.ts](apps_front-ecommerce_test_mocks_guideFormMock_ts.md) <!-- repo:frontend -->
+        - [heroSliderMock.ts](apps_front-ecommerce_test_mocks_heroSliderMock_ts.md) <!-- repo:frontend -->
+        - [itemBlogGridMock.ts](apps_front-ecommerce_test_mocks_itemBlogGridMock_ts.md) <!-- repo:frontend -->
+        - [linksSubscriptionMock.ts](apps_front-ecommerce_test_mocks_linksSubscriptionMock_ts.md) <!-- repo:frontend -->
+        - [listingProductCategoryMock.ts](apps_front-ecommerce_test_mocks_listingProductCategoryMock_ts.md) <!-- repo:frontend -->
+        - [mainProductMock.ts](apps_front-ecommerce_test_mocks_mainProductMock_ts.md) <!-- repo:frontend -->
+        - [megaMenuMock.ts](apps_front-ecommerce_test_mocks_megaMenuMock_ts.md) <!-- repo:frontend -->
+        - [mentionMeMock.ts](apps_front-ecommerce_test_mocks_mentionMeMock_ts.md) <!-- repo:frontend -->
+        - [mondialRelayMock.ts](apps_front-ecommerce_test_mocks_mondialRelayMock_ts.md) <!-- repo:frontend -->
+        - [orderListingSubscriptionMock.ts](apps_front-ecommerce_test_mocks_orderListingSubscriptionMock_ts.md) <!-- repo:frontend -->
+        - [ordersMock.ts](apps_front-ecommerce_test_mocks_ordersMock_ts.md) <!-- repo:frontend -->
+        - [productMock.ts](apps_front-ecommerce_test_mocks_productMock_ts.md) <!-- repo:frontend -->
+        - [productsListCatMock.ts](apps_front-ecommerce_test_mocks_productsListCatMock_ts.md) <!-- repo:frontend -->
+        - [productsListDogMock.ts](apps_front-ecommerce_test_mocks_productsListDogMock_ts.md) <!-- repo:frontend -->
+        - [recommendationsMock.ts](apps_front-ecommerce_test_mocks_recommendationsMock_ts.md) <!-- repo:frontend -->
+        - [reviewLargeMock.ts](apps_front-ecommerce_test_mocks_reviewLargeMock_ts.md) <!-- repo:frontend -->
+        - [reviewsProduct.ts](apps_front-ecommerce_test_mocks_reviewsProduct_ts.md) <!-- repo:frontend -->
+        - [shoppingProduct.ts](apps_front-ecommerce_test_mocks_shoppingProduct_ts.md) <!-- repo:frontend -->
+        - [strapiProduct.ts](apps_front-ecommerce_test_mocks_strapiProduct_ts.md) <!-- repo:frontend -->
+        - [subscriptionMock.ts](apps_front-ecommerce_test_mocks_subscriptionMock_ts.md) <!-- repo:frontend -->
+        - [syliusProduct.ts](apps_front-ecommerce_test_mocks_syliusProduct_ts.md) <!-- repo:frontend -->
+        - [uspsMock.ts](apps_front-ecommerce_test_mocks_uspsMock_ts.md) <!-- repo:frontend -->
     - **types**
       - **algolia**
-        - [algolia.ts](apps_front-ecommerce_types_algolia_algolia_ts.md)
-      - [authenticationResponse.ts](apps_front-ecommerce_types_authenticationResponse_ts.md)
+        - [algolia.ts](apps_front-ecommerce_types_algolia_algolia_ts.md) <!-- repo:frontend -->
+      - [authenticationResponse.ts](apps_front-ecommerce_types_authenticationResponse_ts.md) <!-- repo:frontend -->
+      - [customRouter.ts](apps_front-ecommerce_types_customRouter_ts.md) <!-- repo:frontend -->
+      - [fetch.ts](apps_front-ecommerce_types_fetch_ts.md) <!-- repo:frontend -->
+      - [index.d.ts](apps_front-ecommerce_types_index_d_ts.md) <!-- repo:frontend -->
+      - [instantsearch.d.ts](apps_front-ecommerce_types_instantsearch_d_ts.md) <!-- repo:frontend -->
+      - [jest-serializer-vue.d.ts](apps_front-ecommerce_types_jest-serializer-vue_d_ts.md) <!-- repo:frontend -->
+      - [phone-metadata.d.ts](apps_front-ecommerce_types_phone-metadata_d_ts.md) <!-- repo:frontend -->
+      - [types.d.ts](apps_front-ecommerce_types_types_d_ts.md) <!-- repo:frontend -->
       - **cms**
+        - [recommendations.ts](apps_front-ecommerce_types_cms_recommendations_ts.md) <!-- repo:frontend -->
         - **content**
+          - [staticPage.ts](apps_front-ecommerce_types_cms_content_staticPage_ts.md) <!-- repo:frontend -->
           - **collectionTypes**
-            - [category.ts](apps_front-ecommerce_types_cms_content_collectionTypes_category_ts.md)
-            - [content.ts](apps_front-ecommerce_types_cms_content_collectionTypes_content_ts.md)
-            - [pageType.ts](apps_front-ecommerce_types_cms_content_collectionTypes_pageType_ts.md)
-            - [sample.ts](apps_front-ecommerce_types_cms_content_collectionTypes_sample_ts.md)
-            - [subscription.ts](apps_front-ecommerce_types_cms_content_collectionTypes_subscription_ts.md)
+            - [category.ts](apps_front-ecommerce_types_cms_content_collectionTypes_category_ts.md) <!-- repo:frontend -->
+            - [content.ts](apps_front-ecommerce_types_cms_content_collectionTypes_content_ts.md) <!-- repo:frontend -->
+            - [pageType.ts](apps_front-ecommerce_types_cms_content_collectionTypes_pageType_ts.md) <!-- repo:frontend -->
+            - [sample.ts](apps_front-ecommerce_types_cms_content_collectionTypes_sample_ts.md) <!-- repo:frontend -->
+            - [subscription.ts](apps_front-ecommerce_types_cms_content_collectionTypes_subscription_ts.md) <!-- repo:frontend -->
           - **components**
-            - [accountCards.ts](apps_front-ecommerce_types_cms_content_components_accountCards_ts.md)
-            - [accountLinks.ts](apps_front-ecommerce_types_cms_content_components_accountLinks_ts.md)
-            - [calendly.ts](apps_front-ecommerce_types_cms_content_components_calendly_ts.md)
-            - [carouselGeneric.ts](apps_front-ecommerce_types_cms_content_components_carouselGeneric_ts.md)
-            - [carouselShorts.ts](apps_front-ecommerce_types_cms_content_components_carouselShorts_ts.md)
-            - [categoryGrid.ts](apps_front-ecommerce_types_cms_content_components_categoryGrid_ts.md)
-            - [crossSell.ts](apps_front-ecommerce_types_cms_content_components_crossSell_ts.md)
-            - [crossSellLink.ts](apps_front-ecommerce_types_cms_content_components_crossSellLink_ts.md)
-            - [ctaListing.ts](apps_front-ecommerce_types_cms_content_components_ctaListing_ts.md)
-            - [edito.ts](apps_front-ecommerce_types_cms_content_components_edito_ts.md)
-            - [expertise.ts](apps_front-ecommerce_types_cms_content_components_expertise_ts.md)
-            - [faqEdito.ts](apps_front-ecommerce_types_cms_content_components_faqEdito_ts.md)
-            - [faqs.ts](apps_front-ecommerce_types_cms_content_components_faqs_ts.md)
-            - [glossary.ts](apps_front-ecommerce_types_cms_content_components_glossary_ts.md)
-            - [guideEntrance.ts](apps_front-ecommerce_types_cms_content_components_guideEntrance_ts.md)
-            - [heroCoverCategory.ts](apps_front-ecommerce_types_cms_content_components_heroCoverCategory_ts.md)
-            - [heroCoverPro.ts](apps_front-ecommerce_types_cms_content_components_heroCoverPro_ts.md)
-            - [heroCoverSubscription.ts](apps_front-ecommerce_types_cms_content_components_heroCoverSubscription_ts.md)
-            - [heroSlider.ts](apps_front-ecommerce_types_cms_content_components_heroSlider_ts.md)
-            - [horizontalCard.ts](apps_front-ecommerce_types_cms_content_components_horizontalCard_ts.md)
-            - [instagramFeed.ts](apps_front-ecommerce_types_cms_content_components_instagramFeed_ts.md)
-            - [itemBlogGrid.ts](apps_front-ecommerce_types_cms_content_components_itemBlogGrid_ts.md)
-            - [itemsAlgolia.ts](apps_front-ecommerce_types_cms_content_components_itemsAlgolia_ts.md)
-            - [jumbotron.ts](apps_front-ecommerce_types_cms_content_components_jumbotron_ts.md)
-            - [lastOrder.ts](apps_front-ecommerce_types_cms_content_components_lastOrder_ts.md)
-            - [linksSubscription.ts](apps_front-ecommerce_types_cms_content_components_linksSubscription_ts.md)
-            - [listingProductCategory.ts](apps_front-ecommerce_types_cms_content_components_listingProductCategory_ts.md)
-            - [mentionMe.ts](apps_front-ecommerce_types_cms_content_components_mentionMe_ts.md)
-            - [menu.ts](apps_front-ecommerce_types_cms_content_components_menu_ts.md)
-            - [menuLight.ts](apps_front-ecommerce_types_cms_content_components_menuLight_ts.md)
-            - [orderAgainAccount.ts](apps_front-ecommerce_types_cms_content_components_orderAgainAccount_ts.md)
-            - [paymentOption.ts](apps_front-ecommerce_types_cms_content_components_paymentOption_ts.md)
-            - [recommendations.ts](apps_front-ecommerce_types_cms_content_components_recommendations_ts.md)
-            - [reviewLarge.ts](apps_front-ecommerce_types_cms_content_components_reviewLarge_ts.md)
-            - [schema.ts](apps_front-ecommerce_types_cms_content_components_schema_ts.md)
-            - [searchFaq.ts](apps_front-ecommerce_types_cms_content_components_searchFaq_ts.md)
-            - [socialLink.ts](apps_front-ecommerce_types_cms_content_components_socialLink_ts.md)
-            - [strapiForm.ts](apps_front-ecommerce_types_cms_content_components_strapiForm_ts.md)
-            - [title.ts](apps_front-ecommerce_types_cms_content_components_title_ts.md)
-            - [usp.ts](apps_front-ecommerce_types_cms_content_components_usp_ts.md)
+            - [accountCards.ts](apps_front-ecommerce_types_cms_content_components_accountCards_ts.md) <!-- repo:frontend -->
+            - [accountLinks.ts](apps_front-ecommerce_types_cms_content_components_accountLinks_ts.md) <!-- repo:frontend -->
+            - [calendly.ts](apps_front-ecommerce_types_cms_content_components_calendly_ts.md) <!-- repo:frontend -->
+            - [carouselGeneric.ts](apps_front-ecommerce_types_cms_content_components_carouselGeneric_ts.md) <!-- repo:frontend -->
+            - [carouselShorts.ts](apps_front-ecommerce_types_cms_content_components_carouselShorts_ts.md) <!-- repo:frontend -->
+            - [categoryGrid.ts](apps_front-ecommerce_types_cms_content_components_categoryGrid_ts.md) <!-- repo:frontend -->
+            - [crossSellLink.ts](apps_front-ecommerce_types_cms_content_components_crossSellLink_ts.md) <!-- repo:frontend -->
+            - [crossSell.ts](apps_front-ecommerce_types_cms_content_components_crossSell_ts.md) <!-- repo:frontend -->
+            - [ctaListing.ts](apps_front-ecommerce_types_cms_content_components_ctaListing_ts.md) <!-- repo:frontend -->
+            - [edito.ts](apps_front-ecommerce_types_cms_content_components_edito_ts.md) <!-- repo:frontend -->
+            - [expertise.ts](apps_front-ecommerce_types_cms_content_components_expertise_ts.md) <!-- repo:frontend -->
+            - [faqEdito.ts](apps_front-ecommerce_types_cms_content_components_faqEdito_ts.md) <!-- repo:frontend -->
+            - [faqs.ts](apps_front-ecommerce_types_cms_content_components_faqs_ts.md) <!-- repo:frontend -->
+            - [glossary.ts](apps_front-ecommerce_types_cms_content_components_glossary_ts.md) <!-- repo:frontend -->
+            - [guideEntrance.ts](apps_front-ecommerce_types_cms_content_components_guideEntrance_ts.md) <!-- repo:frontend -->
+            - [heroCoverCategory.ts](apps_front-ecommerce_types_cms_content_components_heroCoverCategory_ts.md) <!-- repo:frontend -->
+            - [heroCoverPro.ts](apps_front-ecommerce_types_cms_content_components_heroCoverPro_ts.md) <!-- repo:frontend -->
+            - [heroCoverSubscription.ts](apps_front-ecommerce_types_cms_content_components_heroCoverSubscription_ts.md) <!-- repo:frontend -->
+            - [heroSlider.ts](apps_front-ecommerce_types_cms_content_components_heroSlider_ts.md) <!-- repo:frontend -->
+            - [horizontalCard.ts](apps_front-ecommerce_types_cms_content_components_horizontalCard_ts.md) <!-- repo:frontend -->
+            - [instagramFeed.ts](apps_front-ecommerce_types_cms_content_components_instagramFeed_ts.md) <!-- repo:frontend -->
+            - [itemBlogGrid.ts](apps_front-ecommerce_types_cms_content_components_itemBlogGrid_ts.md) <!-- repo:frontend -->
+            - [itemsAlgolia.ts](apps_front-ecommerce_types_cms_content_components_itemsAlgolia_ts.md) <!-- repo:frontend -->
+            - [jumbotron.ts](apps_front-ecommerce_types_cms_content_components_jumbotron_ts.md) <!-- repo:frontend -->
+            - [lastOrder.ts](apps_front-ecommerce_types_cms_content_components_lastOrder_ts.md) <!-- repo:frontend -->
+            - [linksSubscription.ts](apps_front-ecommerce_types_cms_content_components_linksSubscription_ts.md) <!-- repo:frontend -->
+            - [listingProductCategory.ts](apps_front-ecommerce_types_cms_content_components_listingProductCategory_ts.md) <!-- repo:frontend -->
+            - [mentionMe.ts](apps_front-ecommerce_types_cms_content_components_mentionMe_ts.md) <!-- repo:frontend -->
+            - [menuLight.ts](apps_front-ecommerce_types_cms_content_components_menuLight_ts.md) <!-- repo:frontend -->
+            - [menu.ts](apps_front-ecommerce_types_cms_content_components_menu_ts.md) <!-- repo:frontend -->
+            - [orderAgainAccount.ts](apps_front-ecommerce_types_cms_content_components_orderAgainAccount_ts.md) <!-- repo:frontend -->
+            - [paymentOption.ts](apps_front-ecommerce_types_cms_content_components_paymentOption_ts.md) <!-- repo:frontend -->
+            - [recommendations.ts](apps_front-ecommerce_types_cms_content_components_recommendations_ts.md) <!-- repo:frontend -->
+            - [reviewLarge.ts](apps_front-ecommerce_types_cms_content_components_reviewLarge_ts.md) <!-- repo:frontend -->
+            - [schema.ts](apps_front-ecommerce_types_cms_content_components_schema_ts.md) <!-- repo:frontend -->
+            - [searchFaq.ts](apps_front-ecommerce_types_cms_content_components_searchFaq_ts.md) <!-- repo:frontend -->
+            - [socialLink.ts](apps_front-ecommerce_types_cms_content_components_socialLink_ts.md) <!-- repo:frontend -->
+            - [strapiForm.ts](apps_front-ecommerce_types_cms_content_components_strapiForm_ts.md) <!-- repo:frontend -->
+            - [title.ts](apps_front-ecommerce_types_cms_content_components_title_ts.md) <!-- repo:frontend -->
+            - [usp.ts](apps_front-ecommerce_types_cms_content_components_usp_ts.md) <!-- repo:frontend -->
           - **singleTypes**
-            - [addresses.ts](apps_front-ecommerce_types_cms_content_singleTypes_addresses_ts.md)
-            - [animals.ts](apps_front-ecommerce_types_cms_content_singleTypes_animals_ts.md)
-            - [faq.ts](apps_front-ecommerce_types_cms_content_singleTypes_faq_ts.md)
-            - [funnel.ts](apps_front-ecommerce_types_cms_content_singleTypes_funnel_ts.md)
-            - [orders.ts](apps_front-ecommerce_types_cms_content_singleTypes_orders_ts.md)
-            - [search.ts](apps_front-ecommerce_types_cms_content_singleTypes_search_ts.md)
-            - [shops.ts](apps_front-ecommerce_types_cms_content_singleTypes_shops_ts.md)
-            - [subscription.ts](apps_front-ecommerce_types_cms_content_singleTypes_subscription_ts.md)
-            - [subscriptions.ts](apps_front-ecommerce_types_cms_content_singleTypes_subscriptions_ts.md)
-          - [staticPage.ts](apps_front-ecommerce_types_cms_content_staticPage_ts.md)
-        - [recommendations.ts](apps_front-ecommerce_types_cms_recommendations_ts.md)
+            - [addresses.ts](apps_front-ecommerce_types_cms_content_singleTypes_addresses_ts.md) <!-- repo:frontend -->
+            - [animals.ts](apps_front-ecommerce_types_cms_content_singleTypes_animals_ts.md) <!-- repo:frontend -->
+            - [faq.ts](apps_front-ecommerce_types_cms_content_singleTypes_faq_ts.md) <!-- repo:frontend -->
+            - [funnel.ts](apps_front-ecommerce_types_cms_content_singleTypes_funnel_ts.md) <!-- repo:frontend -->
+            - [orders.ts](apps_front-ecommerce_types_cms_content_singleTypes_orders_ts.md) <!-- repo:frontend -->
+            - [search.ts](apps_front-ecommerce_types_cms_content_singleTypes_search_ts.md) <!-- repo:frontend -->
+            - [shops.ts](apps_front-ecommerce_types_cms_content_singleTypes_shops_ts.md) <!-- repo:frontend -->
+            - [subscription.ts](apps_front-ecommerce_types_cms_content_singleTypes_subscription_ts.md) <!-- repo:frontend -->
+            - [subscriptions.ts](apps_front-ecommerce_types_cms_content_singleTypes_subscriptions_ts.md) <!-- repo:frontend -->
         - **shared**
-          - [formInput.ts](apps_front-ecommerce_types_cms_shared_formInput_ts.md)
-          - [strapiFooter.ts](apps_front-ecommerce_types_cms_shared_strapiFooter_ts.md)
-          - [strapiHeader.ts](apps_front-ecommerce_types_cms_shared_strapiHeader_ts.md)
+          - [formInput.ts](apps_front-ecommerce_types_cms_shared_formInput_ts.md) <!-- repo:frontend -->
+          - [strapiFooter.ts](apps_front-ecommerce_types_cms_shared_strapiFooter_ts.md) <!-- repo:frontend -->
+          - [strapiHeader.ts](apps_front-ecommerce_types_cms_shared_strapiHeader_ts.md) <!-- repo:frontend -->
       - **components**
-        - [cartContent.ts](apps_front-ecommerce_types_components_cartContent_ts.md)
-        - [cartItem.ts](apps_front-ecommerce_types_components_cartItem_ts.md)
-        - [googleMap.ts](apps_front-ecommerce_types_components_googleMap_ts.md)
-      - [customRouter.ts](apps_front-ecommerce_types_customRouter_ts.md)
+        - [cartContent.ts](apps_front-ecommerce_types_components_cartContent_ts.md) <!-- repo:frontend -->
+        - [cartItem.ts](apps_front-ecommerce_types_components_cartItem_ts.md) <!-- repo:frontend -->
+        - [googleMap.ts](apps_front-ecommerce_types_components_googleMap_ts.md) <!-- repo:frontend -->
       - **ecommerce**
-        - [address.ts](apps_front-ecommerce_types_ecommerce_address_ts.md)
-        - [animals.ts](apps_front-ecommerce_types_ecommerce_animals_ts.md)
-        - [draftOrder.ts](apps_front-ecommerce_types_ecommerce_draftOrder_ts.md)
-        - [error.ts](apps_front-ecommerce_types_ecommerce_error_ts.md)
-        - [filters.ts](apps_front-ecommerce_types_ecommerce_filters_ts.md)
-        - [frequency.ts](apps_front-ecommerce_types_ecommerce_frequency_ts.md)
-        - [locale.ts](apps_front-ecommerce_types_ecommerce_locale_ts.md)
-        - [mondialRelay.ts](apps_front-ecommerce_types_ecommerce_mondialRelay_ts.md)
-        - [order.ts](apps_front-ecommerce_types_ecommerce_order_ts.md)
-        - [paymentMethod.ts](apps_front-ecommerce_types_ecommerce_paymentMethod_ts.md)
-        - [pickupPoint.ts](apps_front-ecommerce_types_ecommerce_pickupPoint_ts.md)
-        - [product.ts](apps_front-ecommerce_types_ecommerce_product_ts.md)
+        - [address.ts](apps_front-ecommerce_types_ecommerce_address_ts.md) <!-- repo:frontend -->
+        - [animals.ts](apps_front-ecommerce_types_ecommerce_animals_ts.md) <!-- repo:frontend -->
+        - [draftOrder.ts](apps_front-ecommerce_types_ecommerce_draftOrder_ts.md) <!-- repo:frontend -->
+        - [error.ts](apps_front-ecommerce_types_ecommerce_error_ts.md) <!-- repo:frontend -->
+        - [filters.ts](apps_front-ecommerce_types_ecommerce_filters_ts.md) <!-- repo:frontend -->
+        - [frequency.ts](apps_front-ecommerce_types_ecommerce_frequency_ts.md) <!-- repo:frontend -->
+        - [locale.ts](apps_front-ecommerce_types_ecommerce_locale_ts.md) <!-- repo:frontend -->
+        - [mondialRelay.ts](apps_front-ecommerce_types_ecommerce_mondialRelay_ts.md) <!-- repo:frontend -->
+        - [order.ts](apps_front-ecommerce_types_ecommerce_order_ts.md) <!-- repo:frontend -->
+        - [paymentMethod.ts](apps_front-ecommerce_types_ecommerce_paymentMethod_ts.md) <!-- repo:frontend -->
+        - [pickupPoint.ts](apps_front-ecommerce_types_ecommerce_pickupPoint_ts.md) <!-- repo:frontend -->
+        - [product.ts](apps_front-ecommerce_types_ecommerce_product_ts.md) <!-- repo:frontend -->
+        - [shippingMethod.ts](apps_front-ecommerce_types_ecommerce_shippingMethod_ts.md) <!-- repo:frontend -->
+        - [shop.ts](apps_front-ecommerce_types_ecommerce_shop_ts.md) <!-- repo:frontend -->
+        - [shoppingProduct.ts](apps_front-ecommerce_types_ecommerce_shoppingProduct_ts.md) <!-- repo:frontend -->
+        - [subscription.ts](apps_front-ecommerce_types_ecommerce_subscription_ts.md) <!-- repo:frontend -->
+        - [upsell.ts](apps_front-ecommerce_types_ecommerce_upsell_ts.md) <!-- repo:frontend -->
+        - [user.ts](apps_front-ecommerce_types_ecommerce_user_ts.md) <!-- repo:frontend -->
         - **shared**
-          - [classification.ts](apps_front-ecommerce_types_ecommerce_shared_classification_ts.md)
-          - [frequencyItem.ts](apps_front-ecommerce_types_ecommerce_shared_frequencyItem_ts.md)
-          - [translations.ts](apps_front-ecommerce_types_ecommerce_shared_translations_ts.md)
+          - [classification.ts](apps_front-ecommerce_types_ecommerce_shared_classification_ts.md) <!-- repo:frontend -->
+          - [frequencyItem.ts](apps_front-ecommerce_types_ecommerce_shared_frequencyItem_ts.md) <!-- repo:frontend -->
+          - [translations.ts](apps_front-ecommerce_types_ecommerce_shared_translations_ts.md) <!-- repo:frontend -->
           - [variant.ts](apps_front-ecommerce_types_ecommerce_shared_variant_ts.md)
-        - [shippingMethod.ts](apps_front-ecommerce_types_ecommerce_shippingMethod_ts.md)
-        - [shop.ts](apps_front-ecommerce_types_ecommerce_shop_ts.md)
-        - [shoppingProduct.ts](apps_front-ecommerce_types_ecommerce_shoppingProduct_ts.md)
-        - [subscription.ts](apps_front-ecommerce_types_ecommerce_subscription_ts.md)
-        - [upsell.ts](apps_front-ecommerce_types_ecommerce_upsell_ts.md)
-        - [user.ts](apps_front-ecommerce_types_ecommerce_user_ts.md)
-      - [fetch.ts](apps_front-ecommerce_types_fetch_ts.md)
       - **form**
-        - [abortSubscriptionRequestForm.ts](apps_front-ecommerce_types_form_abortSubscriptionRequestForm_ts.md)
-        - [addressForm.ts](apps_front-ecommerce_types_form_addressForm_ts.md)
-        - [biNutritionGuideForm.ts](apps_front-ecommerce_types_form_biNutritionGuideForm_ts.md)
+        - [abortSubscriptionRequestForm.ts](apps_front-ecommerce_types_form_abortSubscriptionRequestForm_ts.md) <!-- repo:frontend -->
+        - [addressForm.ts](apps_front-ecommerce_types_form_addressForm_ts.md) <!-- repo:frontend -->
+        - [biNutritionGuideForm.ts](apps_front-ecommerce_types_form_biNutritionGuideForm_ts.md) <!-- repo:frontend -->
+        - [editPasswordDataForm.ts](apps_front-ecommerce_types_form_editPasswordDataForm_ts.md) <!-- repo:frontend -->
+        - [emailLookupForm.ts](apps_front-ecommerce_types_form_emailLookupForm_ts.md) <!-- repo:frontend -->
+        - [forgotPasswordDataForm.ts](apps_front-ecommerce_types_form_forgotPasswordDataForm_ts.md) <!-- repo:frontend -->
+        - [langForm.ts](apps_front-ecommerce_types_form_langForm_ts.md) <!-- repo:frontend -->
+        - [loginRequestForm.ts](apps_front-ecommerce_types_form_loginRequestForm_ts.md) <!-- repo:frontend -->
+        - [mutationRequestForm.ts](apps_front-ecommerce_types_form_mutationRequestForm_ts.md) <!-- repo:frontend -->
+        - [newsletterRequestForm.ts](apps_front-ecommerce_types_form_newsletterRequestForm_ts.md) <!-- repo:frontend -->
+        - [personalDataForm.ts](apps_front-ecommerce_types_form_personalDataForm_ts.md) <!-- repo:frontend -->
+        - [rationCalculatorRequestForm.ts](apps_front-ecommerce_types_form_rationCalculatorRequestForm_ts.md) <!-- repo:frontend -->
+        - [registerRequestForm.ts](apps_front-ecommerce_types_form_registerRequestForm_ts.md) <!-- repo:frontend -->
+        - [subscriptionContactForm.ts](apps_front-ecommerce_types_form_subscriptionContactForm_ts.md) <!-- repo:frontend -->
+        - [userGuideForm.ts](apps_front-ecommerce_types_form_userGuideForm_ts.md) <!-- repo:frontend -->
         - **data**
-          - [abortSubscriptionData.ts](apps_front-ecommerce_types_form_data_abortSubscriptionData_ts.md)
-          - [address.ts](apps_front-ecommerce_types_form_data_address_ts.md)
-          - [biNutritionSchema.ts](apps_front-ecommerce_types_form_data_biNutritionSchema_ts.md)
-          - [contactRequest.ts](apps_front-ecommerce_types_form_data_contactRequest_ts.md)
-          - [editPasswordData.ts](apps_front-ecommerce_types_form_data_editPasswordData_ts.md)
-          - [emailLookup.ts](apps_front-ecommerce_types_form_data_emailLookup_ts.md)
-          - [forgotPasswordData.ts](apps_front-ecommerce_types_form_data_forgotPasswordData_ts.md)
-          - [language.ts](apps_front-ecommerce_types_form_data_language_ts.md)
-          - [loginRequest.ts](apps_front-ecommerce_types_form_data_loginRequest_ts.md)
-          - [newsletterData.ts](apps_front-ecommerce_types_form_data_newsletterData_ts.md)
-          - [personalData.ts](apps_front-ecommerce_types_form_data_personalData_ts.md)
-          - [rationCalculator.ts](apps_front-ecommerce_types_form_data_rationCalculator_ts.md)
-          - [registerRequest.ts](apps_front-ecommerce_types_form_data_registerRequest_ts.md)
-          - [resetPasswordData.ts](apps_front-ecommerce_types_form_data_resetPasswordData_ts.md)
-          - [subscriptionContactSchema.ts](apps_front-ecommerce_types_form_data_subscriptionContactSchema_ts.md)
-          - [userGuideSchema.ts](apps_front-ecommerce_types_form_data_userGuideSchema_ts.md)
-        - [editPasswordDataForm.ts](apps_front-ecommerce_types_form_editPasswordDataForm_ts.md)
-        - [emailLookupForm.ts](apps_front-ecommerce_types_form_emailLookupForm_ts.md)
-        - [forgotPasswordDataForm.ts](apps_front-ecommerce_types_form_forgotPasswordDataForm_ts.md)
-        - [langForm.ts](apps_front-ecommerce_types_form_langForm_ts.md)
-        - [loginRequestForm.ts](apps_front-ecommerce_types_form_loginRequestForm_ts.md)
-        - [mutationRequestForm.ts](apps_front-ecommerce_types_form_mutationRequestForm_ts.md)
-        - [newsletterRequestForm.ts](apps_front-ecommerce_types_form_newsletterRequestForm_ts.md)
-        - [personalDataForm.ts](apps_front-ecommerce_types_form_personalDataForm_ts.md)
-        - [rationCalculatorRequestForm.ts](apps_front-ecommerce_types_form_rationCalculatorRequestForm_ts.md)
-        - [registerRequestForm.ts](apps_front-ecommerce_types_form_registerRequestForm_ts.md)
-        - [subscriptionContactForm.ts](apps_front-ecommerce_types_form_subscriptionContactForm_ts.md)
-        - [userGuideForm.ts](apps_front-ecommerce_types_form_userGuideForm_ts.md)
-      - [index.d.ts](apps_front-ecommerce_types_index_d_ts.md)
-      - [instantsearch.d.ts](apps_front-ecommerce_types_instantsearch_d_ts.md)
-      - [jest-serializer-vue.d.ts](apps_front-ecommerce_types_jest-serializer-vue_d_ts.md)
-      - [phone-metadata.d.ts](apps_front-ecommerce_types_phone-metadata_d_ts.md)
-      - [types.d.ts](apps_front-ecommerce_types_types_d_ts.md)
-    - [vitest.config.ts](apps_front-ecommerce_vitest_config_ts.md)
+          - [abortSubscriptionData.ts](apps_front-ecommerce_types_form_data_abortSubscriptionData_ts.md) <!-- repo:frontend -->
+          - [address.ts](apps_front-ecommerce_types_form_data_address_ts.md) <!-- repo:frontend -->
+          - [biNutritionSchema.ts](apps_front-ecommerce_types_form_data_biNutritionSchema_ts.md) <!-- repo:frontend -->
+          - [contactRequest.ts](apps_front-ecommerce_types_form_data_contactRequest_ts.md) <!-- repo:frontend -->
+          - [editPasswordData.ts](apps_front-ecommerce_types_form_data_editPasswordData_ts.md) <!-- repo:frontend -->
+          - [emailLookup.ts](apps_front-ecommerce_types_form_data_emailLookup_ts.md) <!-- repo:frontend -->
+          - [forgotPasswordData.ts](apps_front-ecommerce_types_form_data_forgotPasswordData_ts.md) <!-- repo:frontend -->
+          - [language.ts](apps_front-ecommerce_types_form_data_language_ts.md) <!-- repo:frontend -->
+          - [loginRequest.ts](apps_front-ecommerce_types_form_data_loginRequest_ts.md) <!-- repo:frontend -->
+          - [newsletterData.ts](apps_front-ecommerce_types_form_data_newsletterData_ts.md) <!-- repo:frontend -->
+          - [personalData.ts](apps_front-ecommerce_types_form_data_personalData_ts.md) <!-- repo:frontend -->
+          - [rationCalculator.ts](apps_front-ecommerce_types_form_data_rationCalculator_ts.md) <!-- repo:frontend -->
+          - [registerRequest.ts](apps_front-ecommerce_types_form_data_registerRequest_ts.md) <!-- repo:frontend -->
+          - [resetPasswordData.ts](apps_front-ecommerce_types_form_data_resetPasswordData_ts.md) <!-- repo:frontend -->
+          - [subscriptionContactSchema.ts](apps_front-ecommerce_types_form_data_subscriptionContactSchema_ts.md) <!-- repo:frontend -->
+          - [userGuideSchema.ts](apps_front-ecommerce_types_form_data_userGuideSchema_ts.md) <!-- repo:frontend -->
   - **front-ecommerce-b2b**
     - **.docker**
-      - [Dockerfile](apps_front-ecommerce-b2b__docker_Dockerfile.md)
-      - [docker-entrypoint.sh](apps_front-ecommerce-b2b__docker_docker-entrypoint_sh.md)
+      - [Dockerfile](apps_front-ecommerce-b2b__docker_Dockerfile.md) <!-- repo:frontend -->
+      - [docker-entrypoint.sh](apps_front-ecommerce-b2b__docker_docker-entrypoint_sh.md) <!-- repo:frontend -->
     - **app**
-      - [app.vue](apps_front-ecommerce-b2b_app_app_vue.md)
+      - [app.vue](apps_front-ecommerce-b2b_app_app_vue.md) <!-- repo:frontend -->
+      - [error.vue](apps_front-ecommerce-b2b_app_error_vue.md) <!-- repo:frontend -->
       - **components**
-        - [Logo.vue](apps_front-ecommerce-b2b_app_components_Logo_vue.md)
-        - [MiniCartHeader.vue](apps_front-ecommerce-b2b_app_components_MiniCartHeader_vue.md)
-        - [OrderSummaryHeader.vue](apps_front-ecommerce-b2b_app_components_OrderSummaryHeader_vue.md)
-      - [error.vue](apps_front-ecommerce-b2b_app_error_vue.md)
+        - [Logo.vue](apps_front-ecommerce-b2b_app_components_Logo_vue.md) <!-- repo:frontend -->
+        - [MiniCartHeader.vue](apps_front-ecommerce-b2b_app_components_MiniCartHeader_vue.md) <!-- repo:frontend -->
+        - [OrderSummaryHeader.vue](apps_front-ecommerce-b2b_app_components_OrderSummaryHeader_vue.md) <!-- repo:frontend -->
+    - [nuxt.config.ts](apps_front-ecommerce-b2b_nuxt_config_ts.md) <!-- repo:frontend -->
+    - [package.json](apps_front-ecommerce-b2b_package_json.md) <!-- repo:frontend -->
+    - [project.json](apps_front-ecommerce-b2b_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](apps_front-ecommerce-b2b_tsconfig_json.md) <!-- repo:frontend -->
+    - [vitest.config.ts](apps_front-ecommerce-b2b_vitest_config_ts.md) <!-- repo:frontend -->
     - **i18n**
       - **locales**
-        - [fr-FR.json](apps_front-ecommerce-b2b_i18n_locales_fr-FR_json.md)
-        - [fr.json](apps_front-ecommerce-b2b_i18n_locales_fr_json.md)
-    - [nuxt.config.ts](apps_front-ecommerce-b2b_nuxt_config_ts.md)
-    - [package.json](apps_front-ecommerce-b2b_package_json.md)
-    - [project.json](apps_front-ecommerce-b2b_project_json.md)
+        - [fr-FR.json](apps_front-ecommerce-b2b_i18n_locales_fr-FR_json.md) <!-- repo:frontend -->
+        - [fr.json](apps_front-ecommerce-b2b_i18n_locales_fr_json.md) <!-- repo:frontend -->
     - **server**
+      - [tsconfig.json](apps_front-ecommerce-b2b_server_tsconfig_json.md) <!-- repo:frontend -->
       - **routes**
-        - [health.ts](apps_front-ecommerce-b2b_server_routes_health_ts.md)
-        - [manifest.json.ts](apps_front-ecommerce-b2b_server_routes_manifest_json_ts.md)
-        - [robots.txt.ts](apps_front-ecommerce-b2b_server_routes_robots_txt_ts.md)
-        - [sitemap.xml.ts](apps_front-ecommerce-b2b_server_routes_sitemap_xml_ts.md)
+        - [health.ts](apps_front-ecommerce-b2b_server_routes_health_ts.md) <!-- repo:frontend -->
+        - [manifest.json.ts](apps_front-ecommerce-b2b_server_routes_manifest_json_ts.md) <!-- repo:frontend -->
+        - [robots.txt.ts](apps_front-ecommerce-b2b_server_routes_robots_txt_ts.md) <!-- repo:frontend -->
+        - [sitemap.xml.ts](apps_front-ecommerce-b2b_server_routes_sitemap_xml_ts.md) <!-- repo:frontend -->
         - **sitemaps**
-          - [[sitemap].xml.ts](apps_front-ecommerce-b2b_server_routes_sitemaps_[sitemap]_xml_ts.md)
           - **[sitemapindexlocalized]**
-            - [[sitemap].xml.ts](apps_front-ecommerce-b2b_server_routes_sitemaps_[sitemapindexlocalized]_[sitemap]_xml_ts.md)
-      - [tsconfig.json](apps_front-ecommerce-b2b_server_tsconfig_json.md)
-    - [tsconfig.json](apps_front-ecommerce-b2b_tsconfig_json.md)
-    - [vitest.config.ts](apps_front-ecommerce-b2b_vitest_config_ts.md)
+            - [[sitemap].xml.ts](apps_front-ecommerce-b2b_server_routes_sitemaps_[sitemapindexlocalized]_[sitemap]_xml_ts.md) <!-- repo:frontend -->
+          - [[sitemap].xml.ts](apps_front-ecommerce-b2b_server_routes_sitemaps_[sitemap]_xml_ts.md) <!-- repo:frontend -->
   - **storybook**
     - **.storybook**
-      - [main.ts](apps_storybook__storybook_main_ts.md)
-      - [manager.ts](apps_storybook__storybook_manager_ts.md)
-      - [preview-head.html](apps_storybook__storybook_preview-head_html.md)
-      - [preview.ts](apps_storybook__storybook_preview_ts.md)
-      - [upd.js](apps_storybook__storybook_upd_js.md)
-    - [README.md](apps_storybook_README_md.md)
+      - [main.ts](apps_storybook__storybook_main_ts.md) <!-- repo:frontend -->
+      - [manager.ts](apps_storybook__storybook_manager_ts.md) <!-- repo:frontend -->
+      - [preview-head.html](apps_storybook__storybook_preview-head_html.md) <!-- repo:frontend -->
+      - [preview.ts](apps_storybook__storybook_preview_ts.md) <!-- repo:frontend -->
+      - [upd.js](apps_storybook__storybook_upd_js.md) <!-- repo:frontend -->
+    - [README.md](apps_storybook_README_md.md) <!-- repo:frontend -->
+    - [package.json](apps_storybook_package_json.md) <!-- repo:frontend -->
+    - [postcss.config.js](apps_storybook_postcss_config_js.md) <!-- repo:frontend -->
+    - [project.json](apps_storybook_project_json.md) <!-- repo:frontend -->
+    - [tailwind.config.js](apps_storybook_tailwind_config_js.md) <!-- repo:frontend -->
+    - [tsconfig.json](apps_storybook_tsconfig_json.md) <!-- repo:frontend -->
+    - [tsconfig.lib.json](apps_storybook_tsconfig_lib_json.md) <!-- repo:frontend -->
+    - [tsconfig.spec.json](apps_storybook_tsconfig_spec_json.md)
+    - [tsconfig.storybook.json](apps_storybook_tsconfig_storybook_json.md) <!-- repo:frontend -->
     - **components**
       - **core**
-        - [StoryTypography.vue](apps_storybook_components_core_StoryTypography_vue.md)
+        - [StoryTypography.vue](apps_storybook_components_core_StoryTypography_vue.md) <!-- repo:frontend -->
         - **colors**
-          - [StoryColorsMain.vue](apps_storybook_components_core_colors_StoryColorsMain_vue.md)
-          - [StoryColorsNeutral.vue](apps_storybook_components_core_colors_StoryColorsNeutral_vue.md)
-          - [StoryColorsReview.vue](apps_storybook_components_core_colors_StoryColorsReview_vue.md)
-          - [StoryColorsUtilitary.vue](apps_storybook_components_core_colors_StoryColorsUtilitary_vue.md)
+          - [StoryColorsMain.vue](apps_storybook_components_core_colors_StoryColorsMain_vue.md) <!-- repo:frontend -->
+          - [StoryColorsNeutral.vue](apps_storybook_components_core_colors_StoryColorsNeutral_vue.md) <!-- repo:frontend -->
+          - [StoryColorsReview.vue](apps_storybook_components_core_colors_StoryColorsReview_vue.md) <!-- repo:frontend -->
+          - [StoryColorsUtilitary.vue](apps_storybook_components_core_colors_StoryColorsUtilitary_vue.md) <!-- repo:frontend -->
       - **ecommerce**
-        - [StoryEdito.vue](apps_storybook_components_ecommerce_StoryEdito_vue.md)
-        - [StoryFlags.vue](apps_storybook_components_ecommerce_StoryFlags_vue.md)
-        - [StoryIcon.vue](apps_storybook_components_ecommerce_StoryIcon_vue.md)
-        - [StoryStars.vue](apps_storybook_components_ecommerce_StoryStars_vue.md)
-        - [StoryTags.vue](apps_storybook_components_ecommerce_StoryTags_vue.md)
+        - [StoryEdito.vue](apps_storybook_components_ecommerce_StoryEdito_vue.md) <!-- repo:frontend -->
+        - [StoryFlags.vue](apps_storybook_components_ecommerce_StoryFlags_vue.md) <!-- repo:frontend -->
+        - [StoryIcon.vue](apps_storybook_components_ecommerce_StoryIcon_vue.md) <!-- repo:frontend -->
+        - [StoryStars.vue](apps_storybook_components_ecommerce_StoryStars_vue.md) <!-- repo:frontend -->
+        - [StoryTags.vue](apps_storybook_components_ecommerce_StoryTags_vue.md) <!-- repo:frontend -->
     - **composables**
-      - [globalNuxtFunctionsMocks.ts](apps_storybook_composables_globalNuxtFunctionsMocks_ts.md)
-      - [mockIntersectionObserverDirective.ts](apps_storybook_composables_mockIntersectionObserverDirective_ts.md)
-      - [useAddress.ts](apps_storybook_composables_useAddress_ts.md)
-      - [useCatalog.ts](apps_storybook_composables_useCatalog_ts.md)
-      - [useCms.ts](apps_storybook_composables_useCms_ts.md)
-      - [useCustomerAnimals.ts](apps_storybook_composables_useCustomerAnimals_ts.md)
-      - [useCustomerOrders.ts](apps_storybook_composables_useCustomerOrders_ts.md)
-      - [useCustomerSubscription.ts](apps_storybook_composables_useCustomerSubscription_ts.md)
-      - [useFetchCloudContact.ts](apps_storybook_composables_useFetchCloudContact_ts.md)
-      - [useFetchCms.ts](apps_storybook_composables_useFetchCms_ts.md)
-      - [useFetchRecommendation.ts](apps_storybook_composables_useFetchRecommendation_ts.md)
-      - [useListingProduct.ts](apps_storybook_composables_useListingProduct_ts.md)
-      - [useUserGuide.ts](apps_storybook_composables_useUserGuide_ts.md)
-      - [useYup.ts](apps_storybook_composables_useYup_ts.md)
+      - [globalNuxtFunctionsMocks.ts](apps_storybook_composables_globalNuxtFunctionsMocks_ts.md) <!-- repo:frontend -->
+      - [mockIntersectionObserverDirective.ts](apps_storybook_composables_mockIntersectionObserverDirective_ts.md) <!-- repo:frontend -->
+      - [useAddress.ts](apps_storybook_composables_useAddress_ts.md) <!-- repo:frontend -->
+      - [useCatalog.ts](apps_storybook_composables_useCatalog_ts.md) <!-- repo:frontend -->
+      - [useCms.ts](apps_storybook_composables_useCms_ts.md) <!-- repo:frontend -->
+      - [useCustomerAnimals.ts](apps_storybook_composables_useCustomerAnimals_ts.md) <!-- repo:frontend -->
+      - [useCustomerOrders.ts](apps_storybook_composables_useCustomerOrders_ts.md) <!-- repo:frontend -->
+      - [useCustomerSubscription.ts](apps_storybook_composables_useCustomerSubscription_ts.md) <!-- repo:frontend -->
+      - [useFetchCloudContact.ts](apps_storybook_composables_useFetchCloudContact_ts.md) <!-- repo:frontend -->
+      - [useFetchCms.ts](apps_storybook_composables_useFetchCms_ts.md) <!-- repo:frontend -->
+      - [useFetchRecommendation.ts](apps_storybook_composables_useFetchRecommendation_ts.md) <!-- repo:frontend -->
+      - [useListingProduct.ts](apps_storybook_composables_useListingProduct_ts.md) <!-- repo:frontend -->
+      - [useUserGuide.ts](apps_storybook_composables_useUserGuide_ts.md) <!-- repo:frontend -->
+      - [useYup.ts](apps_storybook_composables_useYup_ts.md) <!-- repo:frontend -->
     - **docs**
-      - [introduction.mdx](apps_storybook_docs_introduction_mdx.md)
+      - [introduction.mdx](apps_storybook_docs_introduction_mdx.md) <!-- repo:frontend -->
     - **mocks**
-      - [glossaryDataMock.ts](apps_storybook_mocks_glossaryDataMock_ts.md)
-      - [productsMetaDataMock.ts](apps_storybook_mocks_productsMetaDataMock_ts.md)
-    - [package.json](apps_storybook_package_json.md)
-    - [postcss.config.js](apps_storybook_postcss_config_js.md)
-    - [project.json](apps_storybook_project_json.md)
+      - [glossaryDataMock.ts](apps_storybook_mocks_glossaryDataMock_ts.md) <!-- repo:frontend -->
+      - [productsMetaDataMock.ts](apps_storybook_mocks_productsMetaDataMock_ts.md) <!-- repo:frontend -->
     - **src**
-      - [index.css](apps_storybook_src_index_css.md)
-      - [index.ts](apps_storybook_src_index_ts.md)
-      - [vue-shims.d.ts](apps_storybook_src_vue-shims_d_ts.md)
+      - [index.css](apps_storybook_src_index_css.md) <!-- repo:frontend -->
+      - [index.ts](apps_storybook_src_index_ts.md) <!-- repo:frontend -->
+      - [vue-shims.d.ts](apps_storybook_src_vue-shims_d_ts.md) <!-- repo:frontend -->
     - **static**
-      - [modes.ts](apps_storybook_static_modes_ts.md)
+      - [modes.ts](apps_storybook_static_modes_ts.md) <!-- repo:frontend -->
     - **stores**
-      - [cart.ts](apps_storybook_stores_cart_ts.md)
-      - [customer.ts](apps_storybook_stores_customer_ts.md)
+      - [cart.ts](apps_storybook_stores_cart_ts.md) <!-- repo:frontend -->
+      - [customer.ts](apps_storybook_stores_customer_ts.md) <!-- repo:frontend -->
     - **stories**
       - **core**
-        - [Colors.stories.ts](apps_storybook_stories_core_Colors_stories_ts.md)
-        - [Typography.stories.ts](apps_storybook_stories_core_Typography_stories_ts.md)
+        - [Colors.stories.ts](apps_storybook_stories_core_Colors_stories_ts.md) <!-- repo:frontend -->
+        - [Typography.stories.ts](apps_storybook_stories_core_Typography_stories_ts.md) <!-- repo:frontend -->
         - **docs**
-          - [componentsStatusCore.mdx](apps_storybook_stories_core_docs_componentsStatusCore_mdx.md)
+          - [componentsStatusCore.mdx](apps_storybook_stories_core_docs_componentsStatusCore_mdx.md) <!-- repo:frontend -->
       - **ecommerce**
-        - [Flags.stories.ts](apps_storybook_stories_ecommerce_Flags_stories_ts.md)
-        - [Icons.stories.ts](apps_storybook_stories_ecommerce_Icons_stories_ts.md)
-        - [Stars.stories.ts](apps_storybook_stories_ecommerce_Stars_stories_ts.md)
-        - [Tags.stories.ts](apps_storybook_stories_ecommerce_Tags_stories_ts.md)
+        - [Flags.stories.ts](apps_storybook_stories_ecommerce_Flags_stories_ts.md) <!-- repo:frontend -->
+        - [Icons.stories.ts](apps_storybook_stories_ecommerce_Icons_stories_ts.md) <!-- repo:frontend -->
+        - [Stars.stories.ts](apps_storybook_stories_ecommerce_Stars_stories_ts.md) <!-- repo:frontend -->
+        - [Tags.stories.ts](apps_storybook_stories_ecommerce_Tags_stories_ts.md) <!-- repo:frontend -->
         - **docs**
-          - [ecommerceComponentsUpdate.mdx](apps_storybook_stories_ecommerce_docs_ecommerceComponentsUpdate_mdx.md)
-    - [tailwind.config.js](apps_storybook_tailwind_config_js.md)
-    - [tsconfig.json](apps_storybook_tsconfig_json.md)
-    - [tsconfig.lib.json](apps_storybook_tsconfig_lib_json.md)
-    - [tsconfig.spec.json](apps_storybook_tsconfig_spec_json.md)
-    - [tsconfig.storybook.json](apps_storybook_tsconfig_storybook_json.md)
+          - [ecommerceComponentsUpdate.mdx](apps_storybook_stories_ecommerce_docs_ecommerceComponentsUpdate_mdx.md) <!-- repo:frontend -->
 - **assets**
   - **admin**
-    - [entry.js](assets_admin_entry_js.md)
+    - [entry.js](assets_admin_entry_js.md) <!-- repo:backend -->
     - **js**
-      - [avoidDoubleClick.js](assets_admin_js_avoidDoubleClick_js.md)
-      - [fullcalendar.js](assets_admin_js_fullcalendar_js.md)
-      - [intlTelInput.js](assets_admin_js_intlTelInput_js.md)
-      - [jsCookie.js](assets_admin_js_jsCookie_js.md)
-      - [overwriteSyliusAutoComplete.js](assets_admin_js_overwriteSyliusAutoComplete_js.md)
-      - [postcodeValidator.js](assets_admin_js_postcodeValidator_js.md)
-- [behat.yml](behat_yml.md)
-- [composer.json](composer_json.md)
+      - [avoidDoubleClick.js](assets_admin_js_avoidDoubleClick_js.md) <!-- repo:backend -->
+      - [fullcalendar.js](assets_admin_js_fullcalendar_js.md) <!-- repo:backend -->
+      - [intlTelInput.js](assets_admin_js_intlTelInput_js.md) <!-- repo:backend -->
+      - [jsCookie.js](assets_admin_js_jsCookie_js.md) <!-- repo:backend -->
+      - [overwriteSyliusAutoComplete.js](assets_admin_js_overwriteSyliusAutoComplete_js.md) <!-- repo:backend -->
+      - [postcodeValidator.js](assets_admin_js_postcodeValidator_js.md) <!-- repo:backend -->
+- [behat.yml](behat_yml.md) <!-- repo:backend -->
+- [composer.json](composer_json.md) <!-- repo:backend -->
 - **config**
   - **api_platform**
     - **properties**
-      - [AdminUserGroup.xml](config_api_platform_properties_AdminUserGroup_xml.md)
-      - [Animal.xml](config_api_platform_properties_Animal_xml.md)
-      - [AnimalActivity.xml](config_api_platform_properties_AnimalActivity_xml.md)
-      - [AnimalActivityTranslation.xml](config_api_platform_properties_AnimalActivityTranslation_xml.md)
-      - [AnimalBreed.xml](config_api_platform_properties_AnimalBreed_xml.md)
-      - [AnimalBreedTranslation.xml](config_api_platform_properties_AnimalBreedTranslation_xml.md)
-      - [AnimalCondition.xml](config_api_platform_properties_AnimalCondition_xml.md)
-      - [AnimalConditionTranslation.xml](config_api_platform_properties_AnimalConditionTranslation_xml.md)
-      - [AnimalDeletedReason.xml](config_api_platform_properties_AnimalDeletedReason_xml.md)
-      - [AnimalDeletedTranslation.xml](config_api_platform_properties_AnimalDeletedTranslation_xml.md)
-      - [AnimalFeature.xml](config_api_platform_properties_AnimalFeature_xml.md)
-      - [AnimalFeatureTranslation.xml](config_api_platform_properties_AnimalFeatureTranslation_xml.md)
-      - [AnimalFeed.xml](config_api_platform_properties_AnimalFeed_xml.md)
-      - [AnimalFeedTranslation.xml](config_api_platform_properties_AnimalFeedTranslation_xml.md)
-      - [AnimalGender.xml](config_api_platform_properties_AnimalGender_xml.md)
-      - [AnimalGenderTranslation.xml](config_api_platform_properties_AnimalGenderTranslation_xml.md)
-      - [AnimalKibbleBrand.xml](config_api_platform_properties_AnimalKibbleBrand_xml.md)
-      - [AnimalKibbleBrandRange.xml](config_api_platform_properties_AnimalKibbleBrandRange_xml.md)
-      - [AnimalPhoto.xml](config_api_platform_properties_AnimalPhoto_xml.md)
-      - [AnimalType.xml](config_api_platform_properties_AnimalType_xml.md)
-      - [AnimalTypeTranslation.xml](config_api_platform_properties_AnimalTypeTranslation_xml.md)
-      - [EmailAudit.xml](config_api_platform_properties_EmailAudit_xml.md)
-      - [OrderRule.xml](config_api_platform_properties_OrderRule_xml.md)
-      - [OrderRuleCondition.xml](config_api_platform_properties_OrderRuleCondition_xml.md)
-      - [OrderRuleTranslation.xml](config_api_platform_properties_OrderRuleTranslation_xml.md)
-      - [OriginLeadCustomer.xml](config_api_platform_properties_OriginLeadCustomer_xml.md)
-      - [PaymentInstrument.xml](config_api_platform_properties_PaymentInstrument_xml.md)
-      - [PaymentMethodCharges.xml](config_api_platform_properties_PaymentMethodCharges_xml.md)
-      - [PickupAddress.xml](config_api_platform_properties_PickupAddress_xml.md)
-      - [PickupPoint.xml](config_api_platform_properties_PickupPoint_xml.md)
-      - [PickupPointClosingPeriod.xml](config_api_platform_properties_PickupPointClosingPeriod_xml.md)
-      - [PickupPointHasShippingMethod.xml](config_api_platform_properties_PickupPointHasShippingMethod_xml.md)
-      - [ProductAssociation.xml](config_api_platform_properties_ProductAssociation_xml.md)
-      - [PromotionAnalyticBroadcast.xml](config_api_platform_properties_PromotionAnalyticBroadcast_xml.md)
-      - [PromotionAnalyticCategory.xml](config_api_platform_properties_PromotionAnalyticCategory_xml.md)
-      - [PromotionAnalyticTarget.xml](config_api_platform_properties_PromotionAnalyticTarget_xml.md)
-      - [PromotionCouponCustomer.xml](config_api_platform_properties_PromotionCouponCustomer_xml.md)
-      - [ShippingMethodCategory.xml](config_api_platform_properties_ShippingMethodCategory_xml.md)
-      - [ShippingMethodCategoryTranslation.xml](config_api_platform_properties_ShippingMethodCategoryTranslation_xml.md)
-      - [ShippingMethodRule.xml](config_api_platform_properties_ShippingMethodRule_xml.md)
-      - [ShippingRangePrice.xml](config_api_platform_properties_ShippingRangePrice_xml.md)
-      - [ShippingRangePriceItem.xml](config_api_platform_properties_ShippingRangePriceItem_xml.md)
-      - [Subscription.xml](config_api_platform_properties_Subscription_xml.md)
-      - [SubscriptionComment.xml](config_api_platform_properties_SubscriptionComment_xml.md)
-      - [SubscriptionFrequencyGroup.xml](config_api_platform_properties_SubscriptionFrequencyGroup_xml.md)
-      - [SubscriptionItem.xml](config_api_platform_properties_SubscriptionItem_xml.md)
-      - [SubscriptionMonitoring.xml](config_api_platform_properties_SubscriptionMonitoring_xml.md)
-      - [SubscriptionOrder.xml](config_api_platform_properties_SubscriptionOrder_xml.md)
-      - [SubscriptionStopReason.xml](config_api_platform_properties_SubscriptionStopReason_xml.md)
-      - [SubscriptionStopReasonTranslation.xml](config_api_platform_properties_SubscriptionStopReasonTranslation_xml.md)
-      - [UpSell.xml](config_api_platform_properties_UpSell_xml.md)
-      - [UpSellVariant.xml](config_api_platform_properties_UpSellVariant_xml.md)
+      - [AdminUserGroup.xml](config_api_platform_properties_AdminUserGroup_xml.md) <!-- repo:backend -->
+      - [AnimalActivityTranslation.xml](config_api_platform_properties_AnimalActivityTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalActivity.xml](config_api_platform_properties_AnimalActivity_xml.md) <!-- repo:backend -->
+      - [AnimalBreedTranslation.xml](config_api_platform_properties_AnimalBreedTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalBreed.xml](config_api_platform_properties_AnimalBreed_xml.md) <!-- repo:backend -->
+      - [AnimalConditionTranslation.xml](config_api_platform_properties_AnimalConditionTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalCondition.xml](config_api_platform_properties_AnimalCondition_xml.md) <!-- repo:backend -->
+      - [AnimalDeletedReason.xml](config_api_platform_properties_AnimalDeletedReason_xml.md) <!-- repo:backend -->
+      - [AnimalDeletedTranslation.xml](config_api_platform_properties_AnimalDeletedTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalFeatureTranslation.xml](config_api_platform_properties_AnimalFeatureTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalFeature.xml](config_api_platform_properties_AnimalFeature_xml.md) <!-- repo:backend -->
+      - [AnimalFeedTranslation.xml](config_api_platform_properties_AnimalFeedTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalFeed.xml](config_api_platform_properties_AnimalFeed_xml.md) <!-- repo:backend -->
+      - [AnimalGenderTranslation.xml](config_api_platform_properties_AnimalGenderTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalGender.xml](config_api_platform_properties_AnimalGender_xml.md) <!-- repo:backend -->
+      - [AnimalKibbleBrandRange.xml](config_api_platform_properties_AnimalKibbleBrandRange_xml.md) <!-- repo:backend -->
+      - [AnimalKibbleBrand.xml](config_api_platform_properties_AnimalKibbleBrand_xml.md) <!-- repo:backend -->
+      - [AnimalPhoto.xml](config_api_platform_properties_AnimalPhoto_xml.md) <!-- repo:backend -->
+      - [AnimalTypeTranslation.xml](config_api_platform_properties_AnimalTypeTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalType.xml](config_api_platform_properties_AnimalType_xml.md) <!-- repo:backend -->
+      - [Animal.xml](config_api_platform_properties_Animal_xml.md) <!-- repo:backend -->
+      - [EmailAudit.xml](config_api_platform_properties_EmailAudit_xml.md) <!-- repo:backend -->
+      - [OrderRuleCondition.xml](config_api_platform_properties_OrderRuleCondition_xml.md) <!-- repo:backend -->
+      - [OrderRuleTranslation.xml](config_api_platform_properties_OrderRuleTranslation_xml.md) <!-- repo:backend -->
+      - [OrderRule.xml](config_api_platform_properties_OrderRule_xml.md) <!-- repo:backend -->
+      - [OriginLeadCustomer.xml](config_api_platform_properties_OriginLeadCustomer_xml.md) <!-- repo:backend -->
+      - [PaymentInstrument.xml](config_api_platform_properties_PaymentInstrument_xml.md) <!-- repo:backend -->
+      - [PaymentMethodCharges.xml](config_api_platform_properties_PaymentMethodCharges_xml.md) <!-- repo:backend -->
+      - [PickupAddress.xml](config_api_platform_properties_PickupAddress_xml.md) <!-- repo:backend -->
+      - [PickupPointClosingPeriod.xml](config_api_platform_properties_PickupPointClosingPeriod_xml.md) <!-- repo:backend -->
+      - [PickupPointHasShippingMethod.xml](config_api_platform_properties_PickupPointHasShippingMethod_xml.md) <!-- repo:backend -->
+      - [PickupPoint.xml](config_api_platform_properties_PickupPoint_xml.md) <!-- repo:backend -->
+      - [ProductAssociation.xml](config_api_platform_properties_ProductAssociation_xml.md) <!-- repo:backend -->
+      - [PromotionAnalyticBroadcast.xml](config_api_platform_properties_PromotionAnalyticBroadcast_xml.md) <!-- repo:backend -->
+      - [PromotionAnalyticCategory.xml](config_api_platform_properties_PromotionAnalyticCategory_xml.md) <!-- repo:backend -->
+      - [PromotionAnalyticTarget.xml](config_api_platform_properties_PromotionAnalyticTarget_xml.md) <!-- repo:backend -->
+      - [PromotionCouponCustomer.xml](config_api_platform_properties_PromotionCouponCustomer_xml.md) <!-- repo:backend -->
+      - [ShippingMethodCategoryTranslation.xml](config_api_platform_properties_ShippingMethodCategoryTranslation_xml.md) <!-- repo:backend -->
+      - [ShippingMethodCategory.xml](config_api_platform_properties_ShippingMethodCategory_xml.md) <!-- repo:backend -->
+      - [ShippingMethodRule.xml](config_api_platform_properties_ShippingMethodRule_xml.md) <!-- repo:backend -->
+      - [ShippingRangePriceItem.xml](config_api_platform_properties_ShippingRangePriceItem_xml.md) <!-- repo:backend -->
+      - [ShippingRangePrice.xml](config_api_platform_properties_ShippingRangePrice_xml.md) <!-- repo:backend -->
+      - [SubscriptionComment.xml](config_api_platform_properties_SubscriptionComment_xml.md) <!-- repo:backend -->
+      - [SubscriptionFrequencyGroup.xml](config_api_platform_properties_SubscriptionFrequencyGroup_xml.md) <!-- repo:backend -->
+      - [SubscriptionItem.xml](config_api_platform_properties_SubscriptionItem_xml.md) <!-- repo:backend -->
+      - [SubscriptionMonitoring.xml](config_api_platform_properties_SubscriptionMonitoring_xml.md) <!-- repo:backend -->
+      - [SubscriptionOrder.xml](config_api_platform_properties_SubscriptionOrder_xml.md) <!-- repo:backend -->
+      - [SubscriptionStopReasonTranslation.xml](config_api_platform_properties_SubscriptionStopReasonTranslation_xml.md) <!-- repo:backend -->
+      - [SubscriptionStopReason.xml](config_api_platform_properties_SubscriptionStopReason_xml.md) <!-- repo:backend -->
+      - [Subscription.xml](config_api_platform_properties_Subscription_xml.md) <!-- repo:backend -->
+      - [UpSellVariant.xml](config_api_platform_properties_UpSellVariant_xml.md) <!-- repo:backend -->
+      - [UpSell.xml](config_api_platform_properties_UpSell_xml.md) <!-- repo:backend -->
     - **resources**
       - **admin**
-        - [Address.xml](config_api_platform_resources_admin_Address_xml.md)
-        - [AdminUserGroup.xml](config_api_platform_resources_admin_AdminUserGroup_xml.md)
-        - [Animal.xml](config_api_platform_resources_admin_Animal_xml.md)
-        - [AnimalActivity.xml](config_api_platform_resources_admin_AnimalActivity_xml.md)
-        - [AnimalActivityTranslation.xml](config_api_platform_resources_admin_AnimalActivityTranslation_xml.md)
-        - [AnimalBreed.xml](config_api_platform_resources_admin_AnimalBreed_xml.md)
-        - [AnimalBreedTranslation.xml](config_api_platform_resources_admin_AnimalBreedTranslation_xml.md)
-        - [AnimalCondition.xml](config_api_platform_resources_admin_AnimalCondition_xml.md)
-        - [AnimalConditionTranslation.xml](config_api_platform_resources_admin_AnimalConditionTranslation_xml.md)
-        - [AnimalDeletedReason.xml](config_api_platform_resources_admin_AnimalDeletedReason_xml.md)
-        - [AnimalDeletedTranslation.xml](config_api_platform_resources_admin_AnimalDeletedTranslation_xml.md)
-        - [AnimalFeature.xml](config_api_platform_resources_admin_AnimalFeature_xml.md)
-        - [AnimalFeatureTranslation.xml](config_api_platform_resources_admin_AnimalFeatureTranslation_xml.md)
-        - [AnimalFeed.xml](config_api_platform_resources_admin_AnimalFeed_xml.md)
-        - [AnimalFeedTranslation.xml](config_api_platform_resources_admin_AnimalFeedTranslation_xml.md)
-        - [AnimalGender.xml](config_api_platform_resources_admin_AnimalGender_xml.md)
-        - [AnimalGenderTranslation.xml](config_api_platform_resources_admin_AnimalGenderTranslation_xml.md)
-        - [AnimalKibbleBrand.xml](config_api_platform_resources_admin_AnimalKibbleBrand_xml.md)
-        - [AnimalKibbleBrandRange.xml](config_api_platform_resources_admin_AnimalKibbleBrandRange_xml.md)
-        - [AnimalPhoto.xml](config_api_platform_resources_admin_AnimalPhoto_xml.md)
-        - [AnimalType.xml](config_api_platform_resources_admin_AnimalType_xml.md)
-        - [AnimalTypeTranslation.xml](config_api_platform_resources_admin_AnimalTypeTranslation_xml.md)
-        - [Customer.xml](config_api_platform_resources_admin_Customer_xml.md)
-        - [CustomerPassword.xml](config_api_platform_resources_admin_CustomerPassword_xml.md)
-        - [EmailAudit.xml](config_api_platform_resources_admin_EmailAudit_xml.md)
-        - [Order.xml](config_api_platform_resources_admin_Order_xml.md)
-        - [OrderRule.xml](config_api_platform_resources_admin_OrderRule_xml.md)
-        - [OrderRuleCondition.xml](config_api_platform_resources_admin_OrderRuleCondition_xml.md)
-        - [OrderRuleTranslation.xml](config_api_platform_resources_admin_OrderRuleTranslation_xml.md)
-        - [OriginLeadCustomer.xml](config_api_platform_resources_admin_OriginLeadCustomer_xml.md)
-        - [Payment.xml](config_api_platform_resources_admin_Payment_xml.md)
-        - [PaymentInstrument.xml](config_api_platform_resources_admin_PaymentInstrument_xml.md)
-        - [PaymentMethod.xml](config_api_platform_resources_admin_PaymentMethod_xml.md)
-        - [PaymentMethodCharges.xml](config_api_platform_resources_admin_PaymentMethodCharges_xml.md)
-        - [PickupAddress.xml](config_api_platform_resources_admin_PickupAddress_xml.md)
-        - [PickupPoint.xml](config_api_platform_resources_admin_PickupPoint_xml.md)
-        - [PickupPointClosingPeriod.xml](config_api_platform_resources_admin_PickupPointClosingPeriod_xml.md)
-        - [PickupPointHasShippingMethod.xml](config_api_platform_resources_admin_PickupPointHasShippingMethod_xml.md)
-        - [Product.xml](config_api_platform_resources_admin_Product_xml.md)
-        - [ProductOptionValue.xml](config_api_platform_resources_admin_ProductOptionValue_xml.md)
-        - [ProductVariant.xml](config_api_platform_resources_admin_ProductVariant_xml.md)
-        - [Promotion.xml](config_api_platform_resources_admin_Promotion_xml.md)
-        - [PromotionAction.xml](config_api_platform_resources_admin_PromotionAction_xml.md)
-        - [PromotionAnalyticBroadcast.xml](config_api_platform_resources_admin_PromotionAnalyticBroadcast_xml.md)
-        - [PromotionAnalyticCategory.xml](config_api_platform_resources_admin_PromotionAnalyticCategory_xml.md)
-        - [PromotionAnalyticTarget.xml](config_api_platform_resources_admin_PromotionAnalyticTarget_xml.md)
-        - [PromotionCoupon.xml](config_api_platform_resources_admin_PromotionCoupon_xml.md)
-        - [PromotionCouponCustomer.xml](config_api_platform_resources_admin_PromotionCouponCustomer_xml.md)
-        - [PromotionRule.xml](config_api_platform_resources_admin_PromotionRule_xml.md)
-        - [Shipment.xml](config_api_platform_resources_admin_Shipment_xml.md)
-        - [ShippingMethod.xml](config_api_platform_resources_admin_ShippingMethod_xml.md)
-        - [ShippingMethodCategory.xml](config_api_platform_resources_admin_ShippingMethodCategory_xml.md)
-        - [ShippingMethodCategoryTranslation.xml](config_api_platform_resources_admin_ShippingMethodCategoryTranslation_xml.md)
-        - [ShippingMethodRule.xml](config_api_platform_resources_admin_ShippingMethodRule_xml.md)
-        - [ShippingRangePrice.xml](config_api_platform_resources_admin_ShippingRangePrice_xml.md)
-        - [ShippingRangePriceItem.xml](config_api_platform_resources_admin_ShippingRangePriceItem_xml.md)
-        - [Subscription.xml](config_api_platform_resources_admin_Subscription_xml.md)
-        - [SubscriptionComment.xml](config_api_platform_resources_admin_SubscriptionComment_xml.md)
-        - [SubscriptionFrequencyGroup.xml](config_api_platform_resources_admin_SubscriptionFrequencyGroup_xml.md)
-        - [SubscriptionItem.xml](config_api_platform_resources_admin_SubscriptionItem_xml.md)
-        - [SubscriptionMonitoring.xml](config_api_platform_resources_admin_SubscriptionMonitoring_xml.md)
-        - [SubscriptionOrder.xml](config_api_platform_resources_admin_SubscriptionOrder_xml.md)
-        - [SubscriptionStopReason.xml](config_api_platform_resources_admin_SubscriptionStopReason_xml.md)
-        - [SubscriptionStopReasonTranslation.xml](config_api_platform_resources_admin_SubscriptionStopReasonTranslation_xml.md)
-        - [TalonOne.xml](config_api_platform_resources_admin_TalonOne_xml.md)
-        - [UpSell.xml](config_api_platform_resources_admin_UpSell_xml.md)
-        - [UpSellVariant.xml](config_api_platform_resources_admin_UpSellVariant_xml.md)
+        - [Address.xml](config_api_platform_resources_admin_Address_xml.md) <!-- repo:backend -->
+        - [AdminUserGroup.xml](config_api_platform_resources_admin_AdminUserGroup_xml.md) <!-- repo:backend -->
+        - [AnimalActivityTranslation.xml](config_api_platform_resources_admin_AnimalActivityTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalActivity.xml](config_api_platform_resources_admin_AnimalActivity_xml.md) <!-- repo:backend -->
+        - [AnimalBreedTranslation.xml](config_api_platform_resources_admin_AnimalBreedTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalBreed.xml](config_api_platform_resources_admin_AnimalBreed_xml.md) <!-- repo:backend -->
+        - [AnimalConditionTranslation.xml](config_api_platform_resources_admin_AnimalConditionTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalCondition.xml](config_api_platform_resources_admin_AnimalCondition_xml.md) <!-- repo:backend -->
+        - [AnimalDeletedReason.xml](config_api_platform_resources_admin_AnimalDeletedReason_xml.md) <!-- repo:backend -->
+        - [AnimalDeletedTranslation.xml](config_api_platform_resources_admin_AnimalDeletedTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalFeatureTranslation.xml](config_api_platform_resources_admin_AnimalFeatureTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalFeature.xml](config_api_platform_resources_admin_AnimalFeature_xml.md) <!-- repo:backend -->
+        - [AnimalFeedTranslation.xml](config_api_platform_resources_admin_AnimalFeedTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalFeed.xml](config_api_platform_resources_admin_AnimalFeed_xml.md) <!-- repo:backend -->
+        - [AnimalGenderTranslation.xml](config_api_platform_resources_admin_AnimalGenderTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalGender.xml](config_api_platform_resources_admin_AnimalGender_xml.md) <!-- repo:backend -->
+        - [AnimalKibbleBrandRange.xml](config_api_platform_resources_admin_AnimalKibbleBrandRange_xml.md) <!-- repo:backend -->
+        - [AnimalKibbleBrand.xml](config_api_platform_resources_admin_AnimalKibbleBrand_xml.md) <!-- repo:backend -->
+        - [AnimalPhoto.xml](config_api_platform_resources_admin_AnimalPhoto_xml.md) <!-- repo:backend -->
+        - [AnimalTypeTranslation.xml](config_api_platform_resources_admin_AnimalTypeTranslation_xml.md) <!-- repo:backend -->
+        - [AnimalType.xml](config_api_platform_resources_admin_AnimalType_xml.md) <!-- repo:backend -->
+        - [Animal.xml](config_api_platform_resources_admin_Animal_xml.md) <!-- repo:backend -->
+        - [CustomerPassword.xml](config_api_platform_resources_admin_CustomerPassword_xml.md) <!-- repo:backend -->
+        - [Customer.xml](config_api_platform_resources_admin_Customer_xml.md) <!-- repo:backend -->
+        - [EmailAudit.xml](config_api_platform_resources_admin_EmailAudit_xml.md) <!-- repo:backend -->
+        - [OrderRuleCondition.xml](config_api_platform_resources_admin_OrderRuleCondition_xml.md) <!-- repo:backend -->
+        - [OrderRuleTranslation.xml](config_api_platform_resources_admin_OrderRuleTranslation_xml.md) <!-- repo:backend -->
+        - [OrderRule.xml](config_api_platform_resources_admin_OrderRule_xml.md) <!-- repo:backend -->
+        - [Order.xml](config_api_platform_resources_admin_Order_xml.md) <!-- repo:backend -->
+        - [OriginLeadCustomer.xml](config_api_platform_resources_admin_OriginLeadCustomer_xml.md) <!-- repo:backend -->
+        - [PaymentInstrument.xml](config_api_platform_resources_admin_PaymentInstrument_xml.md) <!-- repo:backend -->
+        - [PaymentMethodCharges.xml](config_api_platform_resources_admin_PaymentMethodCharges_xml.md) <!-- repo:backend -->
+        - [PaymentMethod.xml](config_api_platform_resources_admin_PaymentMethod_xml.md) <!-- repo:backend -->
+        - [Payment.xml](config_api_platform_resources_admin_Payment_xml.md) <!-- repo:backend -->
+        - [PickupAddress.xml](config_api_platform_resources_admin_PickupAddress_xml.md) <!-- repo:backend -->
+        - [PickupPointClosingPeriod.xml](config_api_platform_resources_admin_PickupPointClosingPeriod_xml.md) <!-- repo:backend -->
+        - [PickupPointHasShippingMethod.xml](config_api_platform_resources_admin_PickupPointHasShippingMethod_xml.md) <!-- repo:backend -->
+        - [PickupPoint.xml](config_api_platform_resources_admin_PickupPoint_xml.md) <!-- repo:backend -->
+        - [ProductOptionValue.xml](config_api_platform_resources_admin_ProductOptionValue_xml.md) <!-- repo:backend -->
+        - [ProductVariant.xml](config_api_platform_resources_admin_ProductVariant_xml.md) <!-- repo:backend -->
+        - [Product.xml](config_api_platform_resources_admin_Product_xml.md) <!-- repo:backend -->
+        - [PromotionAction.xml](config_api_platform_resources_admin_PromotionAction_xml.md) <!-- repo:backend -->
+        - [PromotionAnalyticBroadcast.xml](config_api_platform_resources_admin_PromotionAnalyticBroadcast_xml.md) <!-- repo:backend -->
+        - [PromotionAnalyticCategory.xml](config_api_platform_resources_admin_PromotionAnalyticCategory_xml.md) <!-- repo:backend -->
+        - [PromotionAnalyticTarget.xml](config_api_platform_resources_admin_PromotionAnalyticTarget_xml.md) <!-- repo:backend -->
+        - [PromotionCouponCustomer.xml](config_api_platform_resources_admin_PromotionCouponCustomer_xml.md) <!-- repo:backend -->
+        - [PromotionCoupon.xml](config_api_platform_resources_admin_PromotionCoupon_xml.md) <!-- repo:backend -->
+        - [PromotionRule.xml](config_api_platform_resources_admin_PromotionRule_xml.md) <!-- repo:backend -->
+        - [Promotion.xml](config_api_platform_resources_admin_Promotion_xml.md) <!-- repo:backend -->
+        - [Shipment.xml](config_api_platform_resources_admin_Shipment_xml.md) <!-- repo:backend -->
+        - [ShippingMethodCategoryTranslation.xml](config_api_platform_resources_admin_ShippingMethodCategoryTranslation_xml.md) <!-- repo:backend -->
+        - [ShippingMethodCategory.xml](config_api_platform_resources_admin_ShippingMethodCategory_xml.md) <!-- repo:backend -->
+        - [ShippingMethodRule.xml](config_api_platform_resources_admin_ShippingMethodRule_xml.md) <!-- repo:backend -->
+        - [ShippingMethod.xml](config_api_platform_resources_admin_ShippingMethod_xml.md) <!-- repo:backend -->
+        - [ShippingRangePriceItem.xml](config_api_platform_resources_admin_ShippingRangePriceItem_xml.md) <!-- repo:backend -->
+        - [ShippingRangePrice.xml](config_api_platform_resources_admin_ShippingRangePrice_xml.md) <!-- repo:backend -->
+        - [SubscriptionComment.xml](config_api_platform_resources_admin_SubscriptionComment_xml.md) <!-- repo:backend -->
+        - [SubscriptionFrequencyGroup.xml](config_api_platform_resources_admin_SubscriptionFrequencyGroup_xml.md) <!-- repo:backend -->
+        - [SubscriptionItem.xml](config_api_platform_resources_admin_SubscriptionItem_xml.md) <!-- repo:backend -->
+        - [SubscriptionMonitoring.xml](config_api_platform_resources_admin_SubscriptionMonitoring_xml.md) <!-- repo:backend -->
+        - [SubscriptionOrder.xml](config_api_platform_resources_admin_SubscriptionOrder_xml.md) <!-- repo:backend -->
+        - [SubscriptionStopReasonTranslation.xml](config_api_platform_resources_admin_SubscriptionStopReasonTranslation_xml.md) <!-- repo:backend -->
+        - [SubscriptionStopReason.xml](config_api_platform_resources_admin_SubscriptionStopReason_xml.md) <!-- repo:backend -->
+        - [Subscription.xml](config_api_platform_resources_admin_Subscription_xml.md) <!-- repo:backend -->
+        - [TalonOne.xml](config_api_platform_resources_admin_TalonOne_xml.md) <!-- repo:backend -->
+        - [UpSellVariant.xml](config_api_platform_resources_admin_UpSellVariant_xml.md) <!-- repo:backend -->
+        - [UpSell.xml](config_api_platform_resources_admin_UpSell_xml.md) <!-- repo:backend -->
       - **shop**
-        - [Address.xml](config_api_platform_resources_shop_Address_xml.md)
-        - [Animal.xml](config_api_platform_resources_shop_Animal_xml.md)
-        - [AnimalActivity.xml](config_api_platform_resources_shop_AnimalActivity_xml.md)
-        - [AnimalBreed.xml](config_api_platform_resources_shop_AnimalBreed_xml.md)
-        - [AnimalCondition.xml](config_api_platform_resources_shop_AnimalCondition_xml.md)
-        - [AnimalDeletedReason.xml](config_api_platform_resources_shop_AnimalDeletedReason_xml.md)
-        - [AnimalFeature.xml](config_api_platform_resources_shop_AnimalFeature_xml.md)
-        - [AnimalFeed.xml](config_api_platform_resources_shop_AnimalFeed_xml.md)
-        - [AnimalGender.xml](config_api_platform_resources_shop_AnimalGender_xml.md)
-        - [AnimalKibbleBrand.xml](config_api_platform_resources_shop_AnimalKibbleBrand_xml.md)
-        - [AnimalKibbleBrandRange.xml](config_api_platform_resources_shop_AnimalKibbleBrandRange_xml.md)
-        - [AnimalPhoto.xml](config_api_platform_resources_shop_AnimalPhoto_xml.md)
-        - [AnimalType.xml](config_api_platform_resources_shop_AnimalType_xml.md)
-        - [Customer.xml](config_api_platform_resources_shop_Customer_xml.md)
-        - [Order.xml](config_api_platform_resources_shop_Order_xml.md)
-        - [PaymentInstrument.xml](config_api_platform_resources_shop_PaymentInstrument_xml.md)
-        - [PickupAddress.xml](config_api_platform_resources_shop_PickupAddress_xml.md)
-        - [PickupPoint.xml](config_api_platform_resources_shop_PickupPoint_xml.md)
-        - [ProductOptionValue.xml](config_api_platform_resources_shop_ProductOptionValue_xml.md)
-        - [Subscription.xml](config_api_platform_resources_shop_Subscription_xml.md)
-        - [SubscriptionOrder.xml](config_api_platform_resources_shop_SubscriptionOrder_xml.md)
-        - [UpSell.xml](config_api_platform_resources_shop_UpSell_xml.md)
-        - [UpSellVariant.xml](config_api_platform_resources_shop_UpSellVariant_xml.md)
+        - [Address.xml](config_api_platform_resources_shop_Address_xml.md) <!-- repo:backend -->
+        - [AnimalActivity.xml](config_api_platform_resources_shop_AnimalActivity_xml.md) <!-- repo:backend -->
+        - [AnimalBreed.xml](config_api_platform_resources_shop_AnimalBreed_xml.md) <!-- repo:backend -->
+        - [AnimalCondition.xml](config_api_platform_resources_shop_AnimalCondition_xml.md) <!-- repo:backend -->
+        - [AnimalDeletedReason.xml](config_api_platform_resources_shop_AnimalDeletedReason_xml.md) <!-- repo:backend -->
+        - [AnimalFeature.xml](config_api_platform_resources_shop_AnimalFeature_xml.md) <!-- repo:backend -->
+        - [AnimalFeed.xml](config_api_platform_resources_shop_AnimalFeed_xml.md) <!-- repo:backend -->
+        - [AnimalGender.xml](config_api_platform_resources_shop_AnimalGender_xml.md) <!-- repo:backend -->
+        - [AnimalKibbleBrandRange.xml](config_api_platform_resources_shop_AnimalKibbleBrandRange_xml.md) <!-- repo:backend -->
+        - [AnimalKibbleBrand.xml](config_api_platform_resources_shop_AnimalKibbleBrand_xml.md) <!-- repo:backend -->
+        - [AnimalPhoto.xml](config_api_platform_resources_shop_AnimalPhoto_xml.md) <!-- repo:backend -->
+        - [AnimalType.xml](config_api_platform_resources_shop_AnimalType_xml.md) <!-- repo:backend -->
+        - [Animal.xml](config_api_platform_resources_shop_Animal_xml.md) <!-- repo:backend -->
+        - [Customer.xml](config_api_platform_resources_shop_Customer_xml.md) <!-- repo:backend -->
+        - [Order.xml](config_api_platform_resources_shop_Order_xml.md) <!-- repo:backend -->
+        - [PaymentInstrument.xml](config_api_platform_resources_shop_PaymentInstrument_xml.md) <!-- repo:backend -->
+        - [PickupAddress.xml](config_api_platform_resources_shop_PickupAddress_xml.md) <!-- repo:backend -->
+        - [PickupPoint.xml](config_api_platform_resources_shop_PickupPoint_xml.md) <!-- repo:backend -->
+        - [ProductOptionValue.xml](config_api_platform_resources_shop_ProductOptionValue_xml.md) <!-- repo:backend -->
+        - [SubscriptionOrder.xml](config_api_platform_resources_shop_SubscriptionOrder_xml.md) <!-- repo:backend -->
+        - [Subscription.xml](config_api_platform_resources_shop_Subscription_xml.md) <!-- repo:backend -->
+        - [UpSellVariant.xml](config_api_platform_resources_shop_UpSellVariant_xml.md) <!-- repo:backend -->
+        - [UpSell.xml](config_api_platform_resources_shop_UpSell_xml.md) <!-- repo:backend -->
   - **behat**
-    - [_api.yaml](config_behat__api_yaml.md)
-    - [_contexts.yaml](config_behat__contexts_yaml.md)
-    - [_hooks.yaml](config_behat__hooks_yaml.md)
-  - [bootstrap.php](config_bootstrap_php.md)
-  - [bundles.php](config_bundles_php.md)
+    - [_api.yaml](config_behat__api_yaml.md) <!-- repo:backend -->
+    - [_contexts.yaml](config_behat__contexts_yaml.md) <!-- repo:backend -->
+    - [_hooks.yaml](config_behat__hooks_yaml.md) <!-- repo:backend -->
+  - [bootstrap.php](config_bootstrap_php.md) <!-- repo:backend -->
+  - [bundles.php](config_bundles_php.md) <!-- repo:backend -->
+  - [preload.php](config_preload_php.md) <!-- repo:backend -->
+  - [routes.yaml](config_routes_yaml.md) <!-- repo:backend -->
   - **packages**
-    - [_sylius.yaml](config_packages__sylius_yaml.md)
-    - [api_platform.yaml](config_packages_api_platform_yaml.md)
-    - [assets.yaml](config_packages_assets_yaml.md)
-    - [debug.yaml](config_packages_debug_yaml.md)
+    - [_sylius.yaml](config_packages__sylius_yaml.md) <!-- repo:backend -->
+    - [api_platform.yaml](config_packages_api_platform_yaml.md) <!-- repo:backend -->
+    - [assets.yaml](config_packages_assets_yaml.md) <!-- repo:backend -->
+    - [debug.yaml](config_packages_debug_yaml.md) <!-- repo:backend -->
+    - [dh_auditor.yaml](config_packages_dh_auditor_yaml.md) <!-- repo:backend -->
+    - [doctrine_migrations.yaml](config_packages_doctrine_migrations_yaml.md) <!-- repo:backend -->
+    - [doctrine.yaml](config_packages_doctrine_yaml.md) <!-- repo:backend -->
+    - [enqueue.yaml](config_packages_enqueue_yaml.md) <!-- repo:backend -->
+    - [fixtures.yaml](config_packages_fixtures_yaml.md) <!-- repo:backend -->
+    - [flysystem.yaml](config_packages_flysystem_yaml.md) <!-- repo:backend -->
+    - [framework.yaml](config_packages_framework_yaml.md) <!-- repo:backend -->
+    - [gesdinet_jwt_refresh_token.yaml](config_packages_gesdinet_jwt_refresh_token_yaml.md) <!-- repo:backend -->
+    - [http_discovery.yaml](config_packages_http_discovery_yaml.md) <!-- repo:backend -->
+    - [httplug.yaml](config_packages_httplug_yaml.md) <!-- repo:backend -->
+    - [hwi_oauth.yaml](config_packages_hwi_oauth_yaml.md) <!-- repo:backend -->
+    - [lexik_jwt_authentication.yaml](config_packages_lexik_jwt_authentication_yaml.md) <!-- repo:backend -->
+    - [liip_imagine.yaml](config_packages_liip_imagine_yaml.md) <!-- repo:backend -->
+    - [lock.yaml](config_packages_lock_yaml.md) <!-- repo:backend -->
+    - [mailer.yaml](config_packages_mailer_yaml.md) <!-- repo:backend -->
+    - [messenger.yaml](config_packages_messenger_yaml.md) <!-- repo:backend -->
+    - [monolog.yaml](config_packages_monolog_yaml.md) <!-- repo:backend -->
+    - [nelmio_alice.yaml](config_packages_nelmio_alice_yaml.md) <!-- repo:backend -->
+    - [nelmio_cors.yaml](config_packages_nelmio_cors_yaml.md) <!-- repo:backend -->
+    - [operations_to_remove.yaml](config_packages_operations_to_remove_yaml.md) <!-- repo:backend -->
+    - [parameters.yml](config_packages_parameters_yml.md) <!-- repo:backend -->
+    - [ressources.yaml](config_packages_ressources_yaml.md) <!-- repo:backend -->
+    - [routing.yaml](config_packages_routing_yaml.md) <!-- repo:backend -->
+    - [security.yaml](config_packages_security_yaml.md) <!-- repo:backend -->
+    - [state_machine.yaml](config_packages_state_machine_yaml.md) <!-- repo:backend -->
+    - [stof_doctrine_extensions.yaml](config_packages_stof_doctrine_extensions_yaml.md) <!-- repo:backend -->
+    - [talon_one.yaml](config_packages_talon_one_yaml.md) <!-- repo:backend -->
+    - [translation.yaml](config_packages_translation_yaml.md) <!-- repo:backend -->
+    - [twig.yaml](config_packages_twig_yaml.md) <!-- repo:backend -->
+    - [uid.yaml](config_packages_uid_yaml.md) <!-- repo:backend -->
+    - [validator.yaml](config_packages_validator_yaml.md) <!-- repo:backend -->
+    - [web_profiler.yaml](config_packages_web_profiler_yaml.md) <!-- repo:backend -->
+    - [wonder_push.yaml](config_packages_wonder_push_yaml.md) <!-- repo:backend -->
+    - [workflow.yaml](config_packages_workflow_yaml.md) <!-- repo:backend -->
     - **dev**
-      - [doctrine.yaml](config_packages_dev_doctrine_yaml.md)
-      - [framework.yaml](config_packages_dev_framework_yaml.md)
-      - [messenger.yaml](config_packages_dev_messenger_yaml.md)
-      - [nelmio_alice.yaml](config_packages_dev_nelmio_alice_yaml.md)
-      - [routing.yaml](config_packages_dev_routing_yaml.md)
-      - [sylius_pay_pal.yaml](config_packages_dev_sylius_pay_pal_yaml.md)
-      - [web_profiler.yaml](config_packages_dev_web_profiler_yaml.md)
-    - [dh_auditor.yaml](config_packages_dh_auditor_yaml.md)
-    - [doctrine.yaml](config_packages_doctrine_yaml.md)
-    - [doctrine_migrations.yaml](config_packages_doctrine_migrations_yaml.md)
-    - [enqueue.yaml](config_packages_enqueue_yaml.md)
+      - [doctrine.yaml](config_packages_dev_doctrine_yaml.md) <!-- repo:backend -->
+      - [framework.yaml](config_packages_dev_framework_yaml.md) <!-- repo:backend -->
+      - [messenger.yaml](config_packages_dev_messenger_yaml.md) <!-- repo:backend -->
+      - [nelmio_alice.yaml](config_packages_dev_nelmio_alice_yaml.md) <!-- repo:backend -->
+      - [routing.yaml](config_packages_dev_routing_yaml.md) <!-- repo:backend -->
+      - [sylius_pay_pal.yaml](config_packages_dev_sylius_pay_pal_yaml.md) <!-- repo:backend -->
+      - [web_profiler.yaml](config_packages_dev_web_profiler_yaml.md) <!-- repo:backend -->
     - **fixtures**
+      - [main.yaml](config_packages_fixtures_main_yaml.md) <!-- repo:backend -->
       - **main**
-        - [admin_user.yaml](config_packages_fixtures_main_admin_user_yaml.md)
-        - [base.yaml](config_packages_fixtures_main_base_yaml.md)
-        - [customer.yaml](config_packages_fixtures_main_customer_yaml.md)
-        - [dev_base.yaml](config_packages_fixtures_main_dev_base_yaml.md)
-        - [order.yaml](config_packages_fixtures_main_order_yaml.md)
-        - [pickup_point.yaml](config_packages_fixtures_main_pickup_point_yaml.md)
-        - [product.yaml](config_packages_fixtures_main_product_yaml.md)
-        - [promotion.yaml](config_packages_fixtures_main_promotion_yaml.md)
-        - [shipping_method.yaml](config_packages_fixtures_main_shipping_method_yaml.md)
-        - [shipping_zones.yaml](config_packages_fixtures_main_shipping_zones_yaml.md)
-        - [taxon.yaml](config_packages_fixtures_main_taxon_yaml.md)
-      - [main.yaml](config_packages_fixtures_main_yaml.md)
-    - [fixtures.yaml](config_packages_fixtures_yaml.md)
-    - [flysystem.yaml](config_packages_flysystem_yaml.md)
-    - [framework.yaml](config_packages_framework_yaml.md)
-    - [gesdinet_jwt_refresh_token.yaml](config_packages_gesdinet_jwt_refresh_token_yaml.md)
-    - [http_discovery.yaml](config_packages_http_discovery_yaml.md)
-    - [httplug.yaml](config_packages_httplug_yaml.md)
-    - [hwi_oauth.yaml](config_packages_hwi_oauth_yaml.md)
-    - [lexik_jwt_authentication.yaml](config_packages_lexik_jwt_authentication_yaml.md)
-    - [liip_imagine.yaml](config_packages_liip_imagine_yaml.md)
-    - [lock.yaml](config_packages_lock_yaml.md)
-    - [mailer.yaml](config_packages_mailer_yaml.md)
-    - [messenger.yaml](config_packages_messenger_yaml.md)
-    - [monolog.yaml](config_packages_monolog_yaml.md)
-    - [nelmio_alice.yaml](config_packages_nelmio_alice_yaml.md)
-    - [nelmio_cors.yaml](config_packages_nelmio_cors_yaml.md)
-    - [operations_to_remove.yaml](config_packages_operations_to_remove_yaml.md)
-    - [parameters.yml](config_packages_parameters_yml.md)
+        - [admin_user.yaml](config_packages_fixtures_main_admin_user_yaml.md) <!-- repo:backend -->
+        - [base.yaml](config_packages_fixtures_main_base_yaml.md) <!-- repo:backend -->
+        - [customer.yaml](config_packages_fixtures_main_customer_yaml.md) <!-- repo:backend -->
+        - [dev_base.yaml](config_packages_fixtures_main_dev_base_yaml.md) <!-- repo:backend -->
+        - [order.yaml](config_packages_fixtures_main_order_yaml.md) <!-- repo:backend -->
+        - [pickup_point.yaml](config_packages_fixtures_main_pickup_point_yaml.md) <!-- repo:backend -->
+        - [product.yaml](config_packages_fixtures_main_product_yaml.md) <!-- repo:backend -->
+        - [promotion.yaml](config_packages_fixtures_main_promotion_yaml.md) <!-- repo:backend -->
+        - [shipping_method.yaml](config_packages_fixtures_main_shipping_method_yaml.md) <!-- repo:backend -->
+        - [shipping_zones.yaml](config_packages_fixtures_main_shipping_zones_yaml.md) <!-- repo:backend -->
+        - [taxon.yaml](config_packages_fixtures_main_taxon_yaml.md) <!-- repo:backend -->
     - **prod**
-      - [doctrine.yaml](config_packages_prod_doctrine_yaml.md)
-      - [paramters.yaml](config_packages_prod_paramters_yaml.md)
-    - [ressources.yaml](config_packages_ressources_yaml.md)
-    - [routing.yaml](config_packages_routing_yaml.md)
-    - [security.yaml](config_packages_security_yaml.md)
-    - [state_machine.yaml](config_packages_state_machine_yaml.md)
-    - [stof_doctrine_extensions.yaml](config_packages_stof_doctrine_extensions_yaml.md)
+      - [doctrine.yaml](config_packages_prod_doctrine_yaml.md) <!-- repo:backend -->
+      - [paramters.yaml](config_packages_prod_paramters_yaml.md) <!-- repo:backend -->
     - **suites**
-      - [login.yml](config_packages_suites_login_yml.md)
-      - [registration.yml](config_packages_suites_registration_yml.md)
+      - [login.yml](config_packages_suites_login_yml.md) <!-- repo:backend -->
+      - [registration.yml](config_packages_suites_registration_yml.md) <!-- repo:backend -->
     - **sylius**
       - **core**
-        - [config.yaml](config_packages_sylius_core_config_yaml.md)
-        - [sylius.yaml](config_packages_sylius_core_sylius_yaml.md)
-    - [talon_one.yaml](config_packages_talon_one_yaml.md)
+        - [config.yaml](config_packages_sylius_core_config_yaml.md) <!-- repo:backend -->
+        - [sylius.yaml](config_packages_sylius_core_sylius_yaml.md) <!-- repo:backend -->
     - **test**
-      - [assets.yaml](config_packages_test_assets_yaml.md)
-      - [doctrine_migrations.yaml](config_packages_test_doctrine_migrations_yaml.md)
-      - [enqueue.yaml](config_packages_test_enqueue_yaml.md)
-      - [fidry_alice_data_fixtures.yaml](config_packages_test_fidry_alice_data_fixtures_yaml.md)
-      - [framework.yaml](config_packages_test_framework_yaml.md)
-      - [mailer.yaml](config_packages_test_mailer_yaml.md)
-      - [nelmio_alice.yaml](config_packages_test_nelmio_alice_yaml.md)
-      - [sylius_uploader.yaml](config_packages_test_sylius_uploader_yaml.md)
-      - [web_profiler.yaml](config_packages_test_web_profiler_yaml.md)
+      - [assets.yaml](config_packages_test_assets_yaml.md) <!-- repo:backend -->
+      - [doctrine_migrations.yaml](config_packages_test_doctrine_migrations_yaml.md) <!-- repo:backend -->
+      - [enqueue.yaml](config_packages_test_enqueue_yaml.md) <!-- repo:backend -->
+      - [fidry_alice_data_fixtures.yaml](config_packages_test_fidry_alice_data_fixtures_yaml.md) <!-- repo:backend -->
+      - [framework.yaml](config_packages_test_framework_yaml.md) <!-- repo:backend -->
+      - [mailer.yaml](config_packages_test_mailer_yaml.md) <!-- repo:backend -->
+      - [nelmio_alice.yaml](config_packages_test_nelmio_alice_yaml.md) <!-- repo:backend -->
+      - [sylius_uploader.yaml](config_packages_test_sylius_uploader_yaml.md) <!-- repo:backend -->
+      - [web_profiler.yaml](config_packages_test_web_profiler_yaml.md) <!-- repo:backend -->
     - **test_cached**
-      - [assets.yaml](config_packages_test_cached_assets_yaml.md)
-      - [doctrine.yaml](config_packages_test_cached_doctrine_yaml.md)
-      - [fidry_alice_data_fixtures.yaml](config_packages_test_cached_fidry_alice_data_fixtures_yaml.md)
-      - [framework.yaml](config_packages_test_cached_framework_yaml.md)
-      - [swiftmailer.yaml](config_packages_test_cached_swiftmailer_yaml.md)
-      - [sylius_channel.yaml](config_packages_test_cached_sylius_channel_yaml.md)
-      - [sylius_theme.yaml](config_packages_test_cached_sylius_theme_yaml.md)
-      - [sylius_uploader.yaml](config_packages_test_cached_sylius_uploader_yaml.md)
-      - [twig.yaml](config_packages_test_cached_twig_yaml.md)
-      - [webpack_encore.yaml](config_packages_test_cached_webpack_encore_yaml.md)
-    - [translation.yaml](config_packages_translation_yaml.md)
-    - [twig.yaml](config_packages_twig_yaml.md)
-    - [uid.yaml](config_packages_uid_yaml.md)
-    - [validator.yaml](config_packages_validator_yaml.md)
-    - [web_profiler.yaml](config_packages_web_profiler_yaml.md)
-    - [wonder_push.yaml](config_packages_wonder_push_yaml.md)
-    - [workflow.yaml](config_packages_workflow_yaml.md)
-  - [preload.php](config_preload_php.md)
+      - [assets.yaml](config_packages_test_cached_assets_yaml.md) <!-- repo:backend -->
+      - [doctrine.yaml](config_packages_test_cached_doctrine_yaml.md) <!-- repo:backend -->
+      - [fidry_alice_data_fixtures.yaml](config_packages_test_cached_fidry_alice_data_fixtures_yaml.md) <!-- repo:backend -->
+      - [framework.yaml](config_packages_test_cached_framework_yaml.md) <!-- repo:backend -->
+      - [swiftmailer.yaml](config_packages_test_cached_swiftmailer_yaml.md) <!-- repo:backend -->
+      - [sylius_channel.yaml](config_packages_test_cached_sylius_channel_yaml.md) <!-- repo:backend -->
+      - [sylius_theme.yaml](config_packages_test_cached_sylius_theme_yaml.md) <!-- repo:backend -->
+      - [sylius_uploader.yaml](config_packages_test_cached_sylius_uploader_yaml.md) <!-- repo:backend -->
+      - [twig.yaml](config_packages_test_cached_twig_yaml.md) <!-- repo:backend -->
+      - [webpack_encore.yaml](config_packages_test_cached_webpack_encore_yaml.md) <!-- repo:backend -->
   - **routes**
-    - [api_platform.yaml](config_routes_api_platform_yaml.md)
-    - [framework.yaml](config_routes_framework_yaml.md)
-    - [sylius_api.yaml](config_routes_sylius_api_yaml.md)
-    - [ux_autocomplete.yaml](config_routes_ux_autocomplete_yaml.md)
-    - [ux_live_component.yaml](config_routes_ux_live_component_yaml.md)
-    - [web_profiler.yaml](config_routes_web_profiler_yaml.md)
-  - [routes.yaml](config_routes_yaml.md)
+    - [api_platform.yaml](config_routes_api_platform_yaml.md) <!-- repo:backend -->
+    - [framework.yaml](config_routes_framework_yaml.md) <!-- repo:backend -->
+    - [sylius_api.yaml](config_routes_sylius_api_yaml.md) <!-- repo:backend -->
+    - [ux_autocomplete.yaml](config_routes_ux_autocomplete_yaml.md) <!-- repo:backend -->
+    - [ux_live_component.yaml](config_routes_ux_live_component_yaml.md) <!-- repo:backend -->
+    - [web_profiler.yaml](config_routes_web_profiler_yaml.md) <!-- repo:backend -->
   - **serialization**
     - **Address**
-      - [Address.xml](config_serialization_Address_Address_xml.md)
+      - [Address.xml](config_serialization_Address_Address_xml.md) <!-- repo:backend -->
     - **Adjustment**
-      - [Adjustment.xml](config_serialization_Adjustment_Adjustment_xml.md)
+      - [Adjustment.xml](config_serialization_Adjustment_Adjustment_xml.md) <!-- repo:backend -->
     - **Animal**
-      - [Animal.xml](config_serialization_Animal_Animal_xml.md)
-      - [AnimalActivity.xml](config_serialization_Animal_AnimalActivity_xml.md)
-      - [AnimalActivityTranslation.xml](config_serialization_Animal_AnimalActivityTranslation_xml.md)
-      - [AnimalBreed.xml](config_serialization_Animal_AnimalBreed_xml.md)
-      - [AnimalBreedTranslation.xml](config_serialization_Animal_AnimalBreedTranslation_xml.md)
-      - [AnimalCondition.xml](config_serialization_Animal_AnimalCondition_xml.md)
-      - [AnimalConditionTranslation.xml](config_serialization_Animal_AnimalConditionTranslation_xml.md)
-      - [AnimalDeletedReason.xml](config_serialization_Animal_AnimalDeletedReason_xml.md)
-      - [AnimalDeletedReasonTranslation.xml](config_serialization_Animal_AnimalDeletedReasonTranslation_xml.md)
-      - [AnimalFeature.xml](config_serialization_Animal_AnimalFeature_xml.md)
-      - [AnimalFeatureTranslation.xml](config_serialization_Animal_AnimalFeatureTranslation_xml.md)
-      - [AnimalFeed.xml](config_serialization_Animal_AnimalFeed_xml.md)
-      - [AnimalFeedTranslation.xml](config_serialization_Animal_AnimalFeedTranslation_xml.md)
-      - [AnimalGender.xml](config_serialization_Animal_AnimalGender_xml.md)
-      - [AnimalGenderTranslation.xml](config_serialization_Animal_AnimalGenderTranslation_xml.md)
-      - [AnimalKibbleBrand.xml](config_serialization_Animal_AnimalKibbleBrand_xml.md)
-      - [AnimalKibbleBrandRange.xml](config_serialization_Animal_AnimalKibbleBrandRange_xml.md)
-      - [AnimalPhoto.xml](config_serialization_Animal_AnimalPhoto_xml.md)
-      - [AnimalType.xml](config_serialization_Animal_AnimalType_xml.md)
-      - [AnimalTypeTranslation.xml](config_serialization_Animal_AnimalTypeTranslation_xml.md)
+      - [AnimalActivityTranslation.xml](config_serialization_Animal_AnimalActivityTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalActivity.xml](config_serialization_Animal_AnimalActivity_xml.md) <!-- repo:backend -->
+      - [AnimalBreedTranslation.xml](config_serialization_Animal_AnimalBreedTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalBreed.xml](config_serialization_Animal_AnimalBreed_xml.md) <!-- repo:backend -->
+      - [AnimalConditionTranslation.xml](config_serialization_Animal_AnimalConditionTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalCondition.xml](config_serialization_Animal_AnimalCondition_xml.md) <!-- repo:backend -->
+      - [AnimalDeletedReasonTranslation.xml](config_serialization_Animal_AnimalDeletedReasonTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalDeletedReason.xml](config_serialization_Animal_AnimalDeletedReason_xml.md) <!-- repo:backend -->
+      - [AnimalFeatureTranslation.xml](config_serialization_Animal_AnimalFeatureTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalFeature.xml](config_serialization_Animal_AnimalFeature_xml.md) <!-- repo:backend -->
+      - [AnimalFeedTranslation.xml](config_serialization_Animal_AnimalFeedTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalFeed.xml](config_serialization_Animal_AnimalFeed_xml.md) <!-- repo:backend -->
+      - [AnimalGenderTranslation.xml](config_serialization_Animal_AnimalGenderTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalGender.xml](config_serialization_Animal_AnimalGender_xml.md) <!-- repo:backend -->
+      - [AnimalKibbleBrandRange.xml](config_serialization_Animal_AnimalKibbleBrandRange_xml.md) <!-- repo:backend -->
+      - [AnimalKibbleBrand.xml](config_serialization_Animal_AnimalKibbleBrand_xml.md) <!-- repo:backend -->
+      - [AnimalPhoto.xml](config_serialization_Animal_AnimalPhoto_xml.md) <!-- repo:backend -->
+      - [AnimalTypeTranslation.xml](config_serialization_Animal_AnimalTypeTranslation_xml.md) <!-- repo:backend -->
+      - [AnimalType.xml](config_serialization_Animal_AnimalType_xml.md) <!-- repo:backend -->
+      - [Animal.xml](config_serialization_Animal_Animal_xml.md) <!-- repo:backend -->
     - **Channel**
-      - [Channel.xml](config_serialization_Channel_Channel_xml.md)
-      - [ChannelPricing.xml](config_serialization_Channel_ChannelPricing_xml.md)
+      - [ChannelPricing.xml](config_serialization_Channel_ChannelPricing_xml.md) <!-- repo:backend -->
+      - [Channel.xml](config_serialization_Channel_Channel_xml.md) <!-- repo:backend -->
     - **Customer**
-      - [Customer.xml](config_serialization_Customer_Customer_xml.md)
-      - [OriginLeadCustomer.xml](config_serialization_Customer_OriginLeadCustomer_xml.md)
-      - [PaymentInstrument.xml](config_serialization_Customer_PaymentInstrument_xml.md)
+      - [Customer.xml](config_serialization_Customer_Customer_xml.md) <!-- repo:backend -->
+      - [OriginLeadCustomer.xml](config_serialization_Customer_OriginLeadCustomer_xml.md) <!-- repo:backend -->
+      - [PaymentInstrument.xml](config_serialization_Customer_PaymentInstrument_xml.md) <!-- repo:backend -->
     - **Dto**
-      - [UpdateInstrumentResponse.xml](config_serialization_Dto_UpdateInstrumentResponse_xml.md)
-      - [UpdateShippingDto.xml](config_serialization_Dto_UpdateShippingDto_xml.md)
+      - [UpdateInstrumentResponse.xml](config_serialization_Dto_UpdateInstrumentResponse_xml.md) <!-- repo:backend -->
+      - [UpdateShippingDto.xml](config_serialization_Dto_UpdateShippingDto_xml.md) <!-- repo:backend -->
     - **GatewayConfig**
-      - [GatewayConfig.xml](config_serialization_GatewayConfig_GatewayConfig_xml.md)
+      - [GatewayConfig.xml](config_serialization_GatewayConfig_GatewayConfig_xml.md) <!-- repo:backend -->
     - **Order**
-      - [Order.xml](config_serialization_Order_Order_xml.md)
-      - [OrderItem.xml](config_serialization_Order_OrderItem_xml.md)
+      - [OrderItem.xml](config_serialization_Order_OrderItem_xml.md) <!-- repo:backend -->
+      - [Order.xml](config_serialization_Order_Order_xml.md) <!-- repo:backend -->
     - **OrderRule**
-      - [OrderRule.xml](config_serialization_OrderRule_OrderRule_xml.md)
-      - [OrderRuleCondition.xml](config_serialization_OrderRule_OrderRuleCondition_xml.md)
-      - [OrderRuleTranslation.xml](config_serialization_OrderRule_OrderRuleTranslation_xml.md)
+      - [OrderRuleCondition.xml](config_serialization_OrderRule_OrderRuleCondition_xml.md) <!-- repo:backend -->
+      - [OrderRuleTranslation.xml](config_serialization_OrderRule_OrderRuleTranslation_xml.md) <!-- repo:backend -->
+      - [OrderRule.xml](config_serialization_OrderRule_OrderRule_xml.md) <!-- repo:backend -->
     - **Payment**
-      - [Payment.xml](config_serialization_Payment_Payment_xml.md)
-      - [PaymentInstrumentPublicConfig.xml](config_serialization_Payment_PaymentInstrumentPublicConfig_xml.md)
-      - [PaymentMethod.xml](config_serialization_Payment_PaymentMethod_xml.md)
-      - [PaymentMethodCharges.xml](config_serialization_Payment_PaymentMethodCharges_xml.md)
-      - [PaymentMethodTranslation.xml](config_serialization_Payment_PaymentMethodTranslation_xml.md)
-      - [PaymentPublicConfig.xml](config_serialization_Payment_PaymentPublicConfig_xml.md)
+      - [PaymentInstrumentPublicConfig.xml](config_serialization_Payment_PaymentInstrumentPublicConfig_xml.md) <!-- repo:backend -->
+      - [PaymentMethodCharges.xml](config_serialization_Payment_PaymentMethodCharges_xml.md) <!-- repo:backend -->
+      - [PaymentMethodTranslation.xml](config_serialization_Payment_PaymentMethodTranslation_xml.md) <!-- repo:backend -->
+      - [PaymentMethod.xml](config_serialization_Payment_PaymentMethod_xml.md) <!-- repo:backend -->
+      - [PaymentPublicConfig.xml](config_serialization_Payment_PaymentPublicConfig_xml.md) <!-- repo:backend -->
+      - [Payment.xml](config_serialization_Payment_Payment_xml.md) <!-- repo:backend -->
     - **PickupPoint**
-      - [PickupAddress.xml](config_serialization_PickupPoint_PickupAddress_xml.md)
-      - [PickupPoint.xml](config_serialization_PickupPoint_PickupPoint_xml.md)
-      - [PickupPointClosingPeriod.xml](config_serialization_PickupPoint_PickupPointClosingPeriod_xml.md)
-      - [PickupPointHasShippingMethod.xml](config_serialization_PickupPoint_PickupPointHasShippingMethod_xml.md)
+      - [PickupAddress.xml](config_serialization_PickupPoint_PickupAddress_xml.md) <!-- repo:backend -->
+      - [PickupPointClosingPeriod.xml](config_serialization_PickupPoint_PickupPointClosingPeriod_xml.md) <!-- repo:backend -->
+      - [PickupPointHasShippingMethod.xml](config_serialization_PickupPoint_PickupPointHasShippingMethod_xml.md) <!-- repo:backend -->
+      - [PickupPoint.xml](config_serialization_PickupPoint_PickupPoint_xml.md) <!-- repo:backend -->
     - **Product**
-      - [Product.xml](config_serialization_Product_Product_xml.md)
-      - [ProductAssociation.xml](config_serialization_Product_ProductAssociation_xml.md)
-      - [ProductAttribute.xml](config_serialization_Product_ProductAttribute_xml.md)
-      - [ProductAttributeTranslation.xml](config_serialization_Product_ProductAttributeTranslation_xml.md)
-      - [ProductAttributeValue.xml](config_serialization_Product_ProductAttributeValue_xml.md)
-      - [ProductOption.xml](config_serialization_Product_ProductOption_xml.md)
-      - [ProductOptionTranslation.xml](config_serialization_Product_ProductOptionTranslation_xml.md)
-      - [ProductOptionValue.xml](config_serialization_Product_ProductOptionValue_xml.md)
-      - [ProductOptionValueTranslation.xml](config_serialization_Product_ProductOptionValueTranslation_xml.md)
-      - [ProductTaxon.xml](config_serialization_Product_ProductTaxon_xml.md)
-      - [ProductTranslation.xml](config_serialization_Product_ProductTranslation_xml.md)
-      - [ProductVariant.xml](config_serialization_Product_ProductVariant_xml.md)
-      - [ProductVariantTranslation.xml](config_serialization_Product_ProductVariantTranslation_xml.md)
+      - [ProductAssociation.xml](config_serialization_Product_ProductAssociation_xml.md) <!-- repo:backend -->
+      - [ProductAttributeTranslation.xml](config_serialization_Product_ProductAttributeTranslation_xml.md) <!-- repo:backend -->
+      - [ProductAttributeValue.xml](config_serialization_Product_ProductAttributeValue_xml.md) <!-- repo:backend -->
+      - [ProductAttribute.xml](config_serialization_Product_ProductAttribute_xml.md) <!-- repo:backend -->
+      - [ProductOptionTranslation.xml](config_serialization_Product_ProductOptionTranslation_xml.md) <!-- repo:backend -->
+      - [ProductOptionValueTranslation.xml](config_serialization_Product_ProductOptionValueTranslation_xml.md) <!-- repo:backend -->
+      - [ProductOptionValue.xml](config_serialization_Product_ProductOptionValue_xml.md) <!-- repo:backend -->
+      - [ProductOption.xml](config_serialization_Product_ProductOption_xml.md) <!-- repo:backend -->
+      - [ProductTaxon.xml](config_serialization_Product_ProductTaxon_xml.md) <!-- repo:backend -->
+      - [ProductTranslation.xml](config_serialization_Product_ProductTranslation_xml.md) <!-- repo:backend -->
+      - [ProductVariantTranslation.xml](config_serialization_Product_ProductVariantTranslation_xml.md) <!-- repo:backend -->
+      - [ProductVariant.xml](config_serialization_Product_ProductVariant_xml.md) <!-- repo:backend -->
+      - [Product.xml](config_serialization_Product_Product_xml.md) <!-- repo:backend -->
     - **Promotion**
-      - [Promotion.xml](config_serialization_Promotion_Promotion_xml.md)
-      - [PromotionAction.xml](config_serialization_Promotion_PromotionAction_xml.md)
-      - [PromotionAnalyticBroadcast.xml](config_serialization_Promotion_PromotionAnalyticBroadcast_xml.md)
-      - [PromotionAnalyticCategory.xml](config_serialization_Promotion_PromotionAnalyticCategory_xml.md)
-      - [PromotionAnalyticTarget.xml](config_serialization_Promotion_PromotionAnalyticTarget_xml.md)
-      - [PromotionCoupon.xml](config_serialization_Promotion_PromotionCoupon_xml.md)
-      - [PromotionRule.xml](config_serialization_Promotion_PromotionRule_xml.md)
-      - [PromotionTranslation.xml](config_serialization_Promotion_PromotionTranslation_xml.md)
+      - [PromotionAction.xml](config_serialization_Promotion_PromotionAction_xml.md) <!-- repo:backend -->
+      - [PromotionAnalyticBroadcast.xml](config_serialization_Promotion_PromotionAnalyticBroadcast_xml.md) <!-- repo:backend -->
+      - [PromotionAnalyticCategory.xml](config_serialization_Promotion_PromotionAnalyticCategory_xml.md) <!-- repo:backend -->
+      - [PromotionAnalyticTarget.xml](config_serialization_Promotion_PromotionAnalyticTarget_xml.md) <!-- repo:backend -->
+      - [PromotionCoupon.xml](config_serialization_Promotion_PromotionCoupon_xml.md) <!-- repo:backend -->
+      - [PromotionRule.xml](config_serialization_Promotion_PromotionRule_xml.md) <!-- repo:backend -->
+      - [PromotionTranslation.xml](config_serialization_Promotion_PromotionTranslation_xml.md) <!-- repo:backend -->
+      - [Promotion.xml](config_serialization_Promotion_Promotion_xml.md) <!-- repo:backend -->
     - **Shipment**
-      - [Shipment.xml](config_serialization_Shipment_Shipment_xml.md)
-      - [ShippingMethod.xml](config_serialization_Shipment_ShippingMethod_xml.md)
-      - [ShippingMethodCategory.xml](config_serialization_Shipment_ShippingMethodCategory_xml.md)
-      - [ShippingMethodCategoryTranslation.xml](config_serialization_Shipment_ShippingMethodCategoryTranslation_xml.md)
-      - [ShippingMethodRule.xml](config_serialization_Shipment_ShippingMethodRule_xml.md)
-      - [ShippingMethodTranslation.xml](config_serialization_Shipment_ShippingMethodTranslation_xml.md)
-      - [ShippingZone.xml](config_serialization_Shipment_ShippingZone_xml.md)
-      - [ShippingZoneMember.xml](config_serialization_Shipment_ShippingZoneMember_xml.md)
+      - [Shipment.xml](config_serialization_Shipment_Shipment_xml.md) <!-- repo:backend -->
+      - [ShippingMethodCategoryTranslation.xml](config_serialization_Shipment_ShippingMethodCategoryTranslation_xml.md) <!-- repo:backend -->
+      - [ShippingMethodCategory.xml](config_serialization_Shipment_ShippingMethodCategory_xml.md) <!-- repo:backend -->
+      - [ShippingMethodRule.xml](config_serialization_Shipment_ShippingMethodRule_xml.md) <!-- repo:backend -->
+      - [ShippingMethodTranslation.xml](config_serialization_Shipment_ShippingMethodTranslation_xml.md) <!-- repo:backend -->
+      - [ShippingMethod.xml](config_serialization_Shipment_ShippingMethod_xml.md) <!-- repo:backend -->
+      - [ShippingZoneMember.xml](config_serialization_Shipment_ShippingZoneMember_xml.md) <!-- repo:backend -->
+      - [ShippingZone.xml](config_serialization_Shipment_ShippingZone_xml.md) <!-- repo:backend -->
     - **Subscription**
-      - [Subscription.xml](config_serialization_Subscription_Subscription_xml.md)
-      - [SubscriptionComment.xml](config_serialization_Subscription_SubscriptionComment_xml.md)
-      - [SubscriptionFrequencyGroup.xml](config_serialization_Subscription_SubscriptionFrequencyGroup_xml.md)
-      - [SubscriptionItem.xml](config_serialization_Subscription_SubscriptionItem_xml.md)
-      - [SubscriptionMonitoring.xml](config_serialization_Subscription_SubscriptionMonitoring_xml.md)
-      - [SubscriptionOrder.xml](config_serialization_Subscription_SubscriptionOrder_xml.md)
-      - [SubscriptionStopReason.xml](config_serialization_Subscription_SubscriptionStopReason_xml.md)
-      - [SubscriptionStopReasonTranslation.xml](config_serialization_Subscription_SubscriptionStopReasonTranslation_xml.md)
+      - [SubscriptionComment.xml](config_serialization_Subscription_SubscriptionComment_xml.md) <!-- repo:backend -->
+      - [SubscriptionFrequencyGroup.xml](config_serialization_Subscription_SubscriptionFrequencyGroup_xml.md) <!-- repo:backend -->
+      - [SubscriptionItem.xml](config_serialization_Subscription_SubscriptionItem_xml.md) <!-- repo:backend -->
+      - [SubscriptionMonitoring.xml](config_serialization_Subscription_SubscriptionMonitoring_xml.md) <!-- repo:backend -->
+      - [SubscriptionOrder.xml](config_serialization_Subscription_SubscriptionOrder_xml.md) <!-- repo:backend -->
+      - [SubscriptionStopReasonTranslation.xml](config_serialization_Subscription_SubscriptionStopReasonTranslation_xml.md) <!-- repo:backend -->
+      - [SubscriptionStopReason.xml](config_serialization_Subscription_SubscriptionStopReason_xml.md) <!-- repo:backend -->
+      - [Subscription.xml](config_serialization_Subscription_Subscription_xml.md) <!-- repo:backend -->
     - **TalonOne**
-      - [Campaign.xml](config_serialization_TalonOne_Campaign_xml.md)
-      - [Coupon.xml](config_serialization_TalonOne_Coupon_xml.md)
+      - [Campaign.xml](config_serialization_TalonOne_Campaign_xml.md) <!-- repo:backend -->
+      - [Coupon.xml](config_serialization_TalonOne_Coupon_xml.md) <!-- repo:backend -->
     - **Tax**
-      - [TaxCategory.xml](config_serialization_Tax_TaxCategory_xml.md)
-      - [TaxRate.xml](config_serialization_Tax_TaxRate_xml.md)
+      - [TaxCategory.xml](config_serialization_Tax_TaxCategory_xml.md) <!-- repo:backend -->
+      - [TaxRate.xml](config_serialization_Tax_TaxRate_xml.md) <!-- repo:backend -->
     - **Taxon**
-      - [Taxon.xml](config_serialization_Taxon_Taxon_xml.md)
-      - [TaxonTranslation.xml](config_serialization_Taxon_TaxonTranslation_xml.md)
+      - [TaxonTranslation.xml](config_serialization_Taxon_TaxonTranslation_xml.md) <!-- repo:backend -->
+      - [Taxon.xml](config_serialization_Taxon_Taxon_xml.md) <!-- repo:backend -->
     - **UpSell**
-      - [UpSell.xml](config_serialization_UpSell_UpSell_xml.md)
-      - [UpSellVariant.xml](config_serialization_UpSell_UpSellVariant_xml.md)
+      - [UpSellVariant.xml](config_serialization_UpSell_UpSellVariant_xml.md) <!-- repo:backend -->
+      - [UpSell.xml](config_serialization_UpSell_UpSell_xml.md) <!-- repo:backend -->
     - **User**
-      - [AdminUser.xml](config_serialization_User_AdminUser_xml.md)
-      - [AdminUserGroup.xml](config_serialization_User_AdminUserGroup_xml.md)
+      - [AdminUserGroup.xml](config_serialization_User_AdminUserGroup_xml.md) <!-- repo:backend -->
+      - [AdminUser.xml](config_serialization_User_AdminUser_xml.md) <!-- repo:backend -->
     - **View**
-      - [CartShippingMethod.xml](config_serialization_View_CartShippingMethod_xml.md)
-      - [PaymentInstrumentPublicConfiguration.xml](config_serialization_View_PaymentInstrumentPublicConfiguration_xml.md)
-      - [PaymentPublicConfiguration.xml](config_serialization_View_PaymentPublicConfiguration_xml.md)
+      - [CartShippingMethod.xml](config_serialization_View_CartShippingMethod_xml.md) <!-- repo:backend -->
+      - [PaymentInstrumentPublicConfiguration.xml](config_serialization_View_PaymentInstrumentPublicConfiguration_xml.md) <!-- repo:backend -->
+      - [PaymentPublicConfiguration.xml](config_serialization_View_PaymentPublicConfiguration_xml.md) <!-- repo:backend -->
     - **Zone**
-      - [Zone.xml](config_serialization_Zone_Zone_xml.md)
+      - [Zone.xml](config_serialization_Zone_Zone_xml.md) <!-- repo:backend -->
   - **validator**
     - **validation**
       - **Address**
-        - [Address.xml](config_validator_validation_Address_Address_xml.md)
+        - [Address.xml](config_validator_validation_Address_Address_xml.md) <!-- repo:backend -->
       - **Animal**
-        - [Animal.xml](config_validator_validation_Animal_Animal_xml.md)
+        - [Animal.xml](config_validator_validation_Animal_Animal_xml.md) <!-- repo:backend -->
       - **Checkout**
-        - [AddItemToCart.xml](config_validator_validation_Checkout_AddItemToCart_xml.md)
-        - [AddressOrder.xml](config_validator_validation_Checkout_AddressOrder_xml.md)
-        - [ApplyCouponToCart.xml](config_validator_validation_Checkout_ApplyCouponToCart_xml.md)
-        - [AssignCustomer.xml](config_validator_validation_Checkout_AssignCustomer_xml.md)
-        - [ChangeItemQuantityInCart.xml](config_validator_validation_Checkout_ChangeItemQuantityInCart_xml.md)
-        - [ChoosePaymentMethod.xml](config_validator_validation_Checkout_ChoosePaymentMethod_xml.md)
+        - [AddItemToCart.xml](config_validator_validation_Checkout_AddItemToCart_xml.md) <!-- repo:backend -->
+        - [AddressOrder.xml](config_validator_validation_Checkout_AddressOrder_xml.md) <!-- repo:backend -->
+        - [ApplyCouponToCart.xml](config_validator_validation_Checkout_ApplyCouponToCart_xml.md) <!-- repo:backend -->
+        - [AssignCustomer.xml](config_validator_validation_Checkout_AssignCustomer_xml.md) <!-- repo:backend -->
+        - [ChangeItemQuantityInCart.xml](config_validator_validation_Checkout_ChangeItemQuantityInCart_xml.md) <!-- repo:backend -->
+        - [ChoosePaymentMethod.xml](config_validator_validation_Checkout_ChoosePaymentMethod_xml.md) <!-- repo:backend -->
       - **Customer**
-        - [Customer.xml](config_validator_validation_Customer_Customer_xml.md)
-        - [RegisterShopUser.xml](config_validator_validation_Customer_RegisterShopUser_xml.md)
+        - [Customer.xml](config_validator_validation_Customer_Customer_xml.md) <!-- repo:backend -->
+        - [RegisterShopUser.xml](config_validator_validation_Customer_RegisterShopUser_xml.md) <!-- repo:backend -->
       - **Order**
-        - [Order.xml](config_validator_validation_Order_Order_xml.md)
-        - [RefundOrder.xml](config_validator_validation_Order_RefundOrder_xml.md)
-        - [RemoveCart.xml](config_validator_validation_Order_RemoveCart_xml.md)
+        - [Order.xml](config_validator_validation_Order_Order_xml.md) <!-- repo:backend -->
+        - [RefundOrder.xml](config_validator_validation_Order_RefundOrder_xml.md) <!-- repo:backend -->
+        - [RemoveCart.xml](config_validator_validation_Order_RemoveCart_xml.md) <!-- repo:backend -->
       - **OrderRule**
-        - [OrderRule.xml](config_validator_validation_OrderRule_OrderRule_xml.md)
-        - [OrderRuleCondition.xml](config_validator_validation_OrderRule_OrderRuleCondition_xml.md)
+        - [OrderRuleCondition.xml](config_validator_validation_OrderRule_OrderRuleCondition_xml.md) <!-- repo:backend -->
+        - [OrderRule.xml](config_validator_validation_OrderRule_OrderRule_xml.md) <!-- repo:backend -->
       - **Promotion**
-        - [CreatePromotionCoupon.xml](config_validator_validation_Promotion_CreatePromotionCoupon_xml.md)
-        - [GeneratePromotionCoupon.xml](config_validator_validation_Promotion_GeneratePromotionCoupon_xml.md)
-        - [Promotion.xml](config_validator_validation_Promotion_Promotion_xml.md)
-        - [PromotionCoupon.xml](config_validator_validation_Promotion_PromotionCoupon_xml.md)
+        - [CreatePromotionCoupon.xml](config_validator_validation_Promotion_CreatePromotionCoupon_xml.md) <!-- repo:backend -->
+        - [GeneratePromotionCoupon.xml](config_validator_validation_Promotion_GeneratePromotionCoupon_xml.md) <!-- repo:backend -->
+        - [PromotionCoupon.xml](config_validator_validation_Promotion_PromotionCoupon_xml.md) <!-- repo:backend -->
+        - [Promotion.xml](config_validator_validation_Promotion_Promotion_xml.md) <!-- repo:backend -->
       - **Shipment**
-        - [UpdateShipping.xml](config_validator_validation_Shipment_UpdateShipping_xml.md)
+        - [UpdateShipping.xml](config_validator_validation_Shipment_UpdateShipping_xml.md) <!-- repo:backend -->
       - **Subscription**
-        - [AddItemToSubscription.xml](config_validator_validation_Subscription_AddItemToSubscription_xml.md)
-        - [ChangeItemQuantitySubscription.xml](config_validator_validation_Subscription_ChangeItemQuantitySubscription_xml.md)
-        - [Subscription.xml](config_validator_validation_Subscription_Subscription_xml.md)
-        - [UpdateIntervalShippingDateSubscription.xml](config_validator_validation_Subscription_UpdateIntervalShippingDateSubscription_xml.md)
+        - [AddItemToSubscription.xml](config_validator_validation_Subscription_AddItemToSubscription_xml.md) <!-- repo:backend -->
+        - [ChangeItemQuantitySubscription.xml](config_validator_validation_Subscription_ChangeItemQuantitySubscription_xml.md) <!-- repo:backend -->
+        - [Subscription.xml](config_validator_validation_Subscription_Subscription_xml.md) <!-- repo:backend -->
+        - [UpdateIntervalShippingDateSubscription.xml](config_validator_validation_Subscription_UpdateIntervalShippingDateSubscription_xml.md) <!-- repo:backend -->
       - **SubscriptionOrder**
-        - [AddItemToSubscriptionOrder.xml](config_validator_validation_SubscriptionOrder_AddItemToSubscriptionOrder_xml.md)
-        - [BulkDebitSubscriptionOrder.xml](config_validator_validation_SubscriptionOrder_BulkDebitSubscriptionOrder_xml.md)
-        - [BulkUpdateNextShipping.xml](config_validator_validation_SubscriptionOrder_BulkUpdateNextShipping_xml.md)
-        - [ChangeItemQuantitySubscriptionOrder.xml](config_validator_validation_SubscriptionOrder_ChangeItemQuantitySubscriptionOrder_xml.md)
+        - [AddItemToSubscriptionOrder.xml](config_validator_validation_SubscriptionOrder_AddItemToSubscriptionOrder_xml.md) <!-- repo:backend -->
+        - [BulkDebitSubscriptionOrder.xml](config_validator_validation_SubscriptionOrder_BulkDebitSubscriptionOrder_xml.md) <!-- repo:backend -->
+        - [BulkUpdateNextShipping.xml](config_validator_validation_SubscriptionOrder_BulkUpdateNextShipping_xml.md) <!-- repo:backend -->
+        - [ChangeItemQuantitySubscriptionOrder.xml](config_validator_validation_SubscriptionOrder_ChangeItemQuantitySubscriptionOrder_xml.md) <!-- repo:backend -->
       - **UpSell**
-        - [UpSell.xml](config_validator_validation_UpSell_UpSell_xml.md)
-- [easy-coding-standard.yml](easy-coding-standard_yml.md)
-- [eslint.config.js](eslint_config_js.md)
-- [fix_serialization_schemas.sh](fix_serialization_schemas_sh.md)
-- [gulpfile.babel.js](gulpfile_babel_js.md)
-- [jest-serializer-vue.d.ts](jest-serializer-vue_d_ts.md)
+        - [UpSell.xml](config_validator_validation_UpSell_UpSell_xml.md) <!-- repo:backend -->
+- [easy-coding-standard.yml](easy-coding-standard_yml.md) <!-- repo:backend -->
+- [eslint.config.js](eslint_config_js.md) <!-- repo:frontend -->
+- [fix_serialization_schemas.sh](fix_serialization_schemas_sh.md) <!-- repo:backend -->
+- [gulpfile.babel.js](gulpfile_babel_js.md) <!-- repo:backend -->
+- [jest-serializer-vue.d.ts](jest-serializer-vue_d_ts.md) <!-- repo:frontend -->
 - **migrations**
-  - [Version20160101092155.php](migrations_Version20160101092155_php.md)
-  - [Version20230327121633.php](migrations_Version20230327121633_php.md)
-  - [Version20230331091850.php](migrations_Version20230331091850_php.md)
-  - [Version20230426154358.php](migrations_Version20230426154358_php.md)
-  - [Version20230913115420.php](migrations_Version20230913115420_php.md)
-  - [Version20230921154314.php](migrations_Version20230921154314_php.md)
-  - [Version20231103004216.php](migrations_Version20231103004216_php.md)
-  - [Version20231130145225.php](migrations_Version20231130145225_php.md)
-  - [Version20231214131513.php](migrations_Version20231214131513_php.md)
-  - [Version20231215114745.php](migrations_Version20231215114745_php.md)
-  - [Version20231221093533.php](migrations_Version20231221093533_php.md)
-  - [Version20240105104513.php](migrations_Version20240105104513_php.md)
-  - [Version20240108155611.php](migrations_Version20240108155611_php.md)
-  - [Version20240202162001.php](migrations_Version20240202162001_php.md)
-  - [Version20240213155934.php](migrations_Version20240213155934_php.md)
-  - [Version20240216110238.php](migrations_Version20240216110238_php.md)
-  - [Version20240223121724.php](migrations_Version20240223121724_php.md)
-  - [Version20240315112656.php](migrations_Version20240315112656_php.md)
-  - [Version20240325133644.php](migrations_Version20240325133644_php.md)
-  - [Version20240325151346.php](migrations_Version20240325151346_php.md)
-  - [Version20240411142753.php](migrations_Version20240411142753_php.md)
-  - [Version20240602190000.php](migrations_Version20240602190000_php.md)
-  - [Version20240604094109.php](migrations_Version20240604094109_php.md)
-  - [Version20240709101736.php](migrations_Version20240709101736_php.md)
-  - [Version20240822144344.php](migrations_Version20240822144344_php.md)
-  - [Version20240829144216.php](migrations_Version20240829144216_php.md)
-  - [Version20240830163515.php](migrations_Version20240830163515_php.md)
-  - [Version20240904144640.php](migrations_Version20240904144640_php.md)
-  - [Version20240930130123.php](migrations_Version20240930130123_php.md)
-  - [Version20241002135743.php](migrations_Version20241002135743_php.md)
-  - [Version20241003135910.php](migrations_Version20241003135910_php.md)
-  - [Version20241009103632.php](migrations_Version20241009103632_php.md)
-  - [Version20241017095407.php](migrations_Version20241017095407_php.md)
-  - [Version20241018075040.php](migrations_Version20241018075040_php.md)
-  - [Version20241020131407.php](migrations_Version20241020131407_php.md)
-  - [Version20241020131444.php](migrations_Version20241020131444_php.md)
-  - [Version20241020131510.php](migrations_Version20241020131510_php.md)
-  - [Version20241020131553.php](migrations_Version20241020131553_php.md)
-  - [Version20241020131604.php](migrations_Version20241020131604_php.md)
-  - [Version20241024174728.php](migrations_Version20241024174728_php.md)
-  - [Version20241107102201.php](migrations_Version20241107102201_php.md)
-  - [Version20241107162722.php](migrations_Version20241107162722_php.md)
-  - [Version20241115122014.php](migrations_Version20241115122014_php.md)
-  - [Version20241121134131.php](migrations_Version20241121134131_php.md)
-  - [Version20241127155005.php](migrations_Version20241127155005_php.md)
-  - [Version20241213125406.php](migrations_Version20241213125406_php.md)
-  - [Version20241213130024.php](migrations_Version20241213130024_php.md)
-  - [Version20250129093829.php](migrations_Version20250129093829_php.md)
-  - [Version20250212144205.php](migrations_Version20250212144205_php.md)
-  - [Version20250228131301.php](migrations_Version20250228131301_php.md)
-  - [Version20250305125619.php](migrations_Version20250305125619_php.md)
-  - [Version20250305151630.php](migrations_Version20250305151630_php.md)
-  - [Version20250312141404.php](migrations_Version20250312141404_php.md)
-  - [Version20250318141651.php](migrations_Version20250318141651_php.md)
-  - [Version20250327143313.php](migrations_Version20250327143313_php.md)
-  - [Version20250507102951.php](migrations_Version20250507102951_php.md)
-  - [Version20250521120056.php](migrations_Version20250521120056_php.md)
-  - [Version20250523122052.php](migrations_Version20250523122052_php.md)
-  - [Version20250526134227.php](migrations_Version20250526134227_php.md)
-  - [Version20250602125301.php](migrations_Version20250602125301_php.md)
-  - [Version20251209094309.php](migrations_Version20251209094309_php.md)
-  - [Version20251212145130.php](migrations_Version20251212145130_php.md)
-  - [Version20260206120000.php](migrations_Version20260206120000_php.md)
-  - [Version20260210145311.php](migrations_Version20260210145311_php.md)
+  - [Version20160101092155.php](migrations_Version20160101092155_php.md) <!-- repo:backend -->
+  - [Version20230327121633.php](migrations_Version20230327121633_php.md) <!-- repo:backend -->
+  - [Version20230331091850.php](migrations_Version20230331091850_php.md) <!-- repo:backend -->
+  - [Version20230426154358.php](migrations_Version20230426154358_php.md) <!-- repo:backend -->
+  - [Version20230913115420.php](migrations_Version20230913115420_php.md) <!-- repo:backend -->
+  - [Version20230921154314.php](migrations_Version20230921154314_php.md) <!-- repo:backend -->
+  - [Version20231103004216.php](migrations_Version20231103004216_php.md) <!-- repo:backend -->
+  - [Version20231130145225.php](migrations_Version20231130145225_php.md) <!-- repo:backend -->
+  - [Version20231214131513.php](migrations_Version20231214131513_php.md) <!-- repo:backend -->
+  - [Version20231215114745.php](migrations_Version20231215114745_php.md) <!-- repo:backend -->
+  - [Version20231221093533.php](migrations_Version20231221093533_php.md) <!-- repo:backend -->
+  - [Version20240105104513.php](migrations_Version20240105104513_php.md) <!-- repo:backend -->
+  - [Version20240108155611.php](migrations_Version20240108155611_php.md) <!-- repo:backend -->
+  - [Version20240202162001.php](migrations_Version20240202162001_php.md) <!-- repo:backend -->
+  - [Version20240213155934.php](migrations_Version20240213155934_php.md) <!-- repo:backend -->
+  - [Version20240216110238.php](migrations_Version20240216110238_php.md) <!-- repo:backend -->
+  - [Version20240223121724.php](migrations_Version20240223121724_php.md) <!-- repo:backend -->
+  - [Version20240315112656.php](migrations_Version20240315112656_php.md) <!-- repo:backend -->
+  - [Version20240325133644.php](migrations_Version20240325133644_php.md) <!-- repo:backend -->
+  - [Version20240325151346.php](migrations_Version20240325151346_php.md) <!-- repo:backend -->
+  - [Version20240411142753.php](migrations_Version20240411142753_php.md) <!-- repo:backend -->
+  - [Version20240602190000.php](migrations_Version20240602190000_php.md) <!-- repo:backend -->
+  - [Version20240604094109.php](migrations_Version20240604094109_php.md) <!-- repo:backend -->
+  - [Version20240709101736.php](migrations_Version20240709101736_php.md) <!-- repo:backend -->
+  - [Version20240822144344.php](migrations_Version20240822144344_php.md) <!-- repo:backend -->
+  - [Version20240829144216.php](migrations_Version20240829144216_php.md) <!-- repo:backend -->
+  - [Version20240830163515.php](migrations_Version20240830163515_php.md) <!-- repo:backend -->
+  - [Version20240904144640.php](migrations_Version20240904144640_php.md) <!-- repo:backend -->
+  - [Version20240930130123.php](migrations_Version20240930130123_php.md) <!-- repo:backend -->
+  - [Version20241002135743.php](migrations_Version20241002135743_php.md) <!-- repo:backend -->
+  - [Version20241003135910.php](migrations_Version20241003135910_php.md) <!-- repo:backend -->
+  - [Version20241009103632.php](migrations_Version20241009103632_php.md) <!-- repo:backend -->
+  - [Version20241017095407.php](migrations_Version20241017095407_php.md) <!-- repo:backend -->
+  - [Version20241018075040.php](migrations_Version20241018075040_php.md) <!-- repo:backend -->
+  - [Version20241020131407.php](migrations_Version20241020131407_php.md) <!-- repo:backend -->
+  - [Version20241020131444.php](migrations_Version20241020131444_php.md) <!-- repo:backend -->
+  - [Version20241020131510.php](migrations_Version20241020131510_php.md) <!-- repo:backend -->
+  - [Version20241020131553.php](migrations_Version20241020131553_php.md) <!-- repo:backend -->
+  - [Version20241020131604.php](migrations_Version20241020131604_php.md) <!-- repo:backend -->
+  - [Version20241024174728.php](migrations_Version20241024174728_php.md) <!-- repo:backend -->
+  - [Version20241107102201.php](migrations_Version20241107102201_php.md) <!-- repo:backend -->
+  - [Version20241107162722.php](migrations_Version20241107162722_php.md) <!-- repo:backend -->
+  - [Version20241115122014.php](migrations_Version20241115122014_php.md) <!-- repo:backend -->
+  - [Version20241121134131.php](migrations_Version20241121134131_php.md) <!-- repo:backend -->
+  - [Version20241127155005.php](migrations_Version20241127155005_php.md) <!-- repo:backend -->
+  - [Version20241213125406.php](migrations_Version20241213125406_php.md) <!-- repo:backend -->
+  - [Version20241213130024.php](migrations_Version20241213130024_php.md) <!-- repo:backend -->
+  - [Version20250129093829.php](migrations_Version20250129093829_php.md) <!-- repo:backend -->
+  - [Version20250212144205.php](migrations_Version20250212144205_php.md) <!-- repo:backend -->
+  - [Version20250228131301.php](migrations_Version20250228131301_php.md) <!-- repo:backend -->
+  - [Version20250305125619.php](migrations_Version20250305125619_php.md) <!-- repo:backend -->
+  - [Version20250305151630.php](migrations_Version20250305151630_php.md) <!-- repo:backend -->
+  - [Version20250312141404.php](migrations_Version20250312141404_php.md) <!-- repo:backend -->
+  - [Version20250318141651.php](migrations_Version20250318141651_php.md) <!-- repo:backend -->
+  - [Version20250327143313.php](migrations_Version20250327143313_php.md) <!-- repo:backend -->
+  - [Version20250507102951.php](migrations_Version20250507102951_php.md) <!-- repo:backend -->
+  - [Version20250521120056.php](migrations_Version20250521120056_php.md) <!-- repo:backend -->
+  - [Version20250523122052.php](migrations_Version20250523122052_php.md) <!-- repo:backend -->
+  - [Version20250526134227.php](migrations_Version20250526134227_php.md) <!-- repo:backend -->
+  - [Version20250602125301.php](migrations_Version20250602125301_php.md) <!-- repo:backend -->
+  - [Version20251209094309.php](migrations_Version20251209094309_php.md) <!-- repo:backend -->
+  - [Version20251212145130.php](migrations_Version20251212145130_php.md) <!-- repo:backend -->
+  - [Version20260206120000.php](migrations_Version20260206120000_php.md) <!-- repo:backend -->
+  - [Version20260210145311.php](migrations_Version20260210145311_php.md) <!-- repo:backend -->
 - **modules**
   - **nuxt-ecommerce**
-    - [README.md](modules_nuxt-ecommerce_README_md.md)
-    - [eslint.config.js](modules_nuxt-ecommerce_eslint_config_js.md)
-    - [index.d.ts](modules_nuxt-ecommerce_index_d_ts.md)
-    - [jest-serializer-vue.d.ts](modules_nuxt-ecommerce_jest-serializer-vue_d_ts.md)
-    - [package.json](modules_nuxt-ecommerce_package_json.md)
+    - [README.md](modules_nuxt-ecommerce_README_md.md) <!-- repo:frontend -->
+    - [eslint.config.js](modules_nuxt-ecommerce_eslint_config_js.md) <!-- repo:frontend -->
+    - [index.d.ts](modules_nuxt-ecommerce_index_d_ts.md) <!-- repo:frontend -->
+    - [jest-serializer-vue.d.ts](modules_nuxt-ecommerce_jest-serializer-vue_d_ts.md) <!-- repo:frontend -->
+    - [package.json](modules_nuxt-ecommerce_package_json.md) <!-- repo:frontend -->
+    - [project.json](modules_nuxt-ecommerce_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](modules_nuxt-ecommerce_tsconfig_json.md) <!-- repo:frontend -->
+    - [vitest.config.ts](modules_nuxt-ecommerce_vitest_config_ts.md) <!-- repo:frontend -->
     - **playground**
-      - [app.vue](modules_nuxt-ecommerce_playground_app_vue.md)
-      - [nuxt.config.ts](modules_nuxt-ecommerce_playground_nuxt_config_ts.md)
-      - [package.json](modules_nuxt-ecommerce_playground_package_json.md)
+      - [app.vue](modules_nuxt-ecommerce_playground_app_vue.md) <!-- repo:frontend -->
+      - [nuxt.config.ts](modules_nuxt-ecommerce_playground_nuxt_config_ts.md) <!-- repo:frontend -->
+      - [package.json](modules_nuxt-ecommerce_playground_package_json.md) <!-- repo:frontend -->
+      - [tsconfig.json](modules_nuxt-ecommerce_playground_tsconfig_json.md) <!-- repo:frontend -->
       - **pages**
-        - [index.vue](modules_nuxt-ecommerce_playground_pages_index_vue.md)
+        - [index.vue](modules_nuxt-ecommerce_playground_pages_index_vue.md) <!-- repo:frontend -->
       - **server**
-        - [tsconfig.json](modules_nuxt-ecommerce_playground_server_tsconfig_json.md)
-      - [tsconfig.json](modules_nuxt-ecommerce_playground_tsconfig_json.md)
-    - [project.json](modules_nuxt-ecommerce_project_json.md)
+        - [tsconfig.json](modules_nuxt-ecommerce_playground_server_tsconfig_json.md) <!-- repo:frontend -->
     - **src**
-      - [appleAppSiteAssociation.ts](modules_nuxt-ecommerce_src_appleAppSiteAssociation_ts.md)
-      - [customHooksTypes.ts](modules_nuxt-ecommerce_src_customHooksTypes_ts.md)
-      - [defaults.ts](modules_nuxt-ecommerce_src_defaults_ts.md)
-      - [module.ts](modules_nuxt-ecommerce_src_module_ts.md)
+      - [appleAppSiteAssociation.ts](modules_nuxt-ecommerce_src_appleAppSiteAssociation_ts.md) <!-- repo:frontend -->
+      - [customHooksTypes.ts](modules_nuxt-ecommerce_src_customHooksTypes_ts.md) <!-- repo:frontend -->
+      - [defaults.ts](modules_nuxt-ecommerce_src_defaults_ts.md) <!-- repo:frontend -->
+      - [module.ts](modules_nuxt-ecommerce_src_module_ts.md) <!-- repo:frontend -->
+      - [tailwind.ts](modules_nuxt-ecommerce_src_tailwind_ts.md) <!-- repo:frontend -->
       - **runtime**
         - **components**
-          - [Breadcrumb.vue](modules_nuxt-ecommerce_src_runtime_components_Breadcrumb_vue.md)
-          - [CompositeRenderer.vue](modules_nuxt-ecommerce_src_runtime_components_CompositeRenderer_vue.md)
-          - [Debug.vue](modules_nuxt-ecommerce_src_runtime_components_Debug_vue.md)
-          - [Embed.vue](modules_nuxt-ecommerce_src_runtime_components_Embed_vue.md)
-          - [ImageWithLegend.vue](modules_nuxt-ecommerce_src_runtime_components_ImageWithLegend_vue.md)
-          - [RichContent.vue](modules_nuxt-ecommerce_src_runtime_components_RichContent_vue.md)
-          - [SASOption.vue](modules_nuxt-ecommerce_src_runtime_components_SASOption_vue.md)
-          - [SmartLinkContent.vue](modules_nuxt-ecommerce_src_runtime_components_SmartLinkContent_vue.md)
-          - [TextSEO.vue](modules_nuxt-ecommerce_src_runtime_components_TextSEO_vue.md)
-          - [TimeLine.vue](modules_nuxt-ecommerce_src_runtime_components_TimeLine_vue.md)
-          - [USPCard.vue](modules_nuxt-ecommerce_src_runtime_components_USPCard_vue.md)
-          - [USPGrid.vue](modules_nuxt-ecommerce_src_runtime_components_USPGrid_vue.md)
+          - [Breadcrumb.vue](modules_nuxt-ecommerce_src_runtime_components_Breadcrumb_vue.md) <!-- repo:frontend -->
+          - [CompositeRenderer.vue](modules_nuxt-ecommerce_src_runtime_components_CompositeRenderer_vue.md) <!-- repo:frontend -->
+          - [Debug.vue](modules_nuxt-ecommerce_src_runtime_components_Debug_vue.md) <!-- repo:frontend -->
+          - [Embed.vue](modules_nuxt-ecommerce_src_runtime_components_Embed_vue.md) <!-- repo:frontend -->
+          - [ImageWithLegend.vue](modules_nuxt-ecommerce_src_runtime_components_ImageWithLegend_vue.md) <!-- repo:frontend -->
+          - [RichContent.vue](modules_nuxt-ecommerce_src_runtime_components_RichContent_vue.md) <!-- repo:frontend -->
+          - [SASOption.vue](modules_nuxt-ecommerce_src_runtime_components_SASOption_vue.md) <!-- repo:frontend -->
+          - [SmartLinkContent.vue](modules_nuxt-ecommerce_src_runtime_components_SmartLinkContent_vue.md) <!-- repo:frontend -->
+          - [TextSEO.vue](modules_nuxt-ecommerce_src_runtime_components_TextSEO_vue.md) <!-- repo:frontend -->
+          - [TimeLine.vue](modules_nuxt-ecommerce_src_runtime_components_TimeLine_vue.md) <!-- repo:frontend -->
+          - [USPCard.vue](modules_nuxt-ecommerce_src_runtime_components_USPCard_vue.md) <!-- repo:frontend -->
+          - [USPGrid.vue](modules_nuxt-ecommerce_src_runtime_components_USPGrid_vue.md) <!-- repo:frontend -->
           - **stories**
-            - [Breadcrumb.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_Breadcrumb_stories_ts.md)
-            - [Embed.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_Embed_stories_ts.md)
-            - [ImageWithLegend.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_ImageWithLegend_stories_ts.md)
-            - [RichContent.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_RichContent_stories_ts.md)
-            - [SASOption.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_SASOption_stories_ts.md)
-            - [TextSEO.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_TextSEO_stories_ts.md)
-            - [TimeLine.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_TimeLine_stories_ts.md)
-            - [USPCard.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_USPCard_stories_ts.md)
-            - [USPGrid.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_USPGrid_stories_ts.md)
+            - [Breadcrumb.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_Breadcrumb_stories_ts.md) <!-- repo:frontend -->
+            - [Embed.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_Embed_stories_ts.md) <!-- repo:frontend -->
+            - [ImageWithLegend.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_ImageWithLegend_stories_ts.md) <!-- repo:frontend -->
+            - [RichContent.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_RichContent_stories_ts.md) <!-- repo:frontend -->
+            - [SASOption.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_SASOption_stories_ts.md) <!-- repo:frontend -->
+            - [TextSEO.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_TextSEO_stories_ts.md) <!-- repo:frontend -->
+            - [TimeLine.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_TimeLine_stories_ts.md) <!-- repo:frontend -->
+            - [USPCard.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_USPCard_stories_ts.md) <!-- repo:frontend -->
+            - [USPGrid.stories.ts](modules_nuxt-ecommerce_src_runtime_components_stories_USPGrid_stories_ts.md) <!-- repo:frontend -->
         - **composables**
-          - [useABTests.ts](modules_nuxt-ecommerce_src_runtime_composables_useABTests_ts.md)
-          - [useABTestsEngine.ts](modules_nuxt-ecommerce_src_runtime_composables_useABTestsEngine_ts.md)
-          - [useCompositeRenderer.ts](modules_nuxt-ecommerce_src_runtime_composables_useCompositeRenderer_ts.md)
-          - [useProductTagsEngine.ts](modules_nuxt-ecommerce_src_runtime_composables_useProductTagsEngine_ts.md)
-          - [useTracking.ts](modules_nuxt-ecommerce_src_runtime_composables_useTracking_ts.md)
+          - [useABTestsEngine.ts](modules_nuxt-ecommerce_src_runtime_composables_useABTestsEngine_ts.md) <!-- repo:frontend -->
+          - [useABTests.ts](modules_nuxt-ecommerce_src_runtime_composables_useABTests_ts.md) <!-- repo:frontend -->
+          - [useCompositeRenderer.ts](modules_nuxt-ecommerce_src_runtime_composables_useCompositeRenderer_ts.md) <!-- repo:frontend -->
+          - [useProductTagsEngine.ts](modules_nuxt-ecommerce_src_runtime_composables_useProductTagsEngine_ts.md) <!-- repo:frontend -->
+          - [useTracking.ts](modules_nuxt-ecommerce_src_runtime_composables_useTracking_ts.md) <!-- repo:frontend -->
         - **compositeRenderable**
-          - [compositeRenderable.ts](modules_nuxt-ecommerce_src_runtime_compositeRenderable_compositeRenderable_ts.md)
-          - [concreteCompositeRenderable.ts](modules_nuxt-ecommerce_src_runtime_compositeRenderable_concreteCompositeRenderable_ts.md)
+          - [compositeRenderable.ts](modules_nuxt-ecommerce_src_runtime_compositeRenderable_compositeRenderable_ts.md) <!-- repo:frontend -->
+          - [concreteCompositeRenderable.ts](modules_nuxt-ecommerce_src_runtime_compositeRenderable_concreteCompositeRenderable_ts.md) <!-- repo:frontend -->
         - **css**
           - **core**
             - **base**
-              - [reset.css](modules_nuxt-ecommerce_src_runtime_css_core_base_reset_css.md)
-              - [scrollbar.css](modules_nuxt-ecommerce_src_runtime_css_core_base_scrollbar_css.md)
-            - [base.css](modules_nuxt-ecommerce_src_runtime_css_core_base_css.md)
+              - [reset.css](modules_nuxt-ecommerce_src_runtime_css_core_base_reset_css.md) <!-- repo:frontend -->
+              - [scrollbar.css](modules_nuxt-ecommerce_src_runtime_css_core_base_scrollbar_css.md) <!-- repo:frontend -->
             - **components**
-              - [usp.css](modules_nuxt-ecommerce_src_runtime_css_core_components_usp_css.md)
-            - [components.css](modules_nuxt-ecommerce_src_runtime_css_core_components_css.md)
-            - [transitions.css](modules_nuxt-ecommerce_src_runtime_css_core_transitions_css.md)
-            - [typography.css](modules_nuxt-ecommerce_src_runtime_css_core_typography_css.md)
+              - [usp.css](modules_nuxt-ecommerce_src_runtime_css_core_components_usp_css.md) <!-- repo:frontend -->
+            - [base.css](modules_nuxt-ecommerce_src_runtime_css_core_base_css.md) <!-- repo:frontend -->
+            - [components.css](modules_nuxt-ecommerce_src_runtime_css_core_components_css.md) <!-- repo:frontend -->
+            - [transitions.css](modules_nuxt-ecommerce_src_runtime_css_core_transitions_css.md) <!-- repo:frontend -->
+            - [typography.css](modules_nuxt-ecommerce_src_runtime_css_core_typography_css.md) <!-- repo:frontend -->
           - **ecommerce**
-            - [base.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_base_css.md)
-            - [footer.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_footer_css.md)
-            - [icons.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_icons_css.md)
+            - [base.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_base_css.md) <!-- repo:frontend -->
+            - [footer.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_footer_css.md) <!-- repo:frontend -->
+            - [icons.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_icons_css.md) <!-- repo:frontend -->
+            - [shared.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_css.md) <!-- repo:frontend -->
             - **shared**
-              - [badge.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_badge_css.md)
-              - [edito.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_edito_css.md)
-              - [tag.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_tag_css.md)
-            - [shared.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_css.md)
+              - [badge.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_badge_css.md) <!-- repo:frontend -->
+              - [edito.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_edito_css.md) <!-- repo:frontend -->
+              - [tag.css](modules_nuxt-ecommerce_src_runtime_css_ecommerce_shared_tag_css.md) <!-- repo:frontend -->
           - **fonts**
-            - [upd-faqs.css](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-faqs_css.md)
-            - [upd-faqs.d.ts](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-faqs_d_ts.md)
-            - [upd-icons.css](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-icons_css.md)
-            - [upd-icons.d.ts](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-icons_d_ts.md)
-            - [upd-usps.css](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-usps_css.md)
-            - [upd-usps.d.ts](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-usps_d_ts.md)
+            - [upd-faqs.css](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-faqs_css.md) <!-- repo:frontend -->
+            - [upd-faqs.d.ts](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-faqs_d_ts.md) <!-- repo:frontend -->
+            - [upd-icons.css](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-icons_css.md) <!-- repo:frontend -->
+            - [upd-icons.d.ts](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-icons_d_ts.md) <!-- repo:frontend -->
+            - [upd-usps.css](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-usps_css.md) <!-- repo:frontend -->
+            - [upd-usps.d.ts](modules_nuxt-ecommerce_src_runtime_css_fonts_upd-usps_d_ts.md) <!-- repo:frontend -->
+          - [tailwind.css](modules_nuxt-ecommerce_src_runtime_css_tailwind_css.md) <!-- repo:frontend -->
+          - [upd-front-core.css](modules_nuxt-ecommerce_src_runtime_css_upd-front-core_css.md) <!-- repo:frontend -->
           - **svgs**
             - **form**
-              - [index.ts](modules_nuxt-ecommerce_src_runtime_css_svgs_form_index_ts.md)
-          - [tailwind.css](modules_nuxt-ecommerce_src_runtime_css_tailwind_css.md)
-          - [upd-front-core.css](modules_nuxt-ecommerce_src_runtime_css_upd-front-core_css.md)
+              - [index.ts](modules_nuxt-ecommerce_src_runtime_css_svgs_form_index_ts.md) <!-- repo:frontend -->
         - **i18n**
           - **locales**
-            - [de-DE.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_de-DE_json.md)
-            - [fr-BE.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_fr-BE_json.md)
-            - [fr-FR.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_fr-FR_json.md)
-            - [fr.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_fr_json.md)
-            - [it-IT.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_it-IT_json.md)
-            - [nl-BE.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_nl-BE_json.md)
-            - [nl-NL.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_nl-NL_json.md)
-            - [nl.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_nl_json.md)
+            - [de-DE.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_de-DE_json.md) <!-- repo:frontend -->
+            - [fr-BE.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_fr-BE_json.md) <!-- repo:frontend -->
+            - [fr-FR.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_fr-FR_json.md) <!-- repo:frontend -->
+            - [fr.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_fr_json.md) <!-- repo:frontend -->
+            - [it-IT.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_it-IT_json.md) <!-- repo:frontend -->
+            - [nl-BE.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_nl-BE_json.md) <!-- repo:frontend -->
+            - [nl-NL.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_nl-NL_json.md) <!-- repo:frontend -->
+            - [nl.json](modules_nuxt-ecommerce_src_runtime_i18n_locales_nl_json.md) <!-- repo:frontend -->
         - **middleware**
-          - [redirectTrailingSlash.ts](modules_nuxt-ecommerce_src_runtime_middleware_redirectTrailingSlash_ts.md)
+          - [redirectTrailingSlash.ts](modules_nuxt-ecommerce_src_runtime_middleware_redirectTrailingSlash_ts.md) <!-- repo:frontend -->
+        - [tailwind.config.js](modules_nuxt-ecommerce_src_runtime_tailwind_config_js.md) <!-- repo:frontend -->
         - **pages**
-          - [test.vue](modules_nuxt-ecommerce_src_runtime_pages_test_vue.md)
+          - [test.vue](modules_nuxt-ecommerce_src_runtime_pages_test_vue.md) <!-- repo:frontend -->
         - **server**
-          - [tsconfig.json](modules_nuxt-ecommerce_src_runtime_server_tsconfig_json.md)
+          - [tsconfig.json](modules_nuxt-ecommerce_src_runtime_server_tsconfig_json.md) <!-- repo:frontend -->
         - **static**
-          - [supportedFiles.ts](modules_nuxt-ecommerce_src_runtime_static_supportedFiles_ts.md)
-        - [tailwind.config.js](modules_nuxt-ecommerce_src_runtime_tailwind_config_js.md)
+          - [supportedFiles.ts](modules_nuxt-ecommerce_src_runtime_static_supportedFiles_ts.md) <!-- repo:frontend -->
         - **tailwindcss**
-          - [icons.ts](modules_nuxt-ecommerce_src_runtime_tailwindcss_icons_ts.md)
-          - [layout.ts](modules_nuxt-ecommerce_src_runtime_tailwindcss_layout_ts.md)
-          - [typography.ts](modules_nuxt-ecommerce_src_runtime_tailwindcss_typography_ts.md)
+          - [icons.ts](modules_nuxt-ecommerce_src_runtime_tailwindcss_icons_ts.md) <!-- repo:frontend -->
+          - [layout.ts](modules_nuxt-ecommerce_src_runtime_tailwindcss_layout_ts.md) <!-- repo:frontend -->
+          - [typography.ts](modules_nuxt-ecommerce_src_runtime_tailwindcss_typography_ts.md) <!-- repo:frontend -->
         - **template**
-          - [upd-spa-loading-template.html](modules_nuxt-ecommerce_src_runtime_template_upd-spa-loading-template_html.md)
+          - [upd-spa-loading-template.html](modules_nuxt-ecommerce_src_runtime_template_upd-spa-loading-template_html.md) <!-- repo:frontend -->
         - **tracking**
-          - [pixieSupport.ts](modules_nuxt-ecommerce_src_runtime_tracking_pixieSupport_ts.md)
-          - [tracking.ts](modules_nuxt-ecommerce_src_runtime_tracking_tracking_ts.md)
-      - [tailwind.ts](modules_nuxt-ecommerce_src_tailwind_ts.md)
+          - [pixieSupport.ts](modules_nuxt-ecommerce_src_runtime_tracking_pixieSupport_ts.md) <!-- repo:frontend -->
+          - [tracking.ts](modules_nuxt-ecommerce_src_runtime_tracking_tracking_ts.md) <!-- repo:frontend -->
     - **test**
-      - [basic.test.ts](modules_nuxt-ecommerce_test_basic_test_ts.md)
       - **components**
         - [Breadcrumb.spec.ts](modules_nuxt-ecommerce_test_components_Breadcrumb_spec_ts.md)
         - [CompositeRenderer.spec.ts](modules_nuxt-ecommerce_test_components_CompositeRenderer_spec_ts.md)
@@ -4100,687 +4100,687 @@
         - [useTracking.spec.ts](modules_nuxt-ecommerce_test_composables_useTracking_spec_ts.md)
       - **fixtures**
         - **basic**
-          - [app.vue](modules_nuxt-ecommerce_test_fixtures_basic_app_vue.md)
-          - [nuxt.config.ts](modules_nuxt-ecommerce_test_fixtures_basic_nuxt_config_ts.md)
-          - [package.json](modules_nuxt-ecommerce_test_fixtures_basic_package_json.md)
+          - [app.vue](modules_nuxt-ecommerce_test_fixtures_basic_app_vue.md) <!-- repo:frontend -->
+          - [nuxt.config.ts](modules_nuxt-ecommerce_test_fixtures_basic_nuxt_config_ts.md) <!-- repo:frontend -->
+          - [package.json](modules_nuxt-ecommerce_test_fixtures_basic_package_json.md) <!-- repo:frontend -->
       - **mocks**
-        - [breadcrumb.ts](modules_nuxt-ecommerce_test_mocks_breadcrumb_ts.md)
-        - [compositeRenderer.ts](modules_nuxt-ecommerce_test_mocks_compositeRenderer_ts.md)
-        - [embed.ts](modules_nuxt-ecommerce_test_mocks_embed_ts.md)
-        - [image.ts](modules_nuxt-ecommerce_test_mocks_image_ts.md)
-        - [imageWithLegend.ts](modules_nuxt-ecommerce_test_mocks_imageWithLegend_ts.md)
-        - [richContent.ts](modules_nuxt-ecommerce_test_mocks_richContent_ts.md)
-        - [sasOption.ts](modules_nuxt-ecommerce_test_mocks_sasOption_ts.md)
-        - [textSEO.ts](modules_nuxt-ecommerce_test_mocks_textSEO_ts.md)
-        - [timeline.ts](modules_nuxt-ecommerce_test_mocks_timeline_ts.md)
-        - [uspsMock.ts](modules_nuxt-ecommerce_test_mocks_uspsMock_ts.md)
-      - [setup.ts](modules_nuxt-ecommerce_test_setup_ts.md)
-    - [tsconfig.json](modules_nuxt-ecommerce_tsconfig_json.md)
-    - [vitest.config.ts](modules_nuxt-ecommerce_vitest_config_ts.md)
-- [nx.json](nx_json.md)
-- [package.json](package_json.md)
+        - [breadcrumb.ts](modules_nuxt-ecommerce_test_mocks_breadcrumb_ts.md) <!-- repo:frontend -->
+        - [compositeRenderer.ts](modules_nuxt-ecommerce_test_mocks_compositeRenderer_ts.md) <!-- repo:frontend -->
+        - [embed.ts](modules_nuxt-ecommerce_test_mocks_embed_ts.md) <!-- repo:frontend -->
+        - [imageWithLegend.ts](modules_nuxt-ecommerce_test_mocks_imageWithLegend_ts.md) <!-- repo:frontend -->
+        - [image.ts](modules_nuxt-ecommerce_test_mocks_image_ts.md) <!-- repo:frontend -->
+        - [richContent.ts](modules_nuxt-ecommerce_test_mocks_richContent_ts.md) <!-- repo:frontend -->
+        - [sasOption.ts](modules_nuxt-ecommerce_test_mocks_sasOption_ts.md) <!-- repo:frontend -->
+        - [textSEO.ts](modules_nuxt-ecommerce_test_mocks_textSEO_ts.md) <!-- repo:frontend -->
+        - [timeline.ts](modules_nuxt-ecommerce_test_mocks_timeline_ts.md) <!-- repo:frontend -->
+        - [uspsMock.ts](modules_nuxt-ecommerce_test_mocks_uspsMock_ts.md) <!-- repo:frontend -->
+      - [basic.test.ts](modules_nuxt-ecommerce_test_basic_test_ts.md) <!-- repo:frontend -->
+      - [setup.ts](modules_nuxt-ecommerce_test_setup_ts.md) <!-- repo:frontend -->
+- [nx.json](nx_json.md) <!-- repo:frontend -->
+- [package.json](package_json.md) <!-- repo:frontend -->
 - **packages**
-  - [.eslintrc-auto-import.json](packages__eslintrc-auto-import_json.md)
   - **accordionFold**
-    - [.eslintrc-auto-import.json](packages_accordionFold__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_accordionFold__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_accordionFold__yarnrc_yml.md)
-    - [README.md](packages_accordionFold_README_md.md)
-    - [package.json](packages_accordionFold_package_json.md)
-    - [project.json](packages_accordionFold_project_json.md)
+    - [README.md](packages_accordionFold_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_accordionFold__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_accordionFold__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_accordionFold__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_accordionFold_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_accordionFold_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_accordionFold_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_accordionFold_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_accordionFold_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [AccordionFold.vue](packages_accordionFold_src_components_AccordionFold_vue.md)
-      - [constants.ts](packages_accordionFold_src_constants_ts.md)
-      - [index.ts](packages_accordionFold_src_index_ts.md)
+        - [AccordionFold.vue](packages_accordionFold_src_components_AccordionFold_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_accordionFold_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_accordionFold_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_accordionFold_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [AccordionFold.stories.ts](packages_accordionFold_src_stories_AccordionFold_stories_ts.md)
-      - [types.ts](packages_accordionFold_src_types_ts.md)
-    - [tsconfig.json](packages_accordionFold_tsconfig_json.md)
-    - [vite.config.ts](packages_accordionFold_vite_config_ts.md)
-    - [vitest.config.ts](packages_accordionFold_vitest_config_ts.md)
+        - [AccordionFold.stories.ts](packages_accordionFold_src_stories_AccordionFold_stories_ts.md) <!-- repo:frontend -->
   - **boilerplate**
-    - [.eslintrc-auto-import.json](packages_boilerplate__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_boilerplate__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_boilerplate__yarnrc_yml.md)
-    - [README.md](packages_boilerplate_README_md.md)
-    - [package.json](packages_boilerplate_package_json.md)
-    - [project.json](packages_boilerplate_project_json.md)
+    - [README.md](packages_boilerplate_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_boilerplate__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_boilerplate__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_boilerplate__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_boilerplate_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_boilerplate_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_boilerplate_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_boilerplate_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_boilerplate_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [Boilerplate.vue](packages_boilerplate_src_components_Boilerplate_vue.md)
-      - [constants.ts](packages_boilerplate_src_constants_ts.md)
-      - [index.ts](packages_boilerplate_src_index_ts.md)
-      - [types.ts](packages_boilerplate_src_types_ts.md)
-    - [tsconfig.json](packages_boilerplate_tsconfig_json.md)
-    - [vite.config.ts](packages_boilerplate_vite_config_ts.md)
-    - [vitest.config.ts](packages_boilerplate_vitest_config_ts.md)
+        - [Boilerplate.vue](packages_boilerplate_src_components_Boilerplate_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_boilerplate_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_boilerplate_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_boilerplate_src_types_ts.md) <!-- repo:frontend -->
   - **carousel**
-    - [.eslintrc-auto-import.json](packages_carousel__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_carousel__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_carousel__yarnrc_yml.md)
-    - [README.md](packages_carousel_README_md.md)
-    - [package.json](packages_carousel_package_json.md)
-    - [project.json](packages_carousel_project_json.md)
+    - [README.md](packages_carousel_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_carousel__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_carousel__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_carousel__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_carousel_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_carousel_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_carousel_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_carousel_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_carousel_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [Carousel.vue](packages_carousel_src_components_Carousel_vue.md)
+        - [Carousel.vue](packages_carousel_src_components_Carousel_vue.md) <!-- repo:frontend -->
       - **composables**
-        - [useCarousel.ts](packages_carousel_src_composables_useCarousel_ts.md)
-      - [constants.ts](packages_carousel_src_constants_ts.md)
-      - [index.ts](packages_carousel_src_index_ts.md)
+        - [useCarousel.ts](packages_carousel_src_composables_useCarousel_ts.md) <!-- repo:frontend -->
+      - [constants.ts](packages_carousel_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_carousel_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_carousel_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [Carousel.stories.ts](packages_carousel_src_stories_Carousel_stories_ts.md)
-        - [StoryCarousel.vue](packages_carousel_src_stories_StoryCarousel_vue.md)
-      - [types.ts](packages_carousel_src_types_ts.md)
-    - [tsconfig.json](packages_carousel_tsconfig_json.md)
-    - [vite.config.ts](packages_carousel_vite_config_ts.md)
-    - [vitest.config.ts](packages_carousel_vitest_config_ts.md)
+        - [Carousel.stories.ts](packages_carousel_src_stories_Carousel_stories_ts.md) <!-- repo:frontend -->
+        - [StoryCarousel.vue](packages_carousel_src_stories_StoryCarousel_vue.md) <!-- repo:frontend -->
   - **counter**
-    - [.eslintrc-auto-import.json](packages_counter__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_counter__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_counter__yarnrc_yml.md)
-    - [README.md](packages_counter_README_md.md)
-    - [package.json](packages_counter_package_json.md)
-    - [project.json](packages_counter_project_json.md)
+    - [README.md](packages_counter_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_counter__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_counter__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_counter__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_counter_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_counter_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_counter_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_counter_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_counter_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [Counter.vue](packages_counter_src_components_Counter_vue.md)
-      - [constants.ts](packages_counter_src_constants_ts.md)
-      - [index.ts](packages_counter_src_index_ts.md)
+        - [Counter.vue](packages_counter_src_components_Counter_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_counter_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_counter_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_counter_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [Counters.stories.ts](packages_counter_src_stories_Counters_stories_ts.md)
-        - [StoryCounters.vue](packages_counter_src_stories_StoryCounters_vue.md)
-      - [types.ts](packages_counter_src_types_ts.md)
-    - [tsconfig.json](packages_counter_tsconfig_json.md)
-    - [vite.config.ts](packages_counter_vite_config_ts.md)
-    - [vitest.config.ts](packages_counter_vitest_config_ts.md)
+        - [Counters.stories.ts](packages_counter_src_stories_Counters_stories_ts.md) <!-- repo:frontend -->
+        - [StoryCounters.vue](packages_counter_src_stories_StoryCounters_vue.md) <!-- repo:frontend -->
   - **didomi**
-    - [didomi.css](packages_didomi_didomi_css.md)
+    - [didomi.css](packages_didomi_didomi_css.md) <!-- repo:frontend -->
   - **heading**
-    - [.eslintrc-auto-import.json](packages_heading__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_heading__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_heading__yarnrc_yml.md)
-    - [README.md](packages_heading_README_md.md)
-    - [package.json](packages_heading_package_json.md)
-    - [project.json](packages_heading_project_json.md)
+    - [README.md](packages_heading_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_heading__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_heading__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_heading__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_heading_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_heading_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_heading_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_heading_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_heading_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [Heading.vue](packages_heading_src_components_Heading_vue.md)
-      - [constants.ts](packages_heading_src_constants_ts.md)
-      - [index.ts](packages_heading_src_index_ts.md)
+        - [Heading.vue](packages_heading_src_components_Heading_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_heading_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_heading_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_heading_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [Heading.stories.ts](packages_heading_src_stories_Heading_stories_ts.md)
-      - [types.ts](packages_heading_src_types_ts.md)
-    - [tsconfig.json](packages_heading_tsconfig_json.md)
-    - [vite.config.ts](packages_heading_vite_config_ts.md)
-    - [vitest.config.ts](packages_heading_vitest_config_ts.md)
+        - [Heading.stories.ts](packages_heading_src_stories_Heading_stories_ts.md) <!-- repo:frontend -->
+  - [.eslintrc-auto-import.json](packages__eslintrc-auto-import_json.md) <!-- repo:frontend -->
   - **separator**
-    - [.eslintrc-auto-import.json](packages_separator__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_separator__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_separator__yarnrc_yml.md)
-    - [README.md](packages_separator_README_md.md)
-    - [package.json](packages_separator_package_json.md)
-    - [project.json](packages_separator_project_json.md)
+    - [README.md](packages_separator_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_separator__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_separator__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_separator__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_separator_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_separator_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_separator_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_separator_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_separator_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [Separator.vue](packages_separator_src_components_Separator_vue.md)
-      - [constants.ts](packages_separator_src_constants_ts.md)
-      - [index.ts](packages_separator_src_index_ts.md)
+        - [Separator.vue](packages_separator_src_components_Separator_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_separator_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_separator_src_index_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [Separator.stories.ts](packages_separator_src_stories_Separator_stories_ts.md)
-    - [tsconfig.json](packages_separator_tsconfig_json.md)
-    - [vite.config.ts](packages_separator_vite_config_ts.md)
-    - [vitest.config.ts](packages_separator_vitest_config_ts.md)
+        - [Separator.stories.ts](packages_separator_src_stories_Separator_stories_ts.md) <!-- repo:frontend -->
   - **smartForm**
-    - [.eslintrc-auto-import.json](packages_smartForm__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_smartForm__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_smartForm__yarnrc_yml.md)
-    - [README.md](packages_smartForm_README_md.md)
-    - [package.json](packages_smartForm_package_json.md)
-    - [project.json](packages_smartForm_project_json.md)
+    - [README.md](packages_smartForm_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_smartForm__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_smartForm__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_smartForm__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_smartForm_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_smartForm_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_smartForm_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_smartForm_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_smartForm_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [SmartForm.vue](packages_smartForm_src_components_SmartForm_vue.md)
-        - [SmartFormBirthdayField.vue](packages_smartForm_src_components_SmartFormBirthdayField_vue.md)
-        - [SmartFormButtonsField.vue](packages_smartForm_src_components_SmartFormButtonsField_vue.md)
-        - [SmartFormCheckboxField.vue](packages_smartForm_src_components_SmartFormCheckboxField_vue.md)
-        - [SmartFormChoicesField.vue](packages_smartForm_src_components_SmartFormChoicesField_vue.md)
-        - [SmartFormFilesField.vue](packages_smartForm_src_components_SmartFormFilesField_vue.md)
-        - [SmartFormHiddenField.vue](packages_smartForm_src_components_SmartFormHiddenField_vue.md)
-        - [SmartFormInputField.vue](packages_smartForm_src_components_SmartFormInputField_vue.md)
-        - [SmartFormPhoneField.vue](packages_smartForm_src_components_SmartFormPhoneField_vue.md)
-        - [SmartFormTextAreaField.vue](packages_smartForm_src_components_SmartFormTextAreaField_vue.md)
-        - [SmartFormTitleField.vue](packages_smartForm_src_components_SmartFormTitleField_vue.md)
-        - [SmartFormToggleBoxes.vue](packages_smartForm_src_components_SmartFormToggleBoxes_vue.md)
-        - [SmartFormToggleField.vue](packages_smartForm_src_components_SmartFormToggleField_vue.md)
-      - [constants.ts](packages_smartForm_src_constants_ts.md)
+        - [SmartFormBirthdayField.vue](packages_smartForm_src_components_SmartFormBirthdayField_vue.md) <!-- repo:frontend -->
+        - [SmartFormButtonsField.vue](packages_smartForm_src_components_SmartFormButtonsField_vue.md) <!-- repo:frontend -->
+        - [SmartFormCheckboxField.vue](packages_smartForm_src_components_SmartFormCheckboxField_vue.md) <!-- repo:frontend -->
+        - [SmartFormChoicesField.vue](packages_smartForm_src_components_SmartFormChoicesField_vue.md) <!-- repo:frontend -->
+        - [SmartFormFilesField.vue](packages_smartForm_src_components_SmartFormFilesField_vue.md) <!-- repo:frontend -->
+        - [SmartFormHiddenField.vue](packages_smartForm_src_components_SmartFormHiddenField_vue.md) <!-- repo:frontend -->
+        - [SmartFormInputField.vue](packages_smartForm_src_components_SmartFormInputField_vue.md) <!-- repo:frontend -->
+        - [SmartFormPhoneField.vue](packages_smartForm_src_components_SmartFormPhoneField_vue.md) <!-- repo:frontend -->
+        - [SmartFormTextAreaField.vue](packages_smartForm_src_components_SmartFormTextAreaField_vue.md) <!-- repo:frontend -->
+        - [SmartFormTitleField.vue](packages_smartForm_src_components_SmartFormTitleField_vue.md) <!-- repo:frontend -->
+        - [SmartFormToggleBoxes.vue](packages_smartForm_src_components_SmartFormToggleBoxes_vue.md) <!-- repo:frontend -->
+        - [SmartFormToggleField.vue](packages_smartForm_src_components_SmartFormToggleField_vue.md) <!-- repo:frontend -->
+        - [SmartForm.vue](packages_smartForm_src_components_SmartForm_vue.md) <!-- repo:frontend -->
       - **definitions**
-        - [SmartFieldBirthdayDefinition.ts](packages_smartForm_src_definitions_SmartFieldBirthdayDefinition_ts.md)
-        - [SmartFieldButtonsDefinition.ts](packages_smartForm_src_definitions_SmartFieldButtonsDefinition_ts.md)
-        - [SmartFieldCheckboxDefinition.ts](packages_smartForm_src_definitions_SmartFieldCheckboxDefinition_ts.md)
-        - [SmartFieldChoicesDefinition.ts](packages_smartForm_src_definitions_SmartFieldChoicesDefinition_ts.md)
-        - [SmartFieldDefinition.ts](packages_smartForm_src_definitions_SmartFieldDefinition_ts.md)
-        - [SmartFieldEmailDefinition.ts](packages_smartForm_src_definitions_SmartFieldEmailDefinition_ts.md)
-        - [SmartFieldFilesDefinition.ts](packages_smartForm_src_definitions_SmartFieldFilesDefinition_ts.md)
-        - [SmartFieldHiddenDefinition.ts](packages_smartForm_src_definitions_SmartFieldHiddenDefinition_ts.md)
-        - [SmartFieldInputDefinition.ts](packages_smartForm_src_definitions_SmartFieldInputDefinition_ts.md)
-        - [SmartFieldNumberDefinition.ts](packages_smartForm_src_definitions_SmartFieldNumberDefinition_ts.md)
-        - [SmartFieldPhoneDefinition.ts](packages_smartForm_src_definitions_SmartFieldPhoneDefinition_ts.md)
-        - [SmartFieldTextAreaDefinition.ts](packages_smartForm_src_definitions_SmartFieldTextAreaDefinition_ts.md)
-        - [SmartFieldTitleDefinition.ts](packages_smartForm_src_definitions_SmartFieldTitleDefinition_ts.md)
-        - [SmartFieldToggleBoxesDefinition.ts](packages_smartForm_src_definitions_SmartFieldToggleBoxesDefinition_ts.md)
-        - [SmartFieldToggleDefinition.ts](packages_smartForm_src_definitions_SmartFieldToggleDefinition_ts.md)
-        - [SmartFormDefinition.ts](packages_smartForm_src_definitions_SmartFormDefinition_ts.md)
-        - [index.ts](packages_smartForm_src_definitions_index_ts.md)
-        - [smartform.ts](packages_smartForm_src_definitions_smartform_ts.md)
-      - [index.ts](packages_smartForm_src_index_ts.md)
+        - [SmartFieldBirthdayDefinition.ts](packages_smartForm_src_definitions_SmartFieldBirthdayDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldButtonsDefinition.ts](packages_smartForm_src_definitions_SmartFieldButtonsDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldCheckboxDefinition.ts](packages_smartForm_src_definitions_SmartFieldCheckboxDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldChoicesDefinition.ts](packages_smartForm_src_definitions_SmartFieldChoicesDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldDefinition.ts](packages_smartForm_src_definitions_SmartFieldDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldEmailDefinition.ts](packages_smartForm_src_definitions_SmartFieldEmailDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldFilesDefinition.ts](packages_smartForm_src_definitions_SmartFieldFilesDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldHiddenDefinition.ts](packages_smartForm_src_definitions_SmartFieldHiddenDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldInputDefinition.ts](packages_smartForm_src_definitions_SmartFieldInputDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldNumberDefinition.ts](packages_smartForm_src_definitions_SmartFieldNumberDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldPhoneDefinition.ts](packages_smartForm_src_definitions_SmartFieldPhoneDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldTextAreaDefinition.ts](packages_smartForm_src_definitions_SmartFieldTextAreaDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldTitleDefinition.ts](packages_smartForm_src_definitions_SmartFieldTitleDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldToggleBoxesDefinition.ts](packages_smartForm_src_definitions_SmartFieldToggleBoxesDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFieldToggleDefinition.ts](packages_smartForm_src_definitions_SmartFieldToggleDefinition_ts.md) <!-- repo:frontend -->
+        - [SmartFormDefinition.ts](packages_smartForm_src_definitions_SmartFormDefinition_ts.md) <!-- repo:frontend -->
+        - [index.ts](packages_smartForm_src_definitions_index_ts.md) <!-- repo:frontend -->
+        - [smartform.ts](packages_smartForm_src_definitions_smartform_ts.md) <!-- repo:frontend -->
+      - [constants.ts](packages_smartForm_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_smartForm_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_smartForm_src_types_ts.md) <!-- repo:frontend -->
       - **static**
-        - [supportedFiles.ts](packages_smartForm_src_static_supportedFiles_ts.md)
+        - [supportedFiles.ts](packages_smartForm_src_static_supportedFiles_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [SmartFormBirthdayField.stories.ts](packages_smartForm_src_stories_SmartFormBirthdayField_stories_ts.md)
-        - [SmartFormButtonsField.stories.ts](packages_smartForm_src_stories_SmartFormButtonsField_stories_ts.md)
-        - [SmartFormCheckboxField.stories.ts](packages_smartForm_src_stories_SmartFormCheckboxField_stories_ts.md)
-        - [SmartFormChoicesField.stories.ts](packages_smartForm_src_stories_SmartFormChoicesField_stories_ts.md)
-        - [SmartFormFilesField.stories.ts](packages_smartForm_src_stories_SmartFormFilesField_stories_ts.md)
-        - [SmartFormInputField.stories.ts](packages_smartForm_src_stories_SmartFormInputField_stories_ts.md)
-        - [SmartFormTextAreaField.stories.ts](packages_smartForm_src_stories_SmartFormTextAreaField_stories_ts.md)
-        - [SmartFormToggleBoxes.stories.ts](packages_smartForm_src_stories_SmartFormToggleBoxes_stories_ts.md)
-        - [SmartFormToggleField.stories.ts](packages_smartForm_src_stories_SmartFormToggleField_stories_ts.md)
-      - [types.ts](packages_smartForm_src_types_ts.md)
-    - [tsconfig.json](packages_smartForm_tsconfig_json.md)
-    - [vite.config.ts](packages_smartForm_vite_config_ts.md)
-    - [vitest.config.ts](packages_smartForm_vitest_config_ts.md)
+        - [SmartFormBirthdayField.stories.ts](packages_smartForm_src_stories_SmartFormBirthdayField_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormButtonsField.stories.ts](packages_smartForm_src_stories_SmartFormButtonsField_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormCheckboxField.stories.ts](packages_smartForm_src_stories_SmartFormCheckboxField_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormChoicesField.stories.ts](packages_smartForm_src_stories_SmartFormChoicesField_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormFilesField.stories.ts](packages_smartForm_src_stories_SmartFormFilesField_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormInputField.stories.ts](packages_smartForm_src_stories_SmartFormInputField_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormTextAreaField.stories.ts](packages_smartForm_src_stories_SmartFormTextAreaField_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormToggleBoxes.stories.ts](packages_smartForm_src_stories_SmartFormToggleBoxes_stories_ts.md) <!-- repo:frontend -->
+        - [SmartFormToggleField.stories.ts](packages_smartForm_src_stories_SmartFormToggleField_stories_ts.md) <!-- repo:frontend -->
   - **smartImage**
-    - [.eslintrc-auto-import.json](packages_smartImage__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_smartImage__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_smartImage__yarnrc_yml.md)
-    - [README.md](packages_smartImage_README_md.md)
-    - [package.json](packages_smartImage_package_json.md)
-    - [project.json](packages_smartImage_project_json.md)
+    - [README.md](packages_smartImage_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_smartImage__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_smartImage__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_smartImage__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_smartImage_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_smartImage_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_smartImage_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_smartImage_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_smartImage_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [SmartImage.vue](packages_smartImage_src_components_SmartImage_vue.md)
+        - [SmartImage.vue](packages_smartImage_src_components_SmartImage_vue.md) <!-- repo:frontend -->
       - **composables**
-        - [useImageKit.ts](packages_smartImage_src_composables_useImageKit_ts.md)
-      - [constants.ts](packages_smartImage_src_constants_ts.md)
-      - [index.ts](packages_smartImage_src_index_ts.md)
+        - [useImageKit.ts](packages_smartImage_src_composables_useImageKit_ts.md) <!-- repo:frontend -->
+      - [constants.ts](packages_smartImage_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_smartImage_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_smartImage_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [SmartImage.stories.ts](packages_smartImage_src_stories_SmartImage_stories_ts.md)
-      - [types.ts](packages_smartImage_src_types_ts.md)
-    - [tsconfig.json](packages_smartImage_tsconfig_json.md)
-    - [vite.config.ts](packages_smartImage_vite_config_ts.md)
-    - [vitest.config.ts](packages_smartImage_vitest_config_ts.md)
+        - [SmartImage.stories.ts](packages_smartImage_src_stories_SmartImage_stories_ts.md) <!-- repo:frontend -->
   - **smartLink**
-    - [.eslintrc-auto-import.json](packages_smartLink__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_smartLink__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_smartLink__yarnrc_yml.md)
-    - [README.md](packages_smartLink_README_md.md)
-    - [package.json](packages_smartLink_package_json.md)
-    - [project.json](packages_smartLink_project_json.md)
+    - [README.md](packages_smartLink_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_smartLink__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_smartLink__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_smartLink__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_smartLink_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_smartLink_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_smartLink_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_smartLink_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_smartLink_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [SmartLink.vue](packages_smartLink_src_components_SmartLink_vue.md)
-      - [constants.ts](packages_smartLink_src_constants_ts.md)
-      - [index.ts](packages_smartLink_src_index_ts.md)
+        - [SmartLink.vue](packages_smartLink_src_components_SmartLink_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_smartLink_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_smartLink_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_smartLink_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [Buttons.stories.ts](packages_smartLink_src_stories_Buttons_stories_ts.md)
-        - [SmartLinks.stories.ts](packages_smartLink_src_stories_SmartLinks_stories_ts.md)
-        - [StoryButtons.vue](packages_smartLink_src_stories_StoryButtons_vue.md)
-        - [StoryLinks.vue](packages_smartLink_src_stories_StoryLinks_vue.md)
-      - [types.ts](packages_smartLink_src_types_ts.md)
-    - [tsconfig.json](packages_smartLink_tsconfig_json.md)
-    - [vite.config.ts](packages_smartLink_vite_config_ts.md)
-    - [vitest.config.ts](packages_smartLink_vitest_config_ts.md)
+        - [Buttons.stories.ts](packages_smartLink_src_stories_Buttons_stories_ts.md) <!-- repo:frontend -->
+        - [SmartLinks.stories.ts](packages_smartLink_src_stories_SmartLinks_stories_ts.md) <!-- repo:frontend -->
+        - [StoryButtons.vue](packages_smartLink_src_stories_StoryButtons_vue.md) <!-- repo:frontend -->
+        - [StoryLinks.vue](packages_smartLink_src_stories_StoryLinks_vue.md) <!-- repo:frontend -->
   - **tracking**
-    - [package.json](packages_tracking_package_json.md)
-    - [project.json](packages_tracking_project_json.md)
+    - [package.json](packages_tracking_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_tracking_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_tracking_tsconfig_json.md) <!-- repo:frontend -->
     - **src**
-      - [index.ts](packages_tracking_src_index_ts.md)
+      - [index.ts](packages_tracking_src_index_ts.md) <!-- repo:frontend -->
       - **pixie**
-        - [index.ts](packages_tracking_src_pixie_index_ts.md)
-        - [pixieEnums.ts](packages_tracking_src_pixie_pixieEnums_ts.md)
-        - [pixieTypes.ts](packages_tracking_src_pixie_pixieTypes_ts.md)
-    - [tsconfig.json](packages_tracking_tsconfig_json.md)
+        - [index.ts](packages_tracking_src_pixie_index_ts.md) <!-- repo:frontend -->
+        - [pixieEnums.ts](packages_tracking_src_pixie_pixieEnums_ts.md) <!-- repo:frontend -->
+        - [pixieTypes.ts](packages_tracking_src_pixie_pixieTypes_ts.md) <!-- repo:frontend -->
   - **types**
-    - [package.json](packages_types_package_json.md)
-    - [project.json](packages_types_project_json.md)
+    - [package.json](packages_types_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_types_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_types_tsconfig_json.md) <!-- repo:frontend -->
     - **src**
       - **cms**
-        - [index.ts](packages_types_src_cms_index_ts.md)
+        - [index.ts](packages_types_src_cms_index_ts.md) <!-- repo:frontend -->
+        - [strapiCompositePage.ts](packages_types_src_cms_strapiCompositePage_ts.md) <!-- repo:frontend -->
+        - [strapiObject.ts](packages_types_src_cms_strapiObject_ts.md) <!-- repo:frontend -->
+        - [strapiResponse.ts](packages_types_src_cms_strapiResponse_ts.md) <!-- repo:frontend -->
         - **shared**
-          - [breadcrumb.ts](packages_types_src_cms_shared_breadcrumb_ts.md)
-          - [component.ts](packages_types_src_cms_shared_component_ts.md)
-          - [embed.ts](packages_types_src_cms_shared_embed_ts.md)
-          - [image.ts](packages_types_src_cms_shared_image_ts.md)
-          - [imageWithLegend.ts](packages_types_src_cms_shared_imageWithLegend_ts.md)
-          - [index.ts](packages_types_src_cms_shared_index_ts.md)
-          - [ingredient.ts](packages_types_src_cms_shared_ingredient_ts.md)
-          - [opengraph.ts](packages_types_src_cms_shared_opengraph_ts.md)
-          - [richContent.ts](packages_types_src_cms_shared_richContent_ts.md)
-          - [separator.ts](packages_types_src_cms_shared_separator_ts.md)
-          - [strapiButton.ts](packages_types_src_cms_shared_strapiButton_ts.md)
-          - [strapiButtonDashboard.ts](packages_types_src_cms_shared_strapiButtonDashboard_ts.md)
-          - [strapiHeadingLevel.ts](packages_types_src_cms_shared_strapiHeadingLevel_ts.md)
-          - [strapiLink.ts](packages_types_src_cms_shared_strapiLink_ts.md)
-          - [strapiResponsiveText.ts](packages_types_src_cms_shared_strapiResponsiveText_ts.md)
-          - [strapiUSPCard.ts](packages_types_src_cms_shared_strapiUSPCard_ts.md)
-          - [textSEO.ts](packages_types_src_cms_shared_textSEO_ts.md)
-          - [timeLine.ts](packages_types_src_cms_shared_timeLine_ts.md)
-          - [verbatimFullWidth.ts](packages_types_src_cms_shared_verbatimFullWidth_ts.md)
-        - [strapiCompositePage.ts](packages_types_src_cms_strapiCompositePage_ts.md)
-        - [strapiObject.ts](packages_types_src_cms_strapiObject_ts.md)
-        - [strapiResponse.ts](packages_types_src_cms_strapiResponse_ts.md)
+          - [breadcrumb.ts](packages_types_src_cms_shared_breadcrumb_ts.md) <!-- repo:frontend -->
+          - [component.ts](packages_types_src_cms_shared_component_ts.md) <!-- repo:frontend -->
+          - [embed.ts](packages_types_src_cms_shared_embed_ts.md) <!-- repo:frontend -->
+          - [imageWithLegend.ts](packages_types_src_cms_shared_imageWithLegend_ts.md) <!-- repo:frontend -->
+          - [image.ts](packages_types_src_cms_shared_image_ts.md) <!-- repo:frontend -->
+          - [index.ts](packages_types_src_cms_shared_index_ts.md) <!-- repo:frontend -->
+          - [ingredient.ts](packages_types_src_cms_shared_ingredient_ts.md) <!-- repo:frontend -->
+          - [opengraph.ts](packages_types_src_cms_shared_opengraph_ts.md) <!-- repo:frontend -->
+          - [richContent.ts](packages_types_src_cms_shared_richContent_ts.md) <!-- repo:frontend -->
+          - [separator.ts](packages_types_src_cms_shared_separator_ts.md) <!-- repo:frontend -->
+          - [strapiButtonDashboard.ts](packages_types_src_cms_shared_strapiButtonDashboard_ts.md) <!-- repo:frontend -->
+          - [strapiButton.ts](packages_types_src_cms_shared_strapiButton_ts.md) <!-- repo:frontend -->
+          - [strapiHeadingLevel.ts](packages_types_src_cms_shared_strapiHeadingLevel_ts.md) <!-- repo:frontend -->
+          - [strapiLink.ts](packages_types_src_cms_shared_strapiLink_ts.md) <!-- repo:frontend -->
+          - [strapiResponsiveText.ts](packages_types_src_cms_shared_strapiResponsiveText_ts.md) <!-- repo:frontend -->
+          - [strapiUSPCard.ts](packages_types_src_cms_shared_strapiUSPCard_ts.md) <!-- repo:frontend -->
+          - [textSEO.ts](packages_types_src_cms_shared_textSEO_ts.md) <!-- repo:frontend -->
+          - [timeLine.ts](packages_types_src_cms_shared_timeLine_ts.md) <!-- repo:frontend -->
+          - [verbatimFullWidth.ts](packages_types_src_cms_shared_verbatimFullWidth_ts.md) <!-- repo:frontend -->
       - **core**
-        - [carousel.ts](packages_types_src_core_carousel_ts.md)
-        - [direction.ts](packages_types_src_core_direction_ts.md)
-        - [index.ts](packages_types_src_core_index_ts.md)
-        - [markdownIt.ts](packages_types_src_core_markdownIt_ts.md)
+        - [carousel.ts](packages_types_src_core_carousel_ts.md) <!-- repo:frontend -->
+        - [direction.ts](packages_types_src_core_direction_ts.md) <!-- repo:frontend -->
+        - [index.ts](packages_types_src_core_index_ts.md) <!-- repo:frontend -->
+        - [markdownIt.ts](packages_types_src_core_markdownIt_ts.md) <!-- repo:frontend -->
         - **shared**
-          - [index.ts](packages_types_src_core_shared_index_ts.md)
-          - [syliusCollection.ts](packages_types_src_core_shared_syliusCollection_ts.md)
-          - [syliusComponent.ts](packages_types_src_core_shared_syliusComponent_ts.md)
-      - [index.ts](packages_types_src_index_ts.md)
-      - [jest-serializer-vue.d.ts](packages_types_src_jest-serializer-vue_d_ts.md)
+          - [index.ts](packages_types_src_core_shared_index_ts.md) <!-- repo:frontend -->
+          - [syliusCollection.ts](packages_types_src_core_shared_syliusCollection_ts.md) <!-- repo:frontend -->
+          - [syliusComponent.ts](packages_types_src_core_shared_syliusComponent_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_types_src_index_ts.md) <!-- repo:frontend -->
+      - [jest-serializer-vue.d.ts](packages_types_src_jest-serializer-vue_d_ts.md) <!-- repo:frontend -->
+      - [types.d.ts](packages_types_src_types_d_ts.md) <!-- repo:frontend -->
       - **static**
-        - [examplePhoneNumbers.ts](packages_types_src_static_examplePhoneNumbers_ts.md)
-        - [index.ts](packages_types_src_static_index_ts.md)
-        - [supportedFiles.ts](packages_types_src_static_supportedFiles_ts.md)
-      - [types.d.ts](packages_types_src_types_d_ts.md)
+        - [examplePhoneNumbers.ts](packages_types_src_static_examplePhoneNumbers_ts.md) <!-- repo:frontend -->
+        - [index.ts](packages_types_src_static_index_ts.md) <!-- repo:frontend -->
+        - [supportedFiles.ts](packages_types_src_static_supportedFiles_ts.md) <!-- repo:frontend -->
       - **utils**
-        - [index.ts](packages_types_src_utils_index_ts.md)
-        - [utilsTypes.ts](packages_types_src_utils_utilsTypes_ts.md)
-    - [tsconfig.json](packages_types_tsconfig_json.md)
+        - [index.ts](packages_types_src_utils_index_ts.md) <!-- repo:frontend -->
+        - [utilsTypes.ts](packages_types_src_utils_utilsTypes_ts.md) <!-- repo:frontend -->
   - **utils**
-    - [package.json](packages_utils_package_json.md)
-    - [project.json](packages_utils_project_json.md)
+    - [package.json](packages_utils_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_utils_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_utils_tsconfig_json.md) <!-- repo:frontend -->
     - **src**
       - **composables**
-        - [useString.ts](packages_utils_src_composables_useString_ts.md)
-        - [useUrl.ts](packages_utils_src_composables_useUrl_ts.md)
-      - [index.ts](packages_utils_src_index_ts.md)
-    - [tsconfig.json](packages_utils_tsconfig_json.md)
+        - [useString.ts](packages_utils_src_composables_useString_ts.md) <!-- repo:frontend -->
+        - [useUrl.ts](packages_utils_src_composables_useUrl_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_utils_src_index_ts.md) <!-- repo:frontend -->
   - **verbatimFullWidth**
-    - [.eslintrc-auto-import.json](packages_verbatimFullWidth__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_verbatimFullWidth__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_verbatimFullWidth__yarnrc_yml.md)
-    - [README.md](packages_verbatimFullWidth_README_md.md)
-    - [package.json](packages_verbatimFullWidth_package_json.md)
-    - [project.json](packages_verbatimFullWidth_project_json.md)
+    - [README.md](packages_verbatimFullWidth_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_verbatimFullWidth__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_verbatimFullWidth__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_verbatimFullWidth__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_verbatimFullWidth_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_verbatimFullWidth_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_verbatimFullWidth_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_verbatimFullWidth_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_verbatimFullWidth_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [VerbatimFullWidth.vue](packages_verbatimFullWidth_src_components_VerbatimFullWidth_vue.md)
-      - [constants.ts](packages_verbatimFullWidth_src_constants_ts.md)
-      - [index.ts](packages_verbatimFullWidth_src_index_ts.md)
+        - [VerbatimFullWidth.vue](packages_verbatimFullWidth_src_components_VerbatimFullWidth_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_verbatimFullWidth_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_verbatimFullWidth_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_verbatimFullWidth_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [VerbatimFullWidth.stories.ts](packages_verbatimFullWidth_src_stories_VerbatimFullWidth_stories_ts.md)
-      - [types.ts](packages_verbatimFullWidth_src_types_ts.md)
-    - [tsconfig.json](packages_verbatimFullWidth_tsconfig_json.md)
-    - [vite.config.ts](packages_verbatimFullWidth_vite_config_ts.md)
-    - [vitest.config.ts](packages_verbatimFullWidth_vitest_config_ts.md)
+        - [VerbatimFullWidth.stories.ts](packages_verbatimFullWidth_src_stories_VerbatimFullWidth_stories_ts.md) <!-- repo:frontend -->
   - **youtube**
-    - [.eslintrc-auto-import.json](packages_youtube__eslintrc-auto-import_json.md)
-    - [.eslintrc.config.js](packages_youtube__eslintrc_config_js.md)
-    - [.yarnrc.yml](packages_youtube__yarnrc_yml.md)
-    - [README.md](packages_youtube_README_md.md)
-    - [package.json](packages_youtube_package_json.md)
-    - [project.json](packages_youtube_project_json.md)
+    - [README.md](packages_youtube_README_md.md) <!-- repo:frontend -->
+    - [.eslintrc-auto-import.json](packages_youtube__eslintrc-auto-import_json.md) <!-- repo:frontend -->
+    - [.eslintrc.config.js](packages_youtube__eslintrc_config_js.md) <!-- repo:frontend -->
+    - [.yarnrc.yml](packages_youtube__yarnrc_yml.md) <!-- repo:frontend -->
+    - [package.json](packages_youtube_package_json.md) <!-- repo:frontend -->
+    - [project.json](packages_youtube_project_json.md) <!-- repo:frontend -->
+    - [tsconfig.json](packages_youtube_tsconfig_json.md) <!-- repo:frontend -->
+    - [vite.config.ts](packages_youtube_vite_config_ts.md) <!-- repo:frontend -->
+    - [vitest.config.ts](packages_youtube_vitest_config_ts.md) <!-- repo:frontend -->
     - **src**
       - **components**
-        - [Youtube.vue](packages_youtube_src_components_Youtube_vue.md)
-      - [constants.ts](packages_youtube_src_constants_ts.md)
-      - [index.ts](packages_youtube_src_index_ts.md)
+        - [Youtube.vue](packages_youtube_src_components_Youtube_vue.md) <!-- repo:frontend -->
+      - [constants.ts](packages_youtube_src_constants_ts.md) <!-- repo:frontend -->
+      - [index.ts](packages_youtube_src_index_ts.md) <!-- repo:frontend -->
+      - [types.ts](packages_youtube_src_types_ts.md) <!-- repo:frontend -->
       - **stories**
-        - [Youtube.stories.ts](packages_youtube_src_stories_Youtube_stories_ts.md)
-      - [types.ts](packages_youtube_src_types_ts.md)
-    - [tsconfig.json](packages_youtube_tsconfig_json.md)
-    - [vite.config.ts](packages_youtube_vite_config_ts.md)
-    - [vitest.config.ts](packages_youtube_vitest_config_ts.md)
-- [phpstan.neon](phpstan_neon.md)
-- [prettier.config.js](prettier_config_js.md)
-- [psalm-baseline.xml](psalm-baseline_xml.md)
-- [psalm.xml](psalm_xml.md)
+        - [Youtube.stories.ts](packages_youtube_src_stories_Youtube_stories_ts.md) <!-- repo:frontend -->
+- [phpstan.neon](phpstan_neon.md) <!-- repo:backend -->
+- [prettier.config.js](prettier_config_js.md) <!-- repo:frontend -->
+- [psalm-baseline.xml](psalm-baseline_xml.md) <!-- repo:backend -->
+- [psalm.xml](psalm_xml.md) <!-- repo:backend -->
 - **public**
-  - [index.php](public_index_php.md)
+  - [index.php](public_index_php.md) <!-- repo:backend -->
 - **scripts**
-  - [deploy-staging.sh](scripts_deploy-staging_sh.md)
-  - [test-address-channel-constraint.sh](scripts_test-address-channel-constraint_sh.md)
-  - [test-validation-422.sh](scripts_test-validation-422_sh.md)
-- [shims-vue.d.ts](shims-vue_d_ts.md)
+  - [deploy-staging.sh](scripts_deploy-staging_sh.md) <!-- repo:frontend -->
+  - [test-address-channel-constraint.sh](scripts_test-address-channel-constraint_sh.md) <!-- repo:backend -->
+  - [test-validation-422.sh](scripts_test-validation-422_sh.md) <!-- repo:backend -->
+- [shims-vue.d.ts](shims-vue_d_ts.md) <!-- repo:frontend -->
+- [Kernel.php](src_Kernel_php.md) <!-- repo:backend -->
 - **templates**
   - **Addressing**
-    - [_form.html.twig](templates_Addressing__form_html_twig.md)
+    - [_form.html.twig](templates_Addressing__form_html_twig.md) <!-- repo:backend -->
   - **Animal**
     - **Grid**
       - **Field**
-        - [age.html.twig](templates_Animal_Grid_Field_age_html_twig.md)
-        - [sterilized.html.twig](templates_Animal_Grid_Field_sterilized_html_twig.md)
+        - [age.html.twig](templates_Animal_Grid_Field_age_html_twig.md) <!-- repo:backend -->
+        - [sterilized.html.twig](templates_Animal_Grid_Field_sterilized_html_twig.md) <!-- repo:backend -->
     - **Show**
-      - [_breadcrumb.html.twig](templates_Animal_Show__breadcrumb_html_twig.md)
-      - [_contentWidget.html.twig](templates_Animal_Show__contentWidget_html_twig.md)
-      - [_header.html.twig](templates_Animal_Show__header_html_twig.md)
-    - [_form.html.twig](templates_Animal__form_html_twig.md)
-    - [_script.html.twig](templates_Animal__script_html_twig.md)
-    - [show.html.twig](templates_Animal_show_html_twig.md)
+      - [_breadcrumb.html.twig](templates_Animal_Show__breadcrumb_html_twig.md) <!-- repo:backend -->
+      - [_contentWidget.html.twig](templates_Animal_Show__contentWidget_html_twig.md) <!-- repo:backend -->
+      - [_header.html.twig](templates_Animal_Show__header_html_twig.md) <!-- repo:backend -->
+    - [_form.html.twig](templates_Animal__form_html_twig.md) <!-- repo:backend -->
+    - [_script.html.twig](templates_Animal__script_html_twig.md) <!-- repo:backend -->
+    - [show.html.twig](templates_Animal_show_html_twig.md) <!-- repo:backend -->
   - **Customer**
     - **AutogeneratedPassword**
-      - [create.html.twig](templates_Customer_AutogeneratedPassword_create_html_twig.md)
+      - [create.html.twig](templates_Customer_AutogeneratedPassword_create_html_twig.md) <!-- repo:backend -->
     - **Grid**
       - **Field**
-        - [_customer.html.twig](templates_Customer_Grid_Field__customer_html_twig.md)
+        - [_customer.html.twig](templates_Customer_Grid_Field__customer_html_twig.md) <!-- repo:backend -->
     - **Recaptcha**
       - **Show**
-        - [_form.html.twig](templates_Customer_Recaptcha_Show__form_html_twig.md)
-        - [_headerWidget.html.twig](templates_Customer_Recaptcha_Show__headerWidget_html_twig.md)
-      - [show.html.twig](templates_Customer_Recaptcha_show_html_twig.md)
+        - [_form.html.twig](templates_Customer_Recaptcha_Show__form_html_twig.md) <!-- repo:backend -->
+        - [_headerWidget.html.twig](templates_Customer_Recaptcha_Show__headerWidget_html_twig.md) <!-- repo:backend -->
+      - [show.html.twig](templates_Customer_Recaptcha_show_html_twig.md) <!-- repo:backend -->
   - **Emails**
-    - [show.html.twig](templates_Emails_show_html_twig.md)
+    - [show.html.twig](templates_Emails_show_html_twig.md) <!-- repo:backend -->
   - **OrderRule**
     - **Common**
-      - [javascripts-form.html.twig](templates_OrderRule_Common_javascripts-form_html_twig.md)
-    - [_form.html.twig](templates_OrderRule__form_html_twig.md)
+      - [javascripts-form.html.twig](templates_OrderRule_Common_javascripts-form_html_twig.md) <!-- repo:backend -->
+    - [_form.html.twig](templates_OrderRule__form_html_twig.md) <!-- repo:backend -->
   - **Payment**
     - **Grid**
       - **BulkAction**
-        - [completePayment.html.twig](templates_Payment_Grid_BulkAction_completePayment_html_twig.md)
+        - [completePayment.html.twig](templates_Payment_Grid_BulkAction_completePayment_html_twig.md) <!-- repo:backend -->
   - **PickupPoint**
     - **Grid**
       - **Field**
-        - [location.html.twig](templates_PickupPoint_Grid_Field_location_html_twig.md)
-        - [manualDisabled.html.twig](templates_PickupPoint_Grid_Field_manualDisabled_html_twig.md)
-        - [pickupAddress.html.twig](templates_PickupPoint_Grid_Field_pickupAddress_html_twig.md)
-        - [pickupOpenings.html.twig](templates_PickupPoint_Grid_Field_pickupOpenings_html_twig.md)
-        - [pickupPhoto.html.twig](templates_PickupPoint_Grid_Field_pickupPhoto_html_twig.md)
-        - [shippingMethods.html.twig](templates_PickupPoint_Grid_Field_shippingMethods_html_twig.md)
+        - [location.html.twig](templates_PickupPoint_Grid_Field_location_html_twig.md) <!-- repo:backend -->
+        - [manualDisabled.html.twig](templates_PickupPoint_Grid_Field_manualDisabled_html_twig.md) <!-- repo:backend -->
+        - [pickupAddress.html.twig](templates_PickupPoint_Grid_Field_pickupAddress_html_twig.md) <!-- repo:backend -->
+        - [pickupOpenings.html.twig](templates_PickupPoint_Grid_Field_pickupOpenings_html_twig.md) <!-- repo:backend -->
+        - [pickupPhoto.html.twig](templates_PickupPoint_Grid_Field_pickupPhoto_html_twig.md) <!-- repo:backend -->
+        - [shippingMethods.html.twig](templates_PickupPoint_Grid_Field_shippingMethods_html_twig.md) <!-- repo:backend -->
       - **Filter**
-        - [pickup_point_location.html.twig](templates_PickupPoint_Grid_Filter_pickup_point_location_html_twig.md)
+        - [pickup_point_location.html.twig](templates_PickupPoint_Grid_Filter_pickup_point_location_html_twig.md) <!-- repo:backend -->
     - **Show**
-      - [_breadcrumb.html.twig](templates_PickupPoint_Show__breadcrumb_html_twig.md)
-      - [_contentWidget.html.twig](templates_PickupPoint_Show__contentWidget_html_twig.md)
-      - [_header.html.twig](templates_PickupPoint_Show__header_html_twig.md)
+      - [_breadcrumb.html.twig](templates_PickupPoint_Show__breadcrumb_html_twig.md) <!-- repo:backend -->
+      - [_contentWidget.html.twig](templates_PickupPoint_Show__contentWidget_html_twig.md) <!-- repo:backend -->
+      - [_header.html.twig](templates_PickupPoint_Show__header_html_twig.md) <!-- repo:backend -->
     - **Subscription**
-      - [pickupPointInfo.html.twig](templates_PickupPoint_Subscription_pickupPointInfo_html_twig.md)
-    - [show.html.twig](templates_PickupPoint_show_html_twig.md)
+      - [pickupPointInfo.html.twig](templates_PickupPoint_Subscription_pickupPointInfo_html_twig.md) <!-- repo:backend -->
+    - [show.html.twig](templates_PickupPoint_show_html_twig.md) <!-- repo:backend -->
   - **ProductVariant**
     - **Grid**
       - **Field**
-        - [status.html.twig](templates_ProductVariant_Grid_Field_status_html_twig.md)
+        - [status.html.twig](templates_ProductVariant_Grid_Field_status_html_twig.md) <!-- repo:backend -->
   - **ShippingZone**
     - **Grid**
       - **Field**
-        - [postcode.html.twig](templates_ShippingZone_Grid_Field_postcode_html_twig.md)
-    - [_form.html.twig](templates_ShippingZone__form_html_twig.md)
-    - [_script.html.twig](templates_ShippingZone__script_html_twig.md)
+        - [postcode.html.twig](templates_ShippingZone_Grid_Field_postcode_html_twig.md) <!-- repo:backend -->
+    - [_form.html.twig](templates_ShippingZone__form_html_twig.md) <!-- repo:backend -->
+    - [_script.html.twig](templates_ShippingZone__script_html_twig.md) <!-- repo:backend -->
   - **Subscription**
     - **Frequency**
       - **Groups**
         - **Index**
-          - [_breadcrumb.html.twig](templates_Subscription_Frequency_Groups_Index__breadcrumb_html_twig.md)
-        - [_form.html.twig](templates_Subscription_Frequency_Groups__form_html_twig.md)
-      - [_form.html.twig](templates_Subscription_Frequency__form_html_twig.md)
+          - [_breadcrumb.html.twig](templates_Subscription_Frequency_Groups_Index__breadcrumb_html_twig.md) <!-- repo:backend -->
+        - [_form.html.twig](templates_Subscription_Frequency_Groups__form_html_twig.md) <!-- repo:backend -->
+      - [_form.html.twig](templates_Subscription_Frequency__form_html_twig.md) <!-- repo:backend -->
     - **Monitoring**
       - **Index**
-        - [_breadcrumb.html.twig](templates_Subscription_Monitoring_Index__breadcrumb_html_twig.md)
-        - [_content.html.twig](templates_Subscription_Monitoring_Index__content_html_twig.md)
-        - [_header.html.twig](templates_Subscription_Monitoring_Index__header_html_twig.md)
-        - [_headerTitle.html.twig](templates_Subscription_Monitoring_Index__headerTitle_html_twig.md)
-        - [javascripts.html.twig](templates_Subscription_Monitoring_Index_javascripts_html_twig.md)
-        - [stylesheets.html.twig](templates_Subscription_Monitoring_Index_stylesheets_html_twig.md)
+        - [_breadcrumb.html.twig](templates_Subscription_Monitoring_Index__breadcrumb_html_twig.md) <!-- repo:backend -->
+        - [_content.html.twig](templates_Subscription_Monitoring_Index__content_html_twig.md) <!-- repo:backend -->
+        - [_headerTitle.html.twig](templates_Subscription_Monitoring_Index__headerTitle_html_twig.md) <!-- repo:backend -->
+        - [_header.html.twig](templates_Subscription_Monitoring_Index__header_html_twig.md) <!-- repo:backend -->
+        - [javascripts.html.twig](templates_Subscription_Monitoring_Index_javascripts_html_twig.md) <!-- repo:backend -->
+        - [stylesheets.html.twig](templates_Subscription_Monitoring_Index_stylesheets_html_twig.md) <!-- repo:backend -->
       - **Show**
-        - [_calendar.html.twig](templates_Subscription_Monitoring_Show__calendar_html_twig.md)
-        - [_headerWidget.html.twig](templates_Subscription_Monitoring_Show__headerWidget_html_twig.md)
-        - [javacripts.html.twig](templates_Subscription_Monitoring_Show_javacripts_html_twig.md)
-        - [stylesheets.html.twig](templates_Subscription_Monitoring_Show_stylesheets_html_twig.md)
-      - [index.html.twig](templates_Subscription_Monitoring_index_html_twig.md)
-      - [show.html.twig](templates_Subscription_Monitoring_show_html_twig.md)
+        - [_calendar.html.twig](templates_Subscription_Monitoring_Show__calendar_html_twig.md) <!-- repo:backend -->
+        - [_headerWidget.html.twig](templates_Subscription_Monitoring_Show__headerWidget_html_twig.md) <!-- repo:backend -->
+        - [javacripts.html.twig](templates_Subscription_Monitoring_Show_javacripts_html_twig.md) <!-- repo:backend -->
+        - [stylesheets.html.twig](templates_Subscription_Monitoring_Show_stylesheets_html_twig.md) <!-- repo:backend -->
+      - [index.html.twig](templates_Subscription_Monitoring_index_html_twig.md) <!-- repo:backend -->
+      - [show.html.twig](templates_Subscription_Monitoring_show_html_twig.md) <!-- repo:backend -->
   - **Ui**
     - **Grid**
       - **Action**
-        - [deleteCustomer.html.twig](templates_Ui_Grid_Action_deleteCustomer_html_twig.md)
-        - [export.html.twig](templates_Ui_Grid_Action_export_html_twig.md)
+        - [deleteCustomer.html.twig](templates_Ui_Grid_Action_deleteCustomer_html_twig.md) <!-- repo:backend -->
+        - [export.html.twig](templates_Ui_Grid_Action_export_html_twig.md) <!-- repo:backend -->
       - **Commun**
-        - [storeFilters.html.twig](templates_Ui_Grid_Commun_storeFilters_html_twig.md)
-        - [storeSidebarMenu.html.twig](templates_Ui_Grid_Commun_storeSidebarMenu_html_twig.md)
+        - [storeFilters.html.twig](templates_Ui_Grid_Commun_storeFilters_html_twig.md) <!-- repo:backend -->
+        - [storeSidebarMenu.html.twig](templates_Ui_Grid_Commun_storeSidebarMenu_html_twig.md) <!-- repo:backend -->
       - **Field**
-        - [enabled.html.twig](templates_Ui_Grid_Field_enabled_html_twig.md)
-        - [paymentMethod.html.twig](templates_Ui_Grid_Field_paymentMethod_html_twig.md)
-        - [shippingMethod.html.twig](templates_Ui_Grid_Field_shippingMethod_html_twig.md)
-        - [state.html.twig](templates_Ui_Grid_Field_state_html_twig.md)
-        - [transactionId.html.twig](templates_Ui_Grid_Field_transactionId_html_twig.md)
-        - [unifiedDateTimeFormat.html.twig](templates_Ui_Grid_Field_unifiedDateTimeFormat_html_twig.md)
+        - [enabled.html.twig](templates_Ui_Grid_Field_enabled_html_twig.md) <!-- repo:backend -->
+        - [paymentMethod.html.twig](templates_Ui_Grid_Field_paymentMethod_html_twig.md) <!-- repo:backend -->
+        - [shippingMethod.html.twig](templates_Ui_Grid_Field_shippingMethod_html_twig.md) <!-- repo:backend -->
+        - [state.html.twig](templates_Ui_Grid_Field_state_html_twig.md) <!-- repo:backend -->
+        - [transactionId.html.twig](templates_Ui_Grid_Field_transactionId_html_twig.md) <!-- repo:backend -->
+        - [unifiedDateTimeFormat.html.twig](templates_Ui_Grid_Field_unifiedDateTimeFormat_html_twig.md) <!-- repo:backend -->
   - **UpSelling**
     - **Item**
-      - [_item.html.twig](templates_UpSelling_Item__item_html_twig.md)
+      - [_item.html.twig](templates_UpSelling_Item__item_html_twig.md) <!-- repo:backend -->
     - **Show**
-      - [_breadcrumb.html.twig](templates_UpSelling_Show__breadcrumb_html_twig.md)
-      - [_contentWidget.html.twig](templates_UpSelling_Show__contentWidget_html_twig.md)
-      - [_header.html.twig](templates_UpSelling_Show__header_html_twig.md)
+      - [_breadcrumb.html.twig](templates_UpSelling_Show__breadcrumb_html_twig.md) <!-- repo:backend -->
+      - [_contentWidget.html.twig](templates_UpSelling_Show__contentWidget_html_twig.md) <!-- repo:backend -->
+      - [_header.html.twig](templates_UpSelling_Show__header_html_twig.md) <!-- repo:backend -->
     - **Update**
-      - [_contentWidget.html.twig](templates_UpSelling_Update__contentWidget_html_twig.md)
-    - [_form.html.twig](templates_UpSelling__form_html_twig.md)
-    - [_script.html.twig](templates_UpSelling__script_html_twig.md)
-    - [show.html.twig](templates_UpSelling_show_html_twig.md)
-    - [update.html.twig](templates_UpSelling_update_html_twig.md)
+      - [_contentWidget.html.twig](templates_UpSelling_Update__contentWidget_html_twig.md) <!-- repo:backend -->
+    - [_form.html.twig](templates_UpSelling__form_html_twig.md) <!-- repo:backend -->
+    - [_script.html.twig](templates_UpSelling__script_html_twig.md) <!-- repo:backend -->
+    - [show.html.twig](templates_UpSelling_show_html_twig.md) <!-- repo:backend -->
+    - [update.html.twig](templates_UpSelling_update_html_twig.md) <!-- repo:backend -->
   - **bundles**
     - **DHAuditorBundle**
-      - [layout.html.twig](templates_bundles_DHAuditorBundle_layout_html_twig.md)
+      - [layout.html.twig](templates_bundles_DHAuditorBundle_layout_html_twig.md) <!-- repo:backend -->
     - **SyliusAdminBundle**
       - **AdminUser**
-        - [_avatarImage.html.twig](templates_bundles_SyliusAdminBundle_AdminUser__avatarImage_html_twig.md)
-        - [_form.html.twig](templates_bundles_SyliusAdminBundle_AdminUser__form_html_twig.md)
+        - [_avatarImage.html.twig](templates_bundles_SyliusAdminBundle_AdminUser__avatarImage_html_twig.md) <!-- repo:backend -->
+        - [_form.html.twig](templates_bundles_SyliusAdminBundle_AdminUser__form_html_twig.md) <!-- repo:backend -->
       - **Channel**
         - **Form**
-          - [_general.html.twig](templates_bundles_SyliusAdminBundle_Channel_Form__general_html_twig.md)
+          - [_general.html.twig](templates_bundles_SyliusAdminBundle_Channel_Form__general_html_twig.md) <!-- repo:backend -->
       - **Common**
         - **Form**
-          - [_address.html.twig](templates_bundles_SyliusAdminBundle_Common_Form__address_html_twig.md)
+          - [_address.html.twig](templates_bundles_SyliusAdminBundle_Common_Form__address_html_twig.md) <!-- repo:backend -->
         - **Modal**
-          - [_template.html.twig](templates_bundles_SyliusAdminBundle_Common_Modal__template_html_twig.md)
-        - [_address.html.twig](templates_bundles_SyliusAdminBundle_Common__address_html_twig.md)
-        - [_channel.html.twig](templates_bundles_SyliusAdminBundle_Common__channel_html_twig.md)
+          - [_template.html.twig](templates_bundles_SyliusAdminBundle_Common_Modal__template_html_twig.md) <!-- repo:backend -->
+        - [_address.html.twig](templates_bundles_SyliusAdminBundle_Common__address_html_twig.md) <!-- repo:backend -->
+        - [_channel.html.twig](templates_bundles_SyliusAdminBundle_Common__channel_html_twig.md) <!-- repo:backend -->
       - **Customer**
         - **Create**
-          - [_script.html.twig](templates_bundles_SyliusAdminBundle_Customer_Create__script_html_twig.md)
+          - [_script.html.twig](templates_bundles_SyliusAdminBundle_Customer_Create__script_html_twig.md) <!-- repo:backend -->
         - **Order**
           - **Index**
-            - [_breadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Customer_Order_Index__breadcrumb_html_twig.md)
-            - [_breadcrumbContent.html.twig](templates_bundles_SyliusAdminBundle_Customer_Order_Index__breadcrumbContent_html_twig.md)
+            - [_breadcrumbContent.html.twig](templates_bundles_SyliusAdminBundle_Customer_Order_Index__breadcrumbContent_html_twig.md) <!-- repo:backend -->
+            - [_breadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Customer_Order_Index__breadcrumb_html_twig.md) <!-- repo:backend -->
         - **Show**
           - **Details**
-            - [_contact.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__contact_html_twig.md)
-            - [_email.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__email_html_twig.md)
-            - [_entrepriseBus.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__entrepriseBus_html_twig.md)
-            - [_primary.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__primary_html_twig.md)
-          - [_addressItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__addressItem_html_twig.md)
-          - [_addresses.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__addresses_html_twig.md)
-          - [_animalItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__animalItem_html_twig.md)
-          - [_animals.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__animals_html_twig.md)
-          - [_cartItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__cartItem_html_twig.md)
-          - [_carts.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__carts_html_twig.md)
-          - [_confirmDeleteAddressUsedInSubscription.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__confirmDeleteAddressUsedInSubscription_html_twig.md)
-          - [_promotionItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__promotionItem_html_twig.md)
-          - [_promotions.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__promotions_html_twig.md)
-        - [_form.html.twig](templates_bundles_SyliusAdminBundle_Customer__form_html_twig.md)
-        - [_info.html.twig](templates_bundles_SyliusAdminBundle_Customer__info_html_twig.md)
-        - [show.html.twig](templates_bundles_SyliusAdminBundle_Customer_show_html_twig.md)
+            - [_contact.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__contact_html_twig.md) <!-- repo:backend -->
+            - [_email.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__email_html_twig.md) <!-- repo:backend -->
+            - [_entrepriseBus.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__entrepriseBus_html_twig.md) <!-- repo:backend -->
+            - [_primary.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show_Details__primary_html_twig.md) <!-- repo:backend -->
+          - [_addressItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__addressItem_html_twig.md) <!-- repo:backend -->
+          - [_addresses.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__addresses_html_twig.md) <!-- repo:backend -->
+          - [_animalItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__animalItem_html_twig.md) <!-- repo:backend -->
+          - [_animals.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__animals_html_twig.md) <!-- repo:backend -->
+          - [_cartItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__cartItem_html_twig.md) <!-- repo:backend -->
+          - [_carts.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__carts_html_twig.md) <!-- repo:backend -->
+          - [_confirmDeleteAddressUsedInSubscription.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__confirmDeleteAddressUsedInSubscription_html_twig.md) <!-- repo:backend -->
+          - [_promotionItem.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__promotionItem_html_twig.md) <!-- repo:backend -->
+          - [_promotions.html.twig](templates_bundles_SyliusAdminBundle_Customer_Show__promotions_html_twig.md) <!-- repo:backend -->
+        - [_form.html.twig](templates_bundles_SyliusAdminBundle_Customer__form_html_twig.md) <!-- repo:backend -->
+        - [_info.html.twig](templates_bundles_SyliusAdminBundle_Customer__info_html_twig.md) <!-- repo:backend -->
+        - [show.html.twig](templates_bundles_SyliusAdminBundle_Customer_show_html_twig.md) <!-- repo:backend -->
       - **Dashboard**
-        - [_statistics.html.twig](templates_bundles_SyliusAdminBundle_Dashboard__statistics_html_twig.md)
+        - [_statistics.html.twig](templates_bundles_SyliusAdminBundle_Dashboard__statistics_html_twig.md) <!-- repo:backend -->
       - **Form**
-        - [theme.html.twig](templates_bundles_SyliusAdminBundle_Form_theme_html_twig.md)
+        - [theme.html.twig](templates_bundles_SyliusAdminBundle_Form_theme_html_twig.md) <!-- repo:backend -->
       - **Layout**
-        - [_linkShop.html.twig](templates_bundles_SyliusAdminBundle_Layout__linkShop_html_twig.md)
-        - [_logo.html.twig](templates_bundles_SyliusAdminBundle_Layout__logo_html_twig.md)
-        - [_quickAccess.html.twig](templates_bundles_SyliusAdminBundle_Layout__quickAccess_html_twig.md)
-        - [_security.html.twig](templates_bundles_SyliusAdminBundle_Layout__security_html_twig.md)
+        - [_linkShop.html.twig](templates_bundles_SyliusAdminBundle_Layout__linkShop_html_twig.md) <!-- repo:backend -->
+        - [_logo.html.twig](templates_bundles_SyliusAdminBundle_Layout__logo_html_twig.md) <!-- repo:backend -->
+        - [_quickAccess.html.twig](templates_bundles_SyliusAdminBundle_Layout__quickAccess_html_twig.md) <!-- repo:backend -->
+        - [_security.html.twig](templates_bundles_SyliusAdminBundle_Layout__security_html_twig.md) <!-- repo:backend -->
       - **Order**
         - **Create**
-          - [_breadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Order_Create__breadcrumb_html_twig.md)
-          - [_form.html.twig](templates_bundles_SyliusAdminBundle_Order_Create__form_html_twig.md)
+          - [_breadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Order_Create__breadcrumb_html_twig.md) <!-- repo:backend -->
+          - [_form.html.twig](templates_bundles_SyliusAdminBundle_Order_Create__form_html_twig.md) <!-- repo:backend -->
         - **Index**
-          - [_cartBreadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Order_Index__cartBreadcrumb_html_twig.md)
+          - [_cartBreadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Order_Index__cartBreadcrumb_html_twig.md) <!-- repo:backend -->
         - **Label**
           - **PaymentState**
-            - [awaiting_delivery.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_PaymentState_awaiting_delivery_html_twig.md)
-            - [cart.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_PaymentState_cart_html_twig.md)
+            - [awaiting_delivery.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_PaymentState_awaiting_delivery_html_twig.md) <!-- repo:backend -->
+            - [cart.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_PaymentState_cart_html_twig.md) <!-- repo:backend -->
           - **ShippingMethod**
-            - [cart.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_ShippingMethod_cart_html_twig.md)
+            - [cart.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_ShippingMethod_cart_html_twig.md) <!-- repo:backend -->
           - **ShippingState**
-            - [cart.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_ShippingState_cart_html_twig.md)
+            - [cart.html.twig](templates_bundles_SyliusAdminBundle_Order_Label_ShippingState_cart_html_twig.md) <!-- repo:backend -->
         - **Preview**
-          - [_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Preview__item_html_twig.md)
-          - [_payment.html.twig](templates_bundles_SyliusAdminBundle_Order_Preview__payment_html_twig.md)
-          - [_summary.html.twig](templates_bundles_SyliusAdminBundle_Order_Preview__summary_html_twig.md)
+          - [_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Preview__item_html_twig.md) <!-- repo:backend -->
+          - [_payment.html.twig](templates_bundles_SyliusAdminBundle_Order_Preview__payment_html_twig.md) <!-- repo:backend -->
+          - [_summary.html.twig](templates_bundles_SyliusAdminBundle_Order_Preview__summary_html_twig.md) <!-- repo:backend -->
         - **Show**
           - **Audit**
-            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Audit__auditItem_html_twig.md)
-            - [show.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Audit_show_html_twig.md)
+            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Audit__auditItem_html_twig.md) <!-- repo:backend -->
+            - [show.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Audit_show_html_twig.md) <!-- repo:backend -->
           - **Summary**
-            - [_bill.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__bill_html_twig.md)
-            - [_free_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__free_item_html_twig.md)
-            - [_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__item_html_twig.md)
-            - [_logs.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__logs_html_twig.md)
-            - [_middleware.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__middleware_html_twig.md)
-            - [_totals.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__totals_html_twig.md)
-            - [_totalsPaymentCharges.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__totalsPaymentCharges_html_twig.md)
-            - [_totalsPromotions.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__totalsPromotions_html_twig.md)
-          - [_addresses.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__addresses_html_twig.md)
-          - [_breadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__breadcrumb_html_twig.md)
-          - [_headerWidget.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__headerWidget_html_twig.md)
-          - [_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__item_html_twig.md)
-          - [_payment.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__payment_html_twig.md)
-          - [_shipment.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__shipment_html_twig.md)
-          - [_summary.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__summary_html_twig.md)
+            - [_bill.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__bill_html_twig.md) <!-- repo:backend -->
+            - [_free_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__free_item_html_twig.md) <!-- repo:backend -->
+            - [_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__item_html_twig.md) <!-- repo:backend -->
+            - [_logs.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__logs_html_twig.md) <!-- repo:backend -->
+            - [_middleware.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__middleware_html_twig.md) <!-- repo:backend -->
+            - [_totalsPaymentCharges.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__totalsPaymentCharges_html_twig.md) <!-- repo:backend -->
+            - [_totalsPromotions.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__totalsPromotions_html_twig.md) <!-- repo:backend -->
+            - [_totals.html.twig](templates_bundles_SyliusAdminBundle_Order_Show_Summary__totals_html_twig.md) <!-- repo:backend -->
+          - [_addresses.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__addresses_html_twig.md) <!-- repo:backend -->
+          - [_breadcrumb.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__breadcrumb_html_twig.md) <!-- repo:backend -->
+          - [_headerWidget.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__headerWidget_html_twig.md) <!-- repo:backend -->
+          - [_item.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__item_html_twig.md) <!-- repo:backend -->
+          - [_payment.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__payment_html_twig.md) <!-- repo:backend -->
+          - [_shipment.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__shipment_html_twig.md) <!-- repo:backend -->
+          - [_summary.html.twig](templates_bundles_SyliusAdminBundle_Order_Show__summary_html_twig.md) <!-- repo:backend -->
         - **Update**
-          - [_content.html.twig](templates_bundles_SyliusAdminBundle_Order_Update__content_html_twig.md)
-          - [_script.html.twig](templates_bundles_SyliusAdminBundle_Order_Update__script_html_twig.md)
-        - [create.html.twig](templates_bundles_SyliusAdminBundle_Order_create_html_twig.md)
-        - [itemCollectionTheme.html.twig](templates_bundles_SyliusAdminBundle_Order_itemCollectionTheme_html_twig.md)
-        - [preview.html.twig](templates_bundles_SyliusAdminBundle_Order_preview_html_twig.md)
-        - [promotion.html.twig](templates_bundles_SyliusAdminBundle_Order_promotion_html_twig.md)
-        - [selectCustomer.html.twig](templates_bundles_SyliusAdminBundle_Order_selectCustomer_html_twig.md)
-        - [selectCustomerTheme.html.twig](templates_bundles_SyliusAdminBundle_Order_selectCustomerTheme_html_twig.md)
-        - [show.html.twig](templates_bundles_SyliusAdminBundle_Order_show_html_twig.md)
-        - [update.html.twig](templates_bundles_SyliusAdminBundle_Order_update_html_twig.md)
+          - [_content.html.twig](templates_bundles_SyliusAdminBundle_Order_Update__content_html_twig.md) <!-- repo:backend -->
+          - [_script.html.twig](templates_bundles_SyliusAdminBundle_Order_Update__script_html_twig.md) <!-- repo:backend -->
+        - [create.html.twig](templates_bundles_SyliusAdminBundle_Order_create_html_twig.md) <!-- repo:backend -->
+        - [itemCollectionTheme.html.twig](templates_bundles_SyliusAdminBundle_Order_itemCollectionTheme_html_twig.md) <!-- repo:backend -->
+        - [preview.html.twig](templates_bundles_SyliusAdminBundle_Order_preview_html_twig.md) <!-- repo:backend -->
+        - [promotion.html.twig](templates_bundles_SyliusAdminBundle_Order_promotion_html_twig.md) <!-- repo:backend -->
+        - [selectCustomerTheme.html.twig](templates_bundles_SyliusAdminBundle_Order_selectCustomerTheme_html_twig.md) <!-- repo:backend -->
+        - [selectCustomer.html.twig](templates_bundles_SyliusAdminBundle_Order_selectCustomer_html_twig.md) <!-- repo:backend -->
+        - [show.html.twig](templates_bundles_SyliusAdminBundle_Order_show_html_twig.md) <!-- repo:backend -->
+        - [update.html.twig](templates_bundles_SyliusAdminBundle_Order_update_html_twig.md) <!-- repo:backend -->
       - **PaymentMethod**
         - **Gateways**
-          - [paymentGateways.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod_Gateways_paymentGateways_html_twig.md)
+          - [paymentGateways.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod_Gateways_paymentGateways_html_twig.md) <!-- repo:backend -->
         - **Show**
           - **Audit**
-            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod_Show_Audit__auditItem_html_twig.md)
-            - [show.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod_Show_Audit_show_html_twig.md)
-        - [_form.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__form_html_twig.md)
-        - [_script.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__script_html_twig.md)
-        - [_stylesheet.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__stylesheet_html_twig.md)
-        - [_theme.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__theme_html_twig.md)
+            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod_Show_Audit__auditItem_html_twig.md) <!-- repo:backend -->
+            - [show.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod_Show_Audit_show_html_twig.md) <!-- repo:backend -->
+        - [_form.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__form_html_twig.md) <!-- repo:backend -->
+        - [_script.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__script_html_twig.md) <!-- repo:backend -->
+        - [_stylesheet.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__stylesheet_html_twig.md) <!-- repo:backend -->
+        - [_theme.html.twig](templates_bundles_SyliusAdminBundle_PaymentMethod__theme_html_twig.md) <!-- repo:backend -->
       - **PickupPoint**
-        - [_script.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__script_html_twig.md)
-        - [_selectShippingMethod.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__selectShippingMethod_html_twig.md)
-        - [_selectShippingMethodSubscription.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__selectShippingMethodSubscription_html_twig.md)
-        - [_updatePickupPoint.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__updatePickupPoint_html_twig.md)
+        - [_script.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__script_html_twig.md) <!-- repo:backend -->
+        - [_selectShippingMethodSubscription.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__selectShippingMethodSubscription_html_twig.md) <!-- repo:backend -->
+        - [_selectShippingMethod.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__selectShippingMethod_html_twig.md) <!-- repo:backend -->
+        - [_updatePickupPoint.html.twig](templates_bundles_SyliusAdminBundle_PickupPoint__updatePickupPoint_html_twig.md) <!-- repo:backend -->
       - **Product**
         - **Tab**
-          - [_details.html.twig](templates_bundles_SyliusAdminBundle_Product_Tab__details_html_twig.md)
-        - [_info.html.twig](templates_bundles_SyliusAdminBundle_Product__info_html_twig.md)
-        - [_mainImage.html.twig](templates_bundles_SyliusAdminBundle_Product__mainImage_html_twig.md)
-        - [_showInShopButton.html.twig](templates_bundles_SyliusAdminBundle_Product__showInShopButton_html_twig.md)
-        - [index.html.twig](templates_bundles_SyliusAdminBundle_Product_index_html_twig.md)
-        - [show.html.twig](templates_bundles_SyliusAdminBundle_Product_show_html_twig.md)
+          - [_details.html.twig](templates_bundles_SyliusAdminBundle_Product_Tab__details_html_twig.md) <!-- repo:backend -->
+        - [_info.html.twig](templates_bundles_SyliusAdminBundle_Product__info_html_twig.md) <!-- repo:backend -->
+        - [_mainImage.html.twig](templates_bundles_SyliusAdminBundle_Product__mainImage_html_twig.md) <!-- repo:backend -->
+        - [_showInShopButton.html.twig](templates_bundles_SyliusAdminBundle_Product__showInShopButton_html_twig.md) <!-- repo:backend -->
+        - [index.html.twig](templates_bundles_SyliusAdminBundle_Product_index_html_twig.md) <!-- repo:backend -->
+        - [show.html.twig](templates_bundles_SyliusAdminBundle_Product_show_html_twig.md) <!-- repo:backend -->
       - **ProductVariant**
         - **Tab**
-          - [_details.html.twig](templates_bundles_SyliusAdminBundle_ProductVariant_Tab__details_html_twig.md)
-          - [_inventory.html.twig](templates_bundles_SyliusAdminBundle_ProductVariant_Tab__inventory_html_twig.md)
+          - [_details.html.twig](templates_bundles_SyliusAdminBundle_ProductVariant_Tab__details_html_twig.md) <!-- repo:backend -->
+          - [_inventory.html.twig](templates_bundles_SyliusAdminBundle_ProductVariant_Tab__inventory_html_twig.md) <!-- repo:backend -->
       - **Promotion**
         - **Show**
           - **Audit**
-            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_Promotion_Show_Audit__auditItem_html_twig.md)
-            - [show.html.twig](templates_bundles_SyliusAdminBundle_Promotion_Show_Audit_show_html_twig.md)
-        - [_form.html.twig](templates_bundles_SyliusAdminBundle_Promotion__form_html_twig.md)
-        - [_script.html.twig](templates_bundles_SyliusAdminBundle_Promotion__script_html_twig.md)
+            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_Promotion_Show_Audit__auditItem_html_twig.md) <!-- repo:backend -->
+            - [show.html.twig](templates_bundles_SyliusAdminBundle_Promotion_Show_Audit_show_html_twig.md) <!-- repo:backend -->
+        - [_form.html.twig](templates_bundles_SyliusAdminBundle_Promotion__form_html_twig.md) <!-- repo:backend -->
+        - [_script.html.twig](templates_bundles_SyliusAdminBundle_Promotion__script_html_twig.md) <!-- repo:backend -->
       - **PromotionCoupon**
         - **Generate**
-          - [_form.html.twig](templates_bundles_SyliusAdminBundle_PromotionCoupon_Generate__form_html_twig.md)
+          - [_form.html.twig](templates_bundles_SyliusAdminBundle_PromotionCoupon_Generate__form_html_twig.md) <!-- repo:backend -->
         - **Grid**
           - **Field**
-            - [_available_amount.html.twig](templates_bundles_SyliusAdminBundle_PromotionCoupon_Grid_Field__available_amount_html_twig.md)
+            - [_available_amount.html.twig](templates_bundles_SyliusAdminBundle_PromotionCoupon_Grid_Field__available_amount_html_twig.md) <!-- repo:backend -->
       - **ShippingMethod**
         - **Gateways**
-          - [shippingMethodGateways.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod_Gateways_shippingMethodGateways_html_twig.md)
+          - [shippingMethodGateways.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod_Gateways_shippingMethodGateways_html_twig.md) <!-- repo:backend -->
         - **Grid**
           - **Action**
-            - [create.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod_Grid_Action_create_html_twig.md)
-        - [_form.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod__form_html_twig.md)
-        - [_script.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod__script_html_twig.md)
-        - [_stylesheet.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod__stylesheet_html_twig.md)
-        - [rangePriceCollectionTheme.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod_rangePriceCollectionTheme_html_twig.md)
+            - [create.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod_Grid_Action_create_html_twig.md) <!-- repo:backend -->
+        - [_form.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod__form_html_twig.md) <!-- repo:backend -->
+        - [_script.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod__script_html_twig.md) <!-- repo:backend -->
+        - [_stylesheet.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod__stylesheet_html_twig.md) <!-- repo:backend -->
+        - [rangePriceCollectionTheme.html.twig](templates_bundles_SyliusAdminBundle_ShippingMethod_rangePriceCollectionTheme_html_twig.md) <!-- repo:backend -->
       - **Subscription**
         - **Show**
           - **Audit**
-            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_Subscription_Show_Audit__auditItem_html_twig.md)
-            - [show.html.twig](templates_bundles_SyliusAdminBundle_Subscription_Show_Audit_show_html_twig.md)
+            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_Subscription_Show_Audit__auditItem_html_twig.md) <!-- repo:backend -->
+            - [show.html.twig](templates_bundles_SyliusAdminBundle_Subscription_Show_Audit_show_html_twig.md) <!-- repo:backend -->
       - **SubscriptionOrder**
         - **Show**
           - **Audit**
-            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_SubscriptionOrder_Show_Audit__auditItem_html_twig.md)
-            - [show.html.twig](templates_bundles_SyliusAdminBundle_SubscriptionOrder_Show_Audit_show_html_twig.md)
+            - [_auditItem.html.twig](templates_bundles_SyliusAdminBundle_SubscriptionOrder_Show_Audit__auditItem_html_twig.md) <!-- repo:backend -->
+            - [show.html.twig](templates_bundles_SyliusAdminBundle_SubscriptionOrder_Show_Audit_show_html_twig.md) <!-- repo:backend -->
       - **UpSelling**
         - [variantsCollectionTheme.html.twig](templates_bundles_SyliusAdminBundle_UpSelling_variantsCollectionTheme_html_twig.md)
     - **SyliusCoreBundle**
       - **Email**
-        - [accountVerification.html.twig](templates_bundles_SyliusCoreBundle_Email_accountVerification_html_twig.md)
-        - [layout.html.twig](templates_bundles_SyliusCoreBundle_Email_layout_html_twig.md)
-        - [passwordReset.html.twig](templates_bundles_SyliusCoreBundle_Email_passwordReset_html_twig.md)
-        - [userRegistration.html.twig](templates_bundles_SyliusCoreBundle_Email_userRegistration_html_twig.md)
+        - [accountVerification.html.twig](templates_bundles_SyliusCoreBundle_Email_accountVerification_html_twig.md) <!-- repo:backend -->
+        - [layout.html.twig](templates_bundles_SyliusCoreBundle_Email_layout_html_twig.md) <!-- repo:backend -->
+        - [passwordReset.html.twig](templates_bundles_SyliusCoreBundle_Email_passwordReset_html_twig.md) <!-- repo:backend -->
+        - [userRegistration.html.twig](templates_bundles_SyliusCoreBundle_Email_userRegistration_html_twig.md) <!-- repo:backend -->
     - **SyliusShopBundle**
       - **Checkout**
         - **SelectPayment**
-          - [_choice.html.twig](templates_bundles_SyliusShopBundle_Checkout_SelectPayment__choice_html_twig.md)
+          - [_choice.html.twig](templates_bundles_SyliusShopBundle_Checkout_SelectPayment__choice_html_twig.md) <!-- repo:backend -->
       - **Common**
         - **Order**
-          - [_addresses.html.twig](templates_bundles_SyliusShopBundle_Common_Order__addresses_html_twig.md)
-          - [_payments.html.twig](templates_bundles_SyliusShopBundle_Common_Order__payments_html_twig.md)
+          - [_addresses.html.twig](templates_bundles_SyliusShopBundle_Common_Order__addresses_html_twig.md) <!-- repo:backend -->
+          - [_payments.html.twig](templates_bundles_SyliusShopBundle_Common_Order__payments_html_twig.md) <!-- repo:backend -->
       - **Order**
-        - [thankYou.html.twig](templates_bundles_SyliusShopBundle_Order_thankYou_html_twig.md)
+        - [thankYou.html.twig](templates_bundles_SyliusShopBundle_Order_thankYou_html_twig.md) <!-- repo:backend -->
     - **SyliusUiBundle**
       - **Form**
         - **Buttons**
-          - [_cancel.html.twig](templates_bundles_SyliusUiBundle_Form_Buttons__cancel_html_twig.md)
-          - [_create.html.twig](templates_bundles_SyliusUiBundle_Form_Buttons__create_html_twig.md)
-          - [_update.html.twig](templates_bundles_SyliusUiBundle_Form_Buttons__update_html_twig.md)
+          - [_cancel.html.twig](templates_bundles_SyliusUiBundle_Form_Buttons__cancel_html_twig.md) <!-- repo:backend -->
+          - [_create.html.twig](templates_bundles_SyliusUiBundle_Form_Buttons__create_html_twig.md) <!-- repo:backend -->
+          - [_update.html.twig](templates_bundles_SyliusUiBundle_Form_Buttons__update_html_twig.md) <!-- repo:backend -->
       - **Grid**
-        - [_script.html.twig](templates_bundles_SyliusUiBundle_Grid__script_html_twig.md)
+        - [_script.html.twig](templates_bundles_SyliusUiBundle_Grid__script_html_twig.md) <!-- repo:backend -->
       - **Layout**
-        - [sidebar.html.twig](templates_bundles_SyliusUiBundle_Layout_sidebar_html_twig.md)
+        - [sidebar.html.twig](templates_bundles_SyliusUiBundle_Layout_sidebar_html_twig.md) <!-- repo:backend -->
       - **Macro**
-        - [buttons.html.twig](templates_bundles_SyliusUiBundle_Macro_buttons_html_twig.md)
+        - [buttons.html.twig](templates_bundles_SyliusUiBundle_Macro_buttons_html_twig.md) <!-- repo:backend -->
       - **Security**
-        - [_login.html.twig](templates_bundles_SyliusUiBundle_Security__login_html_twig.md)
-      - [_flashesAlert.html.twig](templates_bundles_SyliusUiBundle__flashesAlert_html_twig.md)
-      - [_javascripts.html.twig](templates_bundles_SyliusUiBundle__javascripts_html_twig.md)
-      - [_stylesheets.html.twig](templates_bundles_SyliusUiBundle__stylesheets_html_twig.md)
+        - [_login.html.twig](templates_bundles_SyliusUiBundle_Security__login_html_twig.md) <!-- repo:backend -->
+      - [_flashesAlert.html.twig](templates_bundles_SyliusUiBundle__flashesAlert_html_twig.md) <!-- repo:backend -->
+      - [_javascripts.html.twig](templates_bundles_SyliusUiBundle__javascripts_html_twig.md) <!-- repo:backend -->
+      - [_stylesheets.html.twig](templates_bundles_SyliusUiBundle__stylesheets_html_twig.md) <!-- repo:backend -->
     - **TwigBundle**
       - **Exception**
-        - [error.html.twig](templates_bundles_TwigBundle_Exception_error_html_twig.md)
-        - [error404.html.twig](templates_bundles_TwigBundle_Exception_error404_html_twig.md)
-        - [error500.html.twig](templates_bundles_TwigBundle_Exception_error500_html_twig.md)
+        - [error404.html.twig](templates_bundles_TwigBundle_Exception_error404_html_twig.md) <!-- repo:backend -->
+        - [error500.html.twig](templates_bundles_TwigBundle_Exception_error500_html_twig.md) <!-- repo:backend -->
+        - [error.html.twig](templates_bundles_TwigBundle_Exception_error_html_twig.md) <!-- repo:backend -->
 - **test**
-  - [setup.global.ts](test_setup_global_ts.md)
-- [test_subscription_cancel.php](test_subscription_cancel_php.md)
+  - [setup.global.ts](test_setup_global_ts.md) <!-- repo:frontend -->
+- [test_subscription_cancel.php](test_subscription_cancel_php.md) <!-- repo:backend -->
 - **translations**
-  - [HWIOAuthBundle.fr.yaml](translations_HWIOAuthBundle_fr_yaml.md)
-  - [checkoutcom.en.yaml](translations_checkoutcom_en_yaml.md)
-  - [checkoutcom.fr.yaml](translations_checkoutcom_fr_yaml.md)
-  - [export.fr.yaml](translations_export_fr_yaml.md)
-  - [flashes.fr.yaml](translations_flashes_fr_yaml.md)
-  - [log.fr.yaml](translations_log_fr_yaml.md)
-  - [messages.fr.yaml](translations_messages_fr_yaml.md)
-  - [messages.nl.yaml](translations_messages_nl_yaml.md)
-  - [talon_one.fr.yaml](translations_talon_one_fr_yaml.md)
-  - [talon_one.nl.yaml](translations_talon_one_nl_yaml.md)
-  - [validators.fr.yaml](translations_validators_fr_yaml.md)
-  - [validators.nl.yaml](translations_validators_nl_yaml.md)
-- [tsconfig.base.json](tsconfig_base_json.md)
-- [vite.config.ts](vite_config_ts.md)
-- [vitest.config.base.ts](vitest_config_base_ts.md)
-- [vitest.workspace.ts](vitest_workspace_ts.md)
-- [webpack.config.js](webpack_config_js.md)
+  - [HWIOAuthBundle.fr.yaml](translations_HWIOAuthBundle_fr_yaml.md) <!-- repo:backend -->
+  - [checkoutcom.en.yaml](translations_checkoutcom_en_yaml.md) <!-- repo:backend -->
+  - [checkoutcom.fr.yaml](translations_checkoutcom_fr_yaml.md) <!-- repo:backend -->
+  - [export.fr.yaml](translations_export_fr_yaml.md) <!-- repo:backend -->
+  - [flashes.fr.yaml](translations_flashes_fr_yaml.md) <!-- repo:backend -->
+  - [log.fr.yaml](translations_log_fr_yaml.md) <!-- repo:backend -->
+  - [messages.fr.yaml](translations_messages_fr_yaml.md) <!-- repo:backend -->
+  - [messages.nl.yaml](translations_messages_nl_yaml.md) <!-- repo:backend -->
+  - [talon_one.fr.yaml](translations_talon_one_fr_yaml.md) <!-- repo:backend -->
+  - [talon_one.nl.yaml](translations_talon_one_nl_yaml.md) <!-- repo:backend -->
+  - [validators.fr.yaml](translations_validators_fr_yaml.md) <!-- repo:backend -->
+  - [validators.nl.yaml](translations_validators_nl_yaml.md) <!-- repo:backend -->
+- [tsconfig.base.json](tsconfig_base_json.md) <!-- repo:frontend -->
+- [vite.config.ts](vite_config_ts.md) <!-- repo:frontend -->
+- [vitest.config.base.ts](vitest_config_base_ts.md) <!-- repo:frontend -->
+- [vitest.workspace.ts](vitest_workspace_ts.md) <!-- repo:frontend -->
+- [webpack.config.js](webpack_config_js.md) <!-- repo:backend -->
 
